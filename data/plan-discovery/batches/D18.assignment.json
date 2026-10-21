@@ -1,0 +1,462 @@
+{
+  "batch_id": "D18",
+  "nations": [
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Ivanof Bay Tribe",
+      "tribe_id": "epa_100000426"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Kaguyak Village",
+      "tribe_id": "epa_100000427"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Organized Village of Kake",
+      "tribe_id": "epa_100000428"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Kaktovik Village",
+      "tribe_id": "epa_100000429"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Village of Kalskag",
+      "tribe_id": "epa_100000430"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Village of Kaltag",
+      "tribe_id": "epa_100000431"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Kanatak",
+      "tribe_id": "epa_100000432"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Karluk",
+      "tribe_id": "epa_100000433"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Organized Village of Kasaan",
+      "tribe_id": "epa_100000434"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Kasigluk Traditional Elders Council",
+      "tribe_id": "epa_100000435"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Kenaitze Indian Tribe",
+      "tribe_id": "epa_100000436"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Ketchikan Indian Community",
+      "tribe_id": "epa_100000437"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Kiana",
+      "tribe_id": "epa_100000438"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "King Island Native Community",
+      "tribe_id": "epa_100000439"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "King Salmon Tribe",
+      "tribe_id": "epa_100000440"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Kipnuk",
+      "tribe_id": "epa_100000441"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Kivalina",
+      "tribe_id": "epa_100000442"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Klawock Cooperative Association",
+      "tribe_id": "epa_100000443"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Kluti Kaah",
+      "tribe_id": "epa_100000444"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Knik Tribe",
+      "tribe_id": "epa_100000445"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Kobuk",
+      "tribe_id": "epa_100000446"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Kokhanok Village",
+      "tribe_id": "epa_100000447"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Kongiganak",
+      "tribe_id": "epa_100000448"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Village of Kotlik",
+      "tribe_id": "epa_100000449"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Kotzebue",
+      "tribe_id": "epa_100000450"
+    }
+  ],
+  "ordinal_end": 450,
+  "ordinal_start": 426,
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning_effort": "high",
+  "schema_version": "catf-plan-discovery-assignment.v1",
+  "source_registry_sha256": "5db8f52cf44d3a3853f8403cd6dc845a59088f07f42b40a3488575b5cbe7cece",
+  "status": "not_started"
+}

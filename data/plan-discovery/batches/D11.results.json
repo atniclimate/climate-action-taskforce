@@ -1,0 +1,3135 @@
+{
+  "schema_version": "catf-plan-discovery-results.v1",
+  "batch_id": "D11",
+  "source_registry_sha256": "5db8f52cf44d3a3853f8403cd6dc845a59088f07f42b40a3488575b5cbe7cece",
+  "searched_at": "2026-10-21T12:33:15Z",
+  "nation_searches": [
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [
+        "epa.gov"
+      ],
+      "search_terms": [
+        "\"Saint Regis Mohawk Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Saint Regis Mohawk Tribe\" climate vulnerability assessment",
+        "\"Saint Regis Mohawk Tribe\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000251",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Saint Regis Mohawk Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "Public plan route and publication year are identified by EPA and Tribal Climate Change Guide search results; PDF not opened.",
+                  "url": "https://epa.gov/sites/production/files/2016-09/documents/final_srmt_ccap_083013.pdf"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C001"
+          ],
+          "query": "\"Saint Regis Mohawk Tribe\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Saint Regis Mohawk Tribe\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Saint Regis Mohawk Tribe\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Saint Regis Mohawk Tribe\" hazard mitigation plan OR emergency management plan",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Saint Regis Mohawk Tribe\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "found",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Saint Regis Mohawk Tribe",
+      "candidate_ids": [
+        "D11-C001"
+      ]
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [
+        "ready.maricopa.gov",
+        "www.epa.gov"
+      ],
+      "search_terms": [
+        "\"Salt River Pima-Maricopa Indian Community of the Salt River Reservation, Arizona\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Salt River Pima-Maricopa Indian Community of the Salt River Reservation, Arizona\" climate vulnerability assessment",
+        "\"Salt River Pima-Maricopa Indian Community of the Salt River Reservation, Arizona\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000252",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Salt River Pima-Maricopa Indian Community of the Salt River Reservation, Arizona\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "EPA direct PDF result identifies April 1, 2024; PDF not opened.",
+                  "url": "https://www.epa.gov/system/files/documents/2024-04/salt-river-pima-maricopa-indian-community-pcap.pdf"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C002"
+          ],
+          "query": "\"Salt River Pima-Maricopa Indian Community of the Salt River Reservation, Arizona\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Salt River Pima-Maricopa Indian Community of the Salt River Reservation, Arizona\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Salt River Pima-Maricopa Indian Community of the Salt River Reservation, Arizona\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Salt River Pima-Maricopa Indian Community of the Salt River Reservation, Arizona\" hazard mitigation plan OR emergency management plan",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "Community adoption route is explicit; plan is regional and direct county plan file was not opened.",
+                  "url": "https://ready.maricopa.gov/1760/Hazard-Mitigation"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C003"
+          ],
+          "query": "\"Salt River Pima-Maricopa Indian Community of the Salt River Reservation, Arizona\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "found",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Salt River Pima-Maricopa Indian Community of the Salt River Reservation, Arizona",
+      "candidate_ids": [
+        "D11-C002",
+        "D11-C003"
+      ]
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest.",
+        "Exact-alias seed catalog contributed additional public candidate metadata; see the local seed-catalog receipt.",
+        "Exact-alias seed catalog contributed additional public candidate metadata; see the local seed-catalog receipt."
+      ],
+      "source_domains": [
+        "skagitcounty.net",
+        "www.epa.gov",
+        "www.samishtribe.nsn.us"
+      ],
+      "search_terms": [
+        "\"Samish Indian Nation\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Samish Indian Nation\" climate vulnerability assessment",
+        "\"Samish Indian Nation\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000253",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Samish Indian Nation\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "PCAP result surfaced in targeted search; PDF not opened.",
+                  "url": "https://www.epa.gov/system/files/documents/2024-03/samish-indian-nation-priority-climate-action-plan.pdf"
+                }
+              ]
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-68a4020247b038dd; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D11/seed-catalog-check.json; title: Samish Indian Nation Climate Resilient Facilities Management Plan; URL: https://www.samishtribe.nsn.us/docs/default-source/natural-resources-documents/climate-resilient-facilities-mnagement-plan-cover.pdf?sfvrsn=208c6ed9_2; Official Samish climate resources page lists this Nation-specific Climate Resilient Facilities Management Plan; catalog notes the PDF names Samish Indian Nation. Catalog edition status unresolved."
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-68a4020247b038dd; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D11/seed-catalog-check.json and batch seed lookup; title: Samish Indian Nation Climate Resilient Facilities Management Plan; URL: https://www.samishtribe.nsn.us/docs/default-source/natural-resources-documents/climate-resilient-facilities-mnagement-plan-cover.pdf?sfvrsn=208c6ed9_2"
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits.",
+            "Seed-catalog metadata was added after exact alias reconciliation; source was not reopened and candidate remains initial-search-only."
+          ],
+          "candidate_ids": [
+            "D11-C004",
+            "D11-C028"
+          ],
+          "query": "\"Samish Indian Nation\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Samish Indian Nation\" climate vulnerability assessment",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "Report and explicit 2019 year surfaced in official/guide search results; PDF not opened.",
+                  "url": "https://www.samishtribe.nsn.us/docs/default-source/natural-resources-documents/samish-indian-nation-climate-vulnerability-assessment.pdf?sfvrsn=68193981_2"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C005"
+          ],
+          "query": "\"Samish Indian Nation\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Samish Indian Nation\" hazard mitigation plan OR emergency management plan",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "A separate 2020 Samish update draft also surfaced; final status of that draft was not verified.",
+                  "url": "https://skagitcounty.net/EmergencyManagement/Documents/NatHazMitPlan2014.pdf"
+                }
+              ]
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-7cb3993d92b1dc04; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D11/seed-catalog-check.json; title: Hazard Mitigation Plan, Public Review Draft; URL: https://www.samishtribe.nsn.us/docs/default-source/planning/hazard-mitigation-plan/samish-indian-nation-hmp-11172020_review_draft.pdf; Official Samish planning page links the Nation-specific Hazard Mitigation Plan, Public Review Draft. Draft status retained; no adoption inferred."
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-7cb3993d92b1dc04; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D11/seed-catalog-check.json and batch seed lookup; title: Hazard Mitigation Plan, Public Review Draft; URL: https://www.samishtribe.nsn.us/docs/default-source/planning/hazard-mitigation-plan/samish-indian-nation-hmp-11172020_review_draft.pdf"
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits.",
+            "Seed-catalog metadata was added after exact alias reconciliation; source was not reopened and candidate remains initial-search-only."
+          ],
+          "candidate_ids": [
+            "D11-C006",
+            "D11-C029"
+          ],
+          "query": "\"Samish Indian Nation\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "found",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Samish Indian Nation",
+      "candidate_ids": [
+        "D11-C004",
+        "D11-C005",
+        "D11-C006",
+        "D11-C028",
+        "D11-C029"
+      ]
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [
+        "dema.az.gov",
+        "www.epa.gov"
+      ],
+      "search_terms": [
+        "\"San Carlos Apache Tribe of the San Carlos Reservation, Arizona\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"San Carlos Apache Tribe of the San Carlos Reservation, Arizona\" climate vulnerability assessment",
+        "\"San Carlos Apache Tribe of the San Carlos Reservation, Arizona\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000254",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"San Carlos Apache Tribe of the San Carlos Reservation, Arizona\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "EPA result states revision date April 1, 2024; PDF not opened.",
+                  "url": "https://www.epa.gov/system/files/documents/2024-04/san-carlos-apache-tribe-pcap.pdf"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C007"
+          ],
+          "query": "\"San Carlos Apache Tribe of the San Carlos Reservation, Arizona\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"San Carlos Apache Tribe of the San Carlos Reservation, Arizona\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"San Carlos Apache Tribe of the San Carlos Reservation, Arizona\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"San Carlos Apache Tribe of the San Carlos Reservation, Arizona\" hazard mitigation plan OR emergency management plan",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "Index listing supports a public plan route but does not establish plan edition or publication date.",
+                  "url": "https://dema.az.gov/emergency-management-landing-page/infrastructure-and-grant-administration/mitigation/hazard"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C008"
+          ],
+          "query": "\"San Carlos Apache Tribe of the San Carlos Reservation, Arizona\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "found",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "San Carlos Apache Tribe of the San Carlos Reservation, Arizona",
+      "candidate_ids": [
+        "D11-C007",
+        "D11-C008"
+      ]
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [
+        "sanjuancountyut.gov"
+      ],
+      "search_terms": [
+        "\"San Juan Southern Paiute Tribe of Arizona\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"San Juan Southern Paiute Tribe of Arizona\" climate vulnerability assessment",
+        "\"San Juan Southern Paiute Tribe of Arizona\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000255",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"San Juan Southern Paiute Tribe of Arizona\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"San Juan Southern Paiute Tribe of Arizona\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"San Juan Southern Paiute Tribe of Arizona\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"San Juan Southern Paiute Tribe of Arizona\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"San Juan Southern Paiute Tribe of Arizona\" hazard mitigation plan OR emergency management plan",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "Regional plan PDF surfaced, but the Tribe relationship is limited to the search-result participation listing.",
+                  "url": "https://sanjuancountyut.gov/sites/default/files/fileattachments/emergency_management/page/2111/10-2-23_2023_san_juan_county_hazard_mitigation_plan.pdf"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C009"
+          ],
+          "query": "\"San Juan Southern Paiute Tribe of Arizona\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "found",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "San Juan Southern Paiute Tribe of Arizona",
+      "candidate_ids": [
+        "D11-C009"
+      ]
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [],
+      "search_terms": [
+        "\"Yuhaaviatam of San Manuel Nation\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Yuhaaviatam of San Manuel Nation\" climate vulnerability assessment",
+        "\"Yuhaaviatam of San Manuel Nation\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000256",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Yuhaaviatam of San Manuel Nation\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Yuhaaviatam of San Manuel Nation\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Yuhaaviatam of San Manuel Nation\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Yuhaaviatam of San Manuel Nation\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Yuhaaviatam of San Manuel Nation\" hazard mitigation plan OR emergency management plan",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Yuhaaviatam of San Manuel Nation\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Yuhaaviatam of San Manuel Nation",
+      "candidate_ids": []
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [
+        "www.energy.gov",
+        "www.epa.gov"
+      ],
+      "search_terms": [
+        "\"San Pasqual Band of Diegueno Mission Indians of California\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"San Pasqual Band of Diegueno Mission Indians of California\" climate vulnerability assessment",
+        "\"San Pasqual Band of Diegueno Mission Indians of California\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000257",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"San Pasqual Band of Diegueno Mission Indians of California\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "Joint plan attribution is based on EPA search result; full PDF not opened.",
+                  "url": "https://www.epa.gov/system/files/documents/2024-03/la-jolla-band-of-luiseno-indians-pcap.pdf"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C010"
+          ],
+          "query": "\"San Pasqual Band of Diegueno Mission Indians of California\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"San Pasqual Band of Diegueno Mission Indians of California\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"San Pasqual Band of Diegueno Mission Indians of California\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"San Pasqual Band of Diegueno Mission Indians of California\" hazard mitigation plan OR emergency management plan",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "Plan existence is named in project result; direct plan file and date were not located in this pass.",
+                  "url": "https://www.energy.gov/indianenergy/san-pasqual-band-indians-2018-project"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C011"
+          ],
+          "query": "\"San Pasqual Band of Diegueno Mission Indians of California\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "found",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "San Pasqual Band of Diegueno Mission Indians of California",
+      "candidate_ids": [
+        "D11-C010",
+        "D11-C011"
+      ]
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [],
+      "search_terms": [
+        "\"Santa Rosa Indian Community of the Santa Rosa Rancheria, California\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Santa Rosa Indian Community of the Santa Rosa Rancheria, California\" climate vulnerability assessment",
+        "\"Santa Rosa Indian Community of the Santa Rosa Rancheria, California\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000258",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Santa Rosa Indian Community of the Santa Rosa Rancheria, California\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Santa Rosa Indian Community of the Santa Rosa Rancheria, California\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Santa Rosa Indian Community of the Santa Rosa Rancheria, California\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Santa Rosa Indian Community of the Santa Rosa Rancheria, California\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Santa Rosa Indian Community of the Santa Rosa Rancheria, California\" hazard mitigation plan OR emergency management plan",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Santa Rosa Indian Community of the Santa Rosa Rancheria, California\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Santa Rosa Indian Community of the Santa Rosa Rancheria, California",
+      "candidate_ids": []
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [],
+      "search_terms": [
+        "\"Santa Rosa Band of Cahuilla Indians, California\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Santa Rosa Band of Cahuilla Indians, California\" climate vulnerability assessment",
+        "\"Santa Rosa Band of Cahuilla Indians, California\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000259",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Santa Rosa Band of Cahuilla Indians, California\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Santa Rosa Band of Cahuilla Indians, California\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Santa Rosa Band of Cahuilla Indians, California\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Santa Rosa Band of Cahuilla Indians, California\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Santa Rosa Band of Cahuilla Indians, California\" hazard mitigation plan OR emergency management plan",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Santa Rosa Band of Cahuilla Indians, California\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Santa Rosa Band of Cahuilla Indians, California",
+      "candidate_ids": []
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [
+        "resilientca.org",
+        "santabarbara.legistar.com",
+        "www.epa.gov"
+      ],
+      "search_terms": [
+        "\"Santa Ynez Band of Chumash Mission Indians of the Santa Ynez Reservation, California\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Santa Ynez Band of Chumash Mission Indians of the Santa Ynez Reservation, California\" climate vulnerability assessment",
+        "\"Santa Ynez Band of Chumash Mission Indians of the Santa Ynez Reservation, California\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000260",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Santa Ynez Band of Chumash Mission Indians of the Santa Ynez Reservation, California\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "EPA search result identifies March 29, 2024; PDF not opened.",
+                  "url": "https://www.epa.gov/system/files/documents/2024-04/santa-ynez-band-of-chumash-indians-pcap.pdf"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C012"
+          ],
+          "query": "\"Santa Ynez Band of Chumash Mission Indians of the Santa Ynez Reservation, California\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Santa Ynez Band of Chumash Mission Indians of the Santa Ynez Reservation, California\" climate vulnerability assessment",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "Search result provides project-level evidence; report file was not retrieved. Transportation and traditional-territory scope may be narrower than a Nation-wide CVA.",
+                  "url": "https://resilientca.org/projects/eed6bfff-716a-442c-a0cc-41a63b789fd0/"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C013"
+          ],
+          "query": "\"Santa Ynez Band of Chumash Mission Indians of the Santa Ynez Reservation, California\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Santa Ynez Band of Chumash Mission Indians of the Santa Ynez Reservation, California\" hazard mitigation plan OR emergency management plan",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "Regional plan participant route surfaced; publication/adoption year was not explicit in reviewed result.",
+                  "url": "https://santabarbara.legistar.com/View.ashx?GUID=1D9D1314-5F71-46BB-8265-BA0A8EAB4613&ID=11807384&M=F"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C014"
+          ],
+          "query": "\"Santa Ynez Band of Chumash Mission Indians of the Santa Ynez Reservation, California\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "found",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Santa Ynez Band of Chumash Mission Indians of the Santa Ynez Reservation, California",
+      "candidate_ids": [
+        "D11-C012",
+        "D11-C013",
+        "D11-C014"
+      ]
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [],
+      "search_terms": [
+        "\"Santee Sioux Nation, Nebraska\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Santee Sioux Nation, Nebraska\" climate vulnerability assessment",
+        "\"Santee Sioux Nation, Nebraska\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000261",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Santee Sioux Nation, Nebraska\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Santee Sioux Nation, Nebraska\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Santee Sioux Nation, Nebraska\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Santee Sioux Nation, Nebraska\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Santee Sioux Nation, Nebraska\" hazard mitigation plan OR emergency management plan",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Santee Sioux Nation, Nebraska\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Santee Sioux Nation, Nebraska",
+      "candidate_ids": []
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest.",
+        "Exact-alias seed catalog contributed additional public candidate metadata; see the local seed-catalog receipt."
+      ],
+      "source_domains": [
+        "www.sauk-suiattle.com"
+      ],
+      "search_terms": [
+        "\"Sauk-Suiattle Indian Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Sauk-Suiattle Indian Tribe\" climate vulnerability assessment",
+        "\"Sauk-Suiattle Indian Tribe\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000262",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Sauk-Suiattle Indian Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Sauk-Suiattle Indian Tribe\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Sauk-Suiattle Indian Tribe\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Sauk-Suiattle Indian Tribe\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Sauk-Suiattle Indian Tribe\" hazard mitigation plan OR emergency management plan",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "Guide lists the 2020 update; surfaced official PDF is a public review draft and final/adoption status was not confirmed.",
+                  "url": "https://www.sauk-suiattle.com/Documents/-Sauk%20Tribe%20HMP04102020_Public_Draft_Review.pdf"
+                }
+              ]
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-2cc0fccec8ceb0a7; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D11/seed-catalog-check.json; title: Sauk-Suiattle Indian Tribe Hazard Mitigation Plan (Google Drive filename dated 2025-04-01); URL: https://drive.usercontent.google.com/download?id=1apEJDqtbACbqTHn1KzwH8H_okcMNtcSo&export=download; Official Sauk-Suiattle Public Safety page links the Tribe-attributed plan. Google Drive usercontent is the host, not issuer; filename date not used as document date."
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-2cc0fccec8ceb0a7; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D11/seed-catalog-check.json and batch seed lookup; title: Sauk-Suiattle Indian Tribe Hazard Mitigation Plan (Google Drive filename dated 2025-04-01); URL: https://drive.usercontent.google.com/download?id=1apEJDqtbACbqTHn1KzwH8H_okcMNtcSo&export=download"
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits.",
+            "Seed-catalog metadata was added after exact alias reconciliation; source was not reopened and candidate remains initial-search-only."
+          ],
+          "candidate_ids": [
+            "D11-C015",
+            "D11-C030"
+          ],
+          "query": "\"Sauk-Suiattle Indian Tribe\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "found",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Sauk-Suiattle Indian Tribe",
+      "candidate_ids": [
+        "D11-C015",
+        "D11-C030"
+      ]
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [
+        "www.itcmi.org"
+      ],
+      "search_terms": [
+        "\"Sault Ste. Marie Tribe of Chippewa Indians, Michigan\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Sault Ste. Marie Tribe of Chippewa Indians, Michigan\" climate vulnerability assessment",
+        "\"Sault Ste. Marie Tribe of Chippewa Indians, Michigan\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000263",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Sault Ste. Marie Tribe of Chippewa Indians, Michigan\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "Project booklet surfaced with 2016 result metadata; use as joint project evidence, not a distinct Tribe-authored plan.",
+                  "url": "https://www.itcmi.org/wp-content/uploads/2022/04/Climate-Adaptation-Planning-Booklet.pdf"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C016"
+          ],
+          "query": "\"Sault Ste. Marie Tribe of Chippewa Indians, Michigan\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Sault Ste. Marie Tribe of Chippewa Indians, Michigan\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Sault Ste. Marie Tribe of Chippewa Indians, Michigan\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Sault Ste. Marie Tribe of Chippewa Indians, Michigan\" hazard mitigation plan OR emergency management plan",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Sault Ste. Marie Tribe of Chippewa Indians, Michigan\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "found",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Sault Ste. Marie Tribe of Chippewa Indians, Michigan",
+      "candidate_ids": [
+        "D11-C016"
+      ]
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [
+        "rrcbc-nsn.gov"
+      ],
+      "search_terms": [
+        "\"Scotts Valley Band of Pomo Indians of California\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Scotts Valley Band of Pomo Indians of California\" climate vulnerability assessment",
+        "\"Scotts Valley Band of Pomo Indians of California\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000264",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Scotts Valley Band of Pomo Indians of California\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Scotts Valley Band of Pomo Indians of California\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Scotts Valley Band of Pomo Indians of California\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Scotts Valley Band of Pomo Indians of California\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Scotts Valley Band of Pomo Indians of California\" hazard mitigation plan OR emergency management plan",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "Only search-result excerpt surfaced; document title/host do not clearly align with excerpted annex. Treat as unresolved lead, not confirmed adopted plan.",
+                  "url": "https://rrcbc-nsn.gov/wp-content/uploads/2020/08/DRAFT-Robinson_Rancheria_Annex-Posted-8-1-2020.pdf"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C017"
+          ],
+          "query": "\"Scotts Valley Band of Pomo Indians of California\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "found",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Scotts Valley Band of Pomo Indians of California",
+      "candidate_ids": [
+        "D11-C017"
+      ]
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [],
+      "search_terms": [
+        "\"The Seminole Nation of Oklahoma\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"The Seminole Nation of Oklahoma\" climate vulnerability assessment",
+        "\"The Seminole Nation of Oklahoma\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000265",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"The Seminole Nation of Oklahoma\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"The Seminole Nation of Oklahoma\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"The Seminole Nation of Oklahoma\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"The Seminole Nation of Oklahoma\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"The Seminole Nation of Oklahoma\" hazard mitigation plan OR emergency management plan",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"The Seminole Nation of Oklahoma\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "The Seminole Nation of Oklahoma",
+      "candidate_ids": []
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [],
+      "search_terms": [
+        "\"Seminole Tribe of Florida\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Seminole Tribe of Florida\" climate vulnerability assessment",
+        "\"Seminole Tribe of Florida\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000266",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Seminole Tribe of Florida\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Seminole Tribe of Florida\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Seminole Tribe of Florida\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Seminole Tribe of Florida\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Seminole Tribe of Florida\" hazard mitigation plan OR emergency management plan",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Seminole Tribe of Florida\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Seminole Tribe of Florida",
+      "candidate_ids": []
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [
+        "sni.org"
+      ],
+      "search_terms": [
+        "\"Seneca Nation of Indians\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Seneca Nation of Indians\" climate vulnerability assessment",
+        "\"Seneca Nation of Indians\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000267",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Seneca Nation of Indians\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Seneca Nation of Indians\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Seneca Nation of Indians\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Seneca Nation of Indians\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Seneca Nation of Indians\" hazard mitigation plan OR emergency management plan",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "Official plan link route found; underlying document did not surface in search result and year remains unknown.",
+                  "url": "https://sni.org/public-safety/energency-management/"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C020"
+          ],
+          "query": "\"Seneca Nation of Indians\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "found",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Seneca Nation of Indians",
+      "candidate_ids": [
+        "D11-C020"
+      ]
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [],
+      "search_terms": [
+        "\"Seneca-Cayuga Nation\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Seneca-Cayuga Nation\" climate vulnerability assessment",
+        "\"Seneca-Cayuga Nation\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000268",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Seneca-Cayuga Nation\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Seneca-Cayuga Nation\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Seneca-Cayuga Nation\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Seneca-Cayuga Nation\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Seneca-Cayuga Nation\" hazard mitigation plan OR emergency management plan",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Seneca-Cayuga Nation\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Seneca-Cayuga Nation",
+      "candidate_ids": []
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [
+        "www.epa.gov",
+        "www.scottcountymn.gov"
+      ],
+      "search_terms": [
+        "\"Shakopee Mdewakanton Sioux Community of Minnesota\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Shakopee Mdewakanton Sioux Community of Minnesota\" climate vulnerability assessment",
+        "\"Shakopee Mdewakanton Sioux Community of Minnesota\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000269",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Shakopee Mdewakanton Sioux Community of Minnesota\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "Direct EPA PDF and catalog surfaced; PDF not opened.",
+                  "url": "https://www.epa.gov/system/files/documents/2024-04/shakopee-mdewakanton-sioux-community-pcap.pdf"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C018"
+          ],
+          "query": "\"Shakopee Mdewakanton Sioux Community of Minnesota\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Shakopee Mdewakanton Sioux Community of Minnesota\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Shakopee Mdewakanton Sioux Community of Minnesota\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Shakopee Mdewakanton Sioux Community of Minnesota\" hazard mitigation plan OR emergency management plan",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "Regional plan surfaced as draft and Community coverage; confirm tribal adoption and final edition.",
+                  "url": "https://www.scottcountymn.gov/DocumentCenter/View/12799/2021-Mitigation-Plan--Draft"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C019"
+          ],
+          "query": "\"Shakopee Mdewakanton Sioux Community of Minnesota\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "found",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Shakopee Mdewakanton Sioux Community of Minnesota",
+      "candidate_ids": [
+        "D11-C018",
+        "D11-C019"
+      ]
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [],
+      "search_terms": [
+        "\"Shawnee Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Shawnee Tribe\" climate vulnerability assessment",
+        "\"Shawnee Tribe\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000270",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Shawnee Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Shawnee Tribe\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Shawnee Tribe\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Shawnee Tribe\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Shawnee Tribe\" hazard mitigation plan OR emergency management plan",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Shawnee Tribe\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Shawnee Tribe",
+      "candidate_ids": []
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [],
+      "search_terms": [
+        "\"Sherwood Valley Rancheria of Pomo Indians of California\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Sherwood Valley Rancheria of Pomo Indians of California\" climate vulnerability assessment",
+        "\"Sherwood Valley Rancheria of Pomo Indians of California\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000271",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Sherwood Valley Rancheria of Pomo Indians of California\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Sherwood Valley Rancheria of Pomo Indians of California\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Sherwood Valley Rancheria of Pomo Indians of California\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Sherwood Valley Rancheria of Pomo Indians of California\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Sherwood Valley Rancheria of Pomo Indians of California\" hazard mitigation plan OR emergency management plan",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Sherwood Valley Rancheria of Pomo Indians of California\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Sherwood Valley Rancheria of Pomo Indians of California",
+      "candidate_ids": []
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [],
+      "search_terms": [
+        "\"Shingle Springs Band of Miwok Indians, Shingle Springs Rancheria (Verona Tract), California\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Shingle Springs Band of Miwok Indians, Shingle Springs Rancheria (Verona Tract), California\" climate vulnerability assessment",
+        "\"Shingle Springs Band of Miwok Indians, Shingle Springs Rancheria (Verona Tract), California\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000272",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Shingle Springs Band of Miwok Indians, Shingle Springs Rancheria (Verona Tract), California\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Shingle Springs Band of Miwok Indians, Shingle Springs Rancheria (Verona Tract), California\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Shingle Springs Band of Miwok Indians, Shingle Springs Rancheria (Verona Tract), California\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Shingle Springs Band of Miwok Indians, Shingle Springs Rancheria (Verona Tract), California\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Shingle Springs Band of Miwok Indians, Shingle Springs Rancheria (Verona Tract), California\" hazard mitigation plan OR emergency management plan",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Shingle Springs Band of Miwok Indians, Shingle Springs Rancheria (Verona Tract), California\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Shingle Springs Band of Miwok Indians, Shingle Springs Rancheria (Verona Tract), California",
+      "candidate_ids": []
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [
+        "tribalclimateguide.uoregon.edu",
+        "www.adaptationclearinghouse.org",
+        "www.epa.gov"
+      ],
+      "search_terms": [
+        "\"Shinnecock Indian Nation\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Shinnecock Indian Nation\" climate vulnerability assessment",
+        "\"Shinnecock Indian Nation\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000273",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Shinnecock Indian Nation\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "Plan landing page surfaced; linked report not opened.",
+                  "url": "https://www.adaptationclearinghouse.org/resources/shinnecock-indian-nation-climate-change-adaptation-plan.html"
+                },
+                {
+                  "disposition": "candidate_located",
+                  "note": "Search result identifies April 2024 PCAP; PDF not opened.",
+                  "url": "https://www.epa.gov/system/files/documents/2024-04/shinnecock-nation-pcap.pdf"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C021",
+            "D11-C023"
+          ],
+          "query": "\"Shinnecock Indian Nation\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Shinnecock Indian Nation\" climate vulnerability assessment",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "Guide landing surfaced and links the report; direct report URL was truncated in search output and not resolved in this pass.",
+                  "url": "https://tribalclimateguide.uoregon.edu/tribal-adaptation-plans/shinnecock-indian-nation-climate-vulnerability-assessment-and-action-plan"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C022"
+          ],
+          "query": "\"Shinnecock Indian Nation\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Shinnecock Indian Nation\" hazard mitigation plan OR emergency management plan",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Shinnecock Indian Nation\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "found",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Shinnecock Indian Nation",
+      "candidate_ids": [
+        "D11-C021",
+        "D11-C022",
+        "D11-C023"
+      ]
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest.",
+        "Exact-alias seed catalog contributed additional public candidate metadata; see the local seed-catalog receipt."
+      ],
+      "source_domains": [
+        "www.shoalwaterbay-nsn.gov"
+      ],
+      "search_terms": [
+        "\"Shoalwater Bay Indian Tribe of the Shoalwater Bay Indian Reservation\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Shoalwater Bay Indian Tribe of the Shoalwater Bay Indian Reservation\" climate vulnerability assessment",
+        "\"Shoalwater Bay Indian Tribe of the Shoalwater Bay Indian Reservation\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000274",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Shoalwater Bay Indian Tribe of the Shoalwater Bay Indian Reservation\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "Official PDF result gives filename with 2021 date and summarizes plan purpose; not fully harvested.",
+                  "url": "https://www.shoalwaterbay-nsn.gov/assets/Hidden-Grants-Page/Part-III-Climate-Resilience-Plan_Final-08132021.pdf"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C024"
+          ],
+          "query": "\"Shoalwater Bay Indian Tribe of the Shoalwater Bay Indian Reservation\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Shoalwater Bay Indian Tribe of the Shoalwater Bay Indian Reservation\" climate vulnerability assessment",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "PDF search result surfaces 2021-dated file and assessment content; PDF not fully harvested.",
+                  "url": "https://www.shoalwaterbay-nsn.gov/assets/Hidden-Grants-Page/Part-II-Climate-Vulnerability-Assessment_Final-08132021.pdf"
+                }
+              ]
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-e56ee26f8f8ec759; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D11/seed-catalog-check.json; title: Part I: Climate Impacts Assessment; URL: https://www.shoalwaterbay-nsn.gov/assets/Hidden-Grants-Page/Shoalwater-Bay-Indian-Tribe-Part-I-Climate-Impacts-Assessment_Final-08132021.pdf; Official Shoalwater Bay Tribal site hosts a Tribe-attributed Part I Climate Impacts Assessment prepared by OCCRI and Adaptation International. Separate part of a multi-part series."
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-e56ee26f8f8ec759; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D11/seed-catalog-check.json and batch seed lookup; title: Part I: Climate Impacts Assessment; URL: https://www.shoalwaterbay-nsn.gov/assets/Hidden-Grants-Page/Shoalwater-Bay-Indian-Tribe-Part-I-Climate-Impacts-Assessment_Final-08132021.pdf"
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits.",
+            "Seed-catalog metadata was added after exact alias reconciliation; source was not reopened and candidate remains initial-search-only."
+          ],
+          "candidate_ids": [
+            "D11-C025",
+            "D11-C031"
+          ],
+          "query": "\"Shoalwater Bay Indian Tribe of the Shoalwater Bay Indian Reservation\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Shoalwater Bay Indian Tribe of the Shoalwater Bay Indian Reservation\" hazard mitigation plan OR emergency management plan",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "Official PDF result reports effective dates October 7, 2024–October 6, 2029; PDF not fully harvested.",
+                  "url": "https://www.shoalwaterbay-nsn.gov/assets/Department-Files/Emergency-Management/SBIT_MHMP_Final_Compressed_10-30-2024.pdf"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C026"
+          ],
+          "query": "\"Shoalwater Bay Indian Tribe of the Shoalwater Bay Indian Reservation\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "found",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Shoalwater Bay Indian Tribe of the Shoalwater Bay Indian Reservation",
+      "candidate_ids": [
+        "D11-C024",
+        "D11-C025",
+        "D11-C026",
+        "D11-C031"
+      ]
+    },
+    {
+      "limitations": [
+        "Three separate Nation-specific class queries completed; existing assessor seed lookup checked. Search-result/landing-page evidence only; no full-document harvest."
+      ],
+      "source_domains": [
+        "easternshoshone.org"
+      ],
+      "search_terms": [
+        "\"Eastern Shoshone Tribe of the Wind River Reservation, Wyoming\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Eastern Shoshone Tribe of the Wind River Reservation, Wyoming\" climate vulnerability assessment",
+        "\"Eastern Shoshone Tribe of the Wind River Reservation, Wyoming\" hazard mitigation plan OR emergency management plan"
+      ],
+      "tribe_id": "epa_100000275",
+      "batch_id": "D11",
+      "categories": {
+        "climate_adaptation_plan": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Eastern Shoshone Tribe of the Wind River Reservation, Wyoming\" climate adaptation plan OR climate action plan OR PCAP",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Eastern Shoshone Tribe of the Wind River Reservation, Wyoming\" climate adaptation plan OR climate action plan OR PCAP"
+        },
+        "climate_vulnerability_assessment": {
+          "receipt": [
+            {
+              "disposition": "reviewed_no_qualified_match",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Eastern Shoshone Tribe of the Wind River Reservation, Wyoming\" climate vulnerability assessment",
+              "results": []
+            }
+          ],
+          "outcome": "no_matching_public_document_located",
+          "limitations": [
+            "One targeted class-specific Nation query completed and reviewed at bounded depth; no qualified match located. This does not establish absence."
+          ],
+          "candidate_ids": [],
+          "query": "\"Eastern Shoshone Tribe of the Wind River Reservation, Wyoming\" climate vulnerability assessment"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "receipt": [
+            {
+              "disposition": "candidate_located",
+              "route": "targeted_web_search",
+              "checked_utc": "2026-10-21T12:33:15Z",
+              "query": "\"Eastern Shoshone Tribe of the Wind River Reservation, Wyoming\" hazard mitigation plan OR emergency management plan",
+              "results": [
+                {
+                  "disposition": "candidate_located",
+                  "note": "Draft annex dated 2023-2028 period but no final adoption or publication year confirmed.",
+                  "url": "https://easternshoshone.org/wp-content/uploads/2023/04/Wind-River-Reservation-Annex-DRAFT-03-27-23.pdf"
+                }
+              ]
+            }
+          ],
+          "outcome": "found",
+          "limitations": [
+            "Targeted query completed and candidate result reviewed; candidate note states relationship, scope and any uninspected source limits."
+          ],
+          "candidate_ids": [
+            "D11-C027"
+          ],
+          "query": "\"Eastern Shoshone Tribe of the Wind River Reservation, Wyoming\" hazard mitigation plan OR emergency management plan"
+        }
+      },
+      "search_budget_used": 3,
+      "outcome": "found",
+      "searched_at": "2026-10-21T12:33:15Z",
+      "display_name": "Eastern Shoshone Tribe of the Wind River Reservation, Wyoming",
+      "candidate_ids": [
+        "D11-C027"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "title": "Climate Change Adaptation Plan for Akwesasne",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "EPA result names the plan and Tribe",
+        "Guide states Year Published 2013"
+      ],
+      "document_class": "climate_adaptation_plan",
+      "update_year": null,
+      "id": "D11-C001",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://tribalclimateguide.uoregon.edu/adaptation-plans/climate-change-adaptation-plan-akwesasne",
+      "tribe_ids": [
+        "epa_100000251"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Saint Regis Mohawk Tribe",
+      "source_confidence": "high",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Public plan route and publication year are identified by EPA and Tribal Climate Change Guide search results; PDF not opened.",
+      "relationship_evidence": "Saint Regis Mohawk Tribe is identified as the author/organization of this Akwesasne climate adaptation plan.",
+      "mime_type": null,
+      "document_url": "https://epa.gov/sites/production/files/2016-09/documents/final_srmt_ccap_083013.pdf",
+      "publication_year": 2013,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "Saint Regis Mohawk Tribe",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "title": "Salt River Pima-Maricopa Indian Community Priority Climate Action Plan",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "EPA-hosted result identifies Salt River Pima-Maricopa Indian Community PCAP and April 1, 2024"
+      ],
+      "document_class": "climate_adaptation_plan",
+      "update_year": null,
+      "id": "D11-C002",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://srpmic-nsn.gov/government/epnr/climate-pollution-reduction-grant/",
+      "tribe_ids": [
+        "epa_100000252"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Salt River Pima-Maricopa Indian Community",
+      "source_confidence": "high",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "EPA direct PDF result identifies April 1, 2024; PDF not opened.",
+      "relationship_evidence": "EPA-hosted PCAP names the Community as issuer; official Community climate-grant page confirms its PCAP.",
+      "mime_type": null,
+      "document_url": "https://www.epa.gov/system/files/documents/2024-04/salt-river-pima-maricopa-indian-community-pcap.pdf",
+      "publication_year": 2024,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "Salt River Pima-Maricopa Indian Community",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "title": "Maricopa County Multi-Jurisdictional Hazard Mitigation Plan",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "Official Community emergency page states Council adoption on December 8, 2021"
+      ],
+      "document_class": "hazard_mitigation_or_management_plan",
+      "update_year": null,
+      "id": "D11-C003",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://srpmic-nsn.gov/government/fire/emergency/",
+      "tribe_ids": [
+        "epa_100000252"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Maricopa County and participating jurisdictions including Salt River Pima-Maricopa Indian Community",
+      "source_confidence": "high",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Community adoption route is explicit; plan is regional and direct county plan file was not opened.",
+      "relationship_evidence": "Official Community page says it adopted the county plan by Council Resolution on December 8, 2021.",
+      "mime_type": null,
+      "document_url": "https://ready.maricopa.gov/1760/Hazard-Mitigation",
+      "publication_year": 2021,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "Maricopa County and participating jurisdictions including Salt River Pima-Maricopa Indian Community",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "title": "Samish Indian Nation Priority Climate Action Plan",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "EPA-hosted Samish PCAP result and document text identify 2024"
+      ],
+      "document_class": "climate_adaptation_plan",
+      "update_year": null,
+      "id": "D11-C004",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://www.samishtribe.nsn.us/natural-resources/climate-change",
+      "tribe_ids": [
+        "epa_100000253"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Samish Indian Nation",
+      "source_confidence": "high",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "PCAP result surfaced in targeted search; PDF not opened.",
+      "relationship_evidence": "EPA plan title and Samish Nation document domain identify this as a Nation plan.",
+      "mime_type": null,
+      "document_url": "https://www.epa.gov/system/files/documents/2024-03/samish-indian-nation-priority-climate-action-plan.pdf",
+      "publication_year": 2024,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "Samish Indian Nation",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "title": "Samish Indian Nation Climate Vulnerability Assessment",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "Official PDF title identifies Samish CVA",
+        "Guide and USDA results state 2019"
+      ],
+      "document_class": "climate_vulnerability_assessment",
+      "update_year": null,
+      "id": "D11-C005",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://tribalclimateguide.uoregon.edu/tribal-adaptation-plans/samish-climate-change-vulnerability-assessment-and-adaptation-planning",
+      "tribe_ids": [
+        "epa_100000253"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Samish Indian Nation",
+      "source_confidence": "high",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Report and explicit 2019 year surfaced in official/guide search results; PDF not opened.",
+      "relationship_evidence": "Official Samish-hosted report is titled a Nation climate vulnerability assessment.",
+      "mime_type": null,
+      "document_url": "https://www.samishtribe.nsn.us/docs/default-source/natural-resources-documents/samish-indian-nation-climate-vulnerability-assessment.pdf?sfvrsn=68193981_2",
+      "publication_year": 2019,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "Samish Indian Nation",
+      "category": "climate_vulnerability_assessment"
+    },
+    {
+      "title": "Skagit County Natural Hazards Mitigation Plan (2014), Samish participation",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "County source states Samish adopted and FEMA approved March 4, 2014",
+        "Official-hosted Samish 2020 review draft is not final evidence"
+      ],
+      "document_class": "hazard_mitigation_or_management_plan",
+      "update_year": null,
+      "id": "D11-C006",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://www.skagitcounty.net/PlanningAndPermit/Documents/compplan2025/CompPlan2025_WholeDocumentRedlines_BOCCV4.0.pdf",
+      "tribe_ids": [
+        "epa_100000253"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Skagit County and participating jurisdictions including Samish Indian Nation",
+      "source_confidence": "medium",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "A separate 2020 Samish update draft also surfaced; final status of that draft was not verified.",
+      "relationship_evidence": "Regional county plan; official county source says Samish adopted it and FEMA approved it in 2014.",
+      "mime_type": null,
+      "document_url": "https://skagitcounty.net/EmergencyManagement/Documents/NatHazMitPlan2014.pdf",
+      "publication_year": 2014,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "Skagit County and participating jurisdictions including Samish Indian Nation",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "title": "San Carlos Apache Tribe Priority Climate Action Plan",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "EPA-hosted plan result identifies Tribe PCAP and 2024 date"
+      ],
+      "document_class": "climate_adaptation_plan",
+      "update_year": null,
+      "id": "D11-C007",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://www.epa.gov/inflation-reduction-act/priority-climate-action-plans-states-msas-tribes-and-territories",
+      "tribe_ids": [
+        "epa_100000254"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "San Carlos Apache Tribe",
+      "source_confidence": "high",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "EPA result states revision date April 1, 2024; PDF not opened.",
+      "relationship_evidence": "EPA-hosted PCAP title identifies the Tribe as issuer.",
+      "mime_type": null,
+      "document_url": "https://www.epa.gov/system/files/documents/2024-04/san-carlos-apache-tribe-pcap.pdf",
+      "publication_year": 2024,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "San Carlos Apache Tribe",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "title": "Arizona Tribal Hazard Mitigation Plans listing: San Carlos Apache Tribe",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "Official DEMA page lists San Carlos Apache Tribe among Tribal Hazard Mitigation Plans"
+      ],
+      "document_class": "hazard_mitigation_or_management_plan",
+      "update_year": null,
+      "id": "D11-C008",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://dema.az.gov/emergency-management-landing-page/infrastructure-and-grant-administration/mitigation/hazard",
+      "tribe_ids": [
+        "epa_100000254"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Arizona Department of Emergency and Military Affairs",
+      "source_confidence": "medium",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Index listing supports a public plan route but does not establish plan edition or publication date.",
+      "relationship_evidence": "Arizona DEMA official page lists San Carlos Apache Tribe under links to Tribal Hazard Mitigation Plans; linked Tribe plan file was not retrieved.",
+      "mime_type": null,
+      "document_url": "https://dema.az.gov/emergency-management-landing-page/infrastructure-and-grant-administration/mitigation/hazard",
+      "publication_year": null,
+      "date_basis": null,
+      "host_relationship": "Arizona Department of Emergency and Military Affairs",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "title": "San Juan County Multi-Jurisdictional All Hazard Mitigation Plan",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "2023 county plan result lists Tribal Council representative; formal tribal adoption unverified"
+      ],
+      "document_class": "hazard_mitigation_or_management_plan",
+      "update_year": null,
+      "id": "D11-C009",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://sanjuancountyut.gov/emergency-management",
+      "tribe_ids": [
+        "epa_100000255"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "San Juan County and participating jurisdictions; San Juan Southern Paiute participation indicated",
+      "source_confidence": "medium",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Regional plan PDF surfaced, but the Tribe relationship is limited to the search-result participation listing.",
+      "relationship_evidence": "County plan result names a San Juan Southern Paiute Tribal Council representative on the planning roster; participation/adoption by the Tribe was not verified.",
+      "mime_type": null,
+      "document_url": "https://sanjuancountyut.gov/sites/default/files/fileattachments/emergency_management/page/2111/10-2-23_2023_san_juan_county_hazard_mitigation_plan.pdf",
+      "publication_year": 2023,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "San Juan County and participating jurisdictions; San Juan Southern Paiute participation indicated",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "title": "La Jolla Band of Luiseno Indians Priority Climate Action Plan (co-developed with San Pasqual Band)",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "EPA PCAP result identifies San Pasqual as co-developer/sub-awardee"
+      ],
+      "document_class": "climate_adaptation_plan",
+      "update_year": null,
+      "id": "D11-C010",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://www.epa.gov/inflation-reduction-act/priority-climate-action-plans-states-msas-tribes-and-territories",
+      "tribe_ids": [
+        "epa_100000257"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "La Jolla Band of Luiseno Indians and San Pasqual Band",
+      "source_confidence": "medium",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Joint plan attribution is based on EPA search result; full PDF not opened.",
+      "relationship_evidence": "EPA result says San Pasqual Band was a co-developer/sub-awardee on the La Jolla Band PCAP.",
+      "mime_type": null,
+      "document_url": "https://www.epa.gov/system/files/documents/2024-03/la-jolla-band-of-luiseno-indians-pcap.pdf",
+      "publication_year": 2024,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "La Jolla Band of Luiseno Indians and San Pasqual Band",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "title": "San Pasqual Band Hazard Mitigation Plan",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "DOE official page identifies a San Pasqual Hazard Mitigation Plan"
+      ],
+      "document_class": "hazard_mitigation_or_management_plan",
+      "update_year": null,
+      "id": "D11-C011",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://www.energy.gov/indianenergy/san-pasqual-band-indians-2018-project",
+      "tribe_ids": [
+        "epa_100000257"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "San Pasqual Band of Mission Indians",
+      "source_confidence": "medium",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Plan existence is named in project result; direct plan file and date were not located in this pass.",
+      "relationship_evidence": "DOE project page describes a San Pasqual Hazard Mitigation Plan and references critical facilities within it.",
+      "mime_type": null,
+      "document_url": "https://www.energy.gov/indianenergy/san-pasqual-band-indians-2018-project",
+      "publication_year": null,
+      "date_basis": null,
+      "host_relationship": "San Pasqual Band of Mission Indians",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "title": "Santa Ynez Band of Chumash Indians Priority Climate Action Plan",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "EPA plan result identifies the Band PCAP and date March 29, 2024"
+      ],
+      "document_class": "climate_adaptation_plan",
+      "update_year": null,
+      "id": "D11-C012",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://www.epa.gov/inflation-reduction-act/priority-climate-action-plans-states-msas-tribes-and-territories",
+      "tribe_ids": [
+        "epa_100000260"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Santa Ynez Band of Chumash Indians",
+      "source_confidence": "high",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "EPA search result identifies March 29, 2024; PDF not opened.",
+      "relationship_evidence": "EPA-hosted PCAP names the Band as issuer.",
+      "mime_type": null,
+      "document_url": "https://www.epa.gov/system/files/documents/2024-04/santa-ynez-band-of-chumash-indians-pcap.pdf",
+      "publication_year": 2024,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "Santa Ynez Band of Chumash Indians",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "title": "Chumash Climate Change Transportation Vulnerability Assessment",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "ResilientCA entry says Chumash Transportation Vulnerability Assessment and 2021",
+        "2021 Tribal roundtable result states assessment completed"
+      ],
+      "document_class": "climate_vulnerability_assessment",
+      "update_year": null,
+      "id": "D11-C013",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://cecsb.squarespace.com/climate-resilience-roundtable-4",
+      "tribe_ids": [
+        "epa_100000260"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Santa Ynez Band of Chumash Indians",
+      "source_confidence": "medium",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Search result provides project-level evidence; report file was not retrieved. Transportation and traditional-territory scope may be narrower than a Nation-wide CVA.",
+      "relationship_evidence": "ResilientCA catalog result attributes the transportation climate vulnerability assessment to Santa Ynez Band; Tribal speaker says a broader territory assessment was completed.",
+      "mime_type": null,
+      "document_url": "https://resilientca.org/projects/eed6bfff-716a-442c-a0cc-41a63b789fd0/",
+      "publication_year": 2021,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "Santa Ynez Band of Chumash Indians",
+      "category": "climate_vulnerability_assessment"
+    },
+    {
+      "title": "Santa Barbara County Multi-Jurisdictional Hazard Mitigation Plan",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "County agenda attachment identifies Santa Ynez Band among planning participants"
+      ],
+      "document_class": "hazard_mitigation_or_management_plan",
+      "update_year": null,
+      "id": "D11-C014",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://santabarbara.legistar.com/View.ashx?GUID=1D9D1314-5F71-46BB-8265-BA0A8EAB4613&ID=11807384&M=F",
+      "tribe_ids": [
+        "epa_100000260"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Santa Barbara County and participating jurisdictions including Santa Ynez Band of Chumash Indians",
+      "source_confidence": "medium",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Regional plan participant route surfaced; publication/adoption year was not explicit in reviewed result.",
+      "relationship_evidence": "County plan participation material lists Santa Ynez among multi-agency committee participants; plan annex/adoption relationship needs confirmation.",
+      "mime_type": null,
+      "document_url": "https://santabarbara.legistar.com/View.ashx?GUID=1D9D1314-5F71-46BB-8265-BA0A8EAB4613&ID=11807384&M=F",
+      "publication_year": null,
+      "date_basis": null,
+      "host_relationship": "Santa Barbara County and participating jurisdictions including Santa Ynez Band of Chumash Indians",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "title": "Sauk-Suiattle Indian Tribe Hazard Mitigation Plan Update",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "Tribal Climate Guide says 2020 update",
+        "Official tribal-domain PDF filename identifies Public Draft Review"
+      ],
+      "document_class": "hazard_mitigation_or_management_plan",
+      "update_year": null,
+      "id": "D11-C015",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://tribalclimateguide.uoregon.edu/tribal-adaptation-plans/sauk-suiattle-indian-tribe-hazard-mitigation-plan",
+      "tribe_ids": [
+        "epa_100000262"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Sauk-Suiattle Indian Tribe",
+      "source_confidence": "medium",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Guide lists the 2020 update; surfaced official PDF is a public review draft and final/adoption status was not confirmed.",
+      "relationship_evidence": "Tribal Climate Change Guide identifies a 2020 Tribe Hazard Mitigation Plan update and official tribal-domain PDF is titled 2020 Public Draft Review.",
+      "mime_type": null,
+      "document_url": "https://www.sauk-suiattle.com/Documents/-Sauk%20Tribe%20HMP04102020_Public_Draft_Review.pdf",
+      "publication_year": 2020,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "Sauk-Suiattle Indian Tribe",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "title": "Michigan Tribal Climate Change Adaptation Planning Project",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "Booklet names Sault Ste. Marie among project partners",
+        "Tribal Climate Guide describes the joint planning document"
+      ],
+      "document_class": "climate_adaptation_plan",
+      "update_year": null,
+      "id": "D11-C016",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://tribalclimateguide.uoregon.edu/adaptation-plans",
+      "tribe_ids": [
+        "epa_100000263"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Inter-Tribal Council of Michigan and participating Michigan Tribes including Sault Ste. Marie Tribe",
+      "source_confidence": "medium",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Project booklet surfaced with 2016 result metadata; use as joint project evidence, not a distinct Tribe-authored plan.",
+      "relationship_evidence": "Multi-Tribal planning project lists Sault Ste. Marie Tribe among its participating Tribes; not a standalone Sault plan.",
+      "mime_type": null,
+      "document_url": "https://www.itcmi.org/wp-content/uploads/2022/04/Climate-Adaptation-Planning-Booklet.pdf",
+      "publication_year": 2016,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "Inter-Tribal Council of Michigan and participating Michigan Tribes including Sault Ste. Marie Tribe",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "title": "Scotts Valley Band of Pomo Indians Annex to Regional Hazard Mitigation Plan (draft evidence)",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "Search-result excerpt includes Scotts Valley Band annex heading and plan-maintenance text"
+      ],
+      "document_class": "hazard_mitigation_or_management_plan",
+      "update_year": null,
+      "id": "D11-C017",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://rrcbc-nsn.gov/",
+      "tribe_ids": [
+        "epa_100000264"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Scotts Valley Band of Pomo Indians; regional annex context unresolved",
+      "source_confidence": "low",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Only search-result excerpt surfaced; document title/host do not clearly align with excerpted annex. Treat as unresolved lead, not confirmed adopted plan.",
+      "relationship_evidence": "Search result text contains a Scotts Valley Band annex heading and SVMTHMP identifier inside a draft annex document hosted by another Rancheria.",
+      "mime_type": null,
+      "document_url": "https://rrcbc-nsn.gov/wp-content/uploads/2020/08/DRAFT-Robinson_Rancheria_Annex-Posted-8-1-2020.pdf",
+      "publication_year": null,
+      "date_basis": null,
+      "host_relationship": "Scotts Valley Band of Pomo Indians; regional annex context unresolved",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "title": "Shakopee Mdewakanton Sioux Community Priority Climate Action Plan",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "EPA result identifies Priority Climate Action Plan and April 1, 2024"
+      ],
+      "document_class": "climate_adaptation_plan",
+      "update_year": null,
+      "id": "D11-C018",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://midwestcrn.washu.edu/resource/shakopee-mdewakanton-sioux-community-priority-climate-action-plan/",
+      "tribe_ids": [
+        "epa_100000269"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Shakopee Mdewakanton Sioux Community",
+      "source_confidence": "high",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Direct EPA PDF and catalog surfaced; PDF not opened.",
+      "relationship_evidence": "EPA-hosted PCAP title identifies the Community; official source and independent catalog give April 1, 2024.",
+      "mime_type": null,
+      "document_url": "https://www.epa.gov/system/files/documents/2024-04/shakopee-mdewakanton-sioux-community-pcap.pdf",
+      "publication_year": 2024,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "Shakopee Mdewakanton Sioux Community",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "title": "Scott County Multi-Jurisdictional Hazard Mitigation Plan (Shakopee Mdewakanton Sioux Community participation)",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "County plan says it covers Community",
+        "Shakopee city council coversheet documents county plan renewal in 2021"
+      ],
+      "document_class": "hazard_mitigation_or_management_plan",
+      "update_year": null,
+      "id": "D11-C019",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://shakopeemn.novusagenda.com/agendapublic/CoverSheet.aspx?ItemID=5724&MeetingID=480",
+      "tribe_ids": [
+        "epa_100000269"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Scott County and participating jurisdictions including Shakopee Mdewakanton Sioux Community",
+      "source_confidence": "medium",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Regional plan surfaced as draft and Community coverage; confirm tribal adoption and final edition.",
+      "relationship_evidence": "County plan text identifies the sovereign Community as covered; City Council coversheet identifies 2021 renewal/adoption of county plan, but Community adoption was not verified.",
+      "mime_type": null,
+      "document_url": "https://www.scottcountymn.gov/DocumentCenter/View/12799/2021-Mitigation-Plan--Draft",
+      "publication_year": 2021,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "Scott County and participating jurisdictions including Shakopee Mdewakanton Sioux Community",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "title": "Seneca Nation Tribal Hazard Mitigation Plan",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "Official Nation emergency management page lists Tribal Hazard Mitigation Plan"
+      ],
+      "document_class": "hazard_mitigation_or_management_plan",
+      "update_year": null,
+      "id": "D11-C020",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://sni.org/public-safety/energency-management/",
+      "tribe_ids": [
+        "epa_100000267"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Seneca Nation of Indians",
+      "source_confidence": "high",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Official plan link route found; underlying document did not surface in search result and year remains unknown.",
+      "relationship_evidence": "Official Seneca Nation emergency management page lists a Tribal Hazard Mitigation Plan under documents.",
+      "mime_type": null,
+      "document_url": "https://sni.org/public-safety/energency-management/",
+      "publication_year": null,
+      "date_basis": null,
+      "host_relationship": "Seneca Nation of Indians",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "title": "Shinnecock Indian Nation Climate Change Adaptation Plan",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "Adaptation Clearinghouse identifies Publication Date October 2013 and Tribe as author"
+      ],
+      "document_class": "climate_adaptation_plan",
+      "update_year": null,
+      "id": "D11-C021",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://www.adaptationclearinghouse.org/resources/shinnecock-indian-nation-climate-change-adaptation-plan.html",
+      "tribe_ids": [
+        "epa_100000273"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Shinnecock Indian Nation",
+      "source_confidence": "high",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Plan landing page surfaced; linked report not opened.",
+      "relationship_evidence": "Catalog identifies the Nation as plan author and explicitly dates the document October 2013.",
+      "mime_type": null,
+      "document_url": "https://www.adaptationclearinghouse.org/resources/shinnecock-indian-nation-climate-change-adaptation-plan.html",
+      "publication_year": 2013,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "Shinnecock Indian Nation",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "title": "Shinnecock Indian Nation Climate Vulnerability Assessment and Action Plan",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "Guide lists 2019 CVA and Action Plan",
+        "Data hub says the Nation and PEP conducted risk-based assessment"
+      ],
+      "document_class": "climate_vulnerability_assessment",
+      "update_year": null,
+      "id": "D11-C022",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://tribalclimateguide.uoregon.edu/tribal-adaptation-plans/shinnecock-indian-nation-climate-vulnerability-assessment-and-action-plan",
+      "tribe_ids": [
+        "epa_100000273"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Shinnecock Indian Nation and Peconic Estuary Partnership",
+      "source_confidence": "high",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Guide landing surfaced and links the report; direct report URL was truncated in search output and not resolved in this pass.",
+      "relationship_evidence": "Guide identifies 2019 Climate Vulnerability Assessment and Action Plan; Stony Brook data hub describes Nation partnership and report scope.",
+      "mime_type": null,
+      "document_url": "https://tribalclimateguide.uoregon.edu/tribal-adaptation-plans/shinnecock-indian-nation-climate-vulnerability-assessment-and-action-plan",
+      "publication_year": 2019,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "Shinnecock Indian Nation and Peconic Estuary Partnership",
+      "category": "climate_vulnerability_assessment"
+    },
+    {
+      "title": "Shinnecock Nation Priority Climate Action Plan",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "EPA-hosted PCAP result identifies Nation and plan"
+      ],
+      "document_class": "climate_adaptation_plan",
+      "update_year": null,
+      "id": "D11-C023",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://www.epa.gov/system/files/documents/2024-04/shinnecock-nation-pcap.pdf",
+      "tribe_ids": [
+        "epa_100000273"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Shinnecock Indian Nation",
+      "source_confidence": "high",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Search result identifies April 2024 PCAP; PDF not opened.",
+      "relationship_evidence": "EPA-hosted PCAP names the Nation as issuer.",
+      "mime_type": null,
+      "document_url": "https://www.epa.gov/system/files/documents/2024-04/shinnecock-nation-pcap.pdf",
+      "publication_year": 2024,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "Shinnecock Indian Nation",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "title": "Shoalwater Bay Tribe Climate Resilience Plan (Part III)",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "Official Tribe-hosted Part III Climate Resilience Plan surfaced; series description explicitly links Parts I and II"
+      ],
+      "document_class": "climate_adaptation_plan",
+      "update_year": null,
+      "id": "D11-C024",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://www.shoalwaterbay-nsn.gov/",
+      "tribe_ids": [
+        "epa_100000274"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Shoalwater Bay Indian Tribe",
+      "source_confidence": "high",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Official PDF result gives filename with 2021 date and summarizes plan purpose; not fully harvested.",
+      "relationship_evidence": "Official Tribe-hosted report identifies this as the third/final climate resilience planning report.",
+      "mime_type": null,
+      "document_url": "https://www.shoalwaterbay-nsn.gov/assets/Hidden-Grants-Page/Part-III-Climate-Resilience-Plan_Final-08132021.pdf",
+      "publication_year": 2021,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "Shoalwater Bay Indian Tribe",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "title": "Shoalwater Bay Indian Tribe Part II Climate Vulnerability Assessment",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "Official Tribe-hosted Part II CVA result identifies assessment and key findings"
+      ],
+      "document_class": "climate_vulnerability_assessment",
+      "update_year": null,
+      "id": "D11-C025",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://www.shoalwaterbay-nsn.gov/",
+      "tribe_ids": [
+        "epa_100000274"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Shoalwater Bay Indian Tribe",
+      "source_confidence": "high",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "PDF search result surfaces 2021-dated file and assessment content; PDF not fully harvested.",
+      "relationship_evidence": "Official Tribe-hosted Part II report is explicitly titled Climate Vulnerability Assessment.",
+      "mime_type": null,
+      "document_url": "https://www.shoalwaterbay-nsn.gov/assets/Hidden-Grants-Page/Part-II-Climate-Vulnerability-Assessment_Final-08132021.pdf",
+      "publication_year": 2021,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "Shoalwater Bay Indian Tribe",
+      "category": "climate_vulnerability_assessment"
+    },
+    {
+      "title": "Shoalwater Bay Indian Tribe Multi-Hazard Mitigation Plan 2024–2029",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "Official plan result reports formal adoption and FEMA approval dates"
+      ],
+      "document_class": "hazard_mitigation_or_management_plan",
+      "update_year": null,
+      "id": "D11-C026",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://www.shoalwaterbay-nsn.gov/",
+      "tribe_ids": [
+        "epa_100000274"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Shoalwater Bay Indian Tribe",
+      "source_confidence": "high",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Official PDF result reports effective dates October 7, 2024–October 6, 2029; PDF not fully harvested.",
+      "relationship_evidence": "Official Tribe-hosted plan states Tribal Council adoption October 1, 2024 and FEMA approval October 7, 2024.",
+      "mime_type": null,
+      "document_url": "https://www.shoalwaterbay-nsn.gov/assets/Department-Files/Emergency-Management/SBIT_MHMP_Final_Compressed_10-30-2024.pdf",
+      "publication_year": 2024,
+      "date_basis": "Search result or landing-page text explicitly states this year; source has not been independently reviewed.",
+      "host_relationship": "Shoalwater Bay Indian Tribe",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "title": "Wind River Reservation Regional Hazard Mitigation Plan Annex (Eastern Shoshone)",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:33:15Z",
+      "date_evidence": [
+        "Official Eastern Shoshone page says regional plan update was being finalized",
+        "Tribe-hosted annex filename says DRAFT"
+      ],
+      "document_class": "hazard_mitigation_or_management_plan",
+      "update_year": null,
+      "id": "D11-C027",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://easternshoshone.org/tribal-regional-hazard-mitigation-plan-review/",
+      "tribe_ids": [
+        "epa_100000275"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Eastern Shoshone Tribe and regional partners",
+      "source_confidence": "medium",
+      "access_instructions": "Use the public route; confirm document scope, adoption/status, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Draft annex dated 2023-2028 period but no final adoption or publication year confirmed.",
+      "relationship_evidence": "Tribal page says Region 5 (including Eastern Shoshone Tribe) is finalizing a regional update; annex is explicitly draft.",
+      "mime_type": null,
+      "document_url": "https://easternshoshone.org/wp-content/uploads/2023/04/Wind-River-Reservation-Annex-DRAFT-03-27-23.pdf",
+      "publication_year": null,
+      "date_basis": null,
+      "host_relationship": "Eastern Shoshone Tribe and regional partners",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "id": "D11-C028",
+      "tribe_ids": [
+        "epa_100000253"
+      ],
+      "title": "Samish Indian Nation Climate Resilient Facilities Management Plan",
+      "issuing_body": "Samish Indian Nation (the report names the Nation and its facilities; the official climate resources page lists it under Samish Indian Nation Reports)",
+      "document_class": "climate_adaptation_plan",
+      "category": "climate_adaptation_plan",
+      "canonical_landing_page_url": "https://www.samishtribe.nsn.us/departments/environment/climate-change/climate-change-resources",
+      "document_url": "https://www.samishtribe.nsn.us/docs/default-source/natural-resources-documents/climate-resilient-facilities-mnagement-plan-cover.pdf?sfvrsn=208c6ed9_2",
+      "relationship_evidence": [
+        "Samish Indian Nation (the report names the Nation and its facilities; the official climate resources page lists it under Samish Indian Nation Reports)",
+        "The Samish Indian Nation's official Climate Change Resources page lists this document among Samish Indian Nation Reports and links to the PDF. The PDF names Samish Indian Nation on its title page. The actual source is a 19-page report despite the URL filename ending in -cover.pdf.",
+        "Official Samish climate resources page lists this Nation-specific Climate Resilient Facilities Management Plan; catalog notes the PDF names Samish Indian Nation. Catalog edition status unresolved.",
+        "catalog candidate candidate-68a4020247b038dd; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D11/seed-catalog-check.json",
+        "catalog candidate candidate-68a4020247b038dd; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D11/seed-catalog-check.json and batch seed lookup"
+      ],
+      "host_relationship": "The Samish Indian Nation's official Climate Change Resources page lists this document among Samish Indian Nation Reports and links to the PDF. The PDF names Samish Indian Nation on its title page. The actual source is a 19-page report despite the URL filename ending in -cover.pdf.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": null,
+      "source_access_date": "2026-10-21",
+      "access_outcome": "seed_catalog_metadata_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": "catalog family family-b64a36d7044a6eac; edition/mirror relation unresolved",
+      "source_confidence": "medium",
+      "access_instructions": "Seed-catalog metadata only. Review the linked public source for dates, scope, issuer/adoption, edition, access and redistribution terms before acquisition."
+    },
+    {
+      "id": "D11-C029",
+      "tribe_ids": [
+        "epa_100000253"
+      ],
+      "title": "Hazard Mitigation Plan, Public Review Draft",
+      "issuing_body": "Samish Indian Nation",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "category": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://www.samishtribe.nsn.us/departments/planning/hazard-mitigation-plan",
+      "document_url": "https://www.samishtribe.nsn.us/docs/default-source/planning/hazard-mitigation-plan/samish-indian-nation-hmp-11172020_review_draft.pdf",
+      "relationship_evidence": [
+        "Samish Indian Nation",
+        "Official Tribal planning page links official-hosted PDF",
+        "Official Samish planning page links the Nation-specific Hazard Mitigation Plan, Public Review Draft. Draft status retained; no adoption inferred.",
+        "catalog candidate candidate-7cb3993d92b1dc04; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D11/seed-catalog-check.json",
+        "catalog candidate candidate-7cb3993d92b1dc04; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D11/seed-catalog-check.json and batch seed lookup"
+      ],
+      "host_relationship": "Official Tribal planning page links official-hosted PDF",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": null,
+      "source_access_date": "2026-10-21",
+      "access_outcome": "seed_catalog_metadata_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": "catalog family family-474d8e4f33cde080; edition/mirror relation unresolved",
+      "source_confidence": "medium",
+      "access_instructions": "Seed-catalog metadata only. Review the linked public source for dates, scope, issuer/adoption, edition, access and redistribution terms before acquisition."
+    },
+    {
+      "id": "D11-C030",
+      "tribe_ids": [
+        "epa_100000262"
+      ],
+      "title": "Sauk-Suiattle Indian Tribe Hazard Mitigation Plan (Google Drive filename dated 2025-04-01)",
+      "issuing_body": "Sauk-Suiattle Indian Tribe (official Tribal page attribution; PDF internal issuer pending byte inspection)",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "category": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://www.sauk-suiattle.com/publicsafety",
+      "document_url": "https://drive.usercontent.google.com/download?id=1apEJDqtbACbqTHn1KzwH8H_okcMNtcSo&export=download",
+      "relationship_evidence": [
+        "Sauk-Suiattle Indian Tribe (official Tribal page attribution; PDF internal issuer pending byte inspection)",
+        "Official Tribal Public Safety page links a Google Drive file. Direct anonymous PDF bytes are served by Google Drive usercontent; Google is host, not issuer.",
+        "Official Sauk-Suiattle Public Safety page links the Tribe-attributed plan. Google Drive usercontent is the host, not issuer; filename date not used as document date.",
+        "catalog candidate candidate-2cc0fccec8ceb0a7; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D11/seed-catalog-check.json",
+        "catalog candidate candidate-2cc0fccec8ceb0a7; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D11/seed-catalog-check.json and batch seed lookup"
+      ],
+      "host_relationship": "Official Tribal Public Safety page links a Google Drive file. Direct anonymous PDF bytes are served by Google Drive usercontent; Google is host, not issuer.",
+      "publication_year": 2025,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": "explicit catalog title text only; not independently reviewed in this search sweep",
+      "date_evidence": "Catalog title text: Sauk-Suiattle Indian Tribe Hazard Mitigation Plan (Google Drive filename dated 2025-04-01)",
+      "source_access_date": "2026-10-21",
+      "access_outcome": "seed_catalog_metadata_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": "catalog family family-4d5c8615c792ed06; edition/mirror relation unresolved",
+      "source_confidence": "medium",
+      "access_instructions": "Seed-catalog metadata only. Review the linked public source for dates, scope, issuer/adoption, edition, access and redistribution terms before acquisition."
+    },
+    {
+      "id": "D11-C031",
+      "tribe_ids": [
+        "epa_100000274"
+      ],
+      "title": "Part I: Climate Impacts Assessment",
+      "issuing_body": "Shoalwater Bay Indian Tribe",
+      "document_class": "climate_vulnerability_assessment",
+      "category": "climate_vulnerability_assessment",
+      "canonical_landing_page_url": "https://www.shoalwaterbay-nsn.gov/planning/community-planning/",
+      "document_url": "https://www.shoalwaterbay-nsn.gov/assets/Hidden-Grants-Page/Shoalwater-Bay-Indian-Tribe-Part-I-Climate-Impacts-Assessment_Final-08132021.pdf",
+      "relationship_evidence": [
+        "Shoalwater Bay Indian Tribe",
+        "Official Tribal site hosts Tribe-attributed assessment prepared by Oregon Climate Change Research Institute and Adaptation International",
+        "Official Shoalwater Bay Tribal site hosts a Tribe-attributed Part I Climate Impacts Assessment prepared by OCCRI and Adaptation International. Separate part of a multi-part series.",
+        "catalog candidate candidate-e56ee26f8f8ec759; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D11/seed-catalog-check.json",
+        "catalog candidate candidate-e56ee26f8f8ec759; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D11/seed-catalog-check.json and batch seed lookup"
+      ],
+      "host_relationship": "Official Tribal site hosts Tribe-attributed assessment prepared by Oregon Climate Change Research Institute and Adaptation International",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": null,
+      "source_access_date": "2026-10-21",
+      "access_outcome": "seed_catalog_metadata_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": "catalog family family-4e9b41b816bda34d; edition/mirror relation unresolved",
+      "source_confidence": "medium",
+      "access_instructions": "Seed-catalog metadata only. Review the linked public source for dates, scope, issuer/adoption, edition, access and redistribution terms before acquisition."
+    }
+  ]
+}

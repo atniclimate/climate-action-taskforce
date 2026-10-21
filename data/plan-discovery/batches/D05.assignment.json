@@ -1,0 +1,462 @@
+{
+  "batch_id": "D05",
+  "nations": [
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Ho-Chunk Nation of Wisconsin",
+      "tribe_id": "epa_100000101"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Hoh Indian Tribe",
+      "tribe_id": "epa_100000102"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Hoopa Valley Tribe, California",
+      "tribe_id": "epa_100000103"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Hopi Tribe of Arizona",
+      "tribe_id": "epa_100000104"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Hopland Band of Pomo Indians, California",
+      "tribe_id": "epa_100000105"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Houlton Band of Maliseet Indians",
+      "tribe_id": "epa_100000106"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Hualapai Indian Tribe of the Hualapai Indian Reservation, Arizona",
+      "tribe_id": "epa_100000107"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Iipay Nation of Santa Ysabel, California",
+      "tribe_id": "epa_100000108"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Inaja Band of Diegueno Mission Indians of the Inaja and Cosmit Reservation, California",
+      "tribe_id": "epa_100000109"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Ione Band of Miwok Indians of California",
+      "tribe_id": "epa_100000110"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Iowa Tribe of Kansas and Nebraska",
+      "tribe_id": "epa_100000111"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Iowa Tribe of Oklahoma",
+      "tribe_id": "epa_100000112"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Jackson Band of Miwuk Indians",
+      "tribe_id": "epa_100000113"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Jamestown S'Klallam Tribe",
+      "tribe_id": "epa_100000114"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Jamul Indian Village of California",
+      "tribe_id": "epa_100000115"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Jena Band of Choctaw Indians",
+      "tribe_id": "epa_100000116"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Jicarilla Apache Nation, New Mexico",
+      "tribe_id": "epa_100000117"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Kaibab Band of Paiute Indians of the Kaibab Indian Reservation, Arizona",
+      "tribe_id": "epa_100000118"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Kalispel Indian Community of the Kalispel Reservation",
+      "tribe_id": "epa_100000119"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Karuk Tribe",
+      "tribe_id": "epa_100000120"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Kashia Band of Pomo Indians of the Stewarts Point Rancheria, California",
+      "tribe_id": "epa_100000121"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Kaw Nation, Oklahoma",
+      "tribe_id": "epa_100000122"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Santo Domingo Pueblo",
+      "tribe_id": "epa_100000123"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Keweenaw Bay Indian Community, Michigan",
+      "tribe_id": "epa_100000124"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Kialegee Tribal Town",
+      "tribe_id": "epa_100000125"
+    }
+  ],
+  "ordinal_end": 125,
+  "ordinal_start": 101,
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning_effort": "high",
+  "schema_version": "catf-plan-discovery-assignment.v1",
+  "source_registry_sha256": "5db8f52cf44d3a3853f8403cd6dc845a59088f07f42b40a3488575b5cbe7cece",
+  "status": "not_started"
+}

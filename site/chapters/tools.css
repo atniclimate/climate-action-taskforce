@@ -1,0 +1,132 @@
+/* Presenter slide layouts and chapter styles for chapters/tools.js. Loaded after styles.css. */
+
+/* Shared compact strips for the tool chapters. */
+body[data-mode="presenter"] :is(#tools,#policy-demo,#ddm,#sovereignty,#development) .notice{padding:.75rem 1rem;margin-bottom:0}
+body[data-mode="presenter"] :is(.policy-access,.ddm-limits,.tsdf-sharing) .notice{margin:0}
+/* A hidden lead must not leave its gap above the first block shown on a slide. */
+body[data-mode="presenter"] :is(#policy-demo,#ddm,#sovereignty,#development,#resources) .chapter-content>:not([data-slide-off]):not(:not([data-slide-off]) ~ *){margin-top:0}
+body[data-mode="presenter"] :is(#policy-demo,#ddm) .tool-link{margin:0}
+:is(#policy-demo,#ddm,#sovereignty) .tool-link>a{flex:none}
+body[data-mode="presenter"] :is(#policy-demo,#ddm) .tool-link .qr{width:8rem}
+body[data-mode="presenter"] :is(#policy-demo,#ddm) .tool-link p{margin:0 0 .35rem}
+body[data-mode="presenter"] #policy-demo .tool-link{flex-direction:column;align-items:flex-start}
+body[data-mode="presenter"] #policy-demo .tool-link .qr{width:11rem}
+
+/* Tools: one column per tool. */
+body[data-mode="presenter"] #tools .resource-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-l);margin-bottom:0;border-top:0}
+body[data-mode="presenter"] #tools .resource-row{grid-template-columns:1.5rem minmax(0,1fr);grid-template-rows:1fr auto;gap:.5rem .75rem;padding:var(--space-s) 0 0;border-bottom:0;border-top:2px solid var(--accent)}
+body[data-mode="presenter"] #tools .resource-row .ordinal{font-size:var(--type-lead);line-height:1.3;margin:0}
+body[data-mode="presenter"] #tools .resource-row h2{font-size:var(--type-lead);line-height:1.3;margin-bottom:.5rem}
+body[data-mode="presenter"] #tools .resource-row>a{grid-column:2;justify-self:start}
+
+/* Policy walkthrough: step text and controls beside one selected illustrated panel. */
+.policy-demo-caption{border-top:0}
+#policy-demo .policy-demo-caption{padding:0;margin-top:var(--space-s)}
+.policy-access{margin-top:var(--space-xl)}
+body[data-mode="presenter"] #policy-demo .demo{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);grid-template-rows:auto 1fr;column-gap:var(--space-l);align-items:start;padding:var(--space-s) 1rem}
+body[data-mode="presenter"] #policy-demo .demo-body{display:contents}
+body[data-mode="presenter"] #policy-demo .demo-toolbar{grid-column:1;grid-row:1;padding:0 0 .75rem;border:0;background:none}
+body[data-mode="presenter"] #policy-demo .policy-step-side{grid-column:1;grid-row:2}
+body[data-mode="presenter"] #policy-demo .demo-screen{grid-column:2;grid-row:1 / -1}
+body[data-mode="presenter"] #policy-demo .demo-body>div:first-child{max-width:none}
+body[data-mode="presenter"] #policy-demo .policy-step-intro h2{font-size:var(--type-lead);line-height:1.3;margin-bottom:.5rem}
+body[data-mode="presenter"] #policy-demo .policy-step-intro p{margin:0}
+body[data-mode="presenter"] #policy-demo .policy-step-controls{gap:.5rem;margin:.75rem 0;padding:0}
+body[data-mode="presenter"] #policy-demo .policy-step-controls button{flex:0 1 auto;padding:.6rem .9rem}
+body[data-mode="presenter"] #policy-demo .policy-pane-selector{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:.25rem .75rem;padding:0;margin:0}
+body[data-mode="presenter"] #policy-demo .policy-pane-selector select{width:100%}
+body[data-mode="presenter"] #policy-demo .policy-pane-selector .caption{grid-column:1 / -1;margin:0}
+body[data-mode="presenter"] #policy-demo .demo-screen{margin:0}
+body[data-mode="presenter"] #policy-demo .policy-appbar{padding:.5rem 1rem;flex-direction:row;align-items:center}
+body[data-mode="presenter"] #policy-demo .policy-columns{display:block}
+body[data-mode="presenter"] #policy-demo .policy-pane{display:none;border:0;padding:.75rem 1rem}
+body[data-mode="presenter"] #policy-demo .demo-screen[data-focus-pane="sources"] .policy-pane[data-pane="sources"],
+body[data-mode="presenter"] #policy-demo .demo-screen[data-focus-pane="results"] .policy-pane[data-pane="results"],
+body[data-mode="presenter"] #policy-demo .demo-screen[data-focus-pane="issues"] .policy-pane[data-pane="issues"],
+body[data-mode="presenter"] #policy-demo .demo-screen[data-focus-pane="report"] .policy-pane[data-pane="report"]{display:block}
+body[data-mode="presenter"] #policy-demo .policy-pane-heading{display:flex;align-items:baseline;justify-content:space-between;gap:var(--space-s)}
+body[data-mode="presenter"] #policy-demo .policy-current{margin:0}
+body[data-mode="presenter"] #policy-demo .policy-pane h3{margin-bottom:.5rem}
+body[data-mode="presenter"] #policy-demo .policy-pane :is(p,blockquote,ul,dl,.demo-field,.policy-tabs,.policy-field){margin-top:0;margin-bottom:.5rem}
+body[data-mode="presenter"] #policy-demo .policy-pane .policy-pane-context{display:none}
+body[data-mode="presenter"] #policy-demo .policy-source-list{display:flex;flex-wrap:wrap;gap:.25rem 1.25rem}
+body[data-mode="presenter"] #policy-demo .policy-source-list li{border:0;padding:0}
+body[data-mode="presenter"] #policy-demo .policy-source-list span{display:inline;margin-left:.4rem}
+body[data-mode="presenter"] #policy-demo .policy-tabs{padding:.35rem 0}
+body[data-mode="presenter"] #policy-demo .demo-modal,body[data-mode="presenter"] #policy-demo .demo-paper{padding:.75rem 1rem}
+body[data-mode="presenter"] #policy-demo .demo-paper hr{margin:.5rem 0}
+body[data-mode="presenter"] #policy-demo .demo-record dd{margin-bottom:.35rem}
+body[data-mode="presenter"] #policy-demo .demo-highlight{padding:.4rem .75rem}
+body[data-mode="presenter"] #policy-demo .demo-screen textarea{display:block;width:100%;margin-top:.25rem}
+body[data-mode="presenter"] #policy-demo .policy-footer{padding:.5rem 1rem;font-family:var(--body)}
+.policy-route{margin:0 0 var(--space-m);padding-left:1.25em}
+.policy-route li{margin-bottom:.35rem}
+body[data-mode="presenter"] #policy-demo .policy-access{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:var(--space-xl);align-items:start}
+body[data-mode="presenter"] #policy-demo .policy-access h2{font-size:var(--type-section)}
+
+/* DDM: the dated still beside its caption and reading guide; lane limits as four columns. */
+body[data-mode="presenter"] #ddm .ddm-overview{grid-template-columns:auto minmax(0,1fr);grid-template-rows:auto 1fr;gap:var(--space-s) var(--space-l);margin-bottom:0}
+body[data-mode="presenter"] #ddm .ddm-overview .wide-figure{grid-column:1 / -1;grid-row:1 / -1;display:grid;grid-template-columns:subgrid;grid-template-rows:subgrid;margin:0}
+body[data-mode="presenter"] #ddm .wide-figure>a{grid-column:1;grid-row:1 / -1}
+body[data-mode="presenter"] #ddm .wide-figure img{height:min(24rem,39vh);width:auto;max-width:none}
+body[data-mode="presenter"] #ddm .wide-figure figcaption{grid-column:2;grid-row:1;margin:0;color:#d9e0e6}
+body[data-mode="presenter"] #ddm .ddm-reading-guide{grid-column:2;grid-row:2;padding-top:var(--space-s)}
+body[data-mode="presenter"] #ddm .ddm-reading-guide h2{font-size:var(--type-lead);margin-bottom:.25rem}
+body[data-mode="presenter"] #ddm .ddm-reading-guide .compact-steps{margin:.5rem 0}
+body[data-mode="presenter"] #ddm .ddm-reading-guide .compact-steps li{margin:.25rem 0}
+body[data-mode="presenter"] #ddm .ddm-reading-guide .caption{margin:0}
+.ddm-lanes>.caption{margin-bottom:0}
+.ddm-lane-list{list-style:none;padding:0;margin:var(--space-s) 0 0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--space-m)}
+.ddm-lane-list li{margin:0;padding-top:.75rem;border-top:2px solid var(--accent)}
+.ddm-lane-list h3{font-size:var(--type-lead);margin:0 0 .35rem}
+.ddm-lane-list p{font-size:var(--type-note);line-height:1.5;margin:0 0 .5rem}
+.ddm-lane-list .ddm-lane-products{color:#bcc5ce}
+body[data-mode="presenter"] #ddm .ddm-limits{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:var(--space-l);align-items:center}
+@media(max-width:1050px){.ddm-lane-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.ddm-lane-list{grid-template-columns:1fr}}
+
+/* TSDF slide 1: ring diagram beside the four tiers, protective default and attribution. */
+body[data-mode="presenter"] #sovereignty .tsdf-overview{grid-template-columns:18rem minmax(0,1fr);gap:var(--space-l);margin-bottom:0}
+/* Larger ring labels; the name stays clear of the code within each band. */
+#sovereignty .tsdf-ring-code{font-size:20px}
+#sovereignty .tsdf-ring-name{font-size:15px}
+body[data-mode="presenter"] #sovereignty .tsdf-tiers{gap:.25rem;margin-bottom:.6rem}
+body[data-mode="presenter"] #sovereignty .tsdf-tiers li{grid-template-columns:9.5rem minmax(0,1fr);gap:var(--space-s);padding:.2rem 0 .2rem .75rem}
+body[data-mode="presenter"] #sovereignty .tsdf-overview .caption{margin:0 0 .5rem}
+
+/* TSDF slide 2: one open domain at a time; its question opens in a reserved band under the row. */
+body[data-mode="presenter"] #sovereignty .tsdf-domains-title{font-size:var(--type-lead);margin:0 0 .25rem}
+body[data-mode="presenter"] #sovereignty .tsdf-authority>.caption{margin:0}
+body[data-mode="presenter"] #sovereignty .sovereignty-domains{position:relative;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--space-m);margin:var(--space-s) 0 0;padding-bottom:5.5rem}
+body[data-mode="presenter"] #sovereignty .sovereignty-domains>.domain-detail{padding-top:.75rem}
+body[data-mode="presenter"] #sovereignty .domain-detail summary{font-size:var(--type-lead);cursor:pointer}
+body[data-mode="presenter"] #sovereignty .domain-detail[open]{border-top-color:var(--interactive)}
+body[data-mode="presenter"] #sovereignty .domain-detail[open] summary{margin:0;color:var(--interactive)}
+body[data-mode="presenter"] #sovereignty .domain-body{position:absolute;left:0;right:0;bottom:0;height:5rem}
+body[data-mode="presenter"] #sovereignty .domain-body p{margin:0 0 .25rem;max-width:none}
+body[data-mode="presenter"] #sovereignty .tsdf-sharing{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:var(--space-l);align-items:start}
+body[data-mode="presenter"] #sovereignty .tsdf-sharing .large-statement{font-size:var(--type-section);margin:0 0 .5rem}
+body[data-mode="presenter"] #sovereignty .tsdf-sharing p{margin-bottom:0}
+
+/* Development: three rows per slide; caption and boundary repeat on both. */
+body[data-mode="presenter"] #development .table-scroll{margin-bottom:0}
+body[data-mode="presenter"] #development .development-table caption{font:var(--type-note)/1.5 var(--body);margin-bottom:.5rem;color:#d9e0e6}
+body[data-mode="presenter"] #development .development-table :is(th,td){padding:.6rem 1rem .6rem 0}
+/* Fixed columns so both three-row slides share one grid. */
+body[data-mode="presenter"] #development .development-table{table-layout:fixed}
+body[data-mode="presenter"] #development .development-table thead th:nth-child(1){width:17%}
+body[data-mode="presenter"] #development .development-table thead th:nth-child(2){width:33%}
+body[data-mode="presenter"] #development .development-table thead th:nth-child(3){width:23%}
+
+/* Resources: three library columns, then the decision prompts beside the closing statement. */
+body[data-mode="presenter"] #resources .resource-library{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-l);margin-bottom:0;border-top:0}
+body[data-mode="presenter"] #resources .resource-library .resource-row{display:block;padding:var(--space-s) 0 0;border-bottom:0;border-top:2px solid var(--accent)}
+body[data-mode="presenter"] #resources .resource-row h2{font-size:var(--type-lead);margin-bottom:.5rem}
+body[data-mode="presenter"] #resources .resource-row .caption{margin-bottom:.5rem}
+body[data-mode="presenter"] #resources .resources-decision{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:var(--space-xl);align-items:start}
+body[data-mode="presenter"] #resources .next-actions{margin:0;padding-top:var(--space-s)}
+body[data-mode="presenter"] #resources .resources-closing{padding-top:var(--space-s);border-top:3px solid #4a535d}
+body[data-mode="presenter"] #resources .resources-closing .large-statement{font-size:var(--type-section);margin:0 0 var(--space-s)}
+#sovereignty .tsdf-overview .caption:not(.tsdf-attribution){color:#e8ecf0}
+/* Integrator: tool status lines read as one quiet line, not wrapped capitals. */
+#tools .status{text-transform:none;letter-spacing:.01em;font-size:.875rem;line-height:1.4}

@@ -1,0 +1,2084 @@
+{
+  "schema_version": "catf-plan-discovery-results.v1",
+  "batch_id": "D02",
+  "source_registry_sha256": "5db8f52cf44d3a3853f8403cd6dc845a59088f07f42b40a3488575b5cbe7cece",
+  "searched_at": "2026-10-21T12:13:55Z",
+  "nation_searches": [
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000026",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Cachil DeHe Band of Wintun Indians of the Colusa Indian Community of the Colusa Rancheria, California\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Cachil DeHe Band of Wintun Indians of the Colusa Indian Community of the Colusa Rancheria, California\" climate vulnerability assessment",
+        "\"Cachil DeHe Band of Wintun Indians of the Colusa Indian Community of the Colusa Rancheria, California\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Cachil DeHe Band of Wintun Indians of the Colusa Indian Community of the Colusa Rancheria, California",
+      "batch_id": "D02",
+      "candidate_ids": [
+        "D02-C006"
+      ],
+      "source_domains": [
+        "www.countyofcolusaca.gov"
+      ],
+      "outcome": "found",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cachil DeHe Band of Wintun Indians of the Colusa Indian Community of the Colusa Rancheria, California\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cachil DeHe Band of Wintun Indians of the Colusa Indian Community of the Colusa Rancheria, California\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cachil DeHe Band of Wintun Indians of the Colusa Indian Community of the Colusa Rancheria, California\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cachil DeHe Band of Wintun Indians of the Colusa Indian Community of the Colusa Rancheria, California\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "found",
+          "limitations": "Search-result and landing-page evidence only; no full document was harvested. Dates, adoption, scope, access, and redistribution terms remain unverified except where stated in the candidate note.",
+          "query": "\"Cachil DeHe Band of Wintun Indians of the Colusa Indian Community of the Colusa Rancheria, California\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [
+            "D02-C006"
+          ],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [
+                {
+                  "disposition": "2024 update planning-process appendix surfaced; result describes development, not a verified final/adopted plan. Tribe-specific chapter or approval not reviewed.",
+                  "url": "https://www.countyofcolusaca.gov/DocumentCenter/View/18579/Colusa-County-LHMP-Update-Appendix-A-Planning-Process"
+                }
+              ],
+              "query": "\"Cachil DeHe Band of Wintun Indians of the Colusa Indian Community of the Colusa Rancheria, California\" hazard mitigation plan OR emergency management plan",
+              "disposition": "candidate_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000027",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Caddo Nation of Oklahoma\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Caddo Nation of Oklahoma\" climate vulnerability assessment",
+        "\"Caddo Nation of Oklahoma\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Caddo Nation of Oklahoma",
+      "batch_id": "D02",
+      "candidate_ids": [],
+      "source_domains": [],
+      "outcome": "no_matching_public_document_located",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Caddo Nation of Oklahoma\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Caddo Nation of Oklahoma\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Caddo Nation of Oklahoma\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Caddo Nation of Oklahoma\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Caddo Nation of Oklahoma\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Caddo Nation of Oklahoma\" hazard mitigation plan OR emergency management plan",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000028",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Cahuilla Band of Indians\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Cahuilla Band of Indians\" climate vulnerability assessment",
+        "\"Cahuilla Band of Indians\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Cahuilla Band of Indians",
+      "batch_id": "D02",
+      "candidate_ids": [],
+      "source_domains": [],
+      "outcome": "no_matching_public_document_located",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cahuilla Band of Indians\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cahuilla Band of Indians\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cahuilla Band of Indians\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cahuilla Band of Indians\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cahuilla Band of Indians\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cahuilla Band of Indians\" hazard mitigation plan OR emergency management plan",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000029",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Cahto Tribe of the Laytonville Rancheria\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Cahto Tribe of the Laytonville Rancheria\" climate vulnerability assessment",
+        "\"Cahto Tribe of the Laytonville Rancheria\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Cahto Tribe of the Laytonville Rancheria",
+      "batch_id": "D02",
+      "candidate_ids": [],
+      "source_domains": [],
+      "outcome": "no_matching_public_document_located",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cahto Tribe of the Laytonville Rancheria\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cahto Tribe of the Laytonville Rancheria\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cahto Tribe of the Laytonville Rancheria\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cahto Tribe of the Laytonville Rancheria\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cahto Tribe of the Laytonville Rancheria\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cahto Tribe of the Laytonville Rancheria\" hazard mitigation plan OR emergency management plan",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000030",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"California Valley Miwok Tribe, California\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"California Valley Miwok Tribe, California\" climate vulnerability assessment",
+        "\"California Valley Miwok Tribe, California\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "California Valley Miwok Tribe, California",
+      "batch_id": "D02",
+      "candidate_ids": [],
+      "source_domains": [],
+      "outcome": "no_matching_public_document_located",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"California Valley Miwok Tribe, California\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"California Valley Miwok Tribe, California\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"California Valley Miwok Tribe, California\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"California Valley Miwok Tribe, California\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"California Valley Miwok Tribe, California\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"California Valley Miwok Tribe, California\" hazard mitigation plan OR emergency management plan",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000031",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Campo Band of Diegueno Mission Indians of the Campo Indian Reservation, California\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Campo Band of Diegueno Mission Indians of the Campo Indian Reservation, California\" climate vulnerability assessment",
+        "\"Campo Band of Diegueno Mission Indians of the Campo Indian Reservation, California\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Campo Band of Diegueno Mission Indians of the Campo Indian Reservation, California",
+      "batch_id": "D02",
+      "candidate_ids": [],
+      "source_domains": [],
+      "outcome": "no_matching_public_document_located",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Campo Band of Diegueno Mission Indians of the Campo Indian Reservation, California\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Campo Band of Diegueno Mission Indians of the Campo Indian Reservation, California\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Campo Band of Diegueno Mission Indians of the Campo Indian Reservation, California\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Campo Band of Diegueno Mission Indians of the Campo Indian Reservation, California\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Campo Band of Diegueno Mission Indians of the Campo Indian Reservation, California\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Campo Band of Diegueno Mission Indians of the Campo Indian Reservation, California\" hazard mitigation plan OR emergency management plan",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000032",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Capitan Grande Band of Diegueno Mission Indians of California (Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation, California; Viejas (Baron Long) Group of Capitan Grande Band of Mission Indians of the Viejas Reservation, California)\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Capitan Grande Band of Diegueno Mission Indians of California (Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation, California; Viejas (Baron Long) Group of Capitan Grande Band of Mission Indians of the Viejas Reservation, California)\" climate vulnerability assessment",
+        "\"Capitan Grande Band of Diegueno Mission Indians of California (Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation, California; Viejas (Baron Long) Group of Capitan Grande Band of Mission Indians of the Viejas Reservation, California)\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Capitan Grande Band of Diegueno Mission Indians of California (Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation, California; Viejas (Baron Long) Group of Capitan Grande Band of Mission Indians of the Viejas Reservation, California)",
+      "batch_id": "D02",
+      "candidate_ids": [
+        "D02-C007"
+      ],
+      "source_domains": [
+        "www.energy.gov"
+      ],
+      "outcome": "found",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Capitan Grande Band of Diegueno Mission Indians of California (Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation, California; Viejas (Baron Long) Group of Capitan Grande Band of Mission Indians of the Viejas Reservation, California)\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Capitan Grande Band of Diegueno Mission Indians of California (Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation, California; Viejas (Baron Long) Group of Capitan Grande Band of Mission Indians of the Viejas Reservation, California)\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Capitan Grande Band of Diegueno Mission Indians of California (Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation, California; Viejas (Baron Long) Group of Capitan Grande Band of Mission Indians of the Viejas Reservation, California)\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Capitan Grande Band of Diegueno Mission Indians of California (Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation, California; Viejas (Baron Long) Group of Capitan Grande Band of Mission Indians of the Viejas Reservation, California)\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "found",
+          "limitations": "Search-result and landing-page evidence only; no full document was harvested. Dates, adoption, scope, access, and redistribution terms remain unverified except where stated in the candidate note.",
+          "query": "\"Capitan Grande Band of Diegueno Mission Indians of California (Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation, California; Viejas (Baron Long) Group of Capitan Grande Band of Mission Indians of the Viejas Reservation, California)\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [
+            "D02-C007"
+          ],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [
+                {
+                  "disposition": "Official DOE project page confirms a Tribe-developed HMP but does not link or title the plan; plan metadata remain unverified.",
+                  "url": "https://www.energy.gov/indianenergy/barona-group-capitan-grande-band-mission-indians-barona-reservation-2022-project"
+                }
+              ],
+              "query": "\"Capitan Grande Band of Diegueno Mission Indians of California (Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation, California; Viejas (Baron Long) Group of Capitan Grande Band of Mission Indians of the Viejas Reservation, California)\" hazard mitigation plan OR emergency management plan",
+              "disposition": "candidate_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000033",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Catawba Indian Nation\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Catawba Indian Nation\" climate vulnerability assessment",
+        "\"Catawba Indian Nation\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Catawba Indian Nation",
+      "batch_id": "D02",
+      "candidate_ids": [
+        "D02-C001"
+      ],
+      "source_domains": [
+        "www.epa.gov"
+      ],
+      "outcome": "found",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "found",
+          "limitations": "Search-result and landing-page evidence only; no full document was harvested. Dates, adoption, scope, access, and redistribution terms remain unverified except where stated in the candidate note.",
+          "query": "\"Catawba Indian Nation\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [
+            "D02-C001"
+          ],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [
+                {
+                  "disposition": "EPA-hosted PCAP surfaced; PDF not opened and adoption details not independently checked.",
+                  "url": "https://www.epa.gov/system/files/documents/2024-04/catawba-nation-pcap.pdf"
+                }
+              ],
+              "query": "\"Catawba Indian Nation\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "candidate_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Catawba Indian Nation\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Catawba Indian Nation\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Catawba Indian Nation\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Catawba Indian Nation\" hazard mitigation plan OR emergency management plan",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000034",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Cayuga Nation\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Cayuga Nation\" climate vulnerability assessment",
+        "\"Cayuga Nation\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Cayuga Nation",
+      "batch_id": "D02",
+      "candidate_ids": [],
+      "source_domains": [],
+      "outcome": "no_matching_public_document_located",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cayuga Nation\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cayuga Nation\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cayuga Nation\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cayuga Nation\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cayuga Nation\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cayuga Nation\" hazard mitigation plan OR emergency management plan",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000035",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Cedarville Rancheria, California\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Cedarville Rancheria, California\" climate vulnerability assessment",
+        "\"Cedarville Rancheria, California\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Cedarville Rancheria, California",
+      "batch_id": "D02",
+      "candidate_ids": [],
+      "source_domains": [],
+      "outcome": "no_matching_public_document_located",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cedarville Rancheria, California\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cedarville Rancheria, California\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cedarville Rancheria, California\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cedarville Rancheria, California\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cedarville Rancheria, California\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cedarville Rancheria, California\" hazard mitigation plan OR emergency management plan",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000036",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Chemehuevi Indian Tribe of the Chemehuevi Reservation, California\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Chemehuevi Indian Tribe of the Chemehuevi Reservation, California\" climate vulnerability assessment",
+        "\"Chemehuevi Indian Tribe of the Chemehuevi Reservation, California\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Chemehuevi Indian Tribe of the Chemehuevi Reservation, California",
+      "batch_id": "D02",
+      "candidate_ids": [
+        "D02-C008"
+      ],
+      "source_domains": [
+        "chemehuevi.org"
+      ],
+      "outcome": "found",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Chemehuevi Indian Tribe of the Chemehuevi Reservation, California\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Chemehuevi Indian Tribe of the Chemehuevi Reservation, California\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Chemehuevi Indian Tribe of the Chemehuevi Reservation, California\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Chemehuevi Indian Tribe of the Chemehuevi Reservation, California\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "found",
+          "limitations": "Search-result and landing-page evidence only; no full document was harvested. Dates, adoption, scope, access, and redistribution terms remain unverified except where stated in the candidate note.",
+          "query": "\"Chemehuevi Indian Tribe of the Chemehuevi Reservation, California\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [
+            "D02-C008"
+          ],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [
+                {
+                  "disposition": "Official Tribal page provides plan overview; separate plan PDF, dates, and adoption instrument not located in this pass.",
+                  "url": "https://chemehuevi.org/emergency-preparedness"
+                }
+              ],
+              "query": "\"Chemehuevi Indian Tribe of the Chemehuevi Reservation, California\" hazard mitigation plan OR emergency management plan",
+              "disposition": "candidate_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000037",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Cher-Ae Heights Indian Community of the Trinidad Rancheria, California\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Cher-Ae Heights Indian Community of the Trinidad Rancheria, California\" climate vulnerability assessment",
+        "\"Cher-Ae Heights Indian Community of the Trinidad Rancheria, California\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Cher-Ae Heights Indian Community of the Trinidad Rancheria, California",
+      "batch_id": "D02",
+      "candidate_ids": [
+        "D02-C009"
+      ],
+      "source_domains": [
+        "trinidad-rancheria.org"
+      ],
+      "outcome": "found",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cher-Ae Heights Indian Community of the Trinidad Rancheria, California\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cher-Ae Heights Indian Community of the Trinidad Rancheria, California\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cher-Ae Heights Indian Community of the Trinidad Rancheria, California\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cher-Ae Heights Indian Community of the Trinidad Rancheria, California\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "found",
+          "limitations": "Search-result and landing-page evidence only; no full document was harvested. Dates, adoption, scope, access, and redistribution terms remain unverified except where stated in the candidate note.",
+          "query": "\"Cher-Ae Heights Indian Community of the Trinidad Rancheria, California\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [
+            "D02-C009"
+          ],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [
+                {
+                  "disposition": "Draft plan dated in filename 2024-12-16 and identified as draft; adoption not established.",
+                  "url": "https://trinidad-rancheria.org/news-announcements/"
+                }
+              ],
+              "query": "\"Cher-Ae Heights Indian Community of the Trinidad Rancheria, California\" hazard mitigation plan OR emergency management plan",
+              "disposition": "candidate_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000038",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Cherokee Nation\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Cherokee Nation\" climate vulnerability assessment",
+        "\"Cherokee Nation\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Cherokee Nation",
+      "batch_id": "D02",
+      "candidate_ids": [],
+      "source_domains": [],
+      "outcome": "no_matching_public_document_located",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cherokee Nation\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cherokee Nation\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cherokee Nation\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cherokee Nation\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cherokee Nation\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cherokee Nation\" hazard mitigation plan OR emergency management plan",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000039",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Cheyenne and Arapaho Tribes, Oklahoma\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Cheyenne and Arapaho Tribes, Oklahoma\" climate vulnerability assessment",
+        "\"Cheyenne and Arapaho Tribes, Oklahoma\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Cheyenne and Arapaho Tribes, Oklahoma",
+      "batch_id": "D02",
+      "candidate_ids": [],
+      "source_domains": [],
+      "outcome": "no_matching_public_document_located",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cheyenne and Arapaho Tribes, Oklahoma\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cheyenne and Arapaho Tribes, Oklahoma\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cheyenne and Arapaho Tribes, Oklahoma\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cheyenne and Arapaho Tribes, Oklahoma\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cheyenne and Arapaho Tribes, Oklahoma\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cheyenne and Arapaho Tribes, Oklahoma\" hazard mitigation plan OR emergency management plan",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000040",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Cheyenne River Sioux Tribe of the Cheyenne River Reservation, South Dakota\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Cheyenne River Sioux Tribe of the Cheyenne River Reservation, South Dakota\" climate vulnerability assessment",
+        "\"Cheyenne River Sioux Tribe of the Cheyenne River Reservation, South Dakota\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Cheyenne River Sioux Tribe of the Cheyenne River Reservation, South Dakota",
+      "batch_id": "D02",
+      "candidate_ids": [],
+      "source_domains": [],
+      "outcome": "no_matching_public_document_located",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cheyenne River Sioux Tribe of the Cheyenne River Reservation, South Dakota\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cheyenne River Sioux Tribe of the Cheyenne River Reservation, South Dakota\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cheyenne River Sioux Tribe of the Cheyenne River Reservation, South Dakota\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cheyenne River Sioux Tribe of the Cheyenne River Reservation, South Dakota\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cheyenne River Sioux Tribe of the Cheyenne River Reservation, South Dakota\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cheyenne River Sioux Tribe of the Cheyenne River Reservation, South Dakota\" hazard mitigation plan OR emergency management plan",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000041",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"The Chickasaw Nation\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"The Chickasaw Nation\" climate vulnerability assessment",
+        "\"The Chickasaw Nation\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "The Chickasaw Nation",
+      "batch_id": "D02",
+      "candidate_ids": [],
+      "source_domains": [],
+      "outcome": "no_matching_public_document_located",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"The Chickasaw Nation\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"The Chickasaw Nation\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"The Chickasaw Nation\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"The Chickasaw Nation\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"The Chickasaw Nation\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"The Chickasaw Nation\" hazard mitigation plan OR emergency management plan",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000042",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Chicken Ranch Rancheria of Me-Wuk Indians of California\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Chicken Ranch Rancheria of Me-Wuk Indians of California\" climate vulnerability assessment",
+        "\"Chicken Ranch Rancheria of Me-Wuk Indians of California\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Chicken Ranch Rancheria of Me-Wuk Indians of California",
+      "batch_id": "D02",
+      "candidate_ids": [],
+      "source_domains": [],
+      "outcome": "no_matching_public_document_located",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Chicken Ranch Rancheria of Me-Wuk Indians of California\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Chicken Ranch Rancheria of Me-Wuk Indians of California\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Chicken Ranch Rancheria of Me-Wuk Indians of California\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Chicken Ranch Rancheria of Me-Wuk Indians of California\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Chicken Ranch Rancheria of Me-Wuk Indians of California\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Chicken Ranch Rancheria of Me-Wuk Indians of California\" hazard mitigation plan OR emergency management plan",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000043",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Chippewa Cree Indians of the Rocky Boy's Reservation, Montana\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Chippewa Cree Indians of the Rocky Boy's Reservation, Montana\" climate vulnerability assessment",
+        "\"Chippewa Cree Indians of the Rocky Boy's Reservation, Montana\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Chippewa Cree Indians of the Rocky Boy's Reservation, Montana",
+      "batch_id": "D02",
+      "candidate_ids": [
+        "D02-C002"
+      ],
+      "source_domains": [
+        "www.epa.gov"
+      ],
+      "outcome": "found",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "found",
+          "limitations": "Search-result and landing-page evidence only; no full document was harvested. Dates, adoption, scope, access, and redistribution terms remain unverified except where stated in the candidate note.",
+          "query": "\"Chippewa Cree Indians of the Rocky Boy's Reservation, Montana\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [
+            "D02-C002"
+          ],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [
+                {
+                  "disposition": "EPA-hosted PCAP surfaced; PDF not opened.",
+                  "url": "https://www.epa.gov/system/files/documents/2024-04/chippewa-cree-pcap.pdf"
+                }
+              ],
+              "query": "\"Chippewa Cree Indians of the Rocky Boy's Reservation, Montana\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "candidate_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Chippewa Cree Indians of the Rocky Boy's Reservation, Montana\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Chippewa Cree Indians of the Rocky Boy's Reservation, Montana\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Chippewa Cree Indians of the Rocky Boy's Reservation, Montana\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Chippewa Cree Indians of the Rocky Boy's Reservation, Montana\" hazard mitigation plan OR emergency management plan",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000044",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Chitimacha Tribe of Louisiana\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Chitimacha Tribe of Louisiana\" climate vulnerability assessment",
+        "\"Chitimacha Tribe of Louisiana\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Chitimacha Tribe of Louisiana",
+      "batch_id": "D02",
+      "candidate_ids": [],
+      "source_domains": [],
+      "outcome": "no_matching_public_document_located",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Chitimacha Tribe of Louisiana\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Chitimacha Tribe of Louisiana\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Chitimacha Tribe of Louisiana\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Chitimacha Tribe of Louisiana\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Chitimacha Tribe of Louisiana\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Chitimacha Tribe of Louisiana\" hazard mitigation plan OR emergency management plan",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000045",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"The Choctaw Nation of Oklahoma\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"The Choctaw Nation of Oklahoma\" climate vulnerability assessment",
+        "\"The Choctaw Nation of Oklahoma\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "The Choctaw Nation of Oklahoma",
+      "batch_id": "D02",
+      "candidate_ids": [
+        "D02-C003",
+        "D02-C010"
+      ],
+      "source_domains": [
+        "www.choctawnation.com"
+      ],
+      "outcome": "found",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "found",
+          "limitations": "Search-result and landing-page evidence only; no full document was harvested. Dates, adoption, scope, access, and redistribution terms remain unverified except where stated in the candidate note.",
+          "query": "\"The Choctaw Nation of Oklahoma\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [
+            "D02-C003"
+          ],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [
+                {
+                  "disposition": "Official Nation-hosted PCAP surfaced; PDF not opened.",
+                  "url": "https://www.choctawnation.com/wp-content/uploads/2025/05/priority-climate-action-plan.pdf"
+                }
+              ],
+              "query": "\"The Choctaw Nation of Oklahoma\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "candidate_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"The Choctaw Nation of Oklahoma\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"The Choctaw Nation of Oklahoma\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "found",
+          "limitations": "Search-result and landing-page evidence only; no full document was harvested. Dates, adoption, scope, access, and redistribution terms remain unverified except where stated in the candidate note.",
+          "query": "\"The Choctaw Nation of Oklahoma\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [
+            "D02-C010"
+          ],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [
+                {
+                  "disposition": "Official approval/adoption bill surfaced, not the plan text. Whether the bill passed and the plan was adopted is unverified.",
+                  "url": "https://www.choctawnation.com/wp-content/uploads/2025/05/cb-66-25.pdf"
+                }
+              ],
+              "query": "\"The Choctaw Nation of Oklahoma\" hazard mitigation plan OR emergency management plan",
+              "disposition": "candidate_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000046",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Citizen Potawatomi Nation, Oklahoma\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Citizen Potawatomi Nation, Oklahoma\" climate vulnerability assessment",
+        "\"Citizen Potawatomi Nation, Oklahoma\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Citizen Potawatomi Nation, Oklahoma",
+      "batch_id": "D02",
+      "candidate_ids": [
+        "D02-C004"
+      ],
+      "source_domains": [
+        "tribalresilienceactions.org"
+      ],
+      "outcome": "found",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Citizen Potawatomi Nation, Oklahoma\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Citizen Potawatomi Nation, Oklahoma\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "found",
+          "limitations": "Search-result and landing-page evidence only; no full document was harvested. Dates, adoption, scope, access, and redistribution terms remain unverified except where stated in the candidate note.",
+          "query": "\"Citizen Potawatomi Nation, Oklahoma\" climate vulnerability assessment",
+          "candidate_ids": [
+            "D02-C004"
+          ],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [
+                {
+                  "disposition": "Public plan catalog record surfaced; source document link and date not independently opened or verified.",
+                  "url": "https://tribalresilienceactions.org/plans/the-citizen-potawatomi-nation-climate-change-vulnerability-assessment/"
+                }
+              ],
+              "query": "\"Citizen Potawatomi Nation, Oklahoma\" climate vulnerability assessment",
+              "disposition": "candidate_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Citizen Potawatomi Nation, Oklahoma\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Citizen Potawatomi Nation, Oklahoma\" hazard mitigation plan OR emergency management plan",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000047",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Cloverdale Rancheria of Pomo Indians of California\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Cloverdale Rancheria of Pomo Indians of California\" climate vulnerability assessment",
+        "\"Cloverdale Rancheria of Pomo Indians of California\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Cloverdale Rancheria of Pomo Indians of California",
+      "batch_id": "D02",
+      "candidate_ids": [],
+      "source_domains": [],
+      "outcome": "no_matching_public_document_located",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cloverdale Rancheria of Pomo Indians of California\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cloverdale Rancheria of Pomo Indians of California\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cloverdale Rancheria of Pomo Indians of California\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cloverdale Rancheria of Pomo Indians of California\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cloverdale Rancheria of Pomo Indians of California\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cloverdale Rancheria of Pomo Indians of California\" hazard mitigation plan OR emergency management plan",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000048",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Cocopah Tribe of Arizona\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Cocopah Tribe of Arizona\" climate vulnerability assessment",
+        "\"Cocopah Tribe of Arizona\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Cocopah Tribe of Arizona",
+      "batch_id": "D02",
+      "candidate_ids": [],
+      "source_domains": [],
+      "outcome": "no_matching_public_document_located",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cocopah Tribe of Arizona\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cocopah Tribe of Arizona\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cocopah Tribe of Arizona\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cocopah Tribe of Arizona\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cocopah Tribe of Arizona\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cocopah Tribe of Arizona\" hazard mitigation plan OR emergency management plan",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000049",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Coeur D'Alene Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Coeur D'Alene Tribe\" climate vulnerability assessment",
+        "\"Coeur D'Alene Tribe\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Coeur D'Alene Tribe",
+      "batch_id": "D02",
+      "candidate_ids": [
+        "D02-C005",
+        "D02-C011"
+      ],
+      "source_domains": [
+        "resource-analysis.com",
+        "www.cdatribe-nsn.gov"
+      ],
+      "outcome": "found",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Coeur D'Alene Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Coeur D'Alene Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "found",
+          "limitations": "Search-result and landing-page evidence only; no full document was harvested. Dates, adoption, scope, access, and redistribution terms remain unverified except where stated in the candidate note.",
+          "query": "\"Coeur D'Alene Tribe\" climate vulnerability assessment",
+          "candidate_ids": [
+            "D02-C005"
+          ],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [
+                {
+                  "disposition": "Tribal landing page and public catalog record identify a 2023 assessment; direct PDF not opened.",
+                  "url": "https://www.cdatribe-nsn.gov/nr/environmental-programs-office/"
+                }
+              ],
+              "query": "\"Coeur D'Alene Tribe\" climate vulnerability assessment",
+              "disposition": "candidate_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "found",
+          "limitations": "Search-result and landing-page evidence only; no full document was harvested. Dates, adoption, scope, access, and redistribution terms remain unverified except where stated in the candidate note.",
+          "query": "\"Coeur D'Alene Tribe\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [
+            "D02-C011"
+          ],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [
+                {
+                  "disposition": "Public PDF result surfaced on a consultant/secondary host; document and date/adoption were not reviewed.",
+                  "url": "https://resource-analysis.com/wp-content/uploads/2023/07/CdA_THMP_20101130-Part1.pdf"
+                }
+              ],
+              "query": "\"Coeur D'Alene Tribe\" hazard mitigation plan OR emergency management plan",
+              "disposition": "candidate_located"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "limitations": [
+        "Search depth: one focused web query per requested document class; available local assessor seed catalog was checked separately. Results were reviewed for exact or clearly stated Nation relationships; unrelated results were discarded.",
+        "No full documents were downloaded or opened during this pass."
+      ],
+      "tribe_id": "epa_100000050",
+      "searched_at": "2026-10-21T12:13:55Z",
+      "search_terms": [
+        "\"Cold Springs Rancheria of Mono Indians of California\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Cold Springs Rancheria of Mono Indians of California\" climate vulnerability assessment",
+        "\"Cold Springs Rancheria of Mono Indians of California\" hazard mitigation plan OR emergency management plan"
+      ],
+      "display_name": "Cold Springs Rancheria of Mono Indians of California",
+      "batch_id": "D02",
+      "candidate_ids": [],
+      "source_domains": [],
+      "outcome": "no_matching_public_document_located",
+      "search_budget_used": 3,
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cold Springs Rancheria of Mono Indians of California\" climate adaptation plan OR climate action plan OR PCAP",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cold Springs Rancheria of Mono Indians of California\" climate adaptation plan OR climate action plan OR PCAP",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cold Springs Rancheria of Mono Indians of California\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cold Springs Rancheria of Mono Indians of California\" climate vulnerability assessment",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "limitations": "One targeted class query completed; no matching public document located at this depth. This is not evidence that none exists. Search results that described awards, projects, or unrelated plans were not treated as a located plan.",
+          "query": "\"Cold Springs Rancheria of Mono Indians of California\" hazard mitigation plan OR emergency management plan",
+          "candidate_ids": [],
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:13:55Z",
+              "route": "targeted_web_search",
+              "results": [],
+              "query": "\"Cold Springs Rancheria of Mono Indians of California\" hazard mitigation plan OR emergency management plan",
+              "disposition": "no_class_qualified_result_located"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "tribe_ids": [
+        "epa_100000033"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "update_year": null,
+      "id": "D02-C001",
+      "canonical_landing_page_url": "https://www.epa.gov/system/files/documents/2024-04/catawba-nation-pcap.pdf",
+      "issuing_body": "Catawba Indian Nation",
+      "host_relationship": "U.S. Environmental Protection Agency",
+      "document_class": "climate_adaptation_plan",
+      "relationship_evidence": "Tribal PCAP; search result title and contents identify Catawba Nation as plan subject.",
+      "publication_year": null,
+      "dedup_relation": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:13:55Z",
+      "access_outcome": "public_search_result_observed",
+      "document_url": "https://www.epa.gov/system/files/documents/2024-04/catawba-nation-pcap.pdf",
+      "adoption_date": null,
+      "title": "Catawba Nation Priority Climate Action Plan",
+      "mime_type": null,
+      "source_confidence": "high",
+      "date_basis": null,
+      "discovery_note": "EPA-hosted PCAP surfaced; PDF not opened and adoption details not independently checked.",
+      "plan_period": null,
+      "review_state": "initial_search_result_only",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition."
+    },
+    {
+      "tribe_ids": [
+        "epa_100000043"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "update_year": null,
+      "id": "D02-C002",
+      "canonical_landing_page_url": "https://www.epa.gov/system/files/documents/2024-04/chippewa-cree-pcap.pdf",
+      "issuing_body": "Chippewa Cree Indians of the Rocky Boy's Reservation",
+      "host_relationship": "U.S. Environmental Protection Agency",
+      "document_class": "climate_adaptation_plan",
+      "relationship_evidence": "Tribal PCAP; EPA search result and directory identify Chippewa Cree as plan subject.",
+      "publication_year": null,
+      "dedup_relation": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:13:55Z",
+      "access_outcome": "public_search_result_observed",
+      "document_url": "https://www.epa.gov/system/files/documents/2024-04/chippewa-cree-pcap.pdf",
+      "adoption_date": null,
+      "title": "Chippewa Cree Tribe Priority Climate Action Plan",
+      "mime_type": null,
+      "source_confidence": "high",
+      "date_basis": null,
+      "discovery_note": "EPA-hosted PCAP surfaced; PDF not opened.",
+      "plan_period": null,
+      "review_state": "initial_search_result_only",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition."
+    },
+    {
+      "tribe_ids": [
+        "epa_100000045"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "update_year": null,
+      "id": "D02-C003",
+      "canonical_landing_page_url": "https://www.choctawnation.com/wp-content/uploads/2025/05/priority-climate-action-plan.pdf",
+      "issuing_body": "Choctaw Nation of Oklahoma",
+      "host_relationship": "Choctaw Nation of Oklahoma",
+      "document_class": "climate_adaptation_plan",
+      "relationship_evidence": "Tribal PCAP; official Nation-hosted document result identifies the Nation and PCAP.",
+      "publication_year": null,
+      "dedup_relation": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:13:55Z",
+      "access_outcome": "public_search_result_observed",
+      "document_url": "https://www.choctawnation.com/wp-content/uploads/2025/05/priority-climate-action-plan.pdf",
+      "adoption_date": null,
+      "title": "Choctaw Nation of Oklahoma Priority Climate Action Plan",
+      "mime_type": null,
+      "source_confidence": "high",
+      "date_basis": null,
+      "discovery_note": "Official Nation-hosted PCAP surfaced; PDF not opened.",
+      "plan_period": null,
+      "review_state": "initial_search_result_only",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition."
+    },
+    {
+      "tribe_ids": [
+        "epa_100000046"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "update_year": null,
+      "id": "D02-C004",
+      "canonical_landing_page_url": "https://tribalresilienceactions.org/plans/the-citizen-potawatomi-nation-climate-change-vulnerability-assessment/",
+      "issuing_body": "Citizen Potawatomi Nation",
+      "host_relationship": "Tribal Resilience Action Database",
+      "document_class": "climate_vulnerability_assessment",
+      "relationship_evidence": "Tribe-specific assessment; catalog title explicitly names Citizen Potawatomi Nation.",
+      "publication_year": null,
+      "dedup_relation": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:13:55Z",
+      "access_outcome": "public_search_result_observed",
+      "document_url": null,
+      "adoption_date": null,
+      "title": "The Citizen Potawatomi Nation Climate Change Vulnerability Assessment",
+      "mime_type": null,
+      "source_confidence": "medium",
+      "date_basis": null,
+      "discovery_note": "Public plan catalog record surfaced; source document link and date not independently opened or verified.",
+      "plan_period": null,
+      "review_state": "initial_search_result_only",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition."
+    },
+    {
+      "tribe_ids": [
+        "epa_100000049"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "update_year": null,
+      "id": "D02-C005",
+      "canonical_landing_page_url": "https://www.cdatribe-nsn.gov/nr/environmental-programs-office/",
+      "issuing_body": "Coeur d'Alene Tribe Natural Resources Department, Environmental Programs Office – Climate Division",
+      "host_relationship": "Coeur d'Alene Tribe",
+      "document_class": "climate_vulnerability_assessment",
+      "relationship_evidence": "Tribal assessment; official Tribal Environmental Programs page links it, and public catalog entry attributes it to the Tribe.",
+      "publication_year": null,
+      "dedup_relation": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:13:55Z",
+      "access_outcome": "public_search_result_observed",
+      "document_url": "https://www.cdatribe-nsn.gov/nr/wp-content/uploads/sites/5/2023/10/Coeur-dAlene-Tribe-Climate-Impact-Assessment.pdf",
+      "adoption_date": null,
+      "title": "Coeur d'Alene Tribe Climate Impact Assessment",
+      "mime_type": null,
+      "source_confidence": "high",
+      "date_basis": null,
+      "discovery_note": "Tribal landing page and public catalog record identify a 2023 assessment; direct PDF not opened.",
+      "plan_period": null,
+      "review_state": "initial_search_result_only",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition."
+    },
+    {
+      "tribe_ids": [
+        "epa_100000026"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "update_year": null,
+      "id": "D02-C006",
+      "canonical_landing_page_url": "https://www.countyofcolusaca.gov/DocumentCenter/View/18579/Colusa-County-LHMP-Update-Appendix-A-Planning-Process",
+      "issuing_body": "Colusa County; participating cities, Tribe, and special districts",
+      "host_relationship": "Colusa County",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "relationship_evidence": "Regional multi-jurisdictional plan; county planning-process appendix explicitly names Cachil DeHe Band as partner and committee participant.",
+      "publication_year": null,
+      "dedup_relation": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:13:55Z",
+      "access_outcome": "public_search_result_observed",
+      "document_url": null,
+      "adoption_date": null,
+      "title": "Colusa County Local Hazard Mitigation Plan Update",
+      "mime_type": null,
+      "source_confidence": "medium",
+      "date_basis": null,
+      "discovery_note": "2024 update planning-process appendix surfaced; result describes development, not a verified final/adopted plan. Tribe-specific chapter or approval not reviewed.",
+      "plan_period": null,
+      "review_state": "initial_search_result_only",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition."
+    },
+    {
+      "tribe_ids": [
+        "epa_100000032"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "update_year": null,
+      "id": "D02-C007",
+      "canonical_landing_page_url": "https://www.energy.gov/indianenergy/barona-group-capitan-grande-band-mission-indians-barona-reservation-2022-project",
+      "issuing_body": "Barona Group of the Capitan Grande Band of Mission Indians",
+      "host_relationship": "U.S. Department of Energy",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "relationship_evidence": "DOE project profile names Barona Group and states that the Tribe developed a Hazard Mitigation Plan; Barona is one constituent group in the assigned Capitan Grande entry.",
+      "publication_year": null,
+      "dedup_relation": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:13:55Z",
+      "access_outcome": "public_search_result_observed",
+      "document_url": null,
+      "adoption_date": null,
+      "title": "Barona Group Hazard Mitigation Plan",
+      "mime_type": null,
+      "source_confidence": "medium",
+      "date_basis": null,
+      "discovery_note": "Official DOE project page confirms a Tribe-developed HMP but does not link or title the plan; plan metadata remain unverified.",
+      "plan_period": null,
+      "review_state": "initial_search_result_only",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition."
+    },
+    {
+      "tribe_ids": [
+        "epa_100000036"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "update_year": null,
+      "id": "D02-C008",
+      "canonical_landing_page_url": "https://chemehuevi.org/emergency-preparedness",
+      "issuing_body": "Chemehuevi Indian Tribe",
+      "host_relationship": "Chemehuevi Indian Tribe",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "relationship_evidence": "Official Tribal emergency preparedness page describes the Tribe-developed HMP and its risk assessment.",
+      "publication_year": null,
+      "dedup_relation": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:13:55Z",
+      "access_outcome": "public_search_result_observed",
+      "document_url": null,
+      "adoption_date": null,
+      "title": "Chemehuevi Indian Tribe Hazard Mitigation Plan",
+      "mime_type": null,
+      "source_confidence": "high",
+      "date_basis": null,
+      "discovery_note": "Official Tribal page provides plan overview; separate plan PDF, dates, and adoption instrument not located in this pass.",
+      "plan_period": null,
+      "review_state": "initial_search_result_only",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition."
+    },
+    {
+      "tribe_ids": [
+        "epa_100000037"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "update_year": null,
+      "id": "D02-C009",
+      "canonical_landing_page_url": "https://trinidad-rancheria.org/news-announcements/",
+      "issuing_body": "Cher-Ae Heights Indian Community of the Trinidad Rancheria",
+      "host_relationship": "Cher-Ae Heights Indian Community of the Trinidad Rancheria",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "relationship_evidence": "Official Tribal news page lists a Draft Hazard Mitigation Plan Update; official hosted PDF title identifies the Trinidad Rancheria.",
+      "publication_year": null,
+      "dedup_relation": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:13:55Z",
+      "access_outcome": "public_search_result_observed",
+      "document_url": "https://trinidad-rancheria.org/wp-content/uploads/2024/12/Trinidad_Rancheria_HMP_Draft_3_12-16-2024.pdf",
+      "adoption_date": null,
+      "title": "Trinidad Rancheria Multi-Hazard Mitigation Plan Update",
+      "mime_type": null,
+      "source_confidence": "high",
+      "date_basis": null,
+      "discovery_note": "Draft plan dated in filename 2024-12-16 and identified as draft; adoption not established.",
+      "plan_period": null,
+      "review_state": "initial_search_result_only",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition."
+    },
+    {
+      "tribe_ids": [
+        "epa_100000045"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "update_year": null,
+      "id": "D02-C010",
+      "canonical_landing_page_url": "https://www.choctawnation.com/wp-content/uploads/2025/05/cb-66-25.pdf",
+      "issuing_body": "Choctaw Nation of Oklahoma Office of Emergency Management",
+      "host_relationship": "Choctaw Nation of Oklahoma",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "relationship_evidence": "Official council bill requests approval and adoption of a Nation-specific Multi-Hazard Mitigation Plan; source names the plan and responsible office.",
+      "publication_year": null,
+      "dedup_relation": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:13:55Z",
+      "access_outcome": "public_search_result_observed",
+      "document_url": "https://www.choctawnation.com/wp-content/uploads/2025/05/cb-66-25.pdf",
+      "adoption_date": null,
+      "title": "Choctaw Nation of Oklahoma Multi-Hazard Mitigation Plan of 2025",
+      "mime_type": null,
+      "source_confidence": "high",
+      "date_basis": null,
+      "discovery_note": "Official approval/adoption bill surfaced, not the plan text. Whether the bill passed and the plan was adopted is unverified.",
+      "plan_period": null,
+      "review_state": "initial_search_result_only",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition."
+    },
+    {
+      "tribe_ids": [
+        "epa_100000049"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "update_year": null,
+      "id": "D02-C011",
+      "canonical_landing_page_url": "https://resource-analysis.com/wp-content/uploads/2023/07/CdA_THMP_20101130-Part1.pdf",
+      "issuing_body": "Coeur d'Alene Tribe",
+      "host_relationship": "Resource Analysis (secondary host)",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "relationship_evidence": "Tribal reservation hazard plan; search result title and document text name the Coeur d’Alene Reservation and Tribe.",
+      "publication_year": null,
+      "dedup_relation": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:13:55Z",
+      "access_outcome": "public_search_result_observed",
+      "document_url": "https://resource-analysis.com/wp-content/uploads/2023/07/CdA_THMP_20101130-Part1.pdf",
+      "adoption_date": null,
+      "title": "Coeur d'Alene Reservation Tribal Hazards Mitigation Plan",
+      "mime_type": null,
+      "source_confidence": "medium",
+      "date_basis": null,
+      "discovery_note": "Public PDF result surfaced on a consultant/secondary host; document and date/adoption were not reviewed.",
+      "plan_period": null,
+      "review_state": "initial_search_result_only",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition."
+    }
+  ]
+}

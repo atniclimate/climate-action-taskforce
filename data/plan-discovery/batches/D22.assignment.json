@@ -1,0 +1,462 @@
+{
+  "batch_id": "D22",
+  "nations": [
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Selawik",
+      "tribe_id": "epa_100000527"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Seldovia Village Tribe",
+      "tribe_id": "epa_100000528"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Shageluk Native Village",
+      "tribe_id": "epa_100000529"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Shaktoolik",
+      "tribe_id": "epa_100000530"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Shishmaref",
+      "tribe_id": "epa_100000531"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Shungnak",
+      "tribe_id": "epa_100000532"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Sitka Tribe of Alaska",
+      "tribe_id": "epa_100000533"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Skagway Village",
+      "tribe_id": "epa_100000534"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Village of Sleetmute",
+      "tribe_id": "epa_100000535"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Village of Solomon",
+      "tribe_id": "epa_100000536"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of South Naknek",
+      "tribe_id": "epa_100000537"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Stebbins Community Association",
+      "tribe_id": "epa_100000538"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Stevens",
+      "tribe_id": "epa_100000539"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Village of Stony River",
+      "tribe_id": "epa_100000540"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Sun'aq Tribe of Kodiak",
+      "tribe_id": "epa_100000541"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Takotna Village",
+      "tribe_id": "epa_100000542"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Tanacross",
+      "tribe_id": "epa_100000543"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Tanana",
+      "tribe_id": "epa_100000544"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Tangirnaq Native Village",
+      "tribe_id": "epa_100000545"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Tatitlek",
+      "tribe_id": "epa_100000546"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Tazlina",
+      "tribe_id": "epa_100000547"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Telida Village",
+      "tribe_id": "epa_100000548"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Teller",
+      "tribe_id": "epa_100000549"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Tetlin",
+      "tribe_id": "epa_100000550"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Central Council of the Tlingit & Haida Indian Tribes",
+      "tribe_id": "epa_100000551"
+    }
+  ],
+  "ordinal_end": 550,
+  "ordinal_start": 526,
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning_effort": "high",
+  "schema_version": "catf-plan-discovery-assignment.v1",
+  "source_registry_sha256": "5db8f52cf44d3a3853f8403cd6dc845a59088f07f42b40a3488575b5cbe7cece",
+  "status": "not_started"
+}

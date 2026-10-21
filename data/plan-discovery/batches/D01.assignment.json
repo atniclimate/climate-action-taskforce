@@ -1,0 +1,462 @@
+{
+  "batch_id": "D01",
+  "nations": [
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Absentee-Shawnee Tribe of Indians of Oklahoma",
+      "tribe_id": "epa_100000001"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Agua Caliente Band of Cahuilla Indians of the Agua Caliente Indian Reservation, California",
+      "tribe_id": "epa_100000002"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Ak-Chin Indian Community",
+      "tribe_id": "epa_100000003"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Alabama-Coushatta Tribe of Texas",
+      "tribe_id": "epa_100000004"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Alabama-Quassarte Tribal Town",
+      "tribe_id": "epa_100000005"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Alturas Indian Rancheria, California",
+      "tribe_id": "epa_100000006"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Apache Tribe of Oklahoma",
+      "tribe_id": "epa_100000007"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Northern Arapaho Tribe of the Wind River Reservation, Wyoming",
+      "tribe_id": "epa_100000008"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Mi'kmaq Nation",
+      "tribe_id": "epa_100000009"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Assiniboine and Sioux Tribes of the Fort Peck Indian Reservation, Montana",
+      "tribe_id": "epa_100000010"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Augustine Band of Cahuilla Indians, California",
+      "tribe_id": "epa_100000011"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Bad River Band of the Lake Superior Tribe of Chippewa Indians of the Bad River Reservation, Wisconsin",
+      "tribe_id": "epa_100000012"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Bay Mills Indian Community, Michigan",
+      "tribe_id": "epa_100000013"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Bear River Band of the Rohnerville Rancheria, California",
+      "tribe_id": "epa_100000014"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Berry Creek Rancheria of Maidu Indians of California",
+      "tribe_id": "epa_100000015"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Big Lagoon Rancheria, California",
+      "tribe_id": "epa_100000016"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Big Pine Paiute Tribe of the Owens Valley",
+      "tribe_id": "epa_100000017"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Big Sandy Rancheria of Western Mono Indians of California",
+      "tribe_id": "epa_100000018"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Big Valley Band of Pomo Indians of the Big Valley Rancheria, California",
+      "tribe_id": "epa_100000019"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Blackfeet Tribe of the Blackfeet Indian Reservation of Montana",
+      "tribe_id": "epa_100000020"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Blue Lake Rancheria, California",
+      "tribe_id": "epa_100000021"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Bridgeport Indian Colony",
+      "tribe_id": "epa_100000022"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Buena Vista Rancheria of Me-Wuk Indians of California",
+      "tribe_id": "epa_100000023"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Burns Paiute Tribe",
+      "tribe_id": "epa_100000024"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Cabazon Band of Cahuilla Indians",
+      "tribe_id": "epa_100000025"
+    }
+  ],
+  "ordinal_end": 25,
+  "ordinal_start": 1,
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning_effort": "high",
+  "schema_version": "catf-plan-discovery-assignment.v1",
+  "source_registry_sha256": "5db8f52cf44d3a3853f8403cd6dc845a59088f07f42b40a3488575b5cbe7cece",
+  "status": "not_started"
+}

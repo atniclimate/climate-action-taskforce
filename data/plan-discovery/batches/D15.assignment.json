@@ -1,0 +1,462 @@
+{
+  "batch_id": "D15",
+  "nations": [
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Ambler",
+      "tribe_id": "epa_100000351"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Village of Anaktuvuk Pass",
+      "tribe_id": "epa_100000352"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Yupiit of Andreafski",
+      "tribe_id": "epa_100000353"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Angoon Community Association",
+      "tribe_id": "epa_100000354"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Village of Aniak",
+      "tribe_id": "epa_100000355"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Anvik Village",
+      "tribe_id": "epa_100000356"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Arctic Village",
+      "tribe_id": "epa_100000357"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Asa'carsarmiut Tribe",
+      "tribe_id": "epa_100000358"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Atka",
+      "tribe_id": "epa_100000359"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Village of Atmautluak",
+      "tribe_id": "epa_100000360"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Atqasuk",
+      "tribe_id": "epa_100000361"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Barrow Inupiat Traditional Government",
+      "tribe_id": "epa_100000362"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Beaver Village",
+      "tribe_id": "epa_100000363"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Belkofski",
+      "tribe_id": "epa_100000364"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Village of Bill Moore's Slough",
+      "tribe_id": "epa_100000365"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Birch Creek Tribe",
+      "tribe_id": "epa_100000366"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Brevig Mission",
+      "tribe_id": "epa_100000367"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Buckland",
+      "tribe_id": "epa_100000368"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Cantwell",
+      "tribe_id": "epa_100000369"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Native Village of Chenega",
+      "tribe_id": "epa_100000370"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Chalkyitsik Village",
+      "tribe_id": "epa_100000371"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Cheesh-Na Tribe",
+      "tribe_id": "epa_100000372"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Village of Chefornak",
+      "tribe_id": "epa_100000373"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Chevak Native Village",
+      "tribe_id": "epa_100000374"
+    },
+    {
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "climate_vulnerability_assessment": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome_receipt": null,
+          "status": "not_started"
+        }
+      },
+      "name": "Chickaloon Native Village",
+      "tribe_id": "epa_100000375"
+    }
+  ],
+  "ordinal_end": 375,
+  "ordinal_start": 351,
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning_effort": "high",
+  "schema_version": "catf-plan-discovery-assignment.v1",
+  "source_registry_sha256": "5db8f52cf44d3a3853f8403cd6dc845a59088f07f42b40a3488575b5cbe7cece",
+  "status": "not_started"
+}

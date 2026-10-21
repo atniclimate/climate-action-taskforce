@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#155f65">
+  <meta name="description" content="Climate Action Task Force presentation for Tribal leaders and staff. Explore public climate evidence, planning records and tools that support sovereign decisions.">
+  <title>Climate Action Task Force · Interactive presentation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/fonts/LeagueSpartan-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="chapters/narrative.css">
+  <link rel="stylesheet" href="chapters/assessment.css">
+  <link rel="stylesheet" href="chapters/planning.css">
+  <link rel="stylesheet" href="chapters/tools.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#presentation">Skip to presentation</a>
+  <header class="site-header">
+    <a class="brand" href="#welcome" aria-label="NCAI Climate Action Task Force, first chapter"><img class="brand-logo" src="assets/design/ncai-white-logo.png" alt=""><span class="brand-name">Climate Action<br>Task Force</span></a>
+    <span class="header-context">Interactive presentation</span>
+    <nav class="header-actions" aria-label="Presentation controls">
+      <button id="mode-toggle" class="text-button" type="button">Presenter view</button>
+      <button id="menu-open" class="menu-button" type="button" aria-haspopup="dialog"><span aria-hidden="true">☰</span> Chapters</button>
+    </nav>
+  </header>
+  <main id="presentation" tabindex="-1">
+    <p class="loading-message" role="status">Opening the presentation…</p>
+    <noscript><p class="callout">This interactive presentation needs JavaScript. No assessments run in your browser. Please enable JavaScript to explore the chapters and public resources.</p></noscript>
+  </main>
+  <footer class="presentation-controls" aria-label="Chapter navigation">
+    <button id="previous" class="nav-button" type="button" aria-label="Previous chapter"><span aria-hidden="true">←</span><span class="nav-label">Previous</span></button>
+    <div class="position"><span id="chapter-position">—</span><span id="chapter-current">Climate Action Task Force</span></div>
+    <button id="next" class="nav-button" type="button" aria-label="Next chapter"><span class="nav-label">Next</span><span aria-hidden="true">→</span></button>
+  </footer>
+  <div class="reading-progress" aria-hidden="true"><span id="progress-fill"></span></div>
+  <dialog id="chapter-menu" class="chapter-dialog" aria-labelledby="menu-title">
+    <div class="dialog-heading"><div><p class="eyebrow">Your path through the presentation</p><h2 id="menu-title">Explore the chapters</h2></div><button class="icon-button" type="button" data-close aria-label="Close chapter menu">×</button></div>
+    <p class="dialog-intro">Follow the session in order or go directly to a topic. Each chapter retains its original slide reference.</p>
+    <nav id="chapter-links" aria-label="All chapters"></nav>
+    <p class="source-note">Presenter view: ← / → to move · Home / End to jump · Escape to close a dialog. Participant view is a continuous reading sequence.</p>
+  </dialog>
+  <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
+</body>
+</html>

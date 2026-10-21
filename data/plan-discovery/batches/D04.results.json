@@ -1,0 +1,3268 @@
+{
+  "schema_version": "catf-plan-discovery-results.v1",
+  "batch_id": "D04",
+  "source_registry_sha256": "5db8f52cf44d3a3853f8403cd6dc845a59088f07f42b40a3488575b5cbe7cece",
+  "searched_at": "2026-10-21T12:16:06Z",
+  "nation_searches": [
+    {
+      "tribe_id": "epa_100000076",
+      "display_name": "Eastern Band of Cherokee Indians",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Eastern Band of Cherokee Indians climate adaptation plan climate action plan CCAP",
+        "Eastern Band of Cherokee Indians climate vulnerability assessment",
+        "Eastern Band of Cherokee Indians tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "www.usgs.gov",
+        "www.epa.gov",
+        "secasc.ncsu.edu",
+        "climate.ncsu.edu",
+        "nepis.epa.gov",
+        "theseap.org",
+        "nccleantech.ncsu.edu",
+        "en.wikipedia.org",
+        "www.ebci.gov",
+        "www.naccho.org",
+        "tribalferst.usetinc.org",
+        "www.researchgate.net",
+        "ntrs.nasa.gov",
+        "arxiv.org",
+        "www.dac.nc.gov",
+        "www.ncdps.gov",
+        "www.jacksonnc.org",
+        "www.ncsl.org",
+        "phhs.ebci-nsn.gov",
+        "www.achp.gov",
+        "www.firstnations.org",
+        "ecfr.io",
+        "govtribe.com",
+        "apnews.com"
+      ],
+      "search_budget_used": 3,
+      "outcome": "found",
+      "candidate_ids": [
+        "D04-C001",
+        "D04-C002"
+      ],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "found",
+          "query": "Eastern Band of Cherokee Indians climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Eastern Band of Cherokee Indians climate adaptation plan climate action plan CCAP",
+              "results": [
+                {
+                  "url": "https://www.epa.gov/system/files/documents/2024-04/eastern-band-of-cherokee-indians-pcap.pdf",
+                  "disposition": "candidate_located"
+                }
+              ],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "candidate_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000076:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [
+            "D04-C001"
+          ],
+          "limitations": "Search-result/landing-page metadata only; no full document opened. Dates and redistribution terms remain unknown unless explicit in source excerpt."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Eastern Band of Cherokee Indians climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Eastern Band of Cherokee Indians climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000076:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "found",
+          "query": "Eastern Band of Cherokee Indians tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Eastern Band of Cherokee Indians tribal hazard mitigation management plan",
+              "results": [
+                {
+                  "url": "https://www.ebci.gov/wp-content/uploads/2025/10/EBCI-EOP-DRAFT-2025.pdf",
+                  "disposition": "candidate_located"
+                }
+              ],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "candidate_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000076:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [
+            "D04-C002"
+          ],
+          "limitations": "Search-result/landing-page metadata only; no full document opened. Dates and redistribution terms remain unknown unless explicit in source excerpt."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000077",
+      "display_name": "Eastern Shawnee Tribe of Oklahoma",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Eastern Shawnee Tribe of Oklahoma climate adaptation plan climate action plan CCAP",
+        "Eastern Shawnee Tribe of Oklahoma climate vulnerability assessment",
+        "Eastern Shawnee Tribe of Oklahoma tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "www.bia.gov",
+        "bit.ly",
+        "vimeo.com",
+        "www.epa.gov",
+        "www.choctawnation.com",
+        "www.kickapootribeofoklahoma.com",
+        "www.southcentralclimate.org",
+        "taggs.hhs.gov",
+        "www.estoo-nsn.gov",
+        "tribalclimateadaptationguidebook.org",
+        "digitalprairie.ok.gov",
+        "portal.estoo.net",
+        "govtribe.com",
+        "www.usetinc.org",
+        "en.wikipedia.org",
+        "www7.nau.edu",
+        "www.energy.gov",
+        "www.researchgate.net",
+        "journals.ametsoc.org",
+        "www.usgs.gov",
+        "www.fema.gov",
+        "www.iwr.usace.army.mil",
+        "experts.arizona.edu",
+        "cig.uw.edu",
+        "oklahoma.gov",
+        "www.nigc.gov",
+        "www.astribe.com",
+        "quapawnation.com",
+        "parkplanning.nps.gov",
+        "thorpe.law.ou.edu",
+        "www.shawneeok.org",
+        "www.oklahoma.gov"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Eastern Shawnee Tribe of Oklahoma climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Eastern Shawnee Tribe of Oklahoma climate adaptation plan climate action plan CCAP",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000077:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Eastern Shawnee Tribe of Oklahoma climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Eastern Shawnee Tribe of Oklahoma climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000077:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Eastern Shawnee Tribe of Oklahoma tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Eastern Shawnee Tribe of Oklahoma tribal hazard mitigation management plan",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000077:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000078",
+      "display_name": "Elem Indian Colony of Pomo Indians of the Sulphur Bank Rancheria, California",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Elem Indian Colony of Pomo Indians of the Sulphur Bank Rancheria, California climate adaptation plan climate action plan CCAP",
+        "Elem Indian Colony of Pomo Indians of the Sulphur Bank Rancheria, California climate vulnerability assessment",
+        "Elem Indian Colony of Pomo Indians of the Sulphur Bank Rancheria, California tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "www.gov.ca.gov",
+        "www.bia.gov",
+        "www.lakecountyca.gov",
+        "files.ceqanet.lci.ca.gov",
+        "oehha.ca.gov",
+        "www.epa.gov",
+        "www.elemindiancolony.org",
+        "ltnr.ca",
+        "middletownrancheria-nsn.gov",
+        "www.contracosta.ca.gov",
+        "www.nill.narf.org",
+        "sgc.ca.gov",
+        "www.bvrancheria.com",
+        "en.wikipedia.org",
+        "fr.wikipedia.org",
+        "www.psc.state.fl.us",
+        "app.midpage.ai",
+        "archive.epa.gov",
+        "www.nigc.gov",
+        "storymaps.arcgis.com",
+        "public-inspection.federalregister.gov",
+        "www.reddit.com"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Elem Indian Colony of Pomo Indians of the Sulphur Bank Rancheria, California climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Elem Indian Colony of Pomo Indians of the Sulphur Bank Rancheria, California climate adaptation plan climate action plan CCAP",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000078:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Elem Indian Colony of Pomo Indians of the Sulphur Bank Rancheria, California climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Elem Indian Colony of Pomo Indians of the Sulphur Bank Rancheria, California climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000078:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Elem Indian Colony of Pomo Indians of the Sulphur Bank Rancheria, California tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Elem Indian Colony of Pomo Indians of the Sulphur Bank Rancheria, California tribal hazard mitigation management plan",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000078:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000079",
+      "display_name": "Elk Valley Rancheria, California",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Elk Valley Rancheria, California climate adaptation plan climate action plan CCAP",
+        "Elk Valley Rancheria, California climate vulnerability assessment",
+        "Elk Valley Rancheria, California tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "elkgrove.gov",
+        "www.energy.gov",
+        "efiling.energy.ca.gov",
+        "www.vta.org",
+        "ww2.arb.ca.gov",
+        "ceqanet.lci.ca.gov",
+        "climate.calpoly.edu",
+        "planning.saccounty.gov",
+        "arccacalifornia.org",
+        "www.acgov.org",
+        "cwc.ca.gov",
+        "elk-valley.com",
+        "files.ceqanet.lci.ca.gov",
+        "en.wikipedia.org",
+        "www.reddit.com",
+        "www.crescentcity.org",
+        "climateassessment.ca.gov",
+        "tethys.pnnl.gov",
+        "cso.lacounty.gov",
+        "www.energy.ca.gov",
+        "webmaps.arb.ca.gov",
+        "www.cakex.org",
+        "ru.wikipedia.org",
+        "www.vwenvironmentalmitigationtrust.com",
+        "www.caloes.ca.gov",
+        "www.nigc.gov",
+        "www.bia.gov",
+        "dot.ca.gov",
+        "govtribe.com",
+        "nill.narf.org",
+        "fr.wikipedia.org"
+      ],
+      "search_budget_used": 3,
+      "outcome": "found",
+      "candidate_ids": [
+        "D04-C003"
+      ],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Elk Valley Rancheria, California climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Elk Valley Rancheria, California climate adaptation plan climate action plan CCAP",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000079:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Elk Valley Rancheria, California climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Elk Valley Rancheria, California climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000079:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "found",
+          "query": "Elk Valley Rancheria, California tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Elk Valley Rancheria, California tribal hazard mitigation management plan",
+              "results": [
+                {
+                  "url": "https://www.crescentcity.org/media/Community-Development/Development%20Permit%20Applications%20and%20Instructions/DelNorteCountyHMP_Vol2_Final.pdf",
+                  "disposition": "candidate_located"
+                }
+              ],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "candidate_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000079:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [
+            "D04-C003"
+          ],
+          "limitations": "Search-result/landing-page metadata only; no full document opened. Dates and redistribution terms remain unknown unless explicit in source excerpt."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000080",
+      "display_name": "Ely Shoshone Tribe of Nevada",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Ely Shoshone Tribe of Nevada climate adaptation plan climate action plan CCAP",
+        "Ely Shoshone Tribe of Nevada climate vulnerability assessment",
+        "Ely Shoshone Tribe of Nevada tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "ndep.nv.gov",
+        "www.epa.gov",
+        "tribalclimateadaptationguidebook.org",
+        "www.ndep.nv.gov",
+        "www.env.nm.gov",
+        "dnaa.nv.gov",
+        "www.climate.nv.gov",
+        "tribalresilienceactions.org",
+        "static1.squarespace.com",
+        "nepis.epa.gov",
+        "washoe-nv.legistar.com",
+        "en.wikipedia.org",
+        "ru.wikipedia.org",
+        "jamestowntribe.org",
+        "research.fs.usda.gov",
+        "tile.loc.gov",
+        "citeseerx.ist.psu.edu",
+        "www.elyshoshonetribe.com",
+        "toolkit.climate.gov",
+        "www.climatehubs.usda.gov",
+        "adaptationinternational.com",
+        "tribalclimateguide.uoregon.edu",
+        "www.govinfo.gov",
+        "apnews.com",
+        "nv-whitepinecounty.civicplus.com",
+        "dem.nv.gov",
+        "nbmg.unr.edu",
+        "www.oem.nv.gov",
+        "paperzz.com",
+        "www.bia.gov",
+        "edit-26.blm.gov",
+        "eplanning.blm.gov",
+        "planning.org",
+        "regulations.justia.com",
+        "fr.wikipedia.org",
+        "www.reddit.com"
+      ],
+      "search_budget_used": 3,
+      "outcome": "found",
+      "candidate_ids": [
+        "D04-C004"
+      ],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Ely Shoshone Tribe of Nevada climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Ely Shoshone Tribe of Nevada climate adaptation plan climate action plan CCAP",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000080:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Ely Shoshone Tribe of Nevada climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Ely Shoshone Tribe of Nevada climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000080:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "found",
+          "query": "Ely Shoshone Tribe of Nevada tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Ely Shoshone Tribe of Nevada tribal hazard mitigation management plan",
+              "results": [
+                {
+                  "url": "https://nv-whitepinecounty.civicplus.com/CivicAlerts.aspx?AID=159&ARC=292",
+                  "disposition": "candidate_located"
+                }
+              ],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "candidate_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000080:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [
+            "D04-C004"
+          ],
+          "limitations": "Search-result/landing-page metadata only; no full document opened. Dates and redistribution terms remain unknown unless explicit in source excerpt."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000081",
+      "display_name": "Enterprise Rancheria of Maidu Indians of California",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Enterprise Rancheria of Maidu Indians of California climate adaptation plan climate action plan CCAP",
+        "Enterprise Rancheria of Maidu Indians of California climate vulnerability assessment",
+        "Enterprise Rancheria of Maidu Indians of California tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "www.bia.gov",
+        "files.ceqanet.lci.ca.gov",
+        "indianz.com",
+        "www.climateresilience.ca.gov",
+        "www.epa.gov",
+        "www.buttecounty.ca.gov",
+        "lci.ca.gov",
+        "enterpriserancheria.org",
+        "water.ca.gov",
+        "climateresilience.ca.gov",
+        "resources.ca.gov",
+        "govtribe.com",
+        "www.contracosta.ca.gov",
+        "www.cdfa.ca.gov",
+        "en.wikipedia.org",
+        "es.wikipedia.org",
+        "www.climatehubs.usda.gov",
+        "ceqanet.lci.ca.gov",
+        "ecos.fws.gov",
+        "www.highergov.com",
+        "climateassessment.ca.gov",
+        "www.energy.ca.gov",
+        "sgc.ca.gov",
+        "oehha.ca.gov",
+        "fr.wikipedia.org",
+        "www.fema.gov",
+        "www.nigc.gov"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Enterprise Rancheria of Maidu Indians of California climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Enterprise Rancheria of Maidu Indians of California climate adaptation plan climate action plan CCAP",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000081:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Enterprise Rancheria of Maidu Indians of California climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Enterprise Rancheria of Maidu Indians of California climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000081:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Enterprise Rancheria of Maidu Indians of California tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Enterprise Rancheria of Maidu Indians of California tribal hazard mitigation management plan",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000081:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000082",
+      "display_name": "Ewiiaapaayp Band of Kumeyaay Indians",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Ewiiaapaayp Band of Kumeyaay Indians climate adaptation plan climate action plan CCAP",
+        "Ewiiaapaayp Band of Kumeyaay Indians climate vulnerability assessment",
+        "Ewiiaapaayp Band of Kumeyaay Indians tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "tribalclimateguide.uoregon.edu",
+        "www.sandiego.gov",
+        "www7.nau.edu",
+        "www.sandag.org",
+        "www.sandiegocounty.gov",
+        "opr.ca.gov",
+        "ceqanet.lci.ca.gov",
+        "nepa-review.org",
+        "ebkiea.com",
+        "tribalresilienceactions.org",
+        "lci.ca.gov",
+        "sgc.ca.gov",
+        "en.wikipedia.org",
+        "de.wikipedia.org",
+        "files.ceqanet.lci.ca.gov",
+        "www.bia.gov",
+        "www.epa.gov",
+        "downloads.regulations.gov",
+        "resilientca.org",
+        "arxiv.org",
+        "eplanning.blm.gov",
+        "leaningrock.org"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Ewiiaapaayp Band of Kumeyaay Indians climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Ewiiaapaayp Band of Kumeyaay Indians climate adaptation plan climate action plan CCAP",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000082:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Ewiiaapaayp Band of Kumeyaay Indians climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Ewiiaapaayp Band of Kumeyaay Indians climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000082:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Ewiiaapaayp Band of Kumeyaay Indians tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Ewiiaapaayp Band of Kumeyaay Indians tribal hazard mitigation management plan",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000082:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000083",
+      "display_name": "Federated Indians of Graton Rancheria, California",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Federated Indians of Graton Rancheria, California climate adaptation plan climate action plan CCAP",
+        "Federated Indians of Graton Rancheria, California climate vulnerability assessment",
+        "Federated Indians of Graton Rancheria, California tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "gratonrancheria.com",
+        "indianz.com",
+        "files.ceqanet.lci.ca.gov",
+        "ceqanet.lci.ca.gov",
+        "northcoastresourcepartnership.org",
+        "stagetaggs.grantsolutions.gov",
+        "socostrategicplan.org",
+        "www.firstnations.org",
+        "taggs.hhs.gov",
+        "www.govinfo.gov",
+        "www.epa.gov",
+        "en.wikipedia.org",
+        "fr.wikipedia.org",
+        "www.onetam.org",
+        "nerrssciencecollaborative.org",
+        "facilities.sonoma.edu",
+        "www.fisheries.noaa.gov",
+        "www.energy.gov",
+        "www.bia.gov",
+        "govtribe.com",
+        "sonoma-county.legistar.com",
+        "www.reddit.com"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Federated Indians of Graton Rancheria, California climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Federated Indians of Graton Rancheria, California climate adaptation plan climate action plan CCAP",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000083:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Federated Indians of Graton Rancheria, California climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Federated Indians of Graton Rancheria, California climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000083:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Federated Indians of Graton Rancheria, California tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Federated Indians of Graton Rancheria, California tribal hazard mitigation management plan",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000083:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000084",
+      "display_name": "Flandreau Santee Sioux Tribe of South Dakota",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Flandreau Santee Sioux Tribe of South Dakota climate adaptation plan climate action plan CCAP",
+        "Flandreau Santee Sioux Tribe of South Dakota climate vulnerability assessment",
+        "Flandreau Santee Sioux Tribe of South Dakota tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "www.drought.gov",
+        "taggs.hhs.gov",
+        "22154323.fs1.hubspotusercontent-na1.net",
+        "www.epa.gov",
+        "www.energy.gov",
+        "fsst-nsn.gov",
+        "www.bia.gov",
+        "govtribe.com",
+        "en.wikipedia.org",
+        "ru.wikipedia.org",
+        "mnisose.org",
+        "www.usgs.gov",
+        "mesonet.sdstate.edu",
+        "www.narf.org",
+        "santeesiouxnation.com",
+        "thorpe.law.ou.edu",
+        "law.justia.com",
+        "www.nill.narf.org"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Flandreau Santee Sioux Tribe of South Dakota climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Flandreau Santee Sioux Tribe of South Dakota climate adaptation plan climate action plan CCAP",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000084:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Flandreau Santee Sioux Tribe of South Dakota climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Flandreau Santee Sioux Tribe of South Dakota climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000084:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Flandreau Santee Sioux Tribe of South Dakota tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Flandreau Santee Sioux Tribe of South Dakota tribal hazard mitigation management plan",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000084:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000085",
+      "display_name": "Forest County Potawatomi Community, Wisconsin",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Forest County Potawatomi Community, Wisconsin climate adaptation plan climate action plan CCAP",
+        "Forest County Potawatomi Community, Wisconsin climate vulnerability assessment",
+        "Forest County Potawatomi Community, Wisconsin tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "www.epa.gov",
+        "midwestcrn.washu.edu",
+        "doa.wi.gov",
+        "www.ncwrpc.org",
+        "forestcountywi.com",
+        "climatology.nelson.wisc.edu",
+        "www.highergov.com",
+        "dnr.wisconsin.gov",
+        "www.dhs.wisconsin.gov",
+        "govtribe.com",
+        "members.fcpotawatomi.com",
+        "lnr.fcpotawatomi.com",
+        "en.wikipedia.org",
+        "wicci.wisc.edu",
+        "forest.extension.wisc.edu",
+        "pubs.usgs.gov",
+        "www.energy.gov",
+        "tribalresilienceactions.org",
+        "ru.wikipedia.org",
+        "fyi.extension.wisc.edu",
+        "wem.wi.gov",
+        "rrt5.org",
+        "co.forest.wi.gov",
+        "www.vwenvironmentalmitigationtrust.com"
+      ],
+      "search_budget_used": 3,
+      "outcome": "found",
+      "candidate_ids": [
+        "D04-C005",
+        "D04-C006"
+      ],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "found",
+          "query": "Forest County Potawatomi Community, Wisconsin climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Forest County Potawatomi Community, Wisconsin climate adaptation plan climate action plan CCAP",
+              "results": [
+                {
+                  "url": "https://www.epa.gov/system/files/documents/2024-03/forest-county-potawatomi-community-fcpc-priority-climate-action-plan-pcap.pdf",
+                  "disposition": "candidate_located"
+                }
+              ],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "candidate_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000085:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [
+            "D04-C005"
+          ],
+          "limitations": "Search-result/landing-page metadata only; no full document opened. Dates and redistribution terms remain unknown unless explicit in source excerpt."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "found",
+          "query": "Forest County Potawatomi Community, Wisconsin climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Forest County Potawatomi Community, Wisconsin climate vulnerability assessment",
+              "results": [
+                {
+                  "url": "https://www.dhs.wisconsin.gov/publications/p01084-potawatomi.pdf",
+                  "disposition": "candidate_located"
+                }
+              ],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "candidate_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000085:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [
+            "D04-C006"
+          ],
+          "limitations": "Search-result/landing-page metadata only; no full document opened. Dates and redistribution terms remain unknown unless explicit in source excerpt."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Forest County Potawatomi Community, Wisconsin tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Forest County Potawatomi Community, Wisconsin tribal hazard mitigation management plan",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000085:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000086",
+      "display_name": "Fort Belknap Indian Community of the Fort Belknap Reservation of Montana",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Fort Belknap Indian Community of the Fort Belknap Reservation of Montana climate adaptation plan climate action plan CCAP",
+        "Fort Belknap Indian Community of the Fort Belknap Reservation of Montana climate vulnerability assessment",
+        "Fort Belknap Indian Community of the Fort Belknap Reservation of Montana tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "img1.wsimg.com",
+        "tribalresilienceactions.org",
+        "tribalclimateguide.uoregon.edu",
+        "ftbelknap.org",
+        "www.govinfo.gov",
+        "www.montana.edu",
+        "www.umt.edu",
+        "www.tribalnations.mt.gov",
+        "www.bia.gov",
+        "en.wikipedia.org",
+        "de.wikipedia.org",
+        "ru.wikipedia.org",
+        "www.doi.gov",
+        "www.usgs.gov",
+        "dnrc.mt.gov",
+        "files.eric.ed.gov",
+        "nios.montana.edu",
+        "nepis.epa.gov",
+        "www.imls.gov",
+        "digitalrepository.unm.edu",
+        "www.energy.gov",
+        "www.reddit.com",
+        "des.mt.gov",
+        "thorpe.law.ou.edu",
+        "jeffersoncounty-mt.gov",
+        "nill.narf.org",
+        "www.narf.org"
+      ],
+      "search_budget_used": 3,
+      "outcome": "found",
+      "candidate_ids": [
+        "D04-C007"
+      ],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "found",
+          "query": "Fort Belknap Indian Community of the Fort Belknap Reservation of Montana climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Fort Belknap Indian Community of the Fort Belknap Reservation of Montana climate adaptation plan climate action plan CCAP",
+              "results": [
+                {
+                  "url": "https://img1.wsimg.com/blobby/go/d94bfdb9-dd85-49bd-94c2-4822ef04bf3b/downloads/Official%20FBIC%20Climate%20Change%20Plan%202023.pdf?ver=1752854222234",
+                  "disposition": "candidate_located"
+                }
+              ],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "candidate_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000086:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [
+            "D04-C007"
+          ],
+          "limitations": "Search-result/landing-page metadata only; no full document opened. Dates and redistribution terms remain unknown unless explicit in source excerpt."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Fort Belknap Indian Community of the Fort Belknap Reservation of Montana climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Fort Belknap Indian Community of the Fort Belknap Reservation of Montana climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000086:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Fort Belknap Indian Community of the Fort Belknap Reservation of Montana tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Fort Belknap Indian Community of the Fort Belknap Reservation of Montana tribal hazard mitigation management plan",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000086:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000087",
+      "display_name": "Fort Bidwell Indian Community of the Fort Bidwell Reservation of California",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Fort Bidwell Indian Community of the Fort Bidwell Reservation of California climate adaptation plan climate action plan CCAP",
+        "Fort Bidwell Indian Community of the Fort Bidwell Reservation of California climate vulnerability assessment",
+        "Fort Bidwell Indian Community of the Fort Bidwell Reservation of California tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "ceqanet.lci.ca.gov",
+        "bscc.ca.gov",
+        "www.epa.gov",
+        "en.wikipedia.org",
+        "www.usbr.gov",
+        "taggs.hhs.gov",
+        "www.energy.gov",
+        "www.bia.gov",
+        "www.climateresilience.ca.gov",
+        "rincon-nsn.gov",
+        "www.contracosta.ca.gov",
+        "montereyclimateaction.konveio.com",
+        "ww2.arb.ca.gov",
+        "fr.wikipedia.org",
+        "files.eric.ed.gov",
+        "files.ceqanet.lci.ca.gov",
+        "broadbandusa.ntia.gov",
+        "climateassessment.ca.gov",
+        "data.nativemi.org",
+        "digital.library.unt.edu",
+        "digital.library.unt.edu;",
+        "www.energy.ca.gov",
+        "www.cdph.ca.gov",
+        "www.waterboards.ca.gov",
+        "www.ntc.blm.gov",
+        "www.fema.gov",
+        "nill.narf.org",
+        "fbcommunityportal.powerappsportals.com",
+        "ecfr.io",
+        "www.caloes.ca.gov",
+        "govtribe.com",
+        "www.reddit.com"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Fort Bidwell Indian Community of the Fort Bidwell Reservation of California climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Fort Bidwell Indian Community of the Fort Bidwell Reservation of California climate adaptation plan climate action plan CCAP",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000087:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Fort Bidwell Indian Community of the Fort Bidwell Reservation of California climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Fort Bidwell Indian Community of the Fort Bidwell Reservation of California climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000087:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Fort Bidwell Indian Community of the Fort Bidwell Reservation of California tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Fort Bidwell Indian Community of the Fort Bidwell Reservation of California tribal hazard mitigation management plan",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000087:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000088",
+      "display_name": "Fort Independence Indian Community of Paiute Indians of the Fort Independence Reservation, California",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Fort Independence Indian Community of Paiute Indians of the Fort Independence Reservation, California climate adaptation plan climate action plan CCAP",
+        "Fort Independence Indian Community of Paiute Indians of the Fort Independence Reservation, California climate vulnerability assessment",
+        "Fort Independence Indian Community of Paiute Indians of the Fort Independence Reservation, California tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "www.epa.gov",
+        "archive.gov.ca.gov",
+        "www.nigc.gov",
+        "www.bia.gov",
+        "www.doi.gov",
+        "taggs.hhs.gov",
+        "govtribe.com",
+        "resilientca.org",
+        "www.southernute-nsn.gov",
+        "www.vwenvironmentalmitigationtrust.com",
+        "climateresilience.ca.gov",
+        "en.wikipedia.org",
+        "www.govinfo.gov",
+        "www.contracosta.ca.gov",
+        "fr.wikipedia.org",
+        "www.reddit.com",
+        "oehha.ca.gov",
+        "www.inyocounty.us",
+        "waterboards.ca.gov",
+        "www.waterboards.ca.gov",
+        "water.waterboards.ca.gov",
+        "ceqanet.lci.ca.gov",
+        "nepis.epa.gov",
+        "www.narf.org",
+        "www.cgcc.ca.gov",
+        "highways.dot.gov",
+        "meshb.nlm.nih.gov",
+        "www.gov.ca.gov",
+        "narf.org"
+      ],
+      "search_budget_used": 3,
+      "outcome": "found",
+      "candidate_ids": [
+        "D04-C008"
+      ],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "found",
+          "query": "Fort Independence Indian Community of Paiute Indians of the Fort Independence Reservation, California climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Fort Independence Indian Community of Paiute Indians of the Fort Independence Reservation, California climate adaptation plan climate action plan CCAP",
+              "results": [
+                {
+                  "url": "https://www.epa.gov/system/files/documents/2024-04/fort-independence-indian-community-pcap.pdf",
+                  "disposition": "candidate_located"
+                }
+              ],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "candidate_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000088:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [
+            "D04-C008"
+          ],
+          "limitations": "Search-result/landing-page metadata only; no full document opened. Dates and redistribution terms remain unknown unless explicit in source excerpt."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Fort Independence Indian Community of Paiute Indians of the Fort Independence Reservation, California climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Fort Independence Indian Community of Paiute Indians of the Fort Independence Reservation, California climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000088:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Fort Independence Indian Community of Paiute Indians of the Fort Independence Reservation, California tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Fort Independence Indian Community of Paiute Indians of the Fort Independence Reservation, California tribal hazard mitigation management plan",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000088:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000089",
+      "display_name": "Fort McDermitt Paiute and Shoshone Tribes of the Fort McDermitt Indian Reservation, Nevada and Oregon",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Fort McDermitt Paiute and Shoshone Tribes of the Fort McDermitt Indian Reservation, Nevada and Oregon climate adaptation plan climate action plan CCAP",
+        "Fort McDermitt Paiute and Shoshone Tribes of the Fort McDermitt Indian Reservation, Nevada and Oregon climate vulnerability assessment",
+        "Fort McDermitt Paiute and Shoshone Tribes of the Fort McDermitt Indian Reservation, Nevada and Oregon tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "tribalclimateguide.uoregon.edu",
+        "www.epa.gov",
+        "ndep.nv.gov",
+        "nepis.epa.gov",
+        "tribalresilienceactions.org",
+        "tribalclimateadaptationguidebook.org",
+        "www.fmpst.org",
+        "en.wikipedia.org",
+        "www.reddit.com",
+        "www.lithiumamericas.com",
+        "uppersnakerivertribes.org",
+        "www.fs.usda.gov",
+        "toolkit.climate.gov",
+        "www.govinfo.gov",
+        "www.adaptationclearinghouse.org",
+        "doczz.net",
+        "thorpe.law.ou.edu",
+        "nbmg.unr.edu",
+        "dnaa.nv.gov",
+        "www.oregon.gov",
+        "www.oem.nv.gov",
+        "www.dot.nv.gov",
+        "summitlaketribe.org",
+        "www.nwd.usace.army.mil",
+        "eplanning.blm.gov",
+        "www.narf.org",
+        "www.doi.gov"
+      ],
+      "search_budget_used": 3,
+      "outcome": "found",
+      "candidate_ids": [
+        "D04-C009"
+      ],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Fort McDermitt Paiute and Shoshone Tribes of the Fort McDermitt Indian Reservation, Nevada and Oregon climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Fort McDermitt Paiute and Shoshone Tribes of the Fort McDermitt Indian Reservation, Nevada and Oregon climate adaptation plan climate action plan CCAP",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000089:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Fort McDermitt Paiute and Shoshone Tribes of the Fort McDermitt Indian Reservation, Nevada and Oregon climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Fort McDermitt Paiute and Shoshone Tribes of the Fort McDermitt Indian Reservation, Nevada and Oregon climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000089:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "found",
+          "query": "Fort McDermitt Paiute and Shoshone Tribes of the Fort McDermitt Indian Reservation, Nevada and Oregon tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Fort McDermitt Paiute and Shoshone Tribes of the Fort McDermitt Indian Reservation, Nevada and Oregon tribal hazard mitigation management plan",
+              "results": [
+                {
+                  "url": "https://www.fmpst.org/environmental",
+                  "disposition": "candidate_located"
+                }
+              ],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "candidate_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000089:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [
+            "D04-C009"
+          ],
+          "limitations": "Search-result/landing-page metadata only; no full document opened. Dates and redistribution terms remain unknown unless explicit in source excerpt."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000090",
+      "display_name": "Fort McDowell Yavapai Nation, Arizona",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Fort McDowell Yavapai Nation, Arizona climate adaptation plan climate action plan CCAP",
+        "Fort McDowell Yavapai Nation, Arizona climate vulnerability assessment",
+        "Fort McDowell Yavapai Nation, Arizona tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "azmag.gov",
+        "www.epa.gov",
+        "ccass.arizona.edu",
+        "haury.arizona.edu",
+        "www.swcasc.arizona.edu",
+        "www.nncap.arizona.edu",
+        "www.tonation-nsn.gov",
+        "resilient.az.gov",
+        "www.maricopa.gov",
+        "dema.az.gov",
+        "naair.arizona.edu",
+        "www.pima.gov",
+        "www.cap-az.com",
+        "www.govinfo.gov",
+        "www.bidnetdirect.com",
+        "govtribe.com",
+        "poliscopic.com",
+        "en.wikipedia.org",
+        "fmyn.org",
+        "arborlookinsights.com",
+        "www.phoenix.gov",
+        "www.azwater.gov",
+        "nepis.epa.gov",
+        "ready.maricopa.gov",
+        "www.usbr.gov",
+        "pubs.usgs.gov",
+        "www7.nau.edu",
+        "www4.nau.edu",
+        "tribalclimateguide.uoregon.edu",
+        "itep.nau.edu",
+        "ru.wikipedia.org",
+        "www.fema.gov",
+        "www.vwenvironmentalmitigationtrust.com",
+        "www.dhaz.gov"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Fort McDowell Yavapai Nation, Arizona climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Fort McDowell Yavapai Nation, Arizona climate adaptation plan climate action plan CCAP",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000090:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Fort McDowell Yavapai Nation, Arizona climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Fort McDowell Yavapai Nation, Arizona climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000090:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Fort McDowell Yavapai Nation, Arizona tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Fort McDowell Yavapai Nation, Arizona tribal hazard mitigation management plan",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000090:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000091",
+      "display_name": "Fort Mojave Indian Tribe of Arizona, California & Nevada",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Fort Mojave Indian Tribe of Arizona, California & Nevada climate adaptation plan climate action plan CCAP",
+        "Fort Mojave Indian Tribe of Arizona, California & Nevada climate vulnerability assessment",
+        "Fort Mojave Indian Tribe of Arizona, California & Nevada tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "www.fortmojaveindiantribe.com",
+        "www.pima.gov",
+        "www.epa.gov",
+        "toolkit.climate.gov",
+        "govtribe.com",
+        "ndep.nv.gov",
+        "dema.az.gov",
+        "www.azwater.gov",
+        "ccass.arizona.edu",
+        "swcasc.arizona.edu",
+        "nepis.epa.gov",
+        "www.nps.gov",
+        "www.bia.gov",
+        "www.lhcaz.gov",
+        "en.wikipedia.org",
+        "nca2014.globalchange.gov",
+        "swccar.arizona.edu",
+        "home.nps.gov",
+        "www.energy.gov",
+        "www.resilience.arizona.edu",
+        "naair.arizona.edu",
+        "research.fs.usda.gov",
+        "tentribespartnership.org",
+        "ecos.fws.gov",
+        "www.usbr.gov",
+        "www.caloes.ca.gov",
+        "www.ntia.gov",
+        "www.mohave.gov",
+        "www.doi.gov",
+        "dnaa.nv.gov",
+        "paperzz.com",
+        "www.narf.org",
+        "nill.narf.org",
+        "fr.wikipedia.org"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Fort Mojave Indian Tribe of Arizona, California & Nevada climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Fort Mojave Indian Tribe of Arizona, California & Nevada climate adaptation plan climate action plan CCAP",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000091:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Fort Mojave Indian Tribe of Arizona, California & Nevada climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Fort Mojave Indian Tribe of Arizona, California & Nevada climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000091:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Fort Mojave Indian Tribe of Arizona, California & Nevada tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Fort Mojave Indian Tribe of Arizona, California & Nevada tribal hazard mitigation management plan",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000091:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000092",
+      "display_name": "Fort Sill-Chiricahua-Warm Springs-Apache Tribe",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Fort Sill-Chiricahua-Warm Springs-Apache Tribe climate adaptation plan climate action plan CCAP",
+        "Fort Sill-Chiricahua-Warm Springs-Apache Tribe climate vulnerability assessment",
+        "Fort Sill-Chiricahua-Warm Springs-Apache Tribe tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "fortsillapache-nsn.gov",
+        "www.epa.gov",
+        "tradocfcoeccafcoepfwprod.blob.core.usgovcloudapi.net",
+        "toolkit.climate.gov",
+        "pubs.usgs.gov",
+        "www.pima.gov",
+        "govtribe.com",
+        "www.env.nm.gov",
+        "www.nmlegis.gov",
+        "content.govdelivery.com",
+        "www.scribd.com",
+        "www.cakex.org",
+        "www.sustainability.gov",
+        "en.wikipedia.org",
+        "de.wikipedia.org",
+        "doi.org",
+        "www.usgs.gov",
+        "usgs.science",
+        "www.imls.gov",
+        "journals.ametsoc.org",
+        "arxiv.org",
+        "www.dhsem.nm.gov",
+        "dema.az.gov",
+        "www.nigc.gov",
+        "thorpe.law.ou.edu",
+        "www.spa.usace.army.mil",
+        "www.caloes.ca.gov",
+        "www.bia.gov",
+        "www.apachecasinohotel.com"
+      ],
+      "search_budget_used": 3,
+      "outcome": "found",
+      "candidate_ids": [
+        "D04-C010"
+      ],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Fort Sill-Chiricahua-Warm Springs-Apache Tribe climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Fort Sill-Chiricahua-Warm Springs-Apache Tribe climate adaptation plan climate action plan CCAP",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000092:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Fort Sill-Chiricahua-Warm Springs-Apache Tribe climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Fort Sill-Chiricahua-Warm Springs-Apache Tribe climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000092:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "found",
+          "query": "Fort Sill-Chiricahua-Warm Springs-Apache Tribe tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Fort Sill-Chiricahua-Warm Springs-Apache Tribe tribal hazard mitigation management plan",
+              "results": [
+                {
+                  "url": "https://fortsillapache-nsn.gov/programs/environmental-programs/hazard-mitigation-plan-feedback/",
+                  "disposition": "candidate_located"
+                }
+              ],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "candidate_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000092:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [
+            "D04-C010"
+          ],
+          "limitations": "Search-result/landing-page metadata only; no full document opened. Dates and redistribution terms remain unknown unless explicit in source excerpt."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000093",
+      "display_name": "Gila River Indian Community of the Gila River Indian Reservation, Arizona",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Gila River Indian Community of the Gila River Indian Reservation, Arizona climate adaptation plan climate action plan CCAP",
+        "Gila River Indian Community of the Gila River Indian Reservation, Arizona climate vulnerability assessment",
+        "Gila River Indian Community of the Gila River Indian Reservation, Arizona tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "www.epa.gov",
+        "govtribe.com",
+        "resilient.az.gov",
+        "www.azwater.gov",
+        "ecfr.io",
+        "ccass.arizona.edu",
+        "swcasc.arizona.edu",
+        "www.mygilariver.com",
+        "en.wikipedia.org",
+        "apnews.com",
+        "www.gricdeq.org",
+        "nativewaters-aridlands.com",
+        "naair.arizona.edu",
+        "www.gricsafety.org",
+        "taggs.hhs.gov",
+        "www.swcasc.arizona.edu",
+        "www.maricopa.gov",
+        "dema.az.gov",
+        "www.gilariver.org",
+        "www.gricready.org",
+        "www.bia.gov",
+        "19january2021snapshot.epa.gov"
+      ],
+      "search_budget_used": 3,
+      "outcome": "found",
+      "candidate_ids": [
+        "D04-C011"
+      ],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "found",
+          "query": "Gila River Indian Community of the Gila River Indian Reservation, Arizona climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Gila River Indian Community of the Gila River Indian Reservation, Arizona climate adaptation plan climate action plan CCAP",
+              "results": [
+                {
+                  "url": "https://www.epa.gov/system/files/documents/2024-04/gila-river-indian-community-pcap.pdf",
+                  "disposition": "candidate_located"
+                }
+              ],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "candidate_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000093:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [
+            "D04-C011"
+          ],
+          "limitations": "Search-result/landing-page metadata only; no full document opened. Dates and redistribution terms remain unknown unless explicit in source excerpt."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Gila River Indian Community of the Gila River Indian Reservation, Arizona climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Gila River Indian Community of the Gila River Indian Reservation, Arizona climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000093:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Gila River Indian Community of the Gila River Indian Reservation, Arizona tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Gila River Indian Community of the Gila River Indian Reservation, Arizona tribal hazard mitigation management plan",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000093:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000094",
+      "display_name": "Grand Traverse Band of Ottawa and Chippewa Indians, Michigan",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Grand Traverse Band of Ottawa and Chippewa Indians, Michigan climate adaptation plan climate action plan CCAP",
+        "Grand Traverse Band of Ottawa and Chippewa Indians, Michigan climate vulnerability assessment",
+        "Grand Traverse Band of Ottawa and Chippewa Indians, Michigan tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "www.epa.gov",
+        "www.gtbindians.org",
+        "www.bia.gov",
+        "glisa.umich.edu",
+        "www.itcmi.org",
+        "seas.umich.edu",
+        "www.michigan.gov",
+        "taggs.hhs.gov",
+        "govtribe.com",
+        "tribalclimateguide.uoregon.edu",
+        "indigenousgov.hks.harvard.edu",
+        "en.wikipedia.org",
+        "www.reddit.com",
+        "apnews.com",
+        "www.cakex.org",
+        "graham.umich.edu",
+        "publications.gc.ca",
+        "www.frontiersin.org",
+        "doi.org",
+        "www.cisolutions.com",
+        "www.energy.gov",
+        "hazardplain.org",
+        "www.gtcountymi.gov",
+        "www.scribd.com",
+        "nepis.epa.gov"
+      ],
+      "search_budget_used": 3,
+      "outcome": "found",
+      "candidate_ids": [
+        "D04-C012",
+        "D04-C013"
+      ],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "found",
+          "query": "Grand Traverse Band of Ottawa and Chippewa Indians, Michigan climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Grand Traverse Band of Ottawa and Chippewa Indians, Michigan climate adaptation plan climate action plan CCAP",
+              "results": [
+                {
+                  "url": "https://www.epa.gov/system/files/documents/2024-04/inter-tribal-council-of-michgian-combined-pcap.pdf",
+                  "disposition": "candidate_located"
+                }
+              ],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "candidate_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000094:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [
+            "D04-C012"
+          ],
+          "limitations": "Search-result/landing-page metadata only; no full document opened. Dates and redistribution terms remain unknown unless explicit in source excerpt."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Grand Traverse Band of Ottawa and Chippewa Indians, Michigan climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Grand Traverse Band of Ottawa and Chippewa Indians, Michigan climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000094:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "found",
+          "query": "Grand Traverse Band of Ottawa and Chippewa Indians, Michigan tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Grand Traverse Band of Ottawa and Chippewa Indians, Michigan tribal hazard mitigation management plan",
+              "results": [
+                {
+                  "url": "https://www.gtbindians.org/ems.asp",
+                  "disposition": "candidate_located"
+                }
+              ],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "candidate_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000094:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [
+            "D04-C013"
+          ],
+          "limitations": "Search-result/landing-page metadata only; no full document opened. Dates and redistribution terms remain unknown unless explicit in source excerpt."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000095",
+      "display_name": "Greenville Rancheria",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Greenville Rancheria climate adaptation plan climate action plan CCAP",
+        "Greenville Rancheria climate vulnerability assessment",
+        "Greenville Rancheria tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "www.energy.gov",
+        "www.epa.gov",
+        "www.sandiegocounty.gov",
+        "www.acgov.org",
+        "public.destinyhosted.com",
+        "www.bluelakerancheria-nsn.gov",
+        "govtribe.com",
+        "www.grth.org",
+        "elkgrove.gov",
+        "trinidad-rancheria.org",
+        "www.valleywater.org",
+        "ceqanet.lci.ca.gov",
+        "scvwd.legistar.com",
+        "www.yolocounty.gov",
+        "files.ceqanet.lci.ca.gov",
+        "climateactionnapa.konveio.com",
+        "en.wikipedia.org",
+        "maps.scag.ca.gov",
+        "cso.lacounty.gov",
+        "oehha.ca.gov",
+        "www.grcrc.org",
+        "taggs.hhs.gov",
+        "www.energy.ca.gov",
+        "www.env.nm.gov",
+        "permitsonoma.org",
+        "www.fs.usda.gov",
+        "mountainview.legistar.com",
+        "www.reddit.com",
+        "tribalclimatehealth.org",
+        "www.fema.gov",
+        "greendottransportation.com",
+        "catsip.berkeley.edu",
+        "lassen.legistar.com",
+        "co.lassen.ca.us",
+        "www.bia.gov",
+        "www.caloes.ca.gov",
+        "fr.wikipedia.org"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Greenville Rancheria climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Greenville Rancheria climate adaptation plan climate action plan CCAP",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000095:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Greenville Rancheria climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Greenville Rancheria climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000095:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Greenville Rancheria tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Greenville Rancheria tribal hazard mitigation management plan",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000095:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000096",
+      "display_name": "Grindstone Indian Rancheria of Wintun-Wailaki Indians of California",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Grindstone Indian Rancheria of Wintun-Wailaki Indians of California climate adaptation plan climate action plan CCAP",
+        "Grindstone Indian Rancheria of Wintun-Wailaki Indians of California climate vulnerability assessment",
+        "Grindstone Indian Rancheria of Wintun-Wailaki Indians of California tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "www.waterboards.ca.gov",
+        "cwc.ca.gov",
+        "files.ceqanet.lci.ca.gov",
+        "climateresilience.ca.gov",
+        "bscc.ca.gov",
+        "www.grants.ca.gov",
+        "eplanning.blm.gov",
+        "nill.narf.org",
+        "www.contracosta.ca.gov",
+        "ww2.arb.ca.gov",
+        "www.caclimateinvestments.ca.gov",
+        "www.sandiegocounty.gov",
+        "www.epa.gov",
+        "www.bia.gov",
+        "www.energy.gov",
+        "ceqanet.lci.ca.gov",
+        "en.wikipedia.org",
+        "fr.wikipedia.org",
+        "ia.cpuc.ca.gov",
+        "www.energy.ca.gov",
+        "lci.ca.gov",
+        "climateassessment.ca.gov",
+        "oehha.ca.gov",
+        "www.tlex.org",
+        "www.cdph.ca.gov",
+        "www.jmediawiki.org",
+        "www.catribalclimateresiliencyresourceportal.com",
+        "resilientca.org",
+        "www.olps.co.za",
+        "www.countyofglenn.net",
+        "www.caloes.ca.gov",
+        "dot.ca.gov",
+        "docs.justia.com",
+        "www.getty.edu",
+        "www-26.blm.gov",
+        "www.narf.org"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Grindstone Indian Rancheria of Wintun-Wailaki Indians of California climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Grindstone Indian Rancheria of Wintun-Wailaki Indians of California climate adaptation plan climate action plan CCAP",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000096:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Grindstone Indian Rancheria of Wintun-Wailaki Indians of California climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Grindstone Indian Rancheria of Wintun-Wailaki Indians of California climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000096:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Grindstone Indian Rancheria of Wintun-Wailaki Indians of California tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Grindstone Indian Rancheria of Wintun-Wailaki Indians of California tribal hazard mitigation management plan",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000096:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000097",
+      "display_name": "Guidiville Rancheria of California",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Guidiville Rancheria of California climate adaptation plan climate action plan CCAP",
+        "Guidiville Rancheria of California climate vulnerability assessment",
+        "Guidiville Rancheria of California tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "ww2.arb.ca.gov",
+        "climateresilience.ca.gov",
+        "cwc.ca.gov",
+        "www.contracosta.ca.gov",
+        "www.acgov.org",
+        "arccacalifornia.org",
+        "files.ceqanet.lci.ca.gov",
+        "lcf.ca.gov",
+        "www.sandiegocounty.gov",
+        "planning.saccounty.gov",
+        "www.caloes.ca.gov",
+        "ceqanet.lci.ca.gov",
+        "montereyclimateaction.konveio.com",
+        "en.wikipedia.org",
+        "www.reddit.com",
+        "www.mendocinocog.org",
+        "abag.ca.gov",
+        "www.baaqmd.gov",
+        "climateassessment.ca.gov",
+        "cso.lacounty.gov",
+        "www.energy.ca.gov",
+        "toolkit.climate.gov",
+        "www.cdph.ca.gov",
+        "www.climateassessment.ca.gov",
+        "lci.ca.gov",
+        "experience.arcgis.com",
+        "fr.wikipedia.org",
+        "ia.cpuc.ca.gov",
+        "www.hcd.ca.gov",
+        "www.bluelakerancheria-nsn.gov",
+        "www.bia.gov",
+        "tribalclimatehealth.org",
+        "nill.narf.org",
+        "www.narf.org",
+        "lassen.legistar.com",
+        "caltribalfamilies.org",
+        "apnews.com"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Guidiville Rancheria of California climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Guidiville Rancheria of California climate adaptation plan climate action plan CCAP",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000097:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Guidiville Rancheria of California climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Guidiville Rancheria of California climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000097:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Guidiville Rancheria of California tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Guidiville Rancheria of California tribal hazard mitigation management plan",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000097:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000098",
+      "display_name": "Habematolel Pomo of Upper Lake, California",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Habematolel Pomo of Upper Lake, California climate adaptation plan climate action plan CCAP",
+        "Habematolel Pomo of Upper Lake, California climate vulnerability assessment",
+        "Habematolel Pomo of Upper Lake, California tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "www.epa.gov",
+        "www.lakecountyca.gov",
+        "www.northcoastresourcepartnershipprojects.org",
+        "countyoflake.legistar.com",
+        "lcnet.co.lake.ca.us",
+        "govtribe.com",
+        "ceqanet.lci.ca.gov",
+        "cdd.lakecountyca.gov",
+        "www.hpultribe-nsn.gov",
+        "en.wikipedia.org",
+        "lci.ca.gov",
+        "files.ceqanet.lci.ca.gov",
+        "www.bia.gov",
+        "www.laketribalstudy.com",
+        "taggs.hhs.gov",
+        "www.elemindiancolony.org"
+      ],
+      "search_budget_used": 3,
+      "outcome": "found",
+      "candidate_ids": [
+        "D04-C014"
+      ],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "found",
+          "query": "Habematolel Pomo of Upper Lake, California climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Habematolel Pomo of Upper Lake, California climate adaptation plan climate action plan CCAP",
+              "results": [
+                {
+                  "url": "https://www.epa.gov/system/files/documents/2024-03/habematolel-hpul-pcap.pdf",
+                  "disposition": "candidate_located"
+                }
+              ],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "candidate_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000098:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [
+            "D04-C014"
+          ],
+          "limitations": "Search-result/landing-page metadata only; no full document opened. Dates and redistribution terms remain unknown unless explicit in source excerpt."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Habematolel Pomo of Upper Lake, California climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Habematolel Pomo of Upper Lake, California climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000098:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Habematolel Pomo of Upper Lake, California tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Habematolel Pomo of Upper Lake, California tribal hazard mitigation management plan",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000098:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000099",
+      "display_name": "Hannahville Indian Community, Michigan",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Hannahville Indian Community, Michigan climate adaptation plan climate action plan CCAP",
+        "Hannahville Indian Community, Michigan climate vulnerability assessment",
+        "Hannahville Indian Community, Michigan tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "www.epa.gov",
+        "www.michigan.gov",
+        "taggs.hhs.gov",
+        "hannahville.net",
+        "content.govdelivery.com",
+        "doi.org",
+        "en.wikipedia.org",
+        "manisteemi.gov",
+        "ru.wikipedia.org",
+        "www.baymills.org",
+        "glisa.umich.edu",
+        "www.timeanddate.com",
+        "www.itcmi.org",
+        "pubs.usgs.gov",
+        "www.usgs.gov",
+        "rrt5.org",
+        "hamlintownship.org",
+        "www.hannahville.net",
+        "cuppad.org",
+        "hazardplain.org",
+        "www.fema.gov",
+        "thorpe.law.ou.edu",
+        "www.mvr.usace.army.mil",
+        "www.reddit.com"
+      ],
+      "search_budget_used": 3,
+      "outcome": "found",
+      "candidate_ids": [
+        "D04-C015",
+        "D04-C016"
+      ],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "found",
+          "query": "Hannahville Indian Community, Michigan climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Hannahville Indian Community, Michigan climate adaptation plan climate action plan CCAP",
+              "results": [
+                {
+                  "url": "https://www.epa.gov/system/files/documents/2024-03/mtera-pcap.pdf",
+                  "disposition": "candidate_located"
+                }
+              ],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "candidate_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000099:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [
+            "D04-C015"
+          ],
+          "limitations": "Search-result/landing-page metadata only; no full document opened. Dates and redistribution terms remain unknown unless explicit in source excerpt."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "found",
+          "query": "Hannahville Indian Community, Michigan climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Hannahville Indian Community, Michigan climate vulnerability assessment",
+              "results": [
+                {
+                  "url": "https://www.baymills.org/_files/ugd/869f65_3eff7ec7ac174c7a96b26c5ed8daccfd.pdf",
+                  "disposition": "candidate_located"
+                }
+              ],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "candidate_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000099:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [
+            "D04-C016"
+          ],
+          "limitations": "Search-result/landing-page metadata only; no full document opened. Dates and redistribution terms remain unknown unless explicit in source excerpt."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Hannahville Indian Community, Michigan tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Hannahville Indian Community, Michigan tribal hazard mitigation management plan",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000099:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000100",
+      "display_name": "Havasupai Tribe of the Havasupai Reservation, Arizona",
+      "batch_id": "D04",
+      "searched_at": "2026-10-21T12:16:06Z",
+      "search_terms": [
+        "Havasupai Tribe of the Havasupai Reservation, Arizona climate adaptation plan climate action plan CCAP",
+        "Havasupai Tribe of the Havasupai Reservation, Arizona climate vulnerability assessment",
+        "Havasupai Tribe of the Havasupai Reservation, Arizona tribal hazard mitigation management plan"
+      ],
+      "source_domains": [
+        "www.nps.gov",
+        "theofficialhavasupaitribe.com",
+        "www.pima.gov",
+        "www.theofficialhavasupaitribe.com",
+        "www.bia.gov",
+        "azmemory.azlibrary.gov",
+        "www.epa.gov",
+        "govtribe.com",
+        "toolkit.climate.gov",
+        "www.govinfo.gov",
+        "dema.az.gov",
+        "en.wikipedia.org",
+        "www.reddit.com",
+        "pubs.usgs.gov",
+        "naair.arizona.edu",
+        "www.researchgate.net",
+        "gis.fema.gov",
+        "soilseries.sc.egov.usda.gov",
+        "www.usgs.gov",
+        "irmadev.nps.gov",
+        "ru.wikipedia.org",
+        "apnews.com",
+        "www.theatlantic.com",
+        "thorpe.law.ou.edu"
+      ],
+      "search_budget_used": 3,
+      "outcome": "found",
+      "candidate_ids": [
+        "D04-C017"
+      ],
+      "limitations": [
+        "One focused query was run for each requested category. Search excerpts and landing metadata only; no full documents were downloaded or opened.",
+        "Nonmatching regional/state references without explicit participation evidence were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Havasupai Tribe of the Havasupai Reservation, Arizona climate adaptation plan climate action plan CCAP",
+          "receipt": [
+            {
+              "query": "Havasupai Tribe of the Havasupai Reservation, Arizona climate adaptation plan climate action plan CCAP",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000100:climate_adaptation_plan"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Havasupai Tribe of the Havasupai Reservation, Arizona climate vulnerability assessment",
+          "receipt": [
+            {
+              "query": "Havasupai Tribe of the Havasupai Reservation, Arizona climate vulnerability assessment",
+              "results": [],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "no_class_qualified_result_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000100:climate_vulnerability_assessment"
+            }
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused category query completed; no class-qualified source was located in the returned results. This is a bounded no-match, not evidence that no document exists."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "found",
+          "query": "Havasupai Tribe of the Havasupai Reservation, Arizona tribal hazard mitigation management plan",
+          "receipt": [
+            {
+              "query": "Havasupai Tribe of the Havasupai Reservation, Arizona tribal hazard mitigation management plan",
+              "results": [
+                {
+                  "url": "https://theofficialhavasupaitribe.com/files/Havasupai-Hazard-Mitigation-Plan-2022-Draft-Nov.-18-2022.pdf",
+                  "disposition": "candidate_located"
+                }
+              ],
+              "checked_utc": "2026-10-21T12:16:06Z",
+              "route": "targeted_web_search",
+              "disposition": "candidate_located",
+              "raw_result_ref": "work/discovery/D04/search-results.json#epa_100000100:hazard_mitigation_or_management_plan"
+            }
+          ],
+          "candidate_ids": [
+            "D04-C017"
+          ],
+          "limitations": "Search-result/landing-page metadata only; no full document opened. Dates and redistribution terms remain unknown unless explicit in source excerpt."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "id": "D04-C001",
+      "tribe_ids": [
+        "epa_100000076"
+      ],
+      "title": "EBCI Priority Climate Action Plan",
+      "issuing_body": "U.S. Environmental Protection Agency",
+      "document_class": "climate_adaptation_plan",
+      "canonical_landing_page_url": "https://www.epa.gov/inflation-reduction-act/eastern-band-cherokee-indians",
+      "document_url": "https://www.epa.gov/system/files/documents/2024-04/eastern-band-of-cherokee-indians-pcap.pdf",
+      "host_relationship": "Tribal or agency source identifies the Nation and plan relationship.",
+      "relationship_evidence": "EPA-hosted Tribal PCAP developed with EBCI programs; source states April 1, 2024.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:16:06Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "high",
+      "discovery_note": "EPA-hosted Tribal PCAP developed with EBCI programs; source states April 1, 2024.",
+      "access_instructions": "Use the public source link; inspect plan scope, dates, adoption status, access and redistribution terms before full-document acquisition.",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "id": "D04-C002",
+      "tribe_ids": [
+        "epa_100000076"
+      ],
+      "title": "Smoky Mountain Regional Hazard Mitigation Plan",
+      "issuing_body": "Eastern Band of Cherokee Indians",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://www.ebci.gov/wp-content/uploads/2025/10/EBCI-EOP-DRAFT-2025.pdf",
+      "document_url": "https://www.ebci.gov/wp-content/uploads/2025/10/EBCI-EOP-DRAFT-2025.pdf",
+      "host_relationship": "Public regional, intertribal, or other source identifies the Nation connection; relationship scope needs later review.",
+      "relationship_evidence": "Official EBCI draft emergency operations plan states the Tribe participates in the Smoky Mountain Regional Hazard Mitigation Plan; underlying regional plan not linked from this source.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:16:06Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "medium",
+      "discovery_note": "Official EBCI draft emergency operations plan states the Tribe participates in the Smoky Mountain Regional Hazard Mitigation Plan; underlying regional plan not linked from this source.",
+      "access_instructions": "Use the public source link; inspect plan scope, dates, adoption status, access and redistribution terms before full-document acquisition.",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "id": "D04-C003",
+      "tribe_ids": [
+        "epa_100000079"
+      ],
+      "title": "Del Norte County Operational Area Hazard Mitigation Plan; Volume 2—Planning Partner Annexes",
+      "issuing_body": "Del Norte County",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://www.crescentcity.org/media/Community-Development/Development%20Permit%20Applications%20and%20Instructions/DelNorteCountyHMP_Vol2_Final.pdf",
+      "document_url": "https://www.crescentcity.org/media/Community-Development/Development%20Permit%20Applications%20and%20Instructions/DelNorteCountyHMP_Vol2_Final.pdf",
+      "host_relationship": "Public regional, intertribal, or other source identifies the Nation connection; relationship scope needs later review.",
+      "relationship_evidence": "County plan contains a planning partner annex for Elk Valley Rancheria and describes Tribal impacts; regional/county plan, not a stand-alone Tribal plan.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:16:06Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "medium",
+      "discovery_note": "County plan contains a planning partner annex for Elk Valley Rancheria and describes Tribal impacts; regional/county plan, not a stand-alone Tribal plan.",
+      "access_instructions": "Use the public source link; inspect plan scope, dates, adoption status, access and redistribution terms before full-document acquisition.",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "id": "D04-C004",
+      "tribe_ids": [
+        "epa_100000080"
+      ],
+      "title": "White Pine County Multi-Jurisdictional Hazard Mitigation Plan update (2026 public review)",
+      "issuing_body": "White Pine County",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://nv-whitepinecounty.civicplus.com/CivicAlerts.aspx?AID=159&ARC=292",
+      "document_url": "https://nv-whitepinecounty.civicplus.com/CivicAlerts.aspx?AID=159&ARC=292",
+      "host_relationship": "Public regional, intertribal, or other source identifies the Nation connection; relationship scope needs later review.",
+      "relationship_evidence": "County notice says White Pine County, Eureka County, and Ely Shoshone Tribe jointly prepare a multi-jurisdictional plan every five years; page announces public review of update.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:16:06Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "medium",
+      "discovery_note": "County notice says White Pine County, Eureka County, and Ely Shoshone Tribe jointly prepare a multi-jurisdictional plan every five years; page announces public review of update.",
+      "access_instructions": "Use the public source link; inspect plan scope, dates, adoption status, access and redistribution terms before full-document acquisition.",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "id": "D04-C005",
+      "tribe_ids": [
+        "epa_100000085"
+      ],
+      "title": "Forest County Potawatomi Community Priority Climate Action Plan",
+      "issuing_body": "Forest County Potawatomi Community",
+      "document_class": "climate_adaptation_plan",
+      "canonical_landing_page_url": "https://www.epa.gov/system/files/documents/2024-03/forest-county-potawatomi-community-fcpc-priority-climate-action-plan-pcap.pdf",
+      "document_url": "https://www.epa.gov/system/files/documents/2024-03/forest-county-potawatomi-community-fcpc-priority-climate-action-plan-pcap.pdf",
+      "host_relationship": "Tribal or agency source identifies the Nation and plan relationship.",
+      "relationship_evidence": "EPA-hosted PCAP identifies the Forest County Potawatomi Community as the plan issuer.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:16:06Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "high",
+      "discovery_note": "EPA-hosted PCAP identifies the Forest County Potawatomi Community as the plan issuer.",
+      "access_instructions": "Use the public source link; inspect plan scope, dates, adoption status, access and redistribution terms before full-document acquisition.",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "id": "D04-C006",
+      "tribe_ids": [
+        "epa_100000085"
+      ],
+      "title": "Heat Vulnerability Index: Forest County Potawatomi Community",
+      "issuing_body": "Wisconsin Department of Health Services",
+      "document_class": "climate_vulnerability_assessment",
+      "canonical_landing_page_url": "https://www.dhs.wisconsin.gov/publications/p01084-potawatomi.pdf",
+      "document_url": "https://www.dhs.wisconsin.gov/publications/p01084-potawatomi.pdf",
+      "host_relationship": "Public regional, intertribal, or other source identifies the Nation connection; relationship scope needs later review.",
+      "relationship_evidence": "Wisconsin DHS heat vulnerability index is specific to the area surrounding Forest County Potawatomi Tribal lands; it states the index is not comparative to other Wisconsin areas.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:16:06Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "medium",
+      "discovery_note": "Wisconsin DHS heat vulnerability index is specific to the area surrounding Forest County Potawatomi Tribal lands; it states the index is not comparative to other Wisconsin areas.",
+      "access_instructions": "Use the public source link; inspect plan scope, dates, adoption status, access and redistribution terms before full-document acquisition.",
+      "category": "climate_vulnerability_assessment"
+    },
+    {
+      "id": "D04-C007",
+      "tribe_ids": [
+        "epa_100000086"
+      ],
+      "title": "Fort Belknap Indian Community Climate Change Adaptation Plan",
+      "issuing_body": "Fort Belknap Indian Community",
+      "document_class": "climate_adaptation_plan",
+      "canonical_landing_page_url": "https://img1.wsimg.com/blobby/go/d94bfdb9-dd85-49bd-94c2-4822ef04bf3b/downloads/Official%20FBIC%20Climate%20Change%20Plan%202023.pdf?ver=1752854222234",
+      "document_url": "https://img1.wsimg.com/blobby/go/d94bfdb9-dd85-49bd-94c2-4822ef04bf3b/downloads/Official%20FBIC%20Climate%20Change%20Plan%202023.pdf?ver=1752854222234",
+      "host_relationship": "Public regional, intertribal, or other source identifies the Nation connection; relationship scope needs later review.",
+      "relationship_evidence": "Public document title identifies the Fort Belknap Indian Community Climate Change Adaptation Plan; PDF not opened.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:16:06Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "medium",
+      "discovery_note": "Public document title identifies the Fort Belknap Indian Community Climate Change Adaptation Plan; PDF not opened.",
+      "access_instructions": "Use the public source link; inspect plan scope, dates, adoption status, access and redistribution terms before full-document acquisition.",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "id": "D04-C008",
+      "tribe_ids": [
+        "epa_100000088"
+      ],
+      "title": "Fort Independence Indian Community Priority Climate Action Plan",
+      "issuing_body": "Fort Independence Indian Community",
+      "document_class": "climate_adaptation_plan",
+      "canonical_landing_page_url": "https://www.epa.gov/inflation-reduction-act/priority-climate-action-plans-states-msas-tribes-and-territories",
+      "document_url": "https://www.epa.gov/system/files/documents/2024-04/fort-independence-indian-community-pcap.pdf",
+      "host_relationship": "Tribal or agency source identifies the Nation and plan relationship.",
+      "relationship_evidence": "EPA-hosted plan states the Fort Independence Indian Community developed this PCAP.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:16:06Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "high",
+      "discovery_note": "EPA-hosted plan states the Fort Independence Indian Community developed this PCAP.",
+      "access_instructions": "Use the public source link; inspect plan scope, dates, adoption status, access and redistribution terms before full-document acquisition.",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "id": "D04-C009",
+      "tribe_ids": [
+        "epa_100000089"
+      ],
+      "title": "Fort McDermitt Paiute Shoshone Tribe draft Tribal Hazard Mitigation Plan",
+      "issuing_body": "Fort McDermitt Paiute Shoshone Tribe",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://www.fmpst.org/environmental",
+      "document_url": "https://www.fmpst.org/environmental",
+      "host_relationship": "Tribal or agency source identifies the Nation and plan relationship.",
+      "relationship_evidence": "Official Tribal environmental page lists a draft Tribal Hazard Mitigation Plan; draft status from search excerpt.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:16:06Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "high",
+      "discovery_note": "Official Tribal environmental page lists a draft Tribal Hazard Mitigation Plan; draft status from search excerpt.",
+      "access_instructions": "Use the public source link; inspect plan scope, dates, adoption status, access and redistribution terms before full-document acquisition.",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "id": "D04-C010",
+      "tribe_ids": [
+        "epa_100000092"
+      ],
+      "title": "Fort Sill Apache Tribe Hazard Mitigation Plan (draft for FEMA submittal)",
+      "issuing_body": "Fort Sill Apache Tribe",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://fortsillapache-nsn.gov/programs/environmental-programs/hazard-mitigation-plan-feedback/",
+      "document_url": "https://fortsillapache-nsn.gov/programs/environmental-programs/hazard-mitigation-plan-feedback/",
+      "host_relationship": "Tribal or agency source identifies the Nation and plan relationship.",
+      "relationship_evidence": "Official Tribal page asks for feedback on its draft Hazard Mitigation Plan for FEMA submittal.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:16:06Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "high",
+      "discovery_note": "Official Tribal page asks for feedback on its draft Hazard Mitigation Plan for FEMA submittal.",
+      "access_instructions": "Use the public source link; inspect plan scope, dates, adoption status, access and redistribution terms before full-document acquisition.",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "id": "D04-C011",
+      "tribe_ids": [
+        "epa_100000093"
+      ],
+      "title": "Gila River Indian Community Priority Climate Action Plan",
+      "issuing_body": "Gila River Indian Community",
+      "document_class": "climate_adaptation_plan",
+      "canonical_landing_page_url": "https://www.epa.gov/system/files/documents/2024-04/gila-river-indian-community-pcap.pdf",
+      "document_url": "https://www.epa.gov/system/files/documents/2024-04/gila-river-indian-community-pcap.pdf",
+      "host_relationship": "Tribal or agency source identifies the Nation and plan relationship.",
+      "relationship_evidence": "EPA-hosted PCAP is expressly for Gila River Indian Community; search excerpt identifies it as the Community DEQ narrative report.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:16:06Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "high",
+      "discovery_note": "EPA-hosted PCAP is expressly for Gila River Indian Community; search excerpt identifies it as the Community DEQ narrative report.",
+      "access_instructions": "Use the public source link; inspect plan scope, dates, adoption status, access and redistribution terms before full-document acquisition.",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "id": "D04-C012",
+      "tribe_ids": [
+        "epa_100000094"
+      ],
+      "title": "Inter-Tribal Council of Michigan combined Priority Climate Action Plan: Grand Traverse Band chapter",
+      "issuing_body": "Inter-Tribal Council of Michigan",
+      "document_class": "climate_adaptation_plan",
+      "canonical_landing_page_url": "https://www.epa.gov/system/files/documents/2024-04/inter-tribal-council-of-michgian-combined-pcap.pdf",
+      "document_url": "https://www.epa.gov/system/files/documents/2024-04/inter-tribal-council-of-michgian-combined-pcap.pdf",
+      "host_relationship": "Public regional, intertribal, or other source identifies the Nation connection; relationship scope needs later review.",
+      "relationship_evidence": "Combined PCAP contains a named Grand Traverse Band of Ottawa and Chippewa Indians Priority Climate Action Plan section; intertribal plan.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:16:06Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "medium",
+      "discovery_note": "Combined PCAP contains a named Grand Traverse Band of Ottawa and Chippewa Indians Priority Climate Action Plan section; intertribal plan.",
+      "access_instructions": "Use the public source link; inspect plan scope, dates, adoption status, access and redistribution terms before full-document acquisition.",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "id": "D04-C013",
+      "tribe_ids": [
+        "epa_100000094"
+      ],
+      "title": "Grand Traverse Band Natural Hazard Mitigation Plan 2024",
+      "issuing_body": "Grand Traverse Band of Ottawa and Chippewa Indians",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://www.gtbindians.org/ems.asp",
+      "document_url": "https://www.gtbindians.org/ems.asp",
+      "host_relationship": "Tribal or agency source identifies the Nation and plan relationship.",
+      "relationship_evidence": "Official Tribal Emergency Management page states the Band has an approved Natural Hazard Mitigation Plan.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:16:06Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "high",
+      "discovery_note": "Official Tribal Emergency Management page states the Band has an approved Natural Hazard Mitigation Plan.",
+      "access_instructions": "Use the public source link; inspect plan scope, dates, adoption status, access and redistribution terms before full-document acquisition.",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "id": "D04-C014",
+      "tribe_ids": [
+        "epa_100000098"
+      ],
+      "title": "Habematolel Pomo of Upper Lake Priority Climate Action Plan",
+      "issuing_body": "Habematolel Pomo of Upper Lake",
+      "document_class": "climate_adaptation_plan",
+      "canonical_landing_page_url": "https://www.epa.gov/system/files/documents/2024-03/habematolel-hpul-pcap.pdf",
+      "document_url": "https://www.epa.gov/system/files/documents/2024-03/habematolel-hpul-pcap.pdf",
+      "host_relationship": "Tribal or agency source identifies the Nation and plan relationship.",
+      "relationship_evidence": "EPA-hosted PCAP identifies the plan as for Habematolel Pomo of Upper Lake.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:16:06Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "high",
+      "discovery_note": "EPA-hosted PCAP identifies the plan as for Habematolel Pomo of Upper Lake.",
+      "access_instructions": "Use the public source link; inspect plan scope, dates, adoption status, access and redistribution terms before full-document acquisition.",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "id": "D04-C015",
+      "tribe_ids": [
+        "epa_100000099"
+      ],
+      "title": "Midwest Tribal Energy Resources Association Priority Climate Action Plan (Hannahville participation)",
+      "issuing_body": "Midwest Tribal Energy Resources Association",
+      "document_class": "climate_adaptation_plan",
+      "canonical_landing_page_url": "https://www.epa.gov/system/files/documents/2024-03/mtera-pcap.pdf",
+      "document_url": "https://www.epa.gov/system/files/documents/2024-03/mtera-pcap.pdf",
+      "host_relationship": "Public regional, intertribal, or other source identifies the Nation connection; relationship scope needs later review.",
+      "relationship_evidence": "EPA-hosted intertribal PCAP search excerpt identifies Hannahville in tribal material/appendix; relationship is intertribal participation, not standalone plan.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:16:06Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "medium",
+      "discovery_note": "EPA-hosted intertribal PCAP search excerpt identifies Hannahville in tribal material/appendix; relationship is intertribal participation, not standalone plan.",
+      "access_instructions": "Use the public source link; inspect plan scope, dates, adoption status, access and redistribution terms before full-document acquisition.",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "id": "D04-C016",
+      "tribe_ids": [
+        "epa_100000099"
+      ],
+      "title": "Michigan Tribal Climate Change Vulnerability Assessment",
+      "issuing_body": "Michigan Tribes / Bay Mills Indian Community",
+      "document_class": "climate_vulnerability_assessment",
+      "canonical_landing_page_url": "https://www.baymills.org/_files/ugd/869f65_3eff7ec7ac174c7a96b26c5ed8daccfd.pdf",
+      "document_url": "https://www.baymills.org/_files/ugd/869f65_3eff7ec7ac174c7a96b26c5ed8daccfd.pdf",
+      "host_relationship": "Public regional, intertribal, or other source identifies the Nation connection; relationship scope needs later review.",
+      "relationship_evidence": "Search excerpt names Hannahville among participating Michigan Tribes in the vulnerability assessment; full scope/participation was not inspected.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:16:06Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "low",
+      "discovery_note": "Search excerpt names Hannahville among participating Michigan Tribes in the vulnerability assessment; full scope/participation was not inspected.",
+      "access_instructions": "Use the public source link; inspect plan scope, dates, adoption status, access and redistribution terms before full-document acquisition.",
+      "category": "climate_vulnerability_assessment"
+    },
+    {
+      "id": "D04-C017",
+      "tribe_ids": [
+        "epa_100000100"
+      ],
+      "title": "Havasupai Tribe Hazard Mitigation Plan draft (2022)",
+      "issuing_body": "Havasupai Tribe",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://theofficialhavasupaitribe.com/files/Havasupai-Hazard-Mitigation-Plan-2022-Draft-Nov.-18-2022.pdf",
+      "document_url": "https://theofficialhavasupaitribe.com/files/Havasupai-Hazard-Mitigation-Plan-2022-Draft-Nov.-18-2022.pdf",
+      "host_relationship": "Public regional, intertribal, or other source identifies the Nation connection; relationship scope needs later review.",
+      "relationship_evidence": "Public Tribe-hosted draft plan; no final/adoption status established from the search result.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T12:16:06Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "medium",
+      "discovery_note": "Public Tribe-hosted draft plan; no final/adoption status established from the search result.",
+      "access_instructions": "Use the public source link; inspect plan scope, dates, adoption status, access and redistribution terms before full-document acquisition.",
+      "category": "hazard_mitigation_or_management_plan"
+    }
+  ]
+}

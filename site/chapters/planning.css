@@ -1,0 +1,61 @@
+/* Presenter slide layouts and chapter styles for chapters/planning.js. Loaded after styles.css. */
+/* Source pager and card (plans inspect slide, follow-up source view). */
+.plan-pager{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem;margin:0 0 .75rem}
+.plan-pager>p:first-child{margin:0 auto 0 0}
+.plan-pager-buttons{display:inline-flex;gap:.5rem}
+.plan-pager button,.plan-link-button{min-height:44px;padding:0 1rem;border:1.5px solid var(--interactive);background:var(--interactive-tint);color:var(--ink);font:600 var(--type-note)/1.2 var(--body);cursor:pointer}
+.plan-pager button:disabled{opacity:.45;cursor:default}
+.plan-pager button:hover:not(:disabled),.plan-link-button:hover{border-color:var(--ink)}
+/* Two aligned columns: source pager over the source summary, Nation pager over the selected relationship. */
+.plan-card{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:.75rem var(--space-l);align-items:start}
+.plan-card>.plan-pager{margin:0;padding-bottom:.75rem;border-bottom:1px solid var(--rule);align-self:stretch}
+:is(.plan-card,.followup-panel) h3{font-size:var(--type-lead);line-height:1.35;margin:0 0 .25rem;overflow-wrap:anywhere}
+:is(.plan-card,.followup-panel) p{margin:0 0 .35rem;overflow-wrap:anywhere}
+.plan-shortened{font-size:var(--type-note);color:var(--muted);font-weight:400}
+.plan-facts{display:grid;gap:.25rem;margin:.5rem 0 .75rem}
+.plan-facts>div{display:grid;grid-template-columns:4.5rem minmax(0,1fr);gap:.75rem}
+.plan-facts dt{font-weight:700;font-size:var(--type-note);line-height:1.6}
+.plan-facts dd{margin:0}
+.plan-nation-name{font-weight:700}
+.plan-relation{font-size:var(--type-note);line-height:1.5}
+.plan-full-record,.followup-detail{scroll-margin-top:calc(var(--header-height,72px) + 1rem)}
+.plan-full-record:empty{display:none}
+:is(.plan-full-record,.followup-detail):focus{outline:none}
+.plan-full-record h2{font-size:var(--type-lead)}
+.plan-full-record a{overflow-wrap:anywhere}
+.plan-relationships{padding-left:1.25rem}
+.plan-relationships li{margin-bottom:.75rem;overflow-wrap:anywhere}
+/* Age charts: one shared axis label and caption for the three class panels. */
+.plan-result-count{margin-bottom:.5rem;max-width:none}
+.recency-grid{margin-top:0}
+.recency-grid .data-figure{margin:0}
+.recency-grid .bar-chart{margin:.5rem 0 0}
+#plans .recency-grid .bar-chart>li{grid-template-columns:7.5rem minmax(0,1fr) 3rem;margin-bottom:.5rem}
+.plan-age-caption{margin-top:var(--space-s);max-width:none}
+/* Follow-up: rule summary and the Nation explorer. */
+.followup-count{display:flex;align-items:baseline;gap:1rem;margin:0 0 .75rem}
+.followup-count strong{font:500 2.75rem/1.1 var(--display);font-variant-numeric:lining-nums tabular-nums}
+.followup-conditions{margin:0 0 .75rem;padding-left:1.5rem}
+.followup-conditions li{margin-bottom:.25rem}
+.followup-explorer>.toolbar{margin-bottom:var(--space-m)}
+.followup-name{font-size:var(--type-lead);line-height:1.35;margin:0 0 var(--space-s);max-width:none;text-wrap:pretty;overflow-wrap:anywhere}
+.followup-reminder{margin:var(--space-s) 0 0;max-width:none}
+.followup-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.3fr);gap:var(--space-l);align-items:start}
+.followup-nation p{margin:0 0 .5rem}
+.followup-nation .caption{margin-bottom:.75rem}
+.followup-table{width:100%;margin:0}
+.followup-table caption{text-align:left;margin-bottom:.5rem}
+.followup-table :is(th,td){padding:.8rem 1rem .8rem 0;vertical-align:middle}
+@media(max-width:800px){.plan-card,.followup-grid{grid-template-columns:1fr}}
+
+/* Presenter: tighter vertical rhythm so each slide fits without scrolling. */
+body[data-mode="presenter"] #plans .toolbar{margin:0}
+body[data-mode="presenter"] #follow-up .toolbar{margin:0 0 var(--space-m);flex-wrap:nowrap}
+body[data-mode="presenter"] #follow-up .toolbar>.field{flex-direction:row;align-items:center;gap:.75rem}
+body[data-mode="presenter"] #follow-up .toolbar>.field:nth-child(2){flex-grow:1.6;max-width:none}
+body[data-mode="presenter"] #follow-up .toolbar>label:not(.field){flex:none}
+body[data-mode="presenter"] #plans .plan-coverage{margin:0}
+body[data-mode="presenter"] #plans .plan-coverage .stat-band{margin:0 0 var(--space-s)}
+body[data-mode="presenter"] #plans .stat span{max-width:none}
+body[data-mode="presenter"] #plans .recency-grid{gap:var(--space-m)}
+body[data-mode="presenter"] #plans .recency-grid h2{margin-bottom:0}

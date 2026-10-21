@@ -1,0 +1,2734 @@
+{
+  "schema_version": "catf-plan-discovery-results.v1",
+  "batch_id": "D14",
+  "source_registry_sha256": "5db8f52cf44d3a3853f8403cd6dc845a59088f07f42b40a3488575b5cbe7cece",
+  "searched_at": "2026-10-21T13:15:00Z",
+  "nation_searches": [
+    {
+      "tribe_id": "epa_100000326",
+      "display_name": "Wilton Rancheria, California",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Wilton Rancheria, California climate adaptation plan climate action plan PCAP",
+        "Wilton Rancheria, California climate vulnerability assessment climate change vulnerability assessment",
+        "Wilton Rancheria, California tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "files.ceqanet.lci.ca.gov",
+        "climateresilience.ca.gov",
+        "opc.ca.gov",
+        "www.flyacv.com",
+        "nca5.climate.us",
+        "www.ndep.nv.gov",
+        "www.wiyot.us",
+        "www.env.nm.gov",
+        "dwee.nebraska.gov",
+        "ceqanet.lci.ca.gov",
+        "www.epa.gov",
+        "www.govinfo.gov",
+        "www.contracosta.ca.gov",
+        "suquamish.nsn.us",
+        "en.wikipedia.org",
+        "www.reddit.com",
+        "climateassessment.ca.gov",
+        "www.energy.ca.gov",
+        "www.opc.ca.gov",
+        "cdc.gov",
+        "wiyot.us",
+        "www.cdph.ca.gov",
+        "ped.palatribe.com",
+        "palebluedot.llc",
+        "www.energy.gov",
+        "nema.nebraska.gov",
+        "winnebagotribe.com",
+        "www.oem.nv.gov",
+        "www.bia.gov",
+        "forestry.nv.gov",
+        "dem.nv.gov",
+        "www.nigc.gov",
+        "winnebagosheriff.com",
+        "jeo.com",
+        "wiltonrancheria-nsn.gov",
+        "officialsiteofthewinnemuccaindiancolony.org",
+        "www.caloes.ca.gov",
+        "paperzz.com",
+        "poncatribe-ne.gov"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Wilton Rancheria, California climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[0].searches.climate_adaptation_plan (query index 0; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Wilton Rancheria, California climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[0].searches.climate_vulnerability_assessment (query index 0; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Wilton Rancheria, California tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[0].searches.hazard_mitigation_or_management_plan (query index 0; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000327",
+      "display_name": "Winnebago Tribe of Nebraska",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Winnebago Tribe of Nebraska climate adaptation plan climate action plan PCAP",
+        "Winnebago Tribe of Nebraska climate vulnerability assessment climate change vulnerability assessment",
+        "Winnebago Tribe of Nebraska tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "files.ceqanet.lci.ca.gov",
+        "climateresilience.ca.gov",
+        "opc.ca.gov",
+        "www.flyacv.com",
+        "nca5.climate.us",
+        "www.ndep.nv.gov",
+        "www.wiyot.us",
+        "www.env.nm.gov",
+        "dwee.nebraska.gov",
+        "ceqanet.lci.ca.gov",
+        "www.epa.gov",
+        "www.govinfo.gov",
+        "www.contracosta.ca.gov",
+        "suquamish.nsn.us",
+        "en.wikipedia.org",
+        "www.reddit.com",
+        "climateassessment.ca.gov",
+        "www.energy.ca.gov",
+        "www.opc.ca.gov",
+        "cdc.gov",
+        "wiyot.us",
+        "www.cdph.ca.gov",
+        "ped.palatribe.com",
+        "palebluedot.llc",
+        "www.energy.gov",
+        "nema.nebraska.gov",
+        "winnebagotribe.com",
+        "www.oem.nv.gov",
+        "www.bia.gov",
+        "forestry.nv.gov",
+        "dem.nv.gov",
+        "www.nigc.gov",
+        "winnebagosheriff.com",
+        "jeo.com",
+        "wiltonrancheria-nsn.gov",
+        "officialsiteofthewinnemuccaindiancolony.org",
+        "www.caloes.ca.gov",
+        "paperzz.com",
+        "poncatribe-ne.gov"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Winnebago Tribe of Nebraska climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[0].searches.climate_adaptation_plan (query index 1; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Winnebago Tribe of Nebraska climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[0].searches.climate_vulnerability_assessment (query index 1; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Winnebago Tribe of Nebraska tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[0].searches.hazard_mitigation_or_management_plan (query index 1; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000328",
+      "display_name": "Winnemucca Indian Colony of Nevada",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Winnemucca Indian Colony of Nevada climate adaptation plan climate action plan PCAP",
+        "Winnemucca Indian Colony of Nevada climate vulnerability assessment climate change vulnerability assessment",
+        "Winnemucca Indian Colony of Nevada tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "files.ceqanet.lci.ca.gov",
+        "climateresilience.ca.gov",
+        "opc.ca.gov",
+        "www.flyacv.com",
+        "nca5.climate.us",
+        "www.ndep.nv.gov",
+        "www.wiyot.us",
+        "www.env.nm.gov",
+        "dwee.nebraska.gov",
+        "ceqanet.lci.ca.gov",
+        "www.epa.gov",
+        "www.govinfo.gov",
+        "www.contracosta.ca.gov",
+        "suquamish.nsn.us",
+        "en.wikipedia.org",
+        "www.reddit.com",
+        "climateassessment.ca.gov",
+        "www.energy.ca.gov",
+        "www.opc.ca.gov",
+        "cdc.gov",
+        "wiyot.us",
+        "www.cdph.ca.gov",
+        "ped.palatribe.com",
+        "palebluedot.llc",
+        "www.energy.gov",
+        "nema.nebraska.gov",
+        "winnebagotribe.com",
+        "www.oem.nv.gov",
+        "www.bia.gov",
+        "forestry.nv.gov",
+        "dem.nv.gov",
+        "www.nigc.gov",
+        "winnebagosheriff.com",
+        "jeo.com",
+        "wiltonrancheria-nsn.gov",
+        "officialsiteofthewinnemuccaindiancolony.org",
+        "www.caloes.ca.gov",
+        "paperzz.com",
+        "poncatribe-ne.gov"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Winnemucca Indian Colony of Nevada climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[0].searches.climate_adaptation_plan (query index 2; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Winnemucca Indian Colony of Nevada climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[0].searches.climate_vulnerability_assessment (query index 2; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Winnemucca Indian Colony of Nevada tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[0].searches.hazard_mitigation_or_management_plan (query index 2; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000329",
+      "display_name": "Wiyot Tribe, California",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Wiyot Tribe, California climate adaptation plan climate action plan PCAP",
+        "Wiyot Tribe, California climate vulnerability assessment climate change vulnerability assessment",
+        "Wiyot Tribe, California tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "files.ceqanet.lci.ca.gov",
+        "climateresilience.ca.gov",
+        "opc.ca.gov",
+        "www.flyacv.com",
+        "nca5.climate.us",
+        "www.ndep.nv.gov",
+        "www.wiyot.us",
+        "www.env.nm.gov",
+        "dwee.nebraska.gov",
+        "ceqanet.lci.ca.gov",
+        "www.epa.gov",
+        "www.govinfo.gov",
+        "www.contracosta.ca.gov",
+        "suquamish.nsn.us",
+        "en.wikipedia.org",
+        "www.reddit.com",
+        "climateassessment.ca.gov",
+        "www.energy.ca.gov",
+        "www.opc.ca.gov",
+        "cdc.gov",
+        "wiyot.us",
+        "www.cdph.ca.gov",
+        "ped.palatribe.com",
+        "palebluedot.llc",
+        "www.energy.gov",
+        "nema.nebraska.gov",
+        "winnebagotribe.com",
+        "www.oem.nv.gov",
+        "www.bia.gov",
+        "forestry.nv.gov",
+        "dem.nv.gov",
+        "www.nigc.gov",
+        "winnebagosheriff.com",
+        "jeo.com",
+        "wiltonrancheria-nsn.gov",
+        "officialsiteofthewinnemuccaindiancolony.org",
+        "www.caloes.ca.gov",
+        "paperzz.com",
+        "poncatribe-ne.gov"
+      ],
+      "search_budget_used": 3,
+      "outcome": "found",
+      "candidate_ids": [
+        "D14-C001"
+      ],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "found",
+          "query": "Wiyot Tribe, California climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[0].searches.climate_adaptation_plan (query index 3; one focused public web search completed)"
+          ],
+          "candidate_ids": [
+            "D14-C001"
+          ],
+          "limitations": "Search-result or landing metadata only; source documents were not opened in this sweep."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Wiyot Tribe, California climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[0].searches.climate_vulnerability_assessment (query index 3; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Wiyot Tribe, California tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[0].searches.hazard_mitigation_or_management_plan (query index 3; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000330",
+      "display_name": "Wyandotte Nation",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Wyandotte Nation climate adaptation plan climate action plan PCAP",
+        "Wyandotte Nation climate vulnerability assessment climate change vulnerability assessment",
+        "Wyandotte Nation tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "yavapai-apache.org",
+        "www.epa.gov",
+        "wyandotte-nation.org",
+        "swagit-attachments.granicus.com",
+        "ccass.arizona.edu",
+        "ottawatribe.gov",
+        "www.ottawatribe.gov",
+        "dema.az.gov",
+        "taggs.hhs.gov",
+        "dot.sd.gov",
+        "www.govinfo.gov",
+        "haury.arizona.edu",
+        "www.nncap.arizona.edu",
+        "www.tonation-nsn.gov",
+        "www.swindianag.com",
+        "www.whiteearth.com",
+        "www.campverde.az.gov",
+        "en.wikipedia.org",
+        "apnews.com",
+        "www.yavapaiaz.gov",
+        "naair.arizona.edu",
+        "www.usgs.gov",
+        "www.energy.gov",
+        "climas.arizona.edu",
+        "toolkit.climate.gov",
+        "govtribe.com",
+        "pubs.usgs.gov",
+        "tribalclimateadaptationguidebook.org",
+        "jamestowntribe.org",
+        "www.dhaz.gov",
+        "e1.nmcdn.io",
+        "ru.wikipedia.org",
+        "arxiv.org",
+        "www.reddit.com",
+        "www.arizonahighways.com",
+        "www.districtiii.org",
+        "www.nigc.gov",
+        "www.bia.gov",
+        "www.wycokck.org",
+        "santeesiouxnation.com"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Wyandotte Nation climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[1].searches.climate_adaptation_plan (query index 0; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Wyandotte Nation climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[1].searches.climate_vulnerability_assessment (query index 0; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Wyandotte Nation tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[1].searches.hazard_mitigation_or_management_plan (query index 0; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000331",
+      "display_name": "Yankton Sioux Tribe of South Dakota",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Yankton Sioux Tribe of South Dakota climate adaptation plan climate action plan PCAP",
+        "Yankton Sioux Tribe of South Dakota climate vulnerability assessment climate change vulnerability assessment",
+        "Yankton Sioux Tribe of South Dakota tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "yavapai-apache.org",
+        "www.epa.gov",
+        "wyandotte-nation.org",
+        "swagit-attachments.granicus.com",
+        "ccass.arizona.edu",
+        "ottawatribe.gov",
+        "www.ottawatribe.gov",
+        "dema.az.gov",
+        "taggs.hhs.gov",
+        "dot.sd.gov",
+        "www.govinfo.gov",
+        "haury.arizona.edu",
+        "www.nncap.arizona.edu",
+        "www.tonation-nsn.gov",
+        "www.swindianag.com",
+        "www.whiteearth.com",
+        "www.campverde.az.gov",
+        "en.wikipedia.org",
+        "apnews.com",
+        "www.yavapaiaz.gov",
+        "naair.arizona.edu",
+        "www.usgs.gov",
+        "www.energy.gov",
+        "climas.arizona.edu",
+        "toolkit.climate.gov",
+        "govtribe.com",
+        "pubs.usgs.gov",
+        "tribalclimateadaptationguidebook.org",
+        "jamestowntribe.org",
+        "www.dhaz.gov",
+        "e1.nmcdn.io",
+        "ru.wikipedia.org",
+        "arxiv.org",
+        "www.reddit.com",
+        "www.arizonahighways.com",
+        "www.districtiii.org",
+        "www.nigc.gov",
+        "www.bia.gov",
+        "www.wycokck.org",
+        "santeesiouxnation.com"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Yankton Sioux Tribe of South Dakota climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[1].searches.climate_adaptation_plan (query index 1; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Yankton Sioux Tribe of South Dakota climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[1].searches.climate_vulnerability_assessment (query index 1; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Yankton Sioux Tribe of South Dakota tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[1].searches.hazard_mitigation_or_management_plan (query index 1; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000332",
+      "display_name": "Yavapai-Apache Nation of the Camp Verde Indian Reservation, Arizona",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Yavapai-Apache Nation of the Camp Verde Indian Reservation, Arizona climate adaptation plan climate action plan PCAP",
+        "Yavapai-Apache Nation of the Camp Verde Indian Reservation, Arizona climate vulnerability assessment climate change vulnerability assessment",
+        "Yavapai-Apache Nation of the Camp Verde Indian Reservation, Arizona tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "yavapai-apache.org",
+        "www.epa.gov",
+        "wyandotte-nation.org",
+        "swagit-attachments.granicus.com",
+        "ccass.arizona.edu",
+        "ottawatribe.gov",
+        "www.ottawatribe.gov",
+        "dema.az.gov",
+        "taggs.hhs.gov",
+        "dot.sd.gov",
+        "www.govinfo.gov",
+        "haury.arizona.edu",
+        "www.nncap.arizona.edu",
+        "www.tonation-nsn.gov",
+        "www.swindianag.com",
+        "www.whiteearth.com",
+        "www.campverde.az.gov",
+        "en.wikipedia.org",
+        "apnews.com",
+        "www.yavapaiaz.gov",
+        "naair.arizona.edu",
+        "www.usgs.gov",
+        "www.energy.gov",
+        "climas.arizona.edu",
+        "toolkit.climate.gov",
+        "govtribe.com",
+        "pubs.usgs.gov",
+        "tribalclimateadaptationguidebook.org",
+        "jamestowntribe.org",
+        "www.dhaz.gov",
+        "e1.nmcdn.io",
+        "ru.wikipedia.org",
+        "arxiv.org",
+        "www.reddit.com",
+        "www.arizonahighways.com",
+        "www.districtiii.org",
+        "www.nigc.gov",
+        "www.bia.gov",
+        "www.wycokck.org",
+        "santeesiouxnation.com"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Yavapai-Apache Nation of the Camp Verde Indian Reservation, Arizona climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[1].searches.climate_adaptation_plan (query index 2; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Yavapai-Apache Nation of the Camp Verde Indian Reservation, Arizona climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[1].searches.climate_vulnerability_assessment (query index 2; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Yavapai-Apache Nation of the Camp Verde Indian Reservation, Arizona tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[1].searches.hazard_mitigation_or_management_plan (query index 2; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000333",
+      "display_name": "Yavapai-Prescott Indian Tribe",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Yavapai-Prescott Indian Tribe climate adaptation plan climate action plan PCAP",
+        "Yavapai-Prescott Indian Tribe climate vulnerability assessment climate change vulnerability assessment",
+        "Yavapai-Prescott Indian Tribe tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "yavapai-apache.org",
+        "www.epa.gov",
+        "wyandotte-nation.org",
+        "swagit-attachments.granicus.com",
+        "ccass.arizona.edu",
+        "ottawatribe.gov",
+        "www.ottawatribe.gov",
+        "dema.az.gov",
+        "taggs.hhs.gov",
+        "dot.sd.gov",
+        "www.govinfo.gov",
+        "haury.arizona.edu",
+        "www.nncap.arizona.edu",
+        "www.tonation-nsn.gov",
+        "www.swindianag.com",
+        "www.whiteearth.com",
+        "www.campverde.az.gov",
+        "en.wikipedia.org",
+        "apnews.com",
+        "www.yavapaiaz.gov",
+        "naair.arizona.edu",
+        "www.usgs.gov",
+        "www.energy.gov",
+        "climas.arizona.edu",
+        "toolkit.climate.gov",
+        "govtribe.com",
+        "pubs.usgs.gov",
+        "tribalclimateadaptationguidebook.org",
+        "jamestowntribe.org",
+        "www.dhaz.gov",
+        "e1.nmcdn.io",
+        "ru.wikipedia.org",
+        "arxiv.org",
+        "www.reddit.com",
+        "www.arizonahighways.com",
+        "www.districtiii.org",
+        "www.nigc.gov",
+        "www.bia.gov",
+        "www.wycokck.org",
+        "santeesiouxnation.com"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Yavapai-Prescott Indian Tribe climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[1].searches.climate_adaptation_plan (query index 3; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Yavapai-Prescott Indian Tribe climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[1].searches.climate_vulnerability_assessment (query index 3; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Yavapai-Prescott Indian Tribe tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[1].searches.hazard_mitigation_or_management_plan (query index 3; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000334",
+      "display_name": "Yerington Paiute Tribe of the Yerington Colony & Campbell Ranch, Nevada",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Yerington Paiute Tribe of the Yerington Colony & Campbell Ranch, Nevada climate adaptation plan climate action plan PCAP",
+        "Yerington Paiute Tribe of the Yerington Colony & Campbell Ranch, Nevada climate vulnerability assessment climate change vulnerability assessment",
+        "Yerington Paiute Tribe of the Yerington Colony & Campbell Ranch, Nevada tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "climateaction.yolocounty.gov",
+        "ascent.inc",
+        "www.yolocounty.gov",
+        "lci.ca.gov",
+        "elpasotexas.legistar.com",
+        "yochadehe.gov",
+        "www.contracosta.ca.gov",
+        "www.epa.gov",
+        "19january2021snapshot.epa.gov",
+        "www.energy.nv.gov",
+        "ceqanet.lci.ca.gov",
+        "www.govinfo.gov",
+        "climate.calpoly.edu",
+        "www.climateaction.nm.gov",
+        "www.vwenvironmentalmitigationtrust.com",
+        "www.ndep.nv.gov",
+        "www.baaqmd.gov",
+        "en.wikipedia.org",
+        "ru.wikipedia.org",
+        "www.reddit.com",
+        "climateassessment.ca.gov",
+        "scholarworks.utep.edu",
+        "tribalclimateadaptationguidebook.org",
+        "files.ceqanet.lci.ca.gov",
+        "dot.ca.gov",
+        "provost.ucdavis.edu",
+        "ped.palatribe.com",
+        "www.cpuc.ca.gov",
+        "htv-prod-media.s3.amazonaws.com",
+        "arxiv.org",
+        "www.ysletadelsurpueblo.org",
+        "www.caloes.ca.gov",
+        "www2.elpasotexas.gov",
+        "www.yerington.net",
+        "nepis.epa.gov",
+        "ypt-nsn.gov",
+        "nbmg.unr.edu",
+        "www.bia.gov",
+        "public.destinyhosted.com",
+        "apnews.com"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Yerington Paiute Tribe of the Yerington Colony & Campbell Ranch, Nevada climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[2].searches.climate_adaptation_plan (query index 0; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Yerington Paiute Tribe of the Yerington Colony & Campbell Ranch, Nevada climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[2].searches.climate_vulnerability_assessment (query index 0; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Yerington Paiute Tribe of the Yerington Colony & Campbell Ranch, Nevada tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[2].searches.hazard_mitigation_or_management_plan (query index 0; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000335",
+      "display_name": "Yocha Dehe Wintun Nation, California",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Yocha Dehe Wintun Nation, California climate adaptation plan climate action plan PCAP",
+        "Yocha Dehe Wintun Nation, California climate vulnerability assessment climate change vulnerability assessment",
+        "Yocha Dehe Wintun Nation, California tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "climateaction.yolocounty.gov",
+        "ascent.inc",
+        "www.yolocounty.gov",
+        "lci.ca.gov",
+        "elpasotexas.legistar.com",
+        "yochadehe.gov",
+        "www.contracosta.ca.gov",
+        "www.epa.gov",
+        "19january2021snapshot.epa.gov",
+        "www.energy.nv.gov",
+        "ceqanet.lci.ca.gov",
+        "www.govinfo.gov",
+        "climate.calpoly.edu",
+        "www.climateaction.nm.gov",
+        "www.vwenvironmentalmitigationtrust.com",
+        "www.ndep.nv.gov",
+        "www.baaqmd.gov",
+        "en.wikipedia.org",
+        "ru.wikipedia.org",
+        "www.reddit.com",
+        "climateassessment.ca.gov",
+        "scholarworks.utep.edu",
+        "tribalclimateadaptationguidebook.org",
+        "files.ceqanet.lci.ca.gov",
+        "dot.ca.gov",
+        "provost.ucdavis.edu",
+        "ped.palatribe.com",
+        "www.cpuc.ca.gov",
+        "htv-prod-media.s3.amazonaws.com",
+        "arxiv.org",
+        "www.ysletadelsurpueblo.org",
+        "www.caloes.ca.gov",
+        "www2.elpasotexas.gov",
+        "www.yerington.net",
+        "nepis.epa.gov",
+        "ypt-nsn.gov",
+        "nbmg.unr.edu",
+        "www.bia.gov",
+        "public.destinyhosted.com",
+        "apnews.com"
+      ],
+      "search_budget_used": 3,
+      "outcome": "found",
+      "candidate_ids": [
+        "D14-C002"
+      ],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "found",
+          "query": "Yocha Dehe Wintun Nation, California climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[2].searches.climate_adaptation_plan (query index 1; one focused public web search completed)"
+          ],
+          "candidate_ids": [
+            "D14-C002"
+          ],
+          "limitations": "Search-result or landing metadata only; source documents were not opened in this sweep."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Yocha Dehe Wintun Nation, California climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[2].searches.climate_vulnerability_assessment (query index 1; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Yocha Dehe Wintun Nation, California tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[2].searches.hazard_mitigation_or_management_plan (query index 1; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000336",
+      "display_name": "Yomba Shoshone Tribe of the Yomba Reservation, Nevada",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Yomba Shoshone Tribe of the Yomba Reservation, Nevada climate adaptation plan climate action plan PCAP",
+        "Yomba Shoshone Tribe of the Yomba Reservation, Nevada climate vulnerability assessment climate change vulnerability assessment",
+        "Yomba Shoshone Tribe of the Yomba Reservation, Nevada tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "climateaction.yolocounty.gov",
+        "ascent.inc",
+        "www.yolocounty.gov",
+        "lci.ca.gov",
+        "elpasotexas.legistar.com",
+        "yochadehe.gov",
+        "www.contracosta.ca.gov",
+        "www.epa.gov",
+        "19january2021snapshot.epa.gov",
+        "www.energy.nv.gov",
+        "ceqanet.lci.ca.gov",
+        "www.govinfo.gov",
+        "climate.calpoly.edu",
+        "www.climateaction.nm.gov",
+        "www.vwenvironmentalmitigationtrust.com",
+        "www.ndep.nv.gov",
+        "www.baaqmd.gov",
+        "en.wikipedia.org",
+        "ru.wikipedia.org",
+        "www.reddit.com",
+        "climateassessment.ca.gov",
+        "scholarworks.utep.edu",
+        "tribalclimateadaptationguidebook.org",
+        "files.ceqanet.lci.ca.gov",
+        "dot.ca.gov",
+        "provost.ucdavis.edu",
+        "ped.palatribe.com",
+        "www.cpuc.ca.gov",
+        "htv-prod-media.s3.amazonaws.com",
+        "arxiv.org",
+        "www.ysletadelsurpueblo.org",
+        "www.caloes.ca.gov",
+        "www2.elpasotexas.gov",
+        "www.yerington.net",
+        "nepis.epa.gov",
+        "ypt-nsn.gov",
+        "nbmg.unr.edu",
+        "www.bia.gov",
+        "public.destinyhosted.com",
+        "apnews.com"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Yomba Shoshone Tribe of the Yomba Reservation, Nevada climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[2].searches.climate_adaptation_plan (query index 2; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Yomba Shoshone Tribe of the Yomba Reservation, Nevada climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[2].searches.climate_vulnerability_assessment (query index 2; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Yomba Shoshone Tribe of the Yomba Reservation, Nevada tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[2].searches.hazard_mitigation_or_management_plan (query index 2; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000337",
+      "display_name": "Ysleta del Sur Pueblo",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Ysleta del Sur Pueblo climate adaptation plan climate action plan PCAP",
+        "Ysleta del Sur Pueblo climate vulnerability assessment climate change vulnerability assessment",
+        "Ysleta del Sur Pueblo tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "climateaction.yolocounty.gov",
+        "ascent.inc",
+        "www.yolocounty.gov",
+        "lci.ca.gov",
+        "elpasotexas.legistar.com",
+        "yochadehe.gov",
+        "www.contracosta.ca.gov",
+        "www.epa.gov",
+        "19january2021snapshot.epa.gov",
+        "www.energy.nv.gov",
+        "ceqanet.lci.ca.gov",
+        "www.govinfo.gov",
+        "climate.calpoly.edu",
+        "www.climateaction.nm.gov",
+        "www.vwenvironmentalmitigationtrust.com",
+        "www.ndep.nv.gov",
+        "www.baaqmd.gov",
+        "en.wikipedia.org",
+        "ru.wikipedia.org",
+        "www.reddit.com",
+        "climateassessment.ca.gov",
+        "scholarworks.utep.edu",
+        "tribalclimateadaptationguidebook.org",
+        "files.ceqanet.lci.ca.gov",
+        "dot.ca.gov",
+        "provost.ucdavis.edu",
+        "ped.palatribe.com",
+        "www.cpuc.ca.gov",
+        "htv-prod-media.s3.amazonaws.com",
+        "arxiv.org",
+        "www.ysletadelsurpueblo.org",
+        "www.caloes.ca.gov",
+        "www2.elpasotexas.gov",
+        "www.yerington.net",
+        "nepis.epa.gov",
+        "ypt-nsn.gov",
+        "nbmg.unr.edu",
+        "www.bia.gov",
+        "public.destinyhosted.com",
+        "apnews.com"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Ysleta del Sur Pueblo climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[2].searches.climate_adaptation_plan (query index 3; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Ysleta del Sur Pueblo climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[2].searches.climate_vulnerability_assessment (query index 3; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Ysleta del Sur Pueblo tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[2].searches.hazard_mitigation_or_management_plan (query index 3; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000338",
+      "display_name": "Yurok Tribe of the Yurok Reservation, California",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Yurok Tribe of the Yurok Reservation, California climate adaptation plan climate action plan PCAP",
+        "Yurok Tribe of the Yurok Reservation, California climate vulnerability assessment climate change vulnerability assessment",
+        "Yurok Tribe of the Yurok Reservation, California tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "www.bia.gov",
+        "www.climateaction.nm.gov",
+        "www.yuroktribe.org",
+        "opc.ca.gov",
+        "www.env.nm.gov",
+        "resilientca.org",
+        "taggs.hhs.gov",
+        "www.energy.gov",
+        "climateresilience.ca.gov",
+        "www.cakex.org",
+        "19january2021snapshot.epa.gov",
+        "itep.nau.edu",
+        "www.epa.gov",
+        "www.noaa.gov",
+        "www.usgs.gov",
+        "en.wikipedia.org",
+        "ru.wikipedia.org",
+        "apnews.com",
+        "climateassessment.ca.gov",
+        "tribalclimateadaptationguidebook.org",
+        "cms9files1.revize.com",
+        "www.afognak.org",
+        "pubs.usgs.gov",
+        "www.yurokoes.org",
+        "www.dhsem.nm.gov",
+        "www.caloes.ca.gov",
+        "www.kodiakak.us",
+        "tribalclimatehealth.org",
+        "www.cpuc.ca.gov",
+        "www.commerce.alaska.gov",
+        "humalertca.gov",
+        "www.iad.nm.gov",
+        "www.fisheries.noaa.gov",
+        "ceqanet.lci.ca.gov",
+        "afognak.org",
+        "gis.fema.gov"
+      ],
+      "search_budget_used": 3,
+      "outcome": "found",
+      "candidate_ids": [
+        "D14-C005",
+        "D14-C006",
+        "D14-C007"
+      ],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded.",
+        "Exact-alias seed catalog contributed additional public candidate metadata; see the local seed-catalog receipt.",
+        "Exact-alias seed catalog contributed additional public candidate metadata; see the local seed-catalog receipt.",
+        "Exact-alias seed catalog contributed additional public candidate metadata; see the local seed-catalog receipt."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "found",
+          "query": "Yurok Tribe of the Yurok Reservation, California climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[3].searches.climate_adaptation_plan (query index 0; one focused public web search completed)",
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-2b2500810382e016; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D14/seed-catalog-check.json and batch seed lookup; title: Yurok Tribe Climate Change Adaptation Plan for Water and Aquatic Resources; URL: https://www.yuroktribe.org/_files/ugd/23c897_e730e8c41d29451691e3ff8fa83f291c.pdf; Official Yurok reports page links this Water and Aquatic Resources adaptation plan; catalog metadata identifies Yurok Tribe Environmental Program. Same catalog family as another URL; edition or mirror relation unresolved."
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-ca2fe661f1baf0db; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D14/seed-catalog-check.json and batch seed lookup; title: Yurok Tribe Climate Change Adaptation Plan; URL: https://www.yuroktribe.org/_files/ugd/23c897_d77feebfe55b4ba889c57afaac85bba3.pdf; Official Yurok Community & Ecosystems Plans section links this titled Climate Change Adaptation Plan. Same catalog family as another URL; edition or mirror relation unresolved."
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-2b2500810382e016; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D14/seed-catalog-check.json and batch seed lookup; title: Yurok Tribe Climate Change Adaptation Plan for Water and Aquatic Resources; URL: https://www.yuroktribe.org/_files/ugd/23c897_e730e8c41d29451691e3ff8fa83f291c.pdf"
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-ca2fe661f1baf0db; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D14/seed-catalog-check.json and batch seed lookup; title: Yurok Tribe Climate Change Adaptation Plan; URL: https://www.yuroktribe.org/_files/ugd/23c897_d77feebfe55b4ba889c57afaac85bba3.pdf"
+            }
+          ],
+          "candidate_ids": [
+            "D14-C005",
+            "D14-C007"
+          ],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence.Seed-catalog metadata was added after exact alias reconciliation; source was not reopened and candidate remains initial-search-only.Seed-catalog metadata was added after exact alias reconciliation; source was not reopened and candidate remains initial-search-only."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Yurok Tribe of the Yurok Reservation, California climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[3].searches.climate_vulnerability_assessment (query index 0; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "found",
+          "query": "Yurok Tribe of the Yurok Reservation, California tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[3].searches.hazard_mitigation_or_management_plan (query index 0; one focused public web search completed)",
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-b682228f5606dcda; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D14/seed-catalog-check.json and batch seed lookup; title: Yurok Tribe Hazard Mitigation Plan; URL: https://www.yurokoes.org/_files/ugd/23c897_e5a1f352bd064815aec25689a608ac5f.pdf; Official Yurok Office of Emergency Services index links a Yurok Tribe Hazard Mitigation Plan."
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-b682228f5606dcda; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D14/seed-catalog-check.json and batch seed lookup; title: Yurok Tribe Hazard Mitigation Plan; URL: https://www.yurokoes.org/_files/ugd/23c897_e5a1f352bd064815aec25689a608ac5f.pdf"
+            }
+          ],
+          "candidate_ids": [
+            "D14-C006"
+          ],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence.Seed-catalog metadata was added after exact alias reconciliation; source was not reopened and candidate remains initial-search-only."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "matched_seed_catalog_metadata",
+        "matched_catalog_tribes": [
+          {
+            "id": "tribe-775556565eaa396d",
+            "canonical_name": "Yurok Tribe",
+            "aliases": [
+              "Yurok Tribe of the Yurok Reservation, California"
+            ]
+          }
+        ],
+        "qualifying_seed_candidates": [
+          {
+            "candidate_id": "candidate-2b2500810382e016",
+            "title": "Yurok Tribe Climate Change Adaptation Plan for Water and Aquatic Resources",
+            "url": "https://www.yuroktribe.org/_files/ugd/23c897_e730e8c41d29451691e3ff8fa83f291c.pdf",
+            "document_class": null,
+            "review_state": "not_yet_reviewed",
+            "status": "acquired",
+            "match_basis": "catalog tribe ID",
+            "represented_in_batch_candidates": true,
+            "matching_batch_candidate_ids": [
+              "D14-C005"
+            ]
+          },
+          {
+            "candidate_id": "candidate-b682228f5606dcda",
+            "title": "Yurok Tribe Hazard Mitigation Plan",
+            "url": "https://www.yurokoes.org/_files/ugd/23c897_e5a1f352bd064815aec25689a608ac5f.pdf",
+            "document_class": null,
+            "review_state": "not_yet_reviewed",
+            "status": "acquired",
+            "match_basis": "catalog tribe ID",
+            "represented_in_batch_candidates": true,
+            "matching_batch_candidate_ids": [
+              "D14-C006"
+            ]
+          },
+          {
+            "candidate_id": "candidate-b7362d8d2a9e8b2d",
+            "title": "Yurok Tribe and Climate Change: An Initial Prioritization Plan",
+            "url": "https://www.yuroktribe.org/_files/ugd/23c897_e1bf3ca4db67445eabef6908b59831df.pdf",
+            "document_class": null,
+            "review_state": "not_yet_reviewed",
+            "status": "acquired",
+            "match_basis": "catalog tribe ID",
+            "exclusion_reason": "Climate-change prioritization plan is not clearly a climate adaptation/action plan from the catalog metadata; excluded pending later review."
+          },
+          {
+            "candidate_id": "candidate-ca2fe661f1baf0db",
+            "title": "Yurok Tribe Climate Change Adaptation Plan",
+            "url": "https://www.yuroktribe.org/_files/ugd/23c897_d77feebfe55b4ba889c57afaac85bba3.pdf",
+            "document_class": null,
+            "review_state": "independent_sample_reviewed",
+            "status": "acquired",
+            "match_basis": "catalog tribe ID",
+            "represented_in_batch_candidates": true,
+            "matching_batch_candidate_ids": [
+              "D14-C007"
+            ]
+          }
+        ],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000339",
+      "display_name": "Zuni Tribe of the Zuni Reservation, New Mexico",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Zuni Tribe of the Zuni Reservation, New Mexico climate adaptation plan climate action plan PCAP",
+        "Zuni Tribe of the Zuni Reservation, New Mexico climate vulnerability assessment climate change vulnerability assessment",
+        "Zuni Tribe of the Zuni Reservation, New Mexico tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "www.bia.gov",
+        "www.climateaction.nm.gov",
+        "www.yuroktribe.org",
+        "opc.ca.gov",
+        "www.env.nm.gov",
+        "resilientca.org",
+        "taggs.hhs.gov",
+        "www.energy.gov",
+        "climateresilience.ca.gov",
+        "www.cakex.org",
+        "19january2021snapshot.epa.gov",
+        "itep.nau.edu",
+        "www.epa.gov",
+        "www.noaa.gov",
+        "www.usgs.gov",
+        "en.wikipedia.org",
+        "ru.wikipedia.org",
+        "apnews.com",
+        "climateassessment.ca.gov",
+        "tribalclimateadaptationguidebook.org",
+        "cms9files1.revize.com",
+        "www.afognak.org",
+        "pubs.usgs.gov",
+        "www.yurokoes.org",
+        "www.dhsem.nm.gov",
+        "www.caloes.ca.gov",
+        "www.kodiakak.us",
+        "tribalclimatehealth.org",
+        "www.cpuc.ca.gov",
+        "www.commerce.alaska.gov",
+        "humalertca.gov",
+        "www.iad.nm.gov",
+        "www.fisheries.noaa.gov",
+        "ceqanet.lci.ca.gov",
+        "afognak.org",
+        "gis.fema.gov"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Zuni Tribe of the Zuni Reservation, New Mexico climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[3].searches.climate_adaptation_plan (query index 1; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Zuni Tribe of the Zuni Reservation, New Mexico climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[3].searches.climate_vulnerability_assessment (query index 1; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Zuni Tribe of the Zuni Reservation, New Mexico tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[3].searches.hazard_mitigation_or_management_plan (query index 1; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000340",
+      "display_name": "Native Village of Afognak",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Native Village of Afognak climate adaptation plan climate action plan PCAP",
+        "Native Village of Afognak climate vulnerability assessment climate change vulnerability assessment",
+        "Native Village of Afognak tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "www.bia.gov",
+        "www.climateaction.nm.gov",
+        "www.yuroktribe.org",
+        "opc.ca.gov",
+        "www.env.nm.gov",
+        "resilientca.org",
+        "taggs.hhs.gov",
+        "www.energy.gov",
+        "climateresilience.ca.gov",
+        "www.cakex.org",
+        "19january2021snapshot.epa.gov",
+        "itep.nau.edu",
+        "www.epa.gov",
+        "www.noaa.gov",
+        "www.usgs.gov",
+        "en.wikipedia.org",
+        "ru.wikipedia.org",
+        "apnews.com",
+        "climateassessment.ca.gov",
+        "tribalclimateadaptationguidebook.org",
+        "cms9files1.revize.com",
+        "www.afognak.org",
+        "pubs.usgs.gov",
+        "www.yurokoes.org",
+        "www.dhsem.nm.gov",
+        "www.caloes.ca.gov",
+        "www.kodiakak.us",
+        "tribalclimatehealth.org",
+        "www.cpuc.ca.gov",
+        "www.commerce.alaska.gov",
+        "humalertca.gov",
+        "www.iad.nm.gov",
+        "www.fisheries.noaa.gov",
+        "ceqanet.lci.ca.gov",
+        "afognak.org",
+        "gis.fema.gov"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Native Village of Afognak climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[3].searches.climate_adaptation_plan (query index 2; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Native Village of Afognak climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[3].searches.climate_vulnerability_assessment (query index 2; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Native Village of Afognak tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[3].searches.hazard_mitigation_or_management_plan (query index 2; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000341",
+      "display_name": "Agdaagux Tribe of King Cove",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Agdaagux Tribe of King Cove climate adaptation plan climate action plan PCAP",
+        "Agdaagux Tribe of King Cove climate vulnerability assessment climate change vulnerability assessment",
+        "Agdaagux Tribe of King Cove tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "www.bia.gov",
+        "www.climateaction.nm.gov",
+        "www.yuroktribe.org",
+        "opc.ca.gov",
+        "www.env.nm.gov",
+        "resilientca.org",
+        "taggs.hhs.gov",
+        "www.energy.gov",
+        "climateresilience.ca.gov",
+        "www.cakex.org",
+        "19january2021snapshot.epa.gov",
+        "itep.nau.edu",
+        "www.epa.gov",
+        "www.noaa.gov",
+        "www.usgs.gov",
+        "en.wikipedia.org",
+        "ru.wikipedia.org",
+        "apnews.com",
+        "climateassessment.ca.gov",
+        "tribalclimateadaptationguidebook.org",
+        "cms9files1.revize.com",
+        "www.afognak.org",
+        "pubs.usgs.gov",
+        "www.yurokoes.org",
+        "www.dhsem.nm.gov",
+        "www.caloes.ca.gov",
+        "www.kodiakak.us",
+        "tribalclimatehealth.org",
+        "www.cpuc.ca.gov",
+        "www.commerce.alaska.gov",
+        "humalertca.gov",
+        "www.iad.nm.gov",
+        "www.fisheries.noaa.gov",
+        "ceqanet.lci.ca.gov",
+        "afognak.org",
+        "gis.fema.gov"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Agdaagux Tribe of King Cove climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[3].searches.climate_adaptation_plan (query index 3; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Agdaagux Tribe of King Cove climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[3].searches.climate_vulnerability_assessment (query index 3; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Agdaagux Tribe of King Cove tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[3].searches.hazard_mitigation_or_management_plan (query index 3; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000342",
+      "display_name": "Native Village of Akhiok",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Native Village of Akhiok climate adaptation plan climate action plan PCAP",
+        "Native Village of Akhiok climate vulnerability assessment climate change vulnerability assessment",
+        "Native Village of Akhiok tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "www.energy.gov",
+        "www.epa.gov",
+        "www.uaf.edu",
+        "akiaknativecommunity.org",
+        "www.vwenvironmentalmitigationtrust.com",
+        "research-hub.nlr.gov",
+        "www.bia.gov",
+        "academicjournals.org",
+        "www.commerce.alaska.gov",
+        "www.cbd.int",
+        "taggs.hhs.gov",
+        "alaskaclimatejustice.org",
+        "uaf-accap.org",
+        "seas.umich.edu",
+        "akcasc.org",
+        "en.wikipedia.org",
+        "fr.wikipedia.org",
+        "apnews.com",
+        "www.akahindia.org",
+        "www.arcticoutlook.com",
+        "akfederalfunding.org",
+        "www.climatehubs.usda.gov",
+        "earthlab.uw.edu",
+        "nna-co.org",
+        "crrcalaska.org",
+        "www.usgs.gov",
+        "adaptalaska.org",
+        "www.kanakabarband.ca",
+        "www.govinfo.gov",
+        "www.crc.uri.edu",
+        "www7.nau.edu",
+        "dema.az.gov",
+        "akiachak.org",
+        "juneau.org",
+        "www.gustavus-ak.gov",
+        "ready.alaska.gov",
+        "www.kgbak.us",
+        "fnsb.gov",
+        "www.caloes.ca.gov",
+        "www.tribalsafety.org"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Native Village of Akhiok climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[4].searches.climate_adaptation_plan (query index 0; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Native Village of Akhiok climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[4].searches.climate_vulnerability_assessment (query index 0; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Native Village of Akhiok tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[4].searches.hazard_mitigation_or_management_plan (query index 0; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000343",
+      "display_name": "Akiachak Native Community",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Akiachak Native Community climate adaptation plan climate action plan PCAP",
+        "Akiachak Native Community climate vulnerability assessment climate change vulnerability assessment",
+        "Akiachak Native Community tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "www.energy.gov",
+        "www.epa.gov",
+        "www.uaf.edu",
+        "akiaknativecommunity.org",
+        "www.vwenvironmentalmitigationtrust.com",
+        "research-hub.nlr.gov",
+        "www.bia.gov",
+        "academicjournals.org",
+        "www.commerce.alaska.gov",
+        "www.cbd.int",
+        "taggs.hhs.gov",
+        "alaskaclimatejustice.org",
+        "uaf-accap.org",
+        "seas.umich.edu",
+        "akcasc.org",
+        "en.wikipedia.org",
+        "fr.wikipedia.org",
+        "apnews.com",
+        "www.akahindia.org",
+        "www.arcticoutlook.com",
+        "akfederalfunding.org",
+        "www.climatehubs.usda.gov",
+        "earthlab.uw.edu",
+        "nna-co.org",
+        "crrcalaska.org",
+        "www.usgs.gov",
+        "adaptalaska.org",
+        "www.kanakabarband.ca",
+        "www.govinfo.gov",
+        "www.crc.uri.edu",
+        "www7.nau.edu",
+        "dema.az.gov",
+        "akiachak.org",
+        "juneau.org",
+        "www.gustavus-ak.gov",
+        "ready.alaska.gov",
+        "www.kgbak.us",
+        "fnsb.gov",
+        "www.caloes.ca.gov",
+        "www.tribalsafety.org"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Akiachak Native Community climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[4].searches.climate_adaptation_plan (query index 1; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Akiachak Native Community climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[4].searches.climate_vulnerability_assessment (query index 1; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Akiachak Native Community tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[4].searches.hazard_mitigation_or_management_plan (query index 1; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000344",
+      "display_name": "Akiak Native Community",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Akiak Native Community climate adaptation plan climate action plan PCAP",
+        "Akiak Native Community climate vulnerability assessment climate change vulnerability assessment",
+        "Akiak Native Community tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "www.energy.gov",
+        "www.epa.gov",
+        "www.uaf.edu",
+        "akiaknativecommunity.org",
+        "www.vwenvironmentalmitigationtrust.com",
+        "research-hub.nlr.gov",
+        "www.bia.gov",
+        "academicjournals.org",
+        "www.commerce.alaska.gov",
+        "www.cbd.int",
+        "taggs.hhs.gov",
+        "alaskaclimatejustice.org",
+        "uaf-accap.org",
+        "seas.umich.edu",
+        "akcasc.org",
+        "en.wikipedia.org",
+        "fr.wikipedia.org",
+        "apnews.com",
+        "www.akahindia.org",
+        "www.arcticoutlook.com",
+        "akfederalfunding.org",
+        "www.climatehubs.usda.gov",
+        "earthlab.uw.edu",
+        "nna-co.org",
+        "crrcalaska.org",
+        "www.usgs.gov",
+        "adaptalaska.org",
+        "www.kanakabarband.ca",
+        "www.govinfo.gov",
+        "www.crc.uri.edu",
+        "www7.nau.edu",
+        "dema.az.gov",
+        "akiachak.org",
+        "juneau.org",
+        "www.gustavus-ak.gov",
+        "ready.alaska.gov",
+        "www.kgbak.us",
+        "fnsb.gov",
+        "www.caloes.ca.gov",
+        "www.tribalsafety.org"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Akiak Native Community climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[4].searches.climate_adaptation_plan (query index 2; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Akiak Native Community climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[4].searches.climate_vulnerability_assessment (query index 2; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Akiak Native Community tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[4].searches.hazard_mitigation_or_management_plan (query index 2; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000345",
+      "display_name": "Native Village of Akutan",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Native Village of Akutan climate adaptation plan climate action plan PCAP",
+        "Native Village of Akutan climate vulnerability assessment climate change vulnerability assessment",
+        "Native Village of Akutan tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "www.energy.gov",
+        "www.epa.gov",
+        "www.uaf.edu",
+        "akiaknativecommunity.org",
+        "www.vwenvironmentalmitigationtrust.com",
+        "research-hub.nlr.gov",
+        "www.bia.gov",
+        "academicjournals.org",
+        "www.commerce.alaska.gov",
+        "www.cbd.int",
+        "taggs.hhs.gov",
+        "alaskaclimatejustice.org",
+        "uaf-accap.org",
+        "seas.umich.edu",
+        "akcasc.org",
+        "en.wikipedia.org",
+        "fr.wikipedia.org",
+        "apnews.com",
+        "www.akahindia.org",
+        "www.arcticoutlook.com",
+        "akfederalfunding.org",
+        "www.climatehubs.usda.gov",
+        "earthlab.uw.edu",
+        "nna-co.org",
+        "crrcalaska.org",
+        "www.usgs.gov",
+        "adaptalaska.org",
+        "www.kanakabarband.ca",
+        "www.govinfo.gov",
+        "www.crc.uri.edu",
+        "www7.nau.edu",
+        "dema.az.gov",
+        "akiachak.org",
+        "juneau.org",
+        "www.gustavus-ak.gov",
+        "ready.alaska.gov",
+        "www.kgbak.us",
+        "fnsb.gov",
+        "www.caloes.ca.gov",
+        "www.tribalsafety.org"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Native Village of Akutan climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[4].searches.climate_adaptation_plan (query index 3; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Native Village of Akutan climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[4].searches.climate_vulnerability_assessment (query index 3; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Native Village of Akutan tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[4].searches.hazard_mitigation_or_management_plan (query index 3; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000346",
+      "display_name": "Village of Alakanuk",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Village of Alakanuk climate adaptation plan climate action plan PCAP",
+        "Village of Alakanuk climate vulnerability assessment climate change vulnerability assessment",
+        "Village of Alakanuk tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "www.epa.gov",
+        "www.huduser.gov",
+        "www.algaaciq.org",
+        "publications.jrc.ec.europa.eu",
+        "bbna.com",
+        "climate.gov.ph",
+        "uaf-accap.org",
+        "unfccc.int",
+        "www.commerce.alaska.gov",
+        "resourcecenter.nakuru.go.ke",
+        "maarifa.cog.go.ke",
+        "www.gov.uk",
+        "www.scribd.com",
+        "www.kccap.info",
+        "www.researchgate.net",
+        "www.gov.ie",
+        "en.wikipedia.org",
+        "www.reddit.com",
+        "mail.iieta.org",
+        "scholarworks.alaska.edu",
+        "www.anthc.org",
+        "www.usgs.gov",
+        "www.climatehubs.usda.gov",
+        "unhabitat.la",
+        "www7.nau.edu",
+        "pacific-data.sprep.org",
+        "www.councilfire.org",
+        "arxiv.org",
+        "www.undp.org",
+        "storymaps.arcgis.com",
+        "sciety.org",
+        "samoa-data.sprep.org",
+        "www.fs.usda.gov",
+        "it.wikipedia.org",
+        "www.tananachiefs.org",
+        "ready.alaska.gov",
+        "www.akleg.gov",
+        "www.stmaryscountymd.gov",
+        "ddm.andamannicobar.gov.in",
+        "dec.alaska.gov"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Village of Alakanuk climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[5].searches.climate_adaptation_plan (query index 0; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Village of Alakanuk climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[5].searches.climate_vulnerability_assessment (query index 0; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Village of Alakanuk tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[5].searches.hazard_mitigation_or_management_plan (query index 0; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000347",
+      "display_name": "Alatna Village",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Alatna Village climate adaptation plan climate action plan PCAP",
+        "Alatna Village climate vulnerability assessment climate change vulnerability assessment",
+        "Alatna Village tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "www.epa.gov",
+        "www.huduser.gov",
+        "www.algaaciq.org",
+        "publications.jrc.ec.europa.eu",
+        "bbna.com",
+        "climate.gov.ph",
+        "uaf-accap.org",
+        "unfccc.int",
+        "www.commerce.alaska.gov",
+        "resourcecenter.nakuru.go.ke",
+        "maarifa.cog.go.ke",
+        "www.gov.uk",
+        "www.scribd.com",
+        "www.kccap.info",
+        "www.researchgate.net",
+        "www.gov.ie",
+        "en.wikipedia.org",
+        "www.reddit.com",
+        "mail.iieta.org",
+        "scholarworks.alaska.edu",
+        "www.anthc.org",
+        "www.usgs.gov",
+        "www.climatehubs.usda.gov",
+        "unhabitat.la",
+        "www7.nau.edu",
+        "pacific-data.sprep.org",
+        "www.councilfire.org",
+        "arxiv.org",
+        "www.undp.org",
+        "storymaps.arcgis.com",
+        "sciety.org",
+        "samoa-data.sprep.org",
+        "www.fs.usda.gov",
+        "it.wikipedia.org",
+        "www.tananachiefs.org",
+        "ready.alaska.gov",
+        "www.akleg.gov",
+        "www.stmaryscountymd.gov",
+        "ddm.andamannicobar.gov.in",
+        "dec.alaska.gov"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Alatna Village climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[5].searches.climate_adaptation_plan (query index 1; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Alatna Village climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[5].searches.climate_vulnerability_assessment (query index 1; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Alatna Village tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[5].searches.hazard_mitigation_or_management_plan (query index 1; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000348",
+      "display_name": "Native Village of Aleknagik",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Native Village of Aleknagik climate adaptation plan climate action plan PCAP",
+        "Native Village of Aleknagik climate vulnerability assessment climate change vulnerability assessment",
+        "Native Village of Aleknagik tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "www.epa.gov",
+        "www.huduser.gov",
+        "www.algaaciq.org",
+        "publications.jrc.ec.europa.eu",
+        "bbna.com",
+        "climate.gov.ph",
+        "uaf-accap.org",
+        "unfccc.int",
+        "www.commerce.alaska.gov",
+        "resourcecenter.nakuru.go.ke",
+        "maarifa.cog.go.ke",
+        "www.gov.uk",
+        "www.scribd.com",
+        "www.kccap.info",
+        "www.researchgate.net",
+        "www.gov.ie",
+        "en.wikipedia.org",
+        "www.reddit.com",
+        "mail.iieta.org",
+        "scholarworks.alaska.edu",
+        "www.anthc.org",
+        "www.usgs.gov",
+        "www.climatehubs.usda.gov",
+        "unhabitat.la",
+        "www7.nau.edu",
+        "pacific-data.sprep.org",
+        "www.councilfire.org",
+        "arxiv.org",
+        "www.undp.org",
+        "storymaps.arcgis.com",
+        "sciety.org",
+        "samoa-data.sprep.org",
+        "www.fs.usda.gov",
+        "it.wikipedia.org",
+        "www.tananachiefs.org",
+        "ready.alaska.gov",
+        "www.akleg.gov",
+        "www.stmaryscountymd.gov",
+        "ddm.andamannicobar.gov.in",
+        "dec.alaska.gov"
+      ],
+      "search_budget_used": 3,
+      "outcome": "found",
+      "candidate_ids": [
+        "D14-C003"
+      ],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Native Village of Aleknagik climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[5].searches.climate_adaptation_plan (query index 2; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Native Village of Aleknagik climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[5].searches.climate_vulnerability_assessment (query index 2; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "found",
+          "query": "Native Village of Aleknagik tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[5].searches.hazard_mitigation_or_management_plan (query index 2; one focused public web search completed)"
+          ],
+          "candidate_ids": [
+            "D14-C003"
+          ],
+          "limitations": "Search-result or landing metadata only; source documents were not opened in this sweep."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000349",
+      "display_name": "Algaaciq Native Village (St. Mary's)",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Algaaciq Native Village (St. Mary's) climate adaptation plan climate action plan PCAP",
+        "Algaaciq Native Village (St. Mary's) climate vulnerability assessment climate change vulnerability assessment",
+        "Algaaciq Native Village (St. Mary's) tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "www.epa.gov",
+        "www.huduser.gov",
+        "www.algaaciq.org",
+        "publications.jrc.ec.europa.eu",
+        "bbna.com",
+        "climate.gov.ph",
+        "uaf-accap.org",
+        "unfccc.int",
+        "www.commerce.alaska.gov",
+        "resourcecenter.nakuru.go.ke",
+        "maarifa.cog.go.ke",
+        "www.gov.uk",
+        "www.scribd.com",
+        "www.kccap.info",
+        "www.researchgate.net",
+        "www.gov.ie",
+        "en.wikipedia.org",
+        "www.reddit.com",
+        "mail.iieta.org",
+        "scholarworks.alaska.edu",
+        "www.anthc.org",
+        "www.usgs.gov",
+        "www.climatehubs.usda.gov",
+        "unhabitat.la",
+        "www7.nau.edu",
+        "pacific-data.sprep.org",
+        "www.councilfire.org",
+        "arxiv.org",
+        "www.undp.org",
+        "storymaps.arcgis.com",
+        "sciety.org",
+        "samoa-data.sprep.org",
+        "www.fs.usda.gov",
+        "it.wikipedia.org",
+        "www.tananachiefs.org",
+        "ready.alaska.gov",
+        "www.akleg.gov",
+        "www.stmaryscountymd.gov",
+        "ddm.andamannicobar.gov.in",
+        "dec.alaska.gov"
+      ],
+      "search_budget_used": 3,
+      "outcome": "no_matching_public_document_located",
+      "candidate_ids": [],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Algaaciq Native Village (St. Mary's) climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[5].searches.climate_adaptation_plan (query index 3; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Algaaciq Native Village (St. Mary's) climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[5].searches.climate_vulnerability_assessment (query index 3; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Algaaciq Native Village (St. Mary's) tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[5].searches.hazard_mitigation_or_management_plan (query index 3; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    },
+    {
+      "tribe_id": "epa_100000350",
+      "display_name": "Allakaket Village",
+      "batch_id": "D14",
+      "searched_at": "2026-10-21T13:15:00Z",
+      "search_terms": [
+        "Allakaket Village climate adaptation plan climate action plan PCAP",
+        "Allakaket Village climate vulnerability assessment climate change vulnerability assessment",
+        "Allakaket Village tribal hazard mitigation plan hazard management plan"
+      ],
+      "source_domains": [
+        "www.north-slope.org",
+        "www.pa.gov",
+        "www.energy.gov",
+        "www.sandiegocounty.gov",
+        "www.epa.gov",
+        "greenport.pa.gov",
+        "www.pcp-ppc.ca",
+        "govtribe.com",
+        "www.commerce.alaska.gov",
+        "www.newindianexpress.com",
+        "niccdies.climate.gov.ph",
+        "doczz.net",
+        "www.nwabor.org",
+        "www.drakenstein.gov.za",
+        "en.wikipedia.org",
+        "faolex.fao.org",
+        "nrwcmsv13-a3hwekacajb3frbw.a02.azurefd.net",
+        "elgeyomarakwet.go.ke",
+        "fr.wikipedia.org",
+        "www.undp.org",
+        "www.meteoblue.com",
+        "akfederalfunding.org",
+        "journals.sagepub.com",
+        "www.who.int",
+        "publications.naturalengland.org.uk",
+        "www.nps.gov",
+        "dec.alaska.gov",
+        "doi.org",
+        "www.crc.uri.edu",
+        "unfccc.int",
+        "arxiv.org",
+        "portals.iucn.org",
+        "nepis.epa.gov",
+        "ready.alaska.gov",
+        "north-slope.org",
+        "www.tananachiefs.org",
+        "ambleraccess.org",
+        "parkplanning.nps.gov",
+        "www.fema.gov",
+        "www.adfg.alaska.gov"
+      ],
+      "search_budget_used": 3,
+      "outcome": "found",
+      "candidate_ids": [
+        "D14-C004"
+      ],
+      "limitations": [
+        "Three separate focused public searches, one per requested class; no documents downloaded or opened.",
+        "Search results were reviewed for explicit Nation-to-document relationship; incidental name mentions and generic guidance were excluded."
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Allakaket Village climate adaptation plan climate action plan PCAP",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[6].searches.climate_adaptation_plan (query index 0; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "climate_vulnerability_assessment": {
+          "outcome": "no_matching_public_document_located",
+          "query": "Allakaket Village climate vulnerability assessment climate change vulnerability assessment",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[6].searches.climate_vulnerability_assessment (query index 0; one focused public web search completed)"
+          ],
+          "candidate_ids": [],
+          "limitations": "One focused query completed; no matching public document was located at this search depth. This is not proof of absence."
+        },
+        "hazard_mitigation_or_management_plan": {
+          "outcome": "found",
+          "query": "Allakaket Village tribal hazard mitigation plan hazard management plan",
+          "receipt": [
+            "work/discovery/D14/search-results.json#groups[6].searches.hazard_mitigation_or_management_plan (query index 0; one focused public web search completed)"
+          ],
+          "candidate_ids": [
+            "D14-C004"
+          ],
+          "limitations": "Search-result or landing metadata only; source documents were not opened in this sweep."
+        }
+      },
+      "seed_catalog_lookup": {
+        "catalog_sha256": "5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e",
+        "lookup_outcome": "no_matching_seed_catalog_record",
+        "matched_catalog_tribes": [],
+        "qualifying_seed_candidates": [],
+        "limitation": "Catalog metadata only; candidate content and fit still require review; this lookup does not replace the three current public web searches."
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "id": "D14-C001",
+      "tribe_ids": [
+        "epa_100000329"
+      ],
+      "title": "Wiyot Tribe Phase 1 Climate Change Adaptation Plan (planning source)",
+      "issuing_body": "California Ocean Protection Council",
+      "document_class": "climate_adaptation_plan",
+      "category": "climate_adaptation_plan",
+      "canonical_landing_page_url": "https://opc.ca.gov/2021/11/prop-68-climate-resilience-miniseries-episode-12-wiyot-climate-change-adaptation-plan/",
+      "document_url": "https://opc.ca.gov/2021/11/prop-68-climate-resilience-miniseries-episode-12-wiyot-climate-change-adaptation-plan/",
+      "relationship_evidence": "Official Ocean Protection Council result is titled “Wiyot Climate Change Adaptation Plan” and describes the Tribe's coastal resilience planning project; search excerpt states the project is a priority because Wiyot are a coastal Tribe. Search-result metadata only; it may describe planning work rather than a finalized adopted plan.",
+      "host_relationship": "Official Ocean Protection Council result is titled “Wiyot Climate Change Adaptation Plan” and describes the Tribe's coastal resilience planning project; search excerpt states the project is a priority because Wiyot are a coastal Tribe. Search-result metadata only; it may describe planning work rather than a finalized adopted plan.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T13:15:00Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "medium",
+      "access_instructions": "Search excerpt or landing metadata only; review source for full scope, status, dates, access and terms before acquisition."
+    },
+    {
+      "id": "D14-C002",
+      "tribe_ids": [
+        "epa_100000335"
+      ],
+      "title": "Yocha Dehe Wintun Nation Climate Change Adaptation Plan (project page)",
+      "issuing_body": "Ascent",
+      "document_class": "climate_adaptation_plan",
+      "category": "climate_adaptation_plan",
+      "canonical_landing_page_url": "https://ascent.inc/project/yocha-dehe-wintun-nation-climate-change-adaptation-plan/",
+      "document_url": "https://ascent.inc/project/yocha-dehe-wintun-nation-climate-change-adaptation-plan/",
+      "relationship_evidence": "Project page title explicitly identifies a Yocha Dehe Wintun Nation Climate Change Adaptation Plan; excerpt describes the Nation as a federally recognized Tribal Nation. Search-result metadata only; plan itself was not opened.",
+      "host_relationship": "Project page title explicitly identifies a Yocha Dehe Wintun Nation Climate Change Adaptation Plan; excerpt describes the Nation as a federally recognized Tribal Nation. Search-result metadata only; plan itself was not opened.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T13:15:00Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "medium",
+      "access_instructions": "Search excerpt or landing metadata only; review source for full scope, status, dates, access and terms before acquisition."
+    },
+    {
+      "id": "D14-C003",
+      "tribe_ids": [
+        "epa_100000348"
+      ],
+      "title": "Native Village of Aleknagik Tribal Hazard Mitigation Plan",
+      "issuing_body": "Native Village of Aleknagik / Bristol Bay Native Association",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "category": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://bbna.com/wp-content/uploads/2020/02/FINAL-Rev1-_FEMA-THMP-Aleknagik_10May20191-2.pdf",
+      "document_url": "https://bbna.com/wp-content/uploads/2020/02/FINAL-Rev1-_FEMA-THMP-Aleknagik_10May20191-2.pdf",
+      "relationship_evidence": "Search result title identifies the Native Village of Aleknagik THMP; excerpt identifies it as a Tribal Hazard Mitigation Plan with a 2019–2024 period. PDF not opened.",
+      "host_relationship": "Search result title identifies the Native Village of Aleknagik THMP; excerpt identifies it as a Tribal Hazard Mitigation Plan with a 2019–2024 period. PDF not opened.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": "2019–2024",
+      "date_basis": "explicit search-result plan period",
+      "date_evidence": [
+        "Search excerpt states Tribal Hazard Mitigation Plan period 2019–2024."
+      ],
+      "source_access_date": "2026-10-21T13:15:00Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": "application/pdf",
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "medium",
+      "access_instructions": "Search excerpt or landing metadata only; review source for full scope, status, dates, access and terms before acquisition."
+    },
+    {
+      "id": "D14-C004",
+      "tribe_ids": [
+        "epa_100000350"
+      ],
+      "title": "Allakaket Joint City-Tribal Hazard Mitigation Plan",
+      "issuing_body": "City of Allakaket and Allakaket Village (joint plan; hosting page Tanana Chiefs Conference)",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "category": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://www.tananachiefs.org/wp-content/uploads/2022/02/Allakaket-Joint-City-Tribal-HMP-2010.pdf",
+      "document_url": "https://www.tananachiefs.org/wp-content/uploads/2022/02/Allakaket-Joint-City-Tribal-HMP-2010.pdf",
+      "relationship_evidence": "Search result title identifies the Allakaket Joint City-Tribal Hazard Mitigation Plan, explicitly linking the Tribe and City in a joint plan. Search-result metadata only; PDF not opened.",
+      "host_relationship": "Search result title identifies the Allakaket Joint City-Tribal Hazard Mitigation Plan, explicitly linking the Tribe and City in a joint plan. Search-result metadata only; PDF not opened.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [],
+      "source_access_date": "2026-10-21T13:15:00Z",
+      "access_outcome": "public_search_result_observed",
+      "mime_type": "application/pdf",
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": null,
+      "source_confidence": "medium",
+      "access_instructions": "Search excerpt or landing metadata only; review source for full scope, status, dates, access and terms before acquisition."
+    },
+    {
+      "id": "D14-C005",
+      "tribe_ids": [
+        "epa_100000338"
+      ],
+      "title": "Yurok Tribe Climate Change Adaptation Plan for Water and Aquatic Resources",
+      "issuing_body": "Yurok Tribe Environmental Program",
+      "document_class": "climate_adaptation_plan",
+      "category": "climate_adaptation_plan",
+      "canonical_landing_page_url": "https://www.yuroktribe.org/community-and-ecosystems-reports",
+      "document_url": "https://www.yuroktribe.org/_files/ugd/23c897_e730e8c41d29451691e3ff8fa83f291c.pdf",
+      "relationship_evidence": [
+        "Yurok Tribe Environmental Program",
+        "Official Yurok reports page links PDF as 2018 Climate Change Plan; outside repository identifies plan but does not establish issuer.",
+        "Official Yurok reports page links this Water and Aquatic Resources adaptation plan; catalog metadata identifies Yurok Tribe Environmental Program. Same catalog family as another URL; edition or mirror relation unresolved.",
+        "catalog candidate candidate-2b2500810382e016; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D14/seed-catalog-check.json and batch seed lookup",
+        "catalog candidate candidate-2b2500810382e016; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D14/seed-catalog-check.json and batch seed lookup"
+      ],
+      "host_relationship": "Official Yurok reports page links PDF as 2018 Climate Change Plan; outside repository identifies plan but does not establish issuer.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": null,
+      "source_access_date": "2026-10-21",
+      "access_outcome": "seed_catalog_metadata_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": "catalog family family-0f1cbd695cfd5452; edition/mirror relation unresolved",
+      "source_confidence": "medium",
+      "access_instructions": "Seed-catalog metadata only. Review the linked public source for dates, scope, issuer/adoption, edition, access and redistribution terms before acquisition."
+    },
+    {
+      "id": "D14-C006",
+      "tribe_ids": [
+        "epa_100000338"
+      ],
+      "title": "Yurok Tribe Hazard Mitigation Plan",
+      "issuing_body": "Yurok Tribe (official OES index attribution)",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "category": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://www.yurokoes.org/",
+      "document_url": "https://www.yurokoes.org/_files/ugd/23c897_e5a1f352bd064815aec25689a608ac5f.pdf",
+      "relationship_evidence": [
+        "Yurok Tribe (official OES index attribution)",
+        "Official Yurok Office of Emergency Services home page links hosted PDF.",
+        "Official Yurok Office of Emergency Services index links a Yurok Tribe Hazard Mitigation Plan.",
+        "catalog candidate candidate-b682228f5606dcda; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D14/seed-catalog-check.json and batch seed lookup",
+        "catalog candidate candidate-b682228f5606dcda; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D14/seed-catalog-check.json and batch seed lookup"
+      ],
+      "host_relationship": "Official Yurok Office of Emergency Services home page links hosted PDF.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": null,
+      "source_access_date": "2026-10-21",
+      "access_outcome": "seed_catalog_metadata_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": "catalog family family-5a0fe195fa79c8bd; edition/mirror relation unresolved",
+      "source_confidence": "medium",
+      "access_instructions": "Seed-catalog metadata only. Review the linked public source for dates, scope, issuer/adoption, edition, access and redistribution terms before acquisition."
+    },
+    {
+      "id": "D14-C007",
+      "tribe_ids": [
+        "epa_100000338"
+      ],
+      "title": "Yurok Tribe Climate Change Adaptation Plan",
+      "issuing_body": "Yurok Tribe (official index attribution)",
+      "document_class": "climate_adaptation_plan",
+      "category": "climate_adaptation_plan",
+      "canonical_landing_page_url": "https://www.yuroktribe.org/community-and-ecosystems-reports",
+      "document_url": "https://www.yuroktribe.org/_files/ugd/23c897_d77feebfe55b4ba889c57afaac85bba3.pdf",
+      "relationship_evidence": [
+        "Yurok Tribe (official index attribution)",
+        "Official Yurok Community & Ecosystems Plans section links hosted PDF.",
+        "Official Yurok Community & Ecosystems Plans section links this titled Climate Change Adaptation Plan. Same catalog family as another URL; edition or mirror relation unresolved.",
+        "catalog candidate candidate-ca2fe661f1baf0db; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D14/seed-catalog-check.json and batch seed lookup",
+        "catalog candidate candidate-ca2fe661f1baf0db; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D14/seed-catalog-check.json and batch seed lookup"
+      ],
+      "host_relationship": "Official Yurok Community & Ecosystems Plans section links hosted PDF.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": null,
+      "source_access_date": "2026-10-21",
+      "access_outcome": "seed_catalog_metadata_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": "catalog family family-0f1cbd695cfd5452; edition/mirror relation unresolved",
+      "source_confidence": "medium",
+      "access_instructions": "Seed-catalog metadata only. Review the linked public source for dates, scope, issuer/adoption, edition, access and redistribution terms before acquisition."
+    }
+  ]
+}

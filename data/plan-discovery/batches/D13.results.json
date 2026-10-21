@@ -1,0 +1,2078 @@
+{
+  "schema_version": "catf-plan-discovery-results.v1",
+  "batch_id": "D13",
+  "source_registry_sha256": "5db8f52cf44d3a3853f8403cd6dc845a59088f07f42b40a3488575b5cbe7cece",
+  "searched_at": "2026-10-21T13:07:54Z",
+  "nation_searches": [
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Three Affiliated Tribes of the Fort Berthold Reservation, North Dakota\" climate adaptation plan OR climate action plan",
+        "\"Three Affiliated Tribes of the Fort Berthold Reservation, North Dakota\" climate vulnerability assessment",
+        "\"Three Affiliated Tribes of the Fort Berthold Reservation, North Dakota\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Three Affiliated Tribes of the Fort Berthold Reservation, North Dakota\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-01.json"
+            }
+          ],
+          "query": "\"Three Affiliated Tribes of the Fort Berthold Reservation, North Dakota\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Three Affiliated Tribes of the Fort Berthold Reservation, North Dakota\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-01.json"
+            }
+          ],
+          "query": "\"Three Affiliated Tribes of the Fort Berthold Reservation, North Dakota\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Three Affiliated Tribes of the Fort Berthold Reservation, North Dakota\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-01.json"
+            }
+          ],
+          "query": "\"Three Affiliated Tribes of the Fort Berthold Reservation, North Dakota\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "Three Affiliated Tribes of the Fort Berthold Reservation, North Dakota",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000301",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Tohono O'odham Nation of Arizona\" climate adaptation plan OR climate action plan",
+        "\"Tohono O'odham Nation of Arizona\" climate vulnerability assessment",
+        "\"Tohono O'odham Nation of Arizona\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tohono O'odham Nation of Arizona\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-01.json"
+            }
+          ],
+          "query": "\"Tohono O'odham Nation of Arizona\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tohono O'odham Nation of Arizona\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-02.json"
+            }
+          ],
+          "query": "\"Tohono O'odham Nation of Arizona\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tohono O'odham Nation of Arizona\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-02.json"
+            }
+          ],
+          "query": "\"Tohono O'odham Nation of Arizona\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "Tohono O'odham Nation of Arizona",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000302",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Tonawanda Band of Seneca\" climate adaptation plan OR climate action plan",
+        "\"Tonawanda Band of Seneca\" climate vulnerability assessment",
+        "\"Tonawanda Band of Seneca\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tonawanda Band of Seneca\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-02.json"
+            }
+          ],
+          "query": "\"Tonawanda Band of Seneca\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tonawanda Band of Seneca\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-02.json"
+            }
+          ],
+          "query": "\"Tonawanda Band of Seneca\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tonawanda Band of Seneca\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-03.json"
+            }
+          ],
+          "query": "\"Tonawanda Band of Seneca\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "Tonawanda Band of Seneca",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000303",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Tonkawa Tribe of Indians of Oklahoma\" climate adaptation plan OR climate action plan",
+        "\"Tonkawa Tribe of Indians of Oklahoma\" climate vulnerability assessment",
+        "\"Tonkawa Tribe of Indians of Oklahoma\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tonkawa Tribe of Indians of Oklahoma\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-03.json"
+            }
+          ],
+          "query": "\"Tonkawa Tribe of Indians of Oklahoma\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tonkawa Tribe of Indians of Oklahoma\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-03.json"
+            }
+          ],
+          "query": "\"Tonkawa Tribe of Indians of Oklahoma\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tonkawa Tribe of Indians of Oklahoma\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-03.json"
+            }
+          ],
+          "query": "\"Tonkawa Tribe of Indians of Oklahoma\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "Tonkawa Tribe of Indians of Oklahoma",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000304",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Tonto Apache Tribe of Arizona\" climate adaptation plan OR climate action plan",
+        "\"Tonto Apache Tribe of Arizona\" climate vulnerability assessment",
+        "\"Tonto Apache Tribe of Arizona\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tonto Apache Tribe of Arizona\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-04.json"
+            }
+          ],
+          "query": "\"Tonto Apache Tribe of Arizona\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tonto Apache Tribe of Arizona\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-04.json"
+            }
+          ],
+          "query": "\"Tonto Apache Tribe of Arizona\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tonto Apache Tribe of Arizona\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-04.json"
+            }
+          ],
+          "query": "\"Tonto Apache Tribe of Arizona\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "Tonto Apache Tribe of Arizona",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000305",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Torres Martinez Desert Cahuilla Indians, California\" climate adaptation plan OR climate action plan",
+        "\"Torres Martinez Desert Cahuilla Indians, California\" climate vulnerability assessment",
+        "\"Torres Martinez Desert Cahuilla Indians, California\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Torres Martinez Desert Cahuilla Indians, California\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-04.json"
+            }
+          ],
+          "query": "\"Torres Martinez Desert Cahuilla Indians, California\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Torres Martinez Desert Cahuilla Indians, California\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-05.json"
+            }
+          ],
+          "query": "\"Torres Martinez Desert Cahuilla Indians, California\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Torres Martinez Desert Cahuilla Indians, California\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-05.json"
+            }
+          ],
+          "query": "\"Torres Martinez Desert Cahuilla Indians, California\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "Torres Martinez Desert Cahuilla Indians, California",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000306",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Tule River Indian Tribe of the Tule River Reservation, California\" climate adaptation plan OR climate action plan",
+        "\"Tule River Indian Tribe of the Tule River Reservation, California\" climate vulnerability assessment",
+        "\"Tule River Indian Tribe of the Tule River Reservation, California\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tule River Indian Tribe of the Tule River Reservation, California\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-05.json"
+            }
+          ],
+          "query": "\"Tule River Indian Tribe of the Tule River Reservation, California\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tule River Indian Tribe of the Tule River Reservation, California\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-05.json"
+            }
+          ],
+          "query": "\"Tule River Indian Tribe of the Tule River Reservation, California\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tule River Indian Tribe of the Tule River Reservation, California\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-06.json"
+            }
+          ],
+          "query": "\"Tule River Indian Tribe of the Tule River Reservation, California\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "Tule River Indian Tribe of the Tule River Reservation, California",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000307",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [
+        "www.epa.gov",
+        "www.tulaliptribes-nsn.gov"
+      ],
+      "candidate_ids": [
+        "D13-C001",
+        "D13-C002"
+      ],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Tulalip Tribes of Washington\" climate adaptation plan OR climate action plan",
+        "\"Tulalip Tribes of Washington\" climate vulnerability assessment",
+        "\"Tulalip Tribes of Washington\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "found",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "found",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tulalip Tribes of Washington\" climate adaptation plan OR climate action plan",
+              "results": [
+                {
+                  "summary": "EPA search result identifies the Tribes PCAP; source document not opened and year not independently verified.",
+                  "url": "https://www.epa.gov/system/files/documents/2024-04/tulalip-tribes-pcap.pdf",
+                  "source": "Tulalip Tribes",
+                  "title": "Tulalip Tribes Priority Climate Action Plan"
+                }
+              ],
+              "raw_group": "work/discovery/D13/raw-06.json"
+            }
+          ],
+          "query": "\"Tulalip Tribes of Washington\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [
+            "D13-C001"
+          ],
+          "outcome": "found"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tulalip Tribes of Washington\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-06.json"
+            }
+          ],
+          "query": "\"Tulalip Tribes of Washington\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "found",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tulalip Tribes of Washington\" hazard mitigation plan OR hazard management plan",
+              "results": [
+                {
+                  "summary": "Official public document route surfaced; full PDF and current approval status not reviewed.",
+                  "url": "https://www.tulaliptribes-nsn.gov/documents/Tulalip-Tribes-2021-Hazard-Mitigation-Plan-20210616.pdf",
+                  "source": "Tulalip Tribes",
+                  "title": "Tulalip Tribes 2021 Hazard Mitigation Plan"
+                }
+              ],
+              "raw_group": "work/discovery/D13/raw-06.json"
+            }
+          ],
+          "query": "\"Tulalip Tribes of Washington\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [
+            "D13-C002"
+          ],
+          "outcome": "found"
+        }
+      },
+      "display_name": "Tulalip Tribes of Washington",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000308",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Tunica-Biloxi Indian Tribe\" climate adaptation plan OR climate action plan",
+        "\"Tunica-Biloxi Indian Tribe\" climate vulnerability assessment",
+        "\"Tunica-Biloxi Indian Tribe\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tunica-Biloxi Indian Tribe\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-07.json"
+            }
+          ],
+          "query": "\"Tunica-Biloxi Indian Tribe\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tunica-Biloxi Indian Tribe\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-07.json"
+            }
+          ],
+          "query": "\"Tunica-Biloxi Indian Tribe\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tunica-Biloxi Indian Tribe\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-07.json"
+            }
+          ],
+          "query": "\"Tunica-Biloxi Indian Tribe\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "Tunica-Biloxi Indian Tribe",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000309",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Tuolumne Band of Me-Wuk Indians of the Tuolumne Rancheria of California\" climate adaptation plan OR climate action plan",
+        "\"Tuolumne Band of Me-Wuk Indians of the Tuolumne Rancheria of California\" climate vulnerability assessment",
+        "\"Tuolumne Band of Me-Wuk Indians of the Tuolumne Rancheria of California\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tuolumne Band of Me-Wuk Indians of the Tuolumne Rancheria of California\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-07.json"
+            }
+          ],
+          "query": "\"Tuolumne Band of Me-Wuk Indians of the Tuolumne Rancheria of California\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tuolumne Band of Me-Wuk Indians of the Tuolumne Rancheria of California\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-08.json"
+            }
+          ],
+          "query": "\"Tuolumne Band of Me-Wuk Indians of the Tuolumne Rancheria of California\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tuolumne Band of Me-Wuk Indians of the Tuolumne Rancheria of California\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-08.json"
+            }
+          ],
+          "query": "\"Tuolumne Band of Me-Wuk Indians of the Tuolumne Rancheria of California\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "Tuolumne Band of Me-Wuk Indians of the Tuolumne Rancheria of California",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000310",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Turtle Mountain Band of Chippewa Indians of North Dakota\" climate adaptation plan OR climate action plan",
+        "\"Turtle Mountain Band of Chippewa Indians of North Dakota\" climate vulnerability assessment",
+        "\"Turtle Mountain Band of Chippewa Indians of North Dakota\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Turtle Mountain Band of Chippewa Indians of North Dakota\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-08.json"
+            }
+          ],
+          "query": "\"Turtle Mountain Band of Chippewa Indians of North Dakota\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Turtle Mountain Band of Chippewa Indians of North Dakota\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-08.json"
+            }
+          ],
+          "query": "\"Turtle Mountain Band of Chippewa Indians of North Dakota\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Turtle Mountain Band of Chippewa Indians of North Dakota\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-09.json"
+            }
+          ],
+          "query": "\"Turtle Mountain Band of Chippewa Indians of North Dakota\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "Turtle Mountain Band of Chippewa Indians of North Dakota",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000311",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Tuscarora Nation\" climate adaptation plan OR climate action plan",
+        "\"Tuscarora Nation\" climate vulnerability assessment",
+        "\"Tuscarora Nation\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tuscarora Nation\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-09.json"
+            }
+          ],
+          "query": "\"Tuscarora Nation\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tuscarora Nation\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-09.json"
+            }
+          ],
+          "query": "\"Tuscarora Nation\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Tuscarora Nation\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-09.json"
+            }
+          ],
+          "query": "\"Tuscarora Nation\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "Tuscarora Nation",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000312",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Twenty-Nine Palms Band of Mission Indians of California\" climate adaptation plan OR climate action plan",
+        "\"Twenty-Nine Palms Band of Mission Indians of California\" climate vulnerability assessment",
+        "\"Twenty-Nine Palms Band of Mission Indians of California\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Twenty-Nine Palms Band of Mission Indians of California\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-10.json"
+            }
+          ],
+          "query": "\"Twenty-Nine Palms Band of Mission Indians of California\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Twenty-Nine Palms Band of Mission Indians of California\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-10.json"
+            }
+          ],
+          "query": "\"Twenty-Nine Palms Band of Mission Indians of California\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Twenty-Nine Palms Band of Mission Indians of California\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-10.json"
+            }
+          ],
+          "query": "\"Twenty-Nine Palms Band of Mission Indians of California\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "Twenty-Nine Palms Band of Mission Indians of California",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000313",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"United Auburn Indian Community of the Auburn Rancheria of California\" climate adaptation plan OR climate action plan",
+        "\"United Auburn Indian Community of the Auburn Rancheria of California\" climate vulnerability assessment",
+        "\"United Auburn Indian Community of the Auburn Rancheria of California\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"United Auburn Indian Community of the Auburn Rancheria of California\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-10.json"
+            }
+          ],
+          "query": "\"United Auburn Indian Community of the Auburn Rancheria of California\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"United Auburn Indian Community of the Auburn Rancheria of California\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-11.json"
+            }
+          ],
+          "query": "\"United Auburn Indian Community of the Auburn Rancheria of California\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"United Auburn Indian Community of the Auburn Rancheria of California\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-11.json"
+            }
+          ],
+          "query": "\"United Auburn Indian Community of the Auburn Rancheria of California\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "United Auburn Indian Community of the Auburn Rancheria of California",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000314",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"United Keetoowah Band of Cherokee Indians in Oklahoma\" climate adaptation plan OR climate action plan",
+        "\"United Keetoowah Band of Cherokee Indians in Oklahoma\" climate vulnerability assessment",
+        "\"United Keetoowah Band of Cherokee Indians in Oklahoma\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"United Keetoowah Band of Cherokee Indians in Oklahoma\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-11.json"
+            }
+          ],
+          "query": "\"United Keetoowah Band of Cherokee Indians in Oklahoma\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"United Keetoowah Band of Cherokee Indians in Oklahoma\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-11.json"
+            }
+          ],
+          "query": "\"United Keetoowah Band of Cherokee Indians in Oklahoma\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"United Keetoowah Band of Cherokee Indians in Oklahoma\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-12.json"
+            }
+          ],
+          "query": "\"United Keetoowah Band of Cherokee Indians in Oklahoma\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "United Keetoowah Band of Cherokee Indians in Oklahoma",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000315",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Upper Sioux Community, Minnesota\" climate adaptation plan OR climate action plan",
+        "\"Upper Sioux Community, Minnesota\" climate vulnerability assessment",
+        "\"Upper Sioux Community, Minnesota\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Upper Sioux Community, Minnesota\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-12.json"
+            }
+          ],
+          "query": "\"Upper Sioux Community, Minnesota\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Upper Sioux Community, Minnesota\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-12.json"
+            }
+          ],
+          "query": "\"Upper Sioux Community, Minnesota\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Upper Sioux Community, Minnesota\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-12.json"
+            }
+          ],
+          "query": "\"Upper Sioux Community, Minnesota\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "Upper Sioux Community, Minnesota",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000316",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [
+        "www.skagitcounty.net"
+      ],
+      "candidate_ids": [
+        "D13-C003"
+      ],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Upper Skagit Indian Tribe\" climate adaptation plan OR climate action plan",
+        "\"Upper Skagit Indian Tribe\" climate vulnerability assessment",
+        "\"Upper Skagit Indian Tribe\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "found",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Upper Skagit Indian Tribe\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-13.json"
+            }
+          ],
+          "query": "\"Upper Skagit Indian Tribe\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Upper Skagit Indian Tribe\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-13.json"
+            }
+          ],
+          "query": "\"Upper Skagit Indian Tribe\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "found",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Upper Skagit Indian Tribe\" hazard mitigation plan OR hazard management plan",
+              "results": [
+                {
+                  "summary": "Regional plan relationship is limited to the named Tribal section; county plan is not presented as a standalone Tribal plan. PDF not fully reviewed.",
+                  "url": "https://www.skagitcounty.net/EmergencyManagement/Documents/2008HazPlanFinal/Section%20IV%20Final%20Documents/15%20Upper%20Skagit%20Indian%20Tribe%20Final/Upper%20Skagit%20Indian%20Tribe.2008.Final.pdf",
+                  "source": "Upper Skagit Indian Tribe with Skagit County Natural Hazards Mitigation Planning Committee",
+                  "title": "Upper Skagit Indian Tribe Jurisdiction-Specific Tribal Requirements, Vulnerability Assessment, and Mitigation Initiatives (2008)"
+                }
+              ],
+              "raw_group": "work/discovery/D13/raw-13.json"
+            }
+          ],
+          "query": "\"Upper Skagit Indian Tribe\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [
+            "D13-C003"
+          ],
+          "outcome": "found"
+        }
+      },
+      "display_name": "Upper Skagit Indian Tribe",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000317",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Ute Indian Tribe of the Uintah & Ouray Reservation, Utah\" climate adaptation plan OR climate action plan",
+        "\"Ute Indian Tribe of the Uintah & Ouray Reservation, Utah\" climate vulnerability assessment",
+        "\"Ute Indian Tribe of the Uintah & Ouray Reservation, Utah\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Ute Indian Tribe of the Uintah & Ouray Reservation, Utah\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-13.json"
+            }
+          ],
+          "query": "\"Ute Indian Tribe of the Uintah & Ouray Reservation, Utah\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Ute Indian Tribe of the Uintah & Ouray Reservation, Utah\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-14.json"
+            }
+          ],
+          "query": "\"Ute Indian Tribe of the Uintah & Ouray Reservation, Utah\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Ute Indian Tribe of the Uintah & Ouray Reservation, Utah\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-14.json"
+            }
+          ],
+          "query": "\"Ute Indian Tribe of the Uintah & Ouray Reservation, Utah\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "Ute Indian Tribe of the Uintah & Ouray Reservation, Utah",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000318",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [
+        "www.utemountainuteenvironmental.org"
+      ],
+      "candidate_ids": [
+        "D13-C004"
+      ],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Ute Mountain Ute Tribe\" climate adaptation plan OR climate action plan",
+        "\"Ute Mountain Ute Tribe\" climate vulnerability assessment",
+        "\"Ute Mountain Ute Tribe\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "found",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "found",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Ute Mountain Ute Tribe\" climate adaptation plan OR climate action plan",
+              "results": [
+                {
+                  "summary": "Tribe environmental program route and Tribal Climate Change Guide search result surfaced; PDF not opened.",
+                  "url": "https://www.utemountainuteenvironmental.org/sites/umep/assets/PDF/UteMountainUteClimateActionPlan2020%202.pdf",
+                  "source": "Ute Mountain Ute Tribe",
+                  "title": "Ute Mountain Ute Tribe Climate Action Plan"
+                }
+              ],
+              "raw_group": "work/discovery/D13/raw-14.json"
+            }
+          ],
+          "query": "\"Ute Mountain Ute Tribe\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [
+            "D13-C004"
+          ],
+          "outcome": "found"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Ute Mountain Ute Tribe\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-14.json"
+            }
+          ],
+          "query": "\"Ute Mountain Ute Tribe\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Ute Mountain Ute Tribe\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-15.json"
+            }
+          ],
+          "query": "\"Ute Mountain Ute Tribe\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "Ute Mountain Ute Tribe",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000319",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Utu Utu Gwaitu Paiute Tribe of the Benton Paiute Reservation, California\" climate adaptation plan OR climate action plan",
+        "\"Utu Utu Gwaitu Paiute Tribe of the Benton Paiute Reservation, California\" climate vulnerability assessment",
+        "\"Utu Utu Gwaitu Paiute Tribe of the Benton Paiute Reservation, California\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Utu Utu Gwaitu Paiute Tribe of the Benton Paiute Reservation, California\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-15.json"
+            }
+          ],
+          "query": "\"Utu Utu Gwaitu Paiute Tribe of the Benton Paiute Reservation, California\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Utu Utu Gwaitu Paiute Tribe of the Benton Paiute Reservation, California\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-15.json"
+            }
+          ],
+          "query": "\"Utu Utu Gwaitu Paiute Tribe of the Benton Paiute Reservation, California\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Utu Utu Gwaitu Paiute Tribe of the Benton Paiute Reservation, California\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-15.json"
+            }
+          ],
+          "query": "\"Utu Utu Gwaitu Paiute Tribe of the Benton Paiute Reservation, California\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "Utu Utu Gwaitu Paiute Tribe of the Benton Paiute Reservation, California",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000320",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Walker River Paiute Tribe of the Walker River Reservation, Nevada\" climate adaptation plan OR climate action plan",
+        "\"Walker River Paiute Tribe of the Walker River Reservation, Nevada\" climate vulnerability assessment",
+        "\"Walker River Paiute Tribe of the Walker River Reservation, Nevada\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Walker River Paiute Tribe of the Walker River Reservation, Nevada\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-16.json"
+            }
+          ],
+          "query": "\"Walker River Paiute Tribe of the Walker River Reservation, Nevada\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Walker River Paiute Tribe of the Walker River Reservation, Nevada\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-16.json"
+            }
+          ],
+          "query": "\"Walker River Paiute Tribe of the Walker River Reservation, Nevada\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Walker River Paiute Tribe of the Walker River Reservation, Nevada\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-16.json"
+            }
+          ],
+          "query": "\"Walker River Paiute Tribe of the Walker River Reservation, Nevada\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "Walker River Paiute Tribe of the Walker River Reservation, Nevada",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000321",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [
+        "www.usetinc.org"
+      ],
+      "candidate_ids": [
+        "D13-C005"
+      ],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Wampanoag Tribe of Gay Head (Aquinnah)\" climate adaptation plan OR climate action plan",
+        "\"Wampanoag Tribe of Gay Head (Aquinnah)\" climate vulnerability assessment",
+        "\"Wampanoag Tribe of Gay Head (Aquinnah)\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "found",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "found",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Wampanoag Tribe of Gay Head (Aquinnah)\" climate adaptation plan OR climate action plan",
+              "results": [
+                {
+                  "summary": "Public PDF route surfaced as final-approved; publication and adoption dates were not independently verified.",
+                  "url": "https://www.usetinc.org/wp-content/uploads/2023/11/WTGHA-Climate-Adaptation-Plan-v08.25.23_FINAL-Approved.pdf",
+                  "source": "Wampanoag Tribe of Gay Head (Aquinnah)",
+                  "title": "Climate Change Adaptation Plan Wampanoag Tribe of Gay Head (Aquinnah)"
+                }
+              ],
+              "raw_group": "work/discovery/D13/raw-16.json"
+            }
+          ],
+          "query": "\"Wampanoag Tribe of Gay Head (Aquinnah)\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [
+            "D13-C005"
+          ],
+          "outcome": "found"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Wampanoag Tribe of Gay Head (Aquinnah)\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-17.json"
+            }
+          ],
+          "query": "\"Wampanoag Tribe of Gay Head (Aquinnah)\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Wampanoag Tribe of Gay Head (Aquinnah)\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-17.json"
+            }
+          ],
+          "query": "\"Wampanoag Tribe of Gay Head (Aquinnah)\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "Wampanoag Tribe of Gay Head (Aquinnah)",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000322",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Washoe Tribe of Nevada & California (Carson Colony, Dresslerville Colony, Woodfords Community, Stewart Community, & Washoe Ranches)\" climate adaptation plan OR climate action plan",
+        "\"Washoe Tribe of Nevada & California (Carson Colony, Dresslerville Colony, Woodfords Community, Stewart Community, & Washoe Ranches)\" climate vulnerability assessment",
+        "\"Washoe Tribe of Nevada & California (Carson Colony, Dresslerville Colony, Woodfords Community, Stewart Community, & Washoe Ranches)\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Washoe Tribe of Nevada & California (Carson Colony, Dresslerville Colony, Woodfords Community, Stewart Community, & Washoe Ranches)\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-17.json"
+            }
+          ],
+          "query": "\"Washoe Tribe of Nevada & California (Carson Colony, Dresslerville Colony, Woodfords Community, Stewart Community, & Washoe Ranches)\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Washoe Tribe of Nevada & California (Carson Colony, Dresslerville Colony, Woodfords Community, Stewart Community, & Washoe Ranches)\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-17.json"
+            }
+          ],
+          "query": "\"Washoe Tribe of Nevada & California (Carson Colony, Dresslerville Colony, Woodfords Community, Stewart Community, & Washoe Ranches)\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Washoe Tribe of Nevada & California (Carson Colony, Dresslerville Colony, Woodfords Community, Stewart Community, & Washoe Ranches)\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-18.json"
+            }
+          ],
+          "query": "\"Washoe Tribe of Nevada & California (Carson Colony, Dresslerville Colony, Woodfords Community, Stewart Community, & Washoe Ranches)\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "Washoe Tribe of Nevada & California (Carson Colony, Dresslerville Colony, Woodfords Community, Stewart Community, & Washoe Ranches)",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000323",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"White Mountain Apache Tribe of the Fort Apache Reservation, Arizona\" climate adaptation plan OR climate action plan",
+        "\"White Mountain Apache Tribe of the Fort Apache Reservation, Arizona\" climate vulnerability assessment",
+        "\"White Mountain Apache Tribe of the Fort Apache Reservation, Arizona\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"White Mountain Apache Tribe of the Fort Apache Reservation, Arizona\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-18.json"
+            }
+          ],
+          "query": "\"White Mountain Apache Tribe of the Fort Apache Reservation, Arizona\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"White Mountain Apache Tribe of the Fort Apache Reservation, Arizona\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-18.json"
+            }
+          ],
+          "query": "\"White Mountain Apache Tribe of the Fort Apache Reservation, Arizona\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"White Mountain Apache Tribe of the Fort Apache Reservation, Arizona\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-18.json"
+            }
+          ],
+          "query": "\"White Mountain Apache Tribe of the Fort Apache Reservation, Arizona\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "White Mountain Apache Tribe of the Fort Apache Reservation, Arizona",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000324",
+      "search_budget_used": 3
+    },
+    {
+      "source_domains": [],
+      "candidate_ids": [],
+      "searched_at": "2026-10-21T13:07:54Z",
+      "search_terms": [
+        "\"Wichita and Affiliated Tribes (Wichita, Keechi, Waco, & Tawakonie), Oklahoma\" climate adaptation plan OR climate action plan",
+        "\"Wichita and Affiliated Tribes (Wichita, Keechi, Waco, & Tawakonie), Oklahoma\" climate vulnerability assessment",
+        "\"Wichita and Affiliated Tribes (Wichita, Keechi, Waco, & Tawakonie), Oklahoma\" hazard mitigation plan OR hazard management plan"
+      ],
+      "outcome": "no_matching_public_document_located",
+      "categories": {
+        "climate_adaptation_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Wichita and Affiliated Tribes (Wichita, Keechi, Waco, & Tawakonie), Oklahoma\" climate adaptation plan OR climate action plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-19.json"
+            }
+          ],
+          "query": "\"Wichita and Affiliated Tribes (Wichita, Keechi, Waco, & Tawakonie), Oklahoma\" climate adaptation plan OR climate action plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "climate_vulnerability_assessment": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Wichita and Affiliated Tribes (Wichita, Keechi, Waco, & Tawakonie), Oklahoma\" climate vulnerability assessment",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-19.json"
+            }
+          ],
+          "query": "\"Wichita and Affiliated Tribes (Wichita, Keechi, Waco, & Tawakonie), Oklahoma\" climate vulnerability assessment",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        },
+        "hazard_mitigation_or_management_plan": {
+          "limitations": [
+            "One Nation-specific class query reviewed at bounded depth; raw response retained; no full-document harvest. A nonmatch does not establish absence."
+          ],
+          "receipt": [
+            {
+              "disposition": "no_matching_public_document_located",
+              "checked_utc": "2026-10-21T13:07:54Z",
+              "route": "targeted_web_search",
+              "query": "\"Wichita and Affiliated Tribes (Wichita, Keechi, Waco, & Tawakonie), Oklahoma\" hazard mitigation plan OR hazard management plan",
+              "results": [],
+              "raw_group": "work/discovery/D13/raw-19.json"
+            }
+          ],
+          "query": "\"Wichita and Affiliated Tribes (Wichita, Keechi, Waco, & Tawakonie), Oklahoma\" hazard mitigation plan OR hazard management plan",
+          "candidate_ids": [],
+          "outcome": "no_matching_public_document_located"
+        }
+      },
+      "display_name": "Wichita and Affiliated Tribes (Wichita, Keechi, Waco, & Tawakonie), Oklahoma",
+      "limitations": [
+        "Three separate Nation-specific document-class queries completed; seed catalog checked by exact normalized canonical/alias names. Search-result evidence only; no full-document harvest."
+      ],
+      "batch_id": "D13",
+      "tribe_id": "epa_100000325",
+      "search_budget_used": 3
+    }
+  ],
+  "candidates": [
+    {
+      "id": "D13-C001",
+      "tribe_ids": [
+        "epa_100000308"
+      ],
+      "title": "Tulalip Tribes Priority Climate Action Plan",
+      "issuing_body": "Tulalip Tribes",
+      "document_class": "climate_adaptation_plan",
+      "canonical_landing_page_url": "https://www.epa.gov/inflation-reduction-act/priority-climate-action-plans-states-msas-tribes-and-territories",
+      "document_url": "https://www.epa.gov/system/files/documents/2024-04/tulalip-tribes-pcap.pdf",
+      "relationship_evidence": "EPA-hosted plan title names Tulalip Tribes as plan issuer.",
+      "relationship_evidence_location": "Search result title, official page, or identified section as described in date_evidence",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [
+        "EPA-hosted search result title names Tulalip Tribes Priority Climate Action Plan"
+      ],
+      "source_access_date": "2026-10-21T13:07:54Z",
+      "source_confidence": "medium",
+      "review_state": "initial_search_result_only",
+      "access_outcome": "public_search_result_observed",
+      "redistribution_terms": "unknown_not_reviewed",
+      "mime_type": null,
+      "host_relationship": "Tulalip Tribes",
+      "discovery_note": "EPA search result identifies the Tribes PCAP; source document not opened and year not independently verified.",
+      "dedup_relation": null,
+      "access_instructions": "Use the public route; confirm scope, status, access, and redistribution terms before full-document acquisition."
+    },
+    {
+      "id": "D13-C002",
+      "tribe_ids": [
+        "epa_100000308"
+      ],
+      "title": "Tulalip Tribes 2021 Hazard Mitigation Plan",
+      "issuing_body": "Tulalip Tribes",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://www.tulaliptribes-nsn.gov/Residents/FormsAndPublications",
+      "document_url": "https://www.tulaliptribes-nsn.gov/documents/Tulalip-Tribes-2021-Hazard-Mitigation-Plan-20210616.pdf",
+      "relationship_evidence": "Tribe-hosted plan is titled for Tulalip Tribes and the document title states Hazard Mitigation Plan.",
+      "relationship_evidence_location": "Search result title, official page, or identified section as described in date_evidence",
+      "publication_year": 2021,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": "Year explicitly stated in source title or search result; document not independently inspected.",
+      "date_evidence": [
+        "Official Tulalip Tribes search result names 2021 Hazard Mitigation Plan"
+      ],
+      "source_access_date": "2026-10-21T13:07:54Z",
+      "source_confidence": "medium",
+      "review_state": "initial_search_result_only",
+      "access_outcome": "public_search_result_observed",
+      "redistribution_terms": "unknown_not_reviewed",
+      "mime_type": null,
+      "host_relationship": "Tulalip Tribes",
+      "discovery_note": "Official public document route surfaced; full PDF and current approval status not reviewed.",
+      "dedup_relation": null,
+      "access_instructions": "Use the public route; confirm scope, status, access, and redistribution terms before full-document acquisition."
+    },
+    {
+      "id": "D13-C003",
+      "tribe_ids": [
+        "epa_100000317"
+      ],
+      "title": "Upper Skagit Indian Tribe Jurisdiction-Specific Tribal Requirements, Vulnerability Assessment, and Mitigation Initiatives (2008)",
+      "issuing_body": "Upper Skagit Indian Tribe with Skagit County Natural Hazards Mitigation Planning Committee",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://www.skagitcounty.net/Departments/EmergencyManagement/2008HazMitPlan.htm",
+      "document_url": "https://www.skagitcounty.net/EmergencyManagement/Documents/2008HazPlanFinal/Section%20IV%20Final%20Documents/15%20Upper%20Skagit%20Indian%20Tribe%20Final/Upper%20Skagit%20Indian%20Tribe.2008.Final.pdf",
+      "relationship_evidence": "County-hosted hazard plan contains a separately titled Upper Skagit Indian Tribe jurisdiction-specific section; participation and Tribe-specific mitigation initiatives are explicit.",
+      "relationship_evidence_location": "Search result title, official page, or identified section as described in date_evidence",
+      "publication_year": 2008,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": "Year explicitly stated in source title or search result; document not independently inspected.",
+      "date_evidence": [
+        "Search result identifies a 2008 Upper Skagit Indian Tribe jurisdiction-specific Tribal requirements, vulnerability assessment, and mitigation initiatives section"
+      ],
+      "source_access_date": "2026-10-21T13:07:54Z",
+      "source_confidence": "medium",
+      "review_state": "initial_search_result_only",
+      "access_outcome": "public_search_result_observed",
+      "redistribution_terms": "unknown_not_reviewed",
+      "mime_type": null,
+      "host_relationship": "Upper Skagit Indian Tribe with Skagit County Natural Hazards Mitigation Planning Committee",
+      "discovery_note": "Regional plan relationship is limited to the named Tribal section; county plan is not presented as a standalone Tribal plan. PDF not fully reviewed.",
+      "dedup_relation": null,
+      "access_instructions": "Use the public route; confirm scope, status, access, and redistribution terms before full-document acquisition."
+    },
+    {
+      "id": "D13-C004",
+      "tribe_ids": [
+        "epa_100000319"
+      ],
+      "title": "Ute Mountain Ute Tribe Climate Action Plan",
+      "issuing_body": "Ute Mountain Ute Tribe",
+      "document_class": "climate_adaptation_plan",
+      "canonical_landing_page_url": "https://tribalclimateguide.uoregon.edu/tribal-adaptation-plans/ute-mountain-climate-action-plan",
+      "document_url": "https://www.utemountainuteenvironmental.org/sites/umep/assets/PDF/UteMountainUteClimateActionPlan2020%202.pdf",
+      "relationship_evidence": "The titled plan identifies Ute Mountain Ute Tribe as its subject and issuer.",
+      "relationship_evidence_location": "Search result title, official page, or identified section as described in date_evidence",
+      "publication_year": 2020,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": "Year explicitly stated in source title or search result; document not independently inspected.",
+      "date_evidence": [
+        "Search result title states Ute Mountain Ute Tribe Climate Action Plan 2020"
+      ],
+      "source_access_date": "2026-10-21T13:07:54Z",
+      "source_confidence": "medium",
+      "review_state": "initial_search_result_only",
+      "access_outcome": "public_search_result_observed",
+      "redistribution_terms": "unknown_not_reviewed",
+      "mime_type": null,
+      "host_relationship": "Ute Mountain Ute Tribe",
+      "discovery_note": "Tribe environmental program route and Tribal Climate Change Guide search result surfaced; PDF not opened.",
+      "dedup_relation": null,
+      "access_instructions": "Use the public route; confirm scope, status, access, and redistribution terms before full-document acquisition."
+    },
+    {
+      "id": "D13-C005",
+      "tribe_ids": [
+        "epa_100000322"
+      ],
+      "title": "Climate Change Adaptation Plan Wampanoag Tribe of Gay Head (Aquinnah)",
+      "issuing_body": "Wampanoag Tribe of Gay Head (Aquinnah)",
+      "document_class": "climate_adaptation_plan",
+      "canonical_landing_page_url": "https://tribalclimateguide.uoregon.edu/node/4032",
+      "document_url": "https://www.usetinc.org/wp-content/uploads/2023/11/WTGHA-Climate-Adaptation-Plan-v08.25.23_FINAL-Approved.pdf",
+      "relationship_evidence": "Plan title names Wampanoag Tribe of Gay Head (Aquinnah); public guide result identifies the same Nation and plan.",
+      "relationship_evidence_location": "Search result title, official page, or identified section as described in date_evidence",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": [
+        "Tribal Climate Change Guide search result names Wampanoag Tribe of Gay Head (Aquinnah) Climate Change Adaptation Plan"
+      ],
+      "source_access_date": "2026-10-21T13:07:54Z",
+      "source_confidence": "medium",
+      "review_state": "initial_search_result_only",
+      "access_outcome": "public_search_result_observed",
+      "redistribution_terms": "unknown_not_reviewed",
+      "mime_type": null,
+      "host_relationship": "Wampanoag Tribe of Gay Head (Aquinnah)",
+      "discovery_note": "Public PDF route surfaced as final-approved; publication and adoption dates were not independently verified.",
+      "dedup_relation": null,
+      "access_instructions": "Use the public route; confirm scope, status, access, and redistribution terms before full-document acquisition."
+    }
+  ]
+}

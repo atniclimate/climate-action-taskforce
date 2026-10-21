@@ -1,0 +1,6232 @@
+{
+  "nation_count": 575,
+  "nations": [
+    {
+      "alternate_names": [
+        "Absentee-Shawnee Tribe of Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Absentee-Shawnee Tribe of Indians of Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000001"
+    },
+    {
+      "alternate_names": [
+        "Aqua-Caliente Band of Cahuilla Indians (Palm Springs), Aqua Caliente Indian Reservation, California",
+        "Agua Caliente Band of Cahuilla Indians of the Agua Caliente Indian Reservation, Palm Springs, California"
+      ],
+      "epa_region": "9",
+      "name": "Agua Caliente Band of Cahuilla Indians of the Agua Caliente Indian Reservation, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000002"
+    },
+    {
+      "alternate_names": [
+        "Ak Chin Indian Community, Maricopa, Ak Chin Reservation, Arizona",
+        "Ak Chin Indian Community of Papago Indians of the Maricopa, Ak Chin Reservation, Arizona",
+        "Ak Chin Indian Community of the Maricopa (Ak Chin) Indian Reservation, Arizona"
+      ],
+      "epa_region": "9",
+      "name": "Ak-Chin Indian Community",
+      "states": [
+        "AZ"
+      ],
+      "tribe_id": "epa_100000003"
+    },
+    {
+      "alternate_names": [
+        "Alabama and Coushatta Tribes of Texas",
+        "Alabama-Coushatta Tribes of Texas"
+      ],
+      "epa_region": "6",
+      "name": "Alabama-Coushatta Tribe of Texas",
+      "states": [
+        "TX"
+      ],
+      "tribe_id": "epa_100000004"
+    },
+    {
+      "alternate_names": [
+        "Alabama-Quassarte Creek Tribal Town, Oklahoma",
+        "Alabama-Quassarte Tribal Town of the Creek Nation of Indians of Oklahoma",
+        "Alabama-Quassarte Tribal Town of the Creek Nation of Oklahoma",
+        "Alabama-Quassarte Tribal Town, Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Alabama-Quassarte Tribal Town",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000005"
+    },
+    {
+      "alternate_names": [
+        "Alturas Rancheria of Pit River Indians, California",
+        "Alturas Indian Rancheria of Pit River Indians of California",
+        "Alturas Rancheria of Pit River Indians of California"
+      ],
+      "epa_region": "9",
+      "name": "Alturas Indian Rancheria, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000006"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "6",
+      "name": "Apache Tribe of Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000007"
+    },
+    {
+      "alternate_names": [
+        "Arapahoe Tribe of the Wind River Reservation, Wyoming",
+        "Arapaho Tribe of the Wind River Reservation, Wyoming"
+      ],
+      "epa_region": "8",
+      "name": "Northern Arapaho Tribe of the Wind River Reservation, Wyoming",
+      "states": [
+        "WY"
+      ],
+      "tribe_id": "epa_100000008"
+    },
+    {
+      "alternate_names": [
+        "Aroostook Band of Micmac Indians of Maine",
+        "Aroostook Band of Micmacs"
+      ],
+      "epa_region": "1",
+      "name": "Mi'kmaq Nation",
+      "states": [
+        "ME"
+      ],
+      "tribe_id": "epa_100000009"
+    },
+    {
+      "alternate_names": [
+        "Assiniboine and Sioux Tribes of the Fort Peck Reservation, Montana"
+      ],
+      "epa_region": "8",
+      "name": "Assiniboine and Sioux Tribes of the Fort Peck Indian Reservation, Montana",
+      "states": [
+        "MT"
+      ],
+      "tribe_id": "epa_100000010"
+    },
+    {
+      "alternate_names": [
+        "Augustine Band of Cahuilla Mission Indians, Augustine Reservation, California",
+        "Augustine Band of Cahuilla Mission Indians of the Augustine Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Augustine Band of Cahuilla Indians, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000011"
+    },
+    {
+      "alternate_names": [
+        "Bad River Band of Lake Superior Chippewa Indians, Bad River Reservation, Wisconsin"
+      ],
+      "epa_region": "5",
+      "name": "Bad River Band of the Lake Superior Tribe of Chippewa Indians of the Bad River Reservation, Wisconsin",
+      "states": [
+        "WI"
+      ],
+      "tribe_id": "epa_100000012"
+    },
+    {
+      "alternate_names": [
+        "Bay Mills Indian Community, Bay Mills Reservation, Michigan",
+        "Bay Mills Indian Community of the Sault Ste. Marie Band of Chippewa Indians, Bay Mills Reservation, Michigan"
+      ],
+      "epa_region": "5",
+      "name": "Bay Mills Indian Community, Michigan",
+      "states": [
+        "MI"
+      ],
+      "tribe_id": "epa_100000013"
+    },
+    {
+      "alternate_names": [
+        "Rohnerville Rancheria of Bear River or Mattole Indians of California",
+        "Bear River Band of the Rohnerville Rancheria of California"
+      ],
+      "epa_region": "9",
+      "name": "Bear River Band of the Rohnerville Rancheria, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000014"
+    },
+    {
+      "alternate_names": [
+        "Berry Creek Rancheria of Maidu Indians, California"
+      ],
+      "epa_region": "9",
+      "name": "Berry Creek Rancheria of Maidu Indians of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000015"
+    },
+    {
+      "alternate_names": [
+        "Big Lagoon Rancheria of Smith River Indians, California",
+        "Big Lagoon Rancheria of Smith River Indians of California"
+      ],
+      "epa_region": "9",
+      "name": "Big Lagoon Rancheria, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000016"
+    },
+    {
+      "alternate_names": [
+        "Big Pine Band of Owens Valley Paiute Shoshone Indians, Big Pine Reservation, California",
+        "Big Pine Band of Owens Valley Paiute Shoshone Indians of the Big Pine Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Big Pine Paiute Tribe of the Owens Valley",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000017"
+    },
+    {
+      "alternate_names": [
+        "Big Sandy Rancheria of Mono Indians of California"
+      ],
+      "epa_region": "9",
+      "name": "Big Sandy Rancheria of Western Mono Indians of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000018"
+    },
+    {
+      "alternate_names": [
+        "Big Valley Rancheria of Pomo & Pit River Indians of California"
+      ],
+      "epa_region": "9",
+      "name": "Big Valley Band of Pomo Indians of the Big Valley Rancheria, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000019"
+    },
+    {
+      "alternate_names": [
+        "Blackfeet Tribe, Blackfeet Indian Reservation, Montana"
+      ],
+      "epa_region": "8",
+      "name": "Blackfeet Tribe of the Blackfeet Indian Reservation of Montana",
+      "states": [
+        "MT"
+      ],
+      "tribe_id": "epa_100000020"
+    },
+    {
+      "alternate_names": [
+        "Blue Lake Rancheria of California"
+      ],
+      "epa_region": "9",
+      "name": "Blue Lake Rancheria, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000021"
+    },
+    {
+      "alternate_names": [
+        "Bridgeport Paiute Indian Colony, California",
+        "Bridgeport Paiute Indian Colony of California"
+      ],
+      "epa_region": "9",
+      "name": "Bridgeport Indian Colony",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000022"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "Buena Vista Rancheria of Me-Wuk Indians of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000023"
+    },
+    {
+      "alternate_names": [
+        "Burns Paiute Indian Colony, Oregon",
+        "Burns Paiute Tribe of the Burns Paiute Indian Colony of Oregon"
+      ],
+      "epa_region": "10",
+      "name": "Burns Paiute Tribe",
+      "states": [
+        "OR"
+      ],
+      "tribe_id": "epa_100000024"
+    },
+    {
+      "alternate_names": [
+        "Cabazon Band of Cahuilla Mission Indians, Cabazon Reservation, California",
+        "Cabazon Band of Cahuilla Mission Indians of the Cabazon Reservation, California",
+        "Cabazon Band of Mission Indians, California"
+      ],
+      "epa_region": "9",
+      "name": "Cabazon Band of Cahuilla Indians",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000025"
+    },
+    {
+      "alternate_names": [
+        "Cachil DeHe Band of Wintun Indians of Colusa Rancheria, California"
+      ],
+      "epa_region": "9",
+      "name": "Cachil DeHe Band of Wintun Indians of the Colusa Indian Community of the Colusa Rancheria, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000026"
+    },
+    {
+      "alternate_names": [
+        "Caddo Tribe of Oklahoma",
+        "Caddo Indian Tribe of Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Caddo Nation of Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000027"
+    },
+    {
+      "alternate_names": [
+        "Cahuilla Band of Mission Indians, Cahuilla Reservation, California",
+        "Cahuilla Band of Mission Indians of the Cahuilla Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Cahuilla Band of Indians",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000028"
+    },
+    {
+      "alternate_names": [
+        "Cahto Indian Tribe of the Laytonville Rancheria, California",
+        "Cahto Tribe"
+      ],
+      "epa_region": "9",
+      "name": "Cahto Tribe of the Laytonville Rancheria",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000029"
+    },
+    {
+      "alternate_names": [
+        "Sheep Ranch Rancheria of Me-Wuk Indians, California",
+        "Sheep Ranch Rancheria of Me-Wuk Indians of California"
+      ],
+      "epa_region": "9",
+      "name": "California Valley Miwok Tribe, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000030"
+    },
+    {
+      "alternate_names": [
+        "Campo Band of Diegueno Mission Indians, Campo Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Campo Band of Diegueno Mission Indians of the Campo Indian Reservation, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000031"
+    },
+    {
+      "alternate_names": [
+        "Capitan Grande Band of Diegueno Mission Indians, Capitan Grande Reservation, California",
+        "Capitan Grande Band of Diegueno Mission Indians of the Capitan Grande Reservation, California",
+        "Capitan Grande Band of Diegueno Mission Indians of California: Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation, California Viejas Group of Capitan Grande Band of Mission Indians of the Viejas Reservation, California",
+        "Capitan Grande Band of Diegueno Mission Indians of California: Barona Group of the Barona Reservation, California Viejas Group of the Viejas Reservation, California",
+        "Capitan Grande Band of Diegueno Mission Indians of California: Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation, California Viejas (Baron Long) Group of Capitan Grande Band of Mission Indians of the Viejas Reservation, California",
+        "Capitan Grande Band of Diegueno Mission Indians of California: Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation, California; Viejas (Baron Long) Group of Capitan Grande Band of Mission Indians of the Viejas Reservation, California",
+        "Capitan Grande Band of Diegueno Mission Indians of California: (Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation, California; Viejas (Baron Long) Group of Capitan Grande Band of Mission Indians of the Viejas Reservation, California)"
+      ],
+      "epa_region": "9",
+      "name": "Capitan Grande Band of Diegueno Mission Indians of California (Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation, California; Viejas (Baron Long) Group of Capitan Grande Band of Mission Indians of the Viejas Reservation, California)",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000032"
+    },
+    {
+      "alternate_names": [
+        "Catawba Tribe of South Carolina",
+        "Catawba Indian Nation (aka Catawba Tribe of South Carolina)"
+      ],
+      "epa_region": "4",
+      "name": "Catawba Indian Nation",
+      "states": [
+        "SC"
+      ],
+      "tribe_id": "epa_100000033"
+    },
+    {
+      "alternate_names": [
+        "Cayuga Nation of New York"
+      ],
+      "epa_region": "2",
+      "name": "Cayuga Nation",
+      "states": [
+        "NY"
+      ],
+      "tribe_id": "epa_100000034"
+    },
+    {
+      "alternate_names": [
+        "Cedarville Rancheria of Northern Paiute Indians, California",
+        "Cedarville Rancheria of Northern Paiute Indians of California"
+      ],
+      "epa_region": "9",
+      "name": "Cedarville Rancheria, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000035"
+    },
+    {
+      "alternate_names": [
+        "Chemehuevi Tribe, Chemehuevi Reservation, Arizona"
+      ],
+      "epa_region": "9",
+      "name": "Chemehuevi Indian Tribe of the Chemehuevi Reservation, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000036"
+    },
+    {
+      "alternate_names": [
+        "Cher-Ae Heights Indian Community of the Trinidad Rancheria of California"
+      ],
+      "epa_region": "9",
+      "name": "Cher-Ae Heights Indian Community of the Trinidad Rancheria, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000037"
+    },
+    {
+      "alternate_names": [
+        "Cherokee Nation of Oklahoma",
+        "Cherokee Nation, Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Cherokee Nation",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000038"
+    },
+    {
+      "alternate_names": [
+        "Cheyenne-Arapaho Tribes of Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Cheyenne and Arapaho Tribes, Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000039"
+    },
+    {
+      "alternate_names": [
+        "Cheyenne River Sioux Tribe, Cheyenne River Reservation, South Dakota"
+      ],
+      "epa_region": "8",
+      "name": "Cheyenne River Sioux Tribe of the Cheyenne River Reservation, South Dakota",
+      "states": [
+        "SD"
+      ],
+      "tribe_id": "epa_100000040"
+    },
+    {
+      "alternate_names": [
+        "Chickasaw Nation of Oklahoma",
+        "Chickasaw Nation, Oklahoma",
+        "Chickasaw Nation"
+      ],
+      "epa_region": "6",
+      "name": "The Chickasaw Nation",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000041"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "Chicken Ranch Rancheria of Me-Wuk Indians of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000042"
+    },
+    {
+      "alternate_names": [
+        "Chippewa-Cree Tribe of the Rocky Boy Reservation, Montana",
+        "Chippewa-Cree Indians of the Rocky Boy's Reservation, Montana"
+      ],
+      "epa_region": "8",
+      "name": "Chippewa Cree Indians of the Rocky Boy's Reservation, Montana",
+      "states": [
+        "MT"
+      ],
+      "tribe_id": "epa_100000043"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "6",
+      "name": "Chitimacha Tribe of Louisiana",
+      "states": [
+        "LA"
+      ],
+      "tribe_id": "epa_100000044"
+    },
+    {
+      "alternate_names": [
+        "Choctaw Nation of Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "The Choctaw Nation of Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000045"
+    },
+    {
+      "alternate_names": [
+        "Citizen Band of Potawatomi Indians of Oklahoma",
+        "Citizen Band Potawatomi Indian Tribe of Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Citizen Potawatomi Nation, Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000046"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "Cloverdale Rancheria of Pomo Indians of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000047"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "Cocopah Tribe of Arizona",
+      "states": [
+        "AZ"
+      ],
+      "tribe_id": "epa_100000048"
+    },
+    {
+      "alternate_names": [
+        "Coeur D'Alene Tribe, Coeur D'Alene Reservation, Idaho",
+        "Coeur D'Alene Tribe of the Coeur D'Alene Reservation, Idaho"
+      ],
+      "epa_region": "10",
+      "name": "Coeur D'Alene Tribe",
+      "states": [
+        "ID",
+        "MT"
+      ],
+      "tribe_id": "epa_100000049"
+    },
+    {
+      "alternate_names": [
+        "Cold Springs Rancheria of Mono Indians, California"
+      ],
+      "epa_region": "9",
+      "name": "Cold Springs Rancheria of Mono Indians of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000050"
+    },
+    {
+      "alternate_names": [
+        "Colorado River Tribes of the Colorado River Indian Reservation, Arizona"
+      ],
+      "epa_region": "9",
+      "name": "Colorado River Indian Tribes of the Colorado River Indian Reservation, Arizona and California",
+      "states": [
+        "AZ",
+        "CA"
+      ],
+      "tribe_id": "epa_100000051"
+    },
+    {
+      "alternate_names": [
+        "Comanche Tribe of Oklahoma",
+        "Comanche Indian Tribe of Oklahoma",
+        "Comanche Indian Tribe, Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Comanche Nation, Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000052"
+    },
+    {
+      "alternate_names": [
+        "Confederated Salish & Kootenai Tribes of the Flathead Reservation, Montana"
+      ],
+      "epa_region": "8",
+      "name": "Confederated Salish and Kootenai Tribes of the Flathead Reservation",
+      "states": [
+        "MT"
+      ],
+      "tribe_id": "epa_100000053"
+    },
+    {
+      "alternate_names": [
+        "Confederated Tribes of the Chehalis Reservation, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Confederated Tribes of the Chehalis Reservation",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000054"
+    },
+    {
+      "alternate_names": [
+        "Confederated Tribes of the Colville Reservation, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Confederated Tribes of the Colville Reservation",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000055"
+    },
+    {
+      "alternate_names": [
+        "Confederated Tribes of Coos, Lower Umpqua and Siuslaw Indians of Oregon",
+        "Confederated Tribes of the Coos, Lower Umpqua and Siuslaw Indians of Oregon"
+      ],
+      "epa_region": "10",
+      "name": "Confederated Tribes of the Coos, Lower Umpqua and Siuslaw Indians",
+      "states": [
+        "OR"
+      ],
+      "tribe_id": "epa_100000056"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "Confederated Tribes of the Goshute Reservation, Nevada and Utah",
+      "states": [
+        "NV",
+        "UT"
+      ],
+      "tribe_id": "epa_100000057"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Confederated Tribes of the Grand Ronde Community of Oregon",
+      "states": [
+        "OR"
+      ],
+      "tribe_id": "epa_100000058"
+    },
+    {
+      "alternate_names": [
+        "Confederated Tribes of the Siletz Reservation, Oregon"
+      ],
+      "epa_region": "10",
+      "name": "Confederated Tribes of Siletz Indians of Oregon",
+      "states": [
+        "OR"
+      ],
+      "tribe_id": "epa_100000059"
+    },
+    {
+      "alternate_names": [
+        "Confederated Tribes of the Umatilla Reservation, Oregon"
+      ],
+      "epa_region": "10",
+      "name": "Confederated Tribes of the Umatilla Indian Reservation",
+      "states": [
+        "OR"
+      ],
+      "tribe_id": "epa_100000060"
+    },
+    {
+      "alternate_names": [
+        "Confederated Tribes of the Warm Springs Reservation, Oregon"
+      ],
+      "epa_region": "10",
+      "name": "Confederated Tribes of the Warm Springs Reservation of Oregon",
+      "states": [
+        "OR"
+      ],
+      "tribe_id": "epa_100000061"
+    },
+    {
+      "alternate_names": [
+        "Yakima Tribes of the Yakima Reservation, Washington",
+        "Confederated Tribes and Bands of the Yakima Indian Nation of the Yakima Reservation, Washington",
+        "Confederated Tribes and Bands of the Yakama Indian Nation of the Yakama Reservation, Washington",
+        "Confederated Tribes and Bands of the Yakama Nation, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Confederated Tribes and Bands of the Yakama Nation",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000062"
+    },
+    {
+      "alternate_names": [
+        "Coquille Tribe of Oregon"
+      ],
+      "epa_region": "10",
+      "name": "Coquille Indian Tribe",
+      "states": [
+        "OR"
+      ],
+      "tribe_id": "epa_100000063"
+    },
+    {
+      "alternate_names": [
+        "Cortina Rancheria of Wintum Indians, California",
+        "Cortina Indian Rancheria of Wintun Indians of California",
+        "Cortina Indian Rancheria",
+        "Kletsel Dehe Band of Wintun Indians"
+      ],
+      "epa_region": "9",
+      "name": "Kletsel Dehe Wintun Nation of the Cortina Rancheria",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000064"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "6",
+      "name": "Coushatta Tribe of Louisiana",
+      "states": [
+        "LA"
+      ],
+      "tribe_id": "epa_100000065"
+    },
+    {
+      "alternate_names": [
+        "Cow Creek Band of Umpqua Indians of Oregon"
+      ],
+      "epa_region": "10",
+      "name": "Cow Creek Band of Umpqua Tribe of Indians",
+      "states": [
+        "OR"
+      ],
+      "tribe_id": "epa_100000066"
+    },
+    {
+      "alternate_names": [
+        "Cowlitz Indian Tribe, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Cowlitz Indian Tribe",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000067"
+    },
+    {
+      "alternate_names": [
+        "Coyote Valley Band of Pomo Indians, California",
+        "Coyote Valley Reservation"
+      ],
+      "epa_region": "9",
+      "name": "Coyote Valley Band of Pomo Indians of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000068"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "8",
+      "name": "Crow Tribe of Montana",
+      "states": [
+        "MT"
+      ],
+      "tribe_id": "epa_100000069"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "8",
+      "name": "Crow Creek Sioux Tribe of the Crow Creek Reservation, South Dakota",
+      "states": [
+        "SD"
+      ],
+      "tribe_id": "epa_100000070"
+    },
+    {
+      "alternate_names": [
+        "Death Valley Timbi-Sha Shoshone Band of California",
+        "Death Valley Timbi-sha Shoshone Tribe"
+      ],
+      "epa_region": "9",
+      "name": "Timbisha Shoshone Tribe",
+      "states": [
+        "CA",
+        "NV"
+      ],
+      "tribe_id": "epa_100000071"
+    },
+    {
+      "alternate_names": [
+        "Delaware Tribe of Western Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Delaware Nation, Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000072"
+    },
+    {
+      "alternate_names": [
+        "Delaware Tribe of Indians, Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Delaware Tribe of Indians",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000073"
+    },
+    {
+      "alternate_names": [
+        "Dry Creek Rancheria of Pomo Indians, California",
+        "Dry Creek Rancheria of Pomo Indians of California"
+      ],
+      "epa_region": "9",
+      "name": "Dry Creek Rancheria Band of Pomo Indians, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000074"
+    },
+    {
+      "alternate_names": [
+        "Duckwater Shoshone Tribe, Duckwater Reservation, Nevada",
+        "Duckwater Shoshone Tribe of the Duckwater Reservation, Nevada"
+      ],
+      "epa_region": "9",
+      "name": "Duckwater Shoshone Tribe",
+      "states": [
+        "NV"
+      ],
+      "tribe_id": "epa_100000075"
+    },
+    {
+      "alternate_names": [
+        "Eastern Band of Cherokee Indians of North Carolina"
+      ],
+      "epa_region": "4",
+      "name": "Eastern Band of Cherokee Indians",
+      "states": [
+        "NC"
+      ],
+      "tribe_id": "epa_100000076"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "7",
+      "name": "Eastern Shawnee Tribe of Oklahoma",
+      "states": [
+        "MO",
+        "OK"
+      ],
+      "tribe_id": "epa_100000077"
+    },
+    {
+      "alternate_names": [
+        "Elem Indian Colony of Pomo Indians of California"
+      ],
+      "epa_region": "9",
+      "name": "Elem Indian Colony of Pomo Indians of the Sulphur Bank Rancheria, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000078"
+    },
+    {
+      "alternate_names": [
+        "Elk Valley Rancheria of Smith River Tolowa Indians of California",
+        "Elk Valley Rancheria of California"
+      ],
+      "epa_region": "9",
+      "name": "Elk Valley Rancheria, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000079"
+    },
+    {
+      "alternate_names": [
+        "Ely Indian Colony, Nevada",
+        "Ely Indian Colony of Nevada"
+      ],
+      "epa_region": "9",
+      "name": "Ely Shoshone Tribe of Nevada",
+      "states": [
+        "NV"
+      ],
+      "tribe_id": "epa_100000080"
+    },
+    {
+      "alternate_names": [
+        "Enterprise Rancheria of Maidu Indians, California"
+      ],
+      "epa_region": "9",
+      "name": "Enterprise Rancheria of Maidu Indians of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000081"
+    },
+    {
+      "alternate_names": [
+        "Ewiiaapaayp Band of Kumeyaay Indians, California",
+        "Cuyapaipe Band of Diegueno Mission Indians, Cuyapaipe Reservation, California",
+        "Cuyapaipe Community of Diegueno Mission Indians of the Cuyapaipe Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Ewiiaapaayp Band of Kumeyaay Indians",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000082"
+    },
+    {
+      "alternate_names": [
+        "Graton Rancheria, California"
+      ],
+      "epa_region": "9",
+      "name": "Federated Indians of Graton Rancheria, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000083"
+    },
+    {
+      "alternate_names": [
+        "Flandreau Santee Sioux Tribe, South Dakota"
+      ],
+      "epa_region": "8",
+      "name": "Flandreau Santee Sioux Tribe of South Dakota",
+      "states": [
+        "SD"
+      ],
+      "tribe_id": "epa_100000084"
+    },
+    {
+      "alternate_names": [
+        "Forest County Potawatomi Indian Community of Wisconsin",
+        "Forest County Potawatomi Community of Wisconsin Potawatomie Indians, Wisconsin",
+        "Forest County Potawatomi Community of Wisconsin Potawatomi Indians, Wisconsin"
+      ],
+      "epa_region": "5",
+      "name": "Forest County Potawatomi Community, Wisconsin",
+      "states": [
+        "WI"
+      ],
+      "tribe_id": "epa_100000085"
+    },
+    {
+      "alternate_names": [
+        "Fort Belknap Indian Community, Port Belknap Reservation, Montana"
+      ],
+      "epa_region": "8",
+      "name": "Fort Belknap Indian Community of the Fort Belknap Reservation of Montana",
+      "states": [
+        "MT"
+      ],
+      "tribe_id": "epa_100000086"
+    },
+    {
+      "alternate_names": [
+        "Fort Bidwell Indian Community, Paiute Indians of the Fort Bidwell Reservation, California",
+        "Fort Bidwell Indian Community of Paiute Indians of the Fort Bidwell Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Fort Bidwell Indian Community of the Fort Bidwell Reservation of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000087"
+    },
+    {
+      "alternate_names": [
+        "Fort Independence Indian Community, Paiute Indians of the Fort Independence Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Fort Independence Indian Community of Paiute Indians of the Fort Independence Reservation, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000088"
+    },
+    {
+      "alternate_names": [
+        "Fort McDermitt Paiute-Shoshone Tribes, Fort McDermitt Reservation, Nevada",
+        "Fort McDermitt Paiute and Shoshone Tribes of the Fort McDermitt Indian Reservation, Nevada"
+      ],
+      "epa_region": "9",
+      "name": "Fort McDermitt Paiute and Shoshone Tribes of the Fort McDermitt Indian Reservation, Nevada and Oregon",
+      "states": [
+        "NV",
+        "OR"
+      ],
+      "tribe_id": "epa_100000089"
+    },
+    {
+      "alternate_names": [
+        "Fort McDowell, Mohave-Apache Indian Community, Fort McDowell Indian Reservation, Arizona",
+        "Fort McDowell Mohave-Apache Indian Community, Fort McDowell Band of Mohave Apache Indians of the Fort McDowell Indian Reservation, Arizona",
+        "Fort McDowell Mohave-Apache Indian Community of the Fort McDowell Indian Reservation, Arizona",
+        "Fort McDowell Mohave-Apache Community of the Fort McDowell Indian Reservation, Arizona"
+      ],
+      "epa_region": "9",
+      "name": "Fort McDowell Yavapai Nation, Arizona",
+      "states": [
+        "AZ"
+      ],
+      "tribe_id": "epa_100000090"
+    },
+    {
+      "alternate_names": [
+        "Fort Mojave Tribe of Arizona",
+        "Fort Mojave Indian Tribe of Arizona",
+        "Fort Mojave Indian Tribe of Arizona, California and Nevada"
+      ],
+      "epa_region": "9",
+      "name": "Fort Mojave Indian Tribe of Arizona, California & Nevada",
+      "states": [
+        "AZ",
+        "CA",
+        "NV"
+      ],
+      "tribe_id": "epa_100000091"
+    },
+    {
+      "alternate_names": [
+        "Fort Sill Apache Tribe of Oklahoma"
+      ],
+      "epa_region": "9",
+      "name": "Fort Sill--Chiricahua--Warm Springs--Apache Tribe",
+      "states": [
+        "AZ",
+        "NM",
+        "OK"
+      ],
+      "tribe_id": "epa_100000092"
+    },
+    {
+      "alternate_names": [
+        "Gila River Indian Community, Gila River Reservation, Arizona",
+        "Gila River Pima-Maricopa Indian Community of the Gila River Indian Reservation of Arizona"
+      ],
+      "epa_region": "9",
+      "name": "Gila River Indian Community of the Gila River Indian Reservation, Arizona",
+      "states": [
+        "AZ"
+      ],
+      "tribe_id": "epa_100000093"
+    },
+    {
+      "alternate_names": [
+        "Grand Traverse Band of Ottawa & Chippewa Indians of Michigan"
+      ],
+      "epa_region": "5",
+      "name": "Grand Traverse Band of Ottawa and Chippewa Indians, Michigan",
+      "states": [
+        "MI"
+      ],
+      "tribe_id": "epa_100000094"
+    },
+    {
+      "alternate_names": [
+        "Greenville Rancheria of Maidu Indians of California"
+      ],
+      "epa_region": "9",
+      "name": "Greenville Rancheria",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000095"
+    },
+    {
+      "alternate_names": [
+        "Grindstone Indian Rancheria of Wintun-Wailaki Indians, California"
+      ],
+      "epa_region": "9",
+      "name": "Grindstone Indian Rancheria of Wintun-Wailaki Indians of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000096"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "Guidiville Rancheria of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000097"
+    },
+    {
+      "alternate_names": [
+        "Upper Lake Band of Pomo Indians of Upper Lake Rancheria, California",
+        "Upper Lake Band of Pomo Indians of Upper Lake Rancheria of California"
+      ],
+      "epa_region": "9",
+      "name": "Habematolel Pomo of Upper Lake, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000098"
+    },
+    {
+      "alternate_names": [
+        "Hannahville Potawatomi Indian Community of Michigan",
+        "Hannahville Indian Community of Wisconsin Potawatomie Indians of Michigan"
+      ],
+      "epa_region": "5",
+      "name": "Hannahville Indian Community, Michigan",
+      "states": [
+        "MI"
+      ],
+      "tribe_id": "epa_100000099"
+    },
+    {
+      "alternate_names": [
+        "Havasupai Tribe, Havasupai Reservation, Arizona"
+      ],
+      "epa_region": "9",
+      "name": "Havasupai Tribe of the Havasupai Reservation, Arizona",
+      "states": [
+        "AZ"
+      ],
+      "tribe_id": "epa_100000100"
+    },
+    {
+      "alternate_names": [
+        "Wisconsin Winnebago Indian Tribe of Wisconsin"
+      ],
+      "epa_region": "5",
+      "name": "Ho-Chunk Nation of Wisconsin",
+      "states": [
+        "WI"
+      ],
+      "tribe_id": "epa_100000101"
+    },
+    {
+      "alternate_names": [
+        "Hoh Tribe, Hoh Indian Reservation, Washington",
+        "Hoh Indian Tribe of the Hoh Indian Reservation, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Hoh Indian Tribe",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000102"
+    },
+    {
+      "alternate_names": [
+        "Hoopa Valley Tribe of the Hoopa Valley Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Hoopa Valley Tribe, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000103"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "Hopi Tribe of Arizona",
+      "states": [
+        "AZ"
+      ],
+      "tribe_id": "epa_100000104"
+    },
+    {
+      "alternate_names": [
+        "Hopland Band of Pomo Indians, Hopland Rancheria, California",
+        "Hopland Band of Pomo Indians of the Hopland Rancheria, California",
+        "Hopland Band of Pomo Indians of the Hopland Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Hopland Band of Pomo Indians, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000105"
+    },
+    {
+      "alternate_names": [
+        "Houlton Band of Maliseet Indians of Maine"
+      ],
+      "epa_region": "1",
+      "name": "Houlton Band of Maliseet Indians",
+      "states": [
+        "ME"
+      ],
+      "tribe_id": "epa_100000106"
+    },
+    {
+      "alternate_names": [
+        "Hualapai Tribe, Hualapai Reservation, Arizona",
+        "Hualapai Tribe of the Hualapai Indian Reservation, Arizona",
+        "Hualapai Tribe of the Hualapai Indian Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Hualapai Indian Tribe of the Hualapai Indian Reservation, Arizona",
+      "states": [
+        "AZ"
+      ],
+      "tribe_id": "epa_100000107"
+    },
+    {
+      "alternate_names": [
+        "Santa Ysabel Band of Diegueno Mission Indians, Santa Ysabel Reservation, California",
+        "Santa Ysabel Band of Diegueno Mission Indians of the Santa Ysabel Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Iipay Nation of Santa Ysabel, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000108"
+    },
+    {
+      "alternate_names": [
+        "Inaja & Cosmit Reservation (Diegueno Indians), California"
+      ],
+      "epa_region": "9",
+      "name": "Inaja Band of Diegueno Mission Indians of the Inaja and Cosmit Reservation, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000109"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "Ione Band of Miwok Indians of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000110"
+    },
+    {
+      "alternate_names": [
+        "Iowa Tribe of Kansas & Nebraska",
+        "Iowa Tribe of Indians of the Iowa Reservation in Nebraska and Kansas"
+      ],
+      "epa_region": "7",
+      "name": "Iowa Tribe of Kansas and Nebraska",
+      "states": [
+        "KS",
+        "NE"
+      ],
+      "tribe_id": "epa_100000111"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "6",
+      "name": "Iowa Tribe of Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000112"
+    },
+    {
+      "alternate_names": [
+        "Jackson Rancheria of Me-Wuk Indians, California",
+        "Jackson Rancheria of Me-Wuk Indians of California"
+      ],
+      "epa_region": "9",
+      "name": "Jackson Band of Miwuk Indians",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000113"
+    },
+    {
+      "alternate_names": [
+        "Jamestown Band of Clallam Indians of Washington",
+        "Jamestown Klallam Tribe of Washington",
+        "Jamestown S'Klallam Tribe, Washington",
+        "Jamestown S'Klallam Tribe of Washington"
+      ],
+      "epa_region": "10",
+      "name": "Jamestown S'Klallam Tribe",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000114"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "Jamul Indian Village of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000115"
+    },
+    {
+      "alternate_names": [
+        "Jena Band of Choctaw Indians, Louisiana"
+      ],
+      "epa_region": "6",
+      "name": "Jena Band of Choctaw Indians",
+      "states": [
+        "LA"
+      ],
+      "tribe_id": "epa_100000116"
+    },
+    {
+      "alternate_names": [
+        "Jicarilla Apache Tribe, Jicarilla Apache Indian Reservation, Arizona",
+        "Jicarilla Apache Tribe of the Jicarilla Apache Indian Reservation, New Mexico"
+      ],
+      "epa_region": "6",
+      "name": "Jicarilla Apache Nation, New Mexico",
+      "states": [
+        "NM"
+      ],
+      "tribe_id": "epa_100000117"
+    },
+    {
+      "alternate_names": [
+        "Kaibab Band of Paiute Indians, Kaibab Indian Reservation, Arizona"
+      ],
+      "epa_region": "9",
+      "name": "Kaibab Band of Paiute Indians of the Kaibab Indian Reservation, Arizona",
+      "states": [
+        "AZ"
+      ],
+      "tribe_id": "epa_100000118"
+    },
+    {
+      "alternate_names": [
+        "Kalispel Indian Community, Kalispel Reservation, Washington",
+        "Kalispel Indian Community of the Kalispel Reservation, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Kalispel Indian Community of the Kalispel Reservation",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000119"
+    },
+    {
+      "alternate_names": [
+        "Karok Tribe of California",
+        "Karuk Tribe of California"
+      ],
+      "epa_region": "9",
+      "name": "Karuk Tribe",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000120"
+    },
+    {
+      "alternate_names": [
+        "Kashia Band of Pomo Indians of Stewarts Point Rancheria, California"
+      ],
+      "epa_region": "9",
+      "name": "Kashia Band of Pomo Indians of the Stewarts Point Rancheria, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000121"
+    },
+    {
+      "alternate_names": [
+        "Kaw Tribe of Oklahoma",
+        "Kaw Indian Tribe of Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Kaw Nation, Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000122"
+    },
+    {
+      "alternate_names": [
+        "Santo Domingo Pueblo of New Mexico",
+        "Pueblo of Santo Domingo, New Mexico",
+        "Kewa Pueblo, New Mexico"
+      ],
+      "epa_region": "6",
+      "name": "Santo Domingo Pueblo",
+      "states": [
+        "NM"
+      ],
+      "tribe_id": "epa_100000123"
+    },
+    {
+      "alternate_names": [
+        "Keweenaw Bay Chippewa Indian Community, L'Anse Reservation, Michigan",
+        "Keweenaw Bay Indian Community of L'Anse, Lac Vieux Desert and Ontonagon Bands of Chippewa Indians of the L'Anse Reservation, Michigan",
+        "Keweenaw Bay Indian Community of L'Anse and Ontonagon Bands of Chippewa Indians of the L'Anse Reservation, Michigan"
+      ],
+      "epa_region": "5",
+      "name": "Keweenaw Bay Indian Community, Michigan",
+      "states": [
+        "MI"
+      ],
+      "tribe_id": "epa_100000124"
+    },
+    {
+      "alternate_names": [
+        "Kialegee Tribal Town of Creek Indians, Oklahoma",
+        "Kialegee Tribal Town of the Creek Indian Nation of Oklahoma",
+        "Kialegee Tribal Town, Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Kialegee Tribal Town",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000125"
+    },
+    {
+      "alternate_names": [
+        "Kickapoo Tribe of Kansas"
+      ],
+      "epa_region": "7",
+      "name": "Kickapoo Tribe of Indians of the Kickapoo Reservation in Kansas",
+      "states": [
+        "KS"
+      ],
+      "tribe_id": "epa_100000126"
+    },
+    {
+      "alternate_names": [
+        "Kickapoo Tribe of Oklahoma (includes Texas Band of Kickapoo Indians)"
+      ],
+      "epa_region": "6",
+      "name": "Kickapoo Tribe of Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000127"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "6",
+      "name": "Kickapoo Traditional Tribe of Texas",
+      "states": [
+        "TX"
+      ],
+      "tribe_id": "epa_100000128"
+    },
+    {
+      "alternate_names": [
+        "Kiowa Indian Tribe of Oklahoma",
+        "Kiowa Tribe of Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Kiowa Tribe",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000129"
+    },
+    {
+      "alternate_names": [
+        "Klamath Indian Tribe of Oregon",
+        "Klamath Tribes, Oregon"
+      ],
+      "epa_region": "10",
+      "name": "Klamath Tribes",
+      "states": [
+        "OR"
+      ],
+      "tribe_id": "epa_100000130"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Kootenai Tribe of Idaho",
+      "states": [
+        "ID"
+      ],
+      "tribe_id": "epa_100000131"
+    },
+    {
+      "alternate_names": [
+        "La Jolla Band of Luiseno Mission Indians, La Jolla Reservation, California",
+        "La Jolla Band of Luiseno Mission Indians of the La Jolla Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "La Jolla Band of Luiseno Indians, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000132"
+    },
+    {
+      "alternate_names": [
+        "La Posta Band of Diegueno Mission Indians, La Posta Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "La Posta Band of Diegueno Mission Indians of the La Posta Indian Reservation, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000133"
+    },
+    {
+      "alternate_names": [
+        "Lac Courte Oreilles Band of Lake Superior Chippewa Indians, Lac Courte Oreilles Reservation, Wisconsin",
+        "Lac Courte Oreilles Band of Lake Superior Chippewa Indians of the Lac Courte Oreilles Reservation of Wisconsin"
+      ],
+      "epa_region": "5",
+      "name": "Lac Courte Oreilles Band of Lake Superior Chippewa Indians of Wisconsin",
+      "states": [
+        "WI"
+      ],
+      "tribe_id": "epa_100000134"
+    },
+    {
+      "alternate_names": [
+        "Lac du Flambeau Band of Lake Superior Chippewa Indians, Lac du Flambeau Reservation, Wisconsin"
+      ],
+      "epa_region": "5",
+      "name": "Lac du Flambeau Band of Lake Superior Chippewa Indians of the Lac du Flambeau Reservation of Wisconsin",
+      "states": [
+        "WI"
+      ],
+      "tribe_id": "epa_100000135"
+    },
+    {
+      "alternate_names": [
+        "Lac Vieux Desert Band of Lake Superior Chippewa Indians, Michigan"
+      ],
+      "epa_region": "5",
+      "name": "Lac Vieux Desert Band of Lake Superior Chippewa Indians of Michigan",
+      "states": [
+        "MI"
+      ],
+      "tribe_id": "epa_100000136"
+    },
+    {
+      "alternate_names": [
+        "Las Vegas Tribe of Paiute Indians, Las Vegas Colony, Nevada"
+      ],
+      "epa_region": "9",
+      "name": "Las Vegas Tribe of Paiute Indians of the Las Vegas Indian Colony, Nevada",
+      "states": [
+        "NV"
+      ],
+      "tribe_id": "epa_100000137"
+    },
+    {
+      "alternate_names": [
+        "Little River Band of Ottawa Indians of Michigan"
+      ],
+      "epa_region": "5",
+      "name": "Little River Band of Ottawa Indians, Michigan",
+      "states": [
+        "MI"
+      ],
+      "tribe_id": "epa_100000138"
+    },
+    {
+      "alternate_names": [
+        "Little Traverse Bay Bands of Odawa Indians of Michigan"
+      ],
+      "epa_region": "5",
+      "name": "Little Traverse Bay Bands of Odawa Indians, Michigan",
+      "states": [
+        "MI"
+      ],
+      "tribe_id": "epa_100000139"
+    },
+    {
+      "alternate_names": [
+        "Lower Lake Rancheria, California"
+      ],
+      "epa_region": "9",
+      "name": "Koi Nation of Northern California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000140"
+    },
+    {
+      "alternate_names": [
+        "Los Coyotes Band of Cahuilla Mission Indians, Los Coyotes Reservation, California",
+        "Los Coyotes Band of Cahuilla Mission Indians of the Los Coyotes Reservation, California",
+        "Los Coyotes Band of Cahuilla & Cupeno Indians of the Los Coyotes Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Los Coyotes Band of Cahuilla and Cupeno Indians, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000141"
+    },
+    {
+      "alternate_names": [
+        "Lovelock Paiute Tribe, Lovelock Indian Colony, Nevada"
+      ],
+      "epa_region": "9",
+      "name": "Lovelock Paiute Tribe of the Lovelock Indian Colony, Nevada",
+      "states": [
+        "NV"
+      ],
+      "tribe_id": "epa_100000142"
+    },
+    {
+      "alternate_names": [
+        "Lower Brule Sioux Tribe, Lower Brule Reservation, South Dakota"
+      ],
+      "epa_region": "8",
+      "name": "Lower Brule Sioux Tribe of the Lower Brule Reservation, South Dakota",
+      "states": [
+        "SD"
+      ],
+      "tribe_id": "epa_100000143"
+    },
+    {
+      "alternate_names": [
+        "Lower Elwha Tribal Community, Lower Elwha Reservation, Washington",
+        "Lower Elwha Tribal Community of the Lower Elwha Reservation, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Lower Elwha Tribal Community",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000144"
+    },
+    {
+      "alternate_names": [
+        "Lower Sioux Indian Community, Lower Sioux, Reservation, Minnesota",
+        "Lower Sioux Indian Community of the Minnesota Mdewakanton Sioux Indians of the Lower Sioux Reservation in Minnesota",
+        "Lower Sioux Indian Community of Minnesota Mdewakanton Sioux Indians of the Lower Sioux Reservation in Minnesota"
+      ],
+      "epa_region": "5",
+      "name": "Lower Sioux Indian Community in the State of Minnesota",
+      "states": [
+        "MN"
+      ],
+      "tribe_id": "epa_100000145"
+    },
+    {
+      "alternate_names": [
+        "Lummi Tribe, Lummi Reservation, Washington",
+        "Lummi Tribe of the Lummi Reservation, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Lummi Tribe of the Lummi Reservation",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000146"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "Lytton Rancheria of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000147"
+    },
+    {
+      "alternate_names": [
+        "Makah Tribe, Makah Reservation, Washington",
+        "Makah Indian Tribe of the Makah Indian Reservation, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Makah Indian Tribe of the Makah Indian Reservation",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000148"
+    },
+    {
+      "alternate_names": [
+        "Manchester Band of Pomo Indians, Manchester-Pt. Arena Rancheria, California",
+        "Manchester Band of Pomo Indians of the Manchester-Pt. Arena Rancheria, California",
+        "Manchester Band of Pomo Indians of the Manchester-Point Arena Rancheria, California"
+      ],
+      "epa_region": "9",
+      "name": "Manchester Band of Pomo Indians of the Manchester Rancheria, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000149"
+    },
+    {
+      "alternate_names": [
+        "Manzanita Band of Diegueno Mission Indians, Manzanita Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Manzanita Band of Diegueno Mission Indians of the Manzanita Reservation, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000150"
+    },
+    {
+      "alternate_names": [
+        "Mashantucket Pequot Tribe of Connecticut"
+      ],
+      "epa_region": "1",
+      "name": "Mashantucket Pequot Indian Tribe",
+      "states": [
+        "CT"
+      ],
+      "tribe_id": "epa_100000151"
+    },
+    {
+      "alternate_names": [
+        "Mashpee Wampanoag Tribe, Massachusetts",
+        "Mashpee Wampanoag Indian Tribal Council, Inc."
+      ],
+      "epa_region": "1",
+      "name": "Mashpee Wampanoag Tribe",
+      "states": [
+        "MA"
+      ],
+      "tribe_id": "epa_100000152"
+    },
+    {
+      "alternate_names": [
+        "Match-e-be-nash-she-wish Band of Pottawatomi Indians of Michigan"
+      ],
+      "epa_region": "5",
+      "name": "Match-E-Be-Nash-She-Wish Band of Pottawatomi",
+      "states": [
+        "MI"
+      ],
+      "tribe_id": "epa_100000153"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "Mechoopda Indian Tribe of Chico Rancheria, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000154"
+    },
+    {
+      "alternate_names": [
+        "Menominee Tribe, Menominee Reservation, Wisconsin",
+        "Menominee Indian Tribe of Wisconsin, Menominee Indian Reservation, Wisconsin"
+      ],
+      "epa_region": "5",
+      "name": "Menominee Indian Tribe of Wisconsin",
+      "states": [
+        "WI"
+      ],
+      "tribe_id": "epa_100000155"
+    },
+    {
+      "alternate_names": [
+        "Mesa Grande Band of Diegueno Mission Indians, Mesa Grande Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Mesa Grande Band of Diegueno Mission Indians of the Mesa Grande Reservation, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000156"
+    },
+    {
+      "alternate_names": [
+        "Mescalero Apache Tribe, Mescalero Reservation, New Mexico"
+      ],
+      "epa_region": "6",
+      "name": "Mescalero Apache Tribe of the Mescalero Reservation, New Mexico",
+      "states": [
+        "NM"
+      ],
+      "tribe_id": "epa_100000157"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "6",
+      "name": "Miami Tribe of Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000158"
+    },
+    {
+      "alternate_names": [
+        "Miccosukee Tribe of Florida",
+        "Miccosukee Tribe of Indians of Florida"
+      ],
+      "epa_region": "4",
+      "name": "Miccosukee Tribe of Indians",
+      "states": [
+        "FL"
+      ],
+      "tribe_id": "epa_100000159"
+    },
+    {
+      "alternate_names": [
+        "Middletown Rancheria of Pomo Indians, California"
+      ],
+      "epa_region": "9",
+      "name": "Middletown Rancheria of Pomo Indians of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000160"
+    },
+    {
+      "alternate_names": [
+        "Minnesota Chippewa Tribe, Minnesota (Six component reservations: Boise Forte Band (Nett Lake), Fond du Lac Band, Grand Portage Band, Leech Lake Band, Mille Lac Band, White Earth Band)",
+        "Minnesota Chippewa Tribe, Minnesota (Six component reservations: Bois Forte Band (Nett Lake); Fond du Lac Band; Grand Portage Band; Leech Lake Band; Mille Lac Band; White Earth Band)"
+      ],
+      "epa_region": "5",
+      "name": "Minnesota Chippewa Tribe, Minnesota (Six component reservations: Bois Forte Band (Nett Lake); Fond du Lac Band; Grand Portage Band; Leech Lake Band; Mille Lacs Band; White Earth Band)",
+      "states": [
+        "MN"
+      ],
+      "tribe_id": "epa_100000161"
+    },
+    {
+      "alternate_names": [
+        "Mississippi Band of Choctaw Indians, Mississippi"
+      ],
+      "epa_region": "4",
+      "name": "Mississippi Band of Choctaw Indians",
+      "states": [
+        "MS",
+        "TN"
+      ],
+      "tribe_id": "epa_100000162"
+    },
+    {
+      "alternate_names": [
+        "Moapa Band of Paiute Indians, Moapa River Reservation, Nevada"
+      ],
+      "epa_region": "9",
+      "name": "Moapa Band of Paiute Indians of the Moapa River Indian Reservation, Nevada",
+      "states": [
+        "NV"
+      ],
+      "tribe_id": "epa_100000163"
+    },
+    {
+      "alternate_names": [
+        "Modoc Tribe of Oklahoma",
+        "The Modoc Tribe of Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Modoc Nation",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000164"
+    },
+    {
+      "alternate_names": [
+        "Mohegan Indian Tribe of Connecticut"
+      ],
+      "epa_region": "1",
+      "name": "Mohegan Tribe of Indians of Connecticut",
+      "states": [
+        "CT"
+      ],
+      "tribe_id": "epa_100000165"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "Mooretown Rancheria of Maidu Indians of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000166"
+    },
+    {
+      "alternate_names": [
+        "Morongo Band of Cahuilla Mission Indians, Morongo Reservation, California",
+        "Morongo Band of Cahuilla Mission Indians of the Morongo Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Morongo Band of Mission Indians, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000167"
+    },
+    {
+      "alternate_names": [
+        "Muckleshoot Tribe, Muckleshoot Reservation, Washington",
+        "Muckleshoot Indian Tribe of the Muckleshoot Reservation, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Muckleshoot Indian Tribe",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000168"
+    },
+    {
+      "alternate_names": [
+        "Creek Nation of Oklahoma",
+        "Muskogee (Creek) Nation of Oklahoma",
+        "Muscogee (Creek) Nation of Oklahoma",
+        "Muscogee (Creek) Nation, Oklahoma"
+      ],
+      "epa_region": "7",
+      "name": "The Muscogee (Creek) Nation",
+      "states": [
+        "KS",
+        "OK"
+      ],
+      "tribe_id": "epa_100000169"
+    },
+    {
+      "alternate_names": [
+        "Narragansett Indian Tribe of Rhode Island"
+      ],
+      "epa_region": "1",
+      "name": "Narragansett Indian Tribe",
+      "states": [
+        "RI"
+      ],
+      "tribe_id": "epa_100000170"
+    },
+    {
+      "alternate_names": [
+        "Navajo Tribe of Arizona, New Mexico & Utah",
+        "Navajo Nation of Arizona, New Mexico & Utah"
+      ],
+      "epa_region": "9",
+      "name": "Navajo Nation, Arizona, New Mexico, & Utah",
+      "states": [
+        "AZ",
+        "NM",
+        "UT"
+      ],
+      "tribe_id": "epa_100000171"
+    },
+    {
+      "alternate_names": [
+        "Nez Perce Tribe of Idaho, Nez Perce Reservation, Idaho",
+        "Nez Perce Tribe of Idaho",
+        "Nez Perce Tribe, Idaho"
+      ],
+      "epa_region": "10",
+      "name": "Nez Perce Tribe",
+      "states": [
+        "ID"
+      ],
+      "tribe_id": "epa_100000172"
+    },
+    {
+      "alternate_names": [
+        "Nisqually Indian Community, Nisqually Reservation, Washington",
+        "Nisqually Indian Community of the Nisqually Reservation, Washington",
+        "Nisqually Indian Tribe of the Nisqually Reservation, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Nisqually Indian Tribe",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000173"
+    },
+    {
+      "alternate_names": [
+        "Nooksack Indian Tribe of Washington"
+      ],
+      "epa_region": "10",
+      "name": "Nooksack Indian Tribe",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000174"
+    },
+    {
+      "alternate_names": [
+        "Northern Cheyenne Tribe, Northern Cheyenne Reservation, Montana"
+      ],
+      "epa_region": "8",
+      "name": "Northern Cheyenne Tribe of the Northern Cheyenne Indian Reservation, Montana",
+      "states": [
+        "MT"
+      ],
+      "tribe_id": "epa_100000175"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "Northfork Rancheria of Mono Indians of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000176"
+    },
+    {
+      "alternate_names": [
+        "Northwestern Band of Shoshone Indians of Utah (Washakie)",
+        "Northwestern Band of Shoshoni Indians of Utah (Washakie)",
+        "Northwestern Band of the Shoshoni Nation of Utah (Washakie)",
+        "Northwestern Band of Shoshoni Nation of Utah (Washakie)",
+        "Northwestern Band of Shoshoni Nation"
+      ],
+      "epa_region": "8",
+      "name": "Northwestern Band of the Shoshone Nation",
+      "states": [
+        "UT"
+      ],
+      "tribe_id": "epa_100000177"
+    },
+    {
+      "alternate_names": [
+        "Huron Potawatomi, Inc., Michigan"
+      ],
+      "epa_region": "5",
+      "name": "Nottawaseppi Huron Band of the Potawatomi, Michigan",
+      "states": [
+        "MI"
+      ],
+      "tribe_id": "epa_100000178"
+    },
+    {
+      "alternate_names": [
+        "Oglala Sioux Tribe of the Pine Ridge Reservation, South Dakota"
+      ],
+      "epa_region": "7",
+      "name": "Oglala Sioux Tribe",
+      "states": [
+        "NE",
+        "SD"
+      ],
+      "tribe_id": "epa_100000179"
+    },
+    {
+      "alternate_names": [
+        "San Juan Pueblo of New Mexico",
+        "Pueblo of San Juan, New Mexico"
+      ],
+      "epa_region": "6",
+      "name": "Ohkay Owingeh, New Mexico",
+      "states": [
+        "NM"
+      ],
+      "tribe_id": "epa_100000180"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "7",
+      "name": "Omaha Tribe of Nebraska",
+      "states": [
+        "IA",
+        "NE"
+      ],
+      "tribe_id": "epa_100000181"
+    },
+    {
+      "alternate_names": [
+        "Oneida Nation of New York"
+      ],
+      "epa_region": "2",
+      "name": "Oneida Indian Nation",
+      "states": [
+        "NY"
+      ],
+      "tribe_id": "epa_100000182"
+    },
+    {
+      "alternate_names": [
+        "Oneida Tribe of Wisconsin, Oneida Reservation, Wisconsin",
+        "Oneida Tribe of Indians of Wisconsin, Oneida Reservation, Wisconsin",
+        "Oneida Tribe of Wisconsin",
+        "Oneida Tribe of Indians of Wisconsin"
+      ],
+      "epa_region": "5",
+      "name": "Oneida Nation",
+      "states": [
+        "WI"
+      ],
+      "tribe_id": "epa_100000183"
+    },
+    {
+      "alternate_names": [
+        "Onondaga Nation of New York"
+      ],
+      "epa_region": "2",
+      "name": "Onondaga Nation",
+      "states": [
+        "NY"
+      ],
+      "tribe_id": "epa_100000184"
+    },
+    {
+      "alternate_names": [
+        "Osage Tribe of Oklahoma",
+        "Osage Nation of Oklahoma",
+        "Osage Tribe, Oklahoma",
+        "Osage Nation, Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "The Osage Nation",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000185"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "6",
+      "name": "Ottawa Tribe of Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000186"
+    },
+    {
+      "alternate_names": [
+        "Otoe-Missouria Tribe, Oklahoma",
+        "Otoe-Missouria Tribe of Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Otoe-Missouria Tribe of Indians, Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000187"
+    },
+    {
+      "alternate_names": [
+        "Paiute Indian Tribe of Utah",
+        "Paiute Indian Tribe of Utah (Cedar City Band of Paiutes, Kanosh Band of Paiutes, Koosharem Band of Paiutes, Indian Peaks Band of Paiutes, and Shivwits Band of Paiutes)"
+      ],
+      "epa_region": "8",
+      "name": "Paiute Indian Tribe of Utah (Cedar Band of Paiutes, Kanosh Band of Paiutes, Koosharem Band of Paiutes, Indian Peaks Band of Paiutes, and Shivwits Band of Paiutes)",
+      "states": [
+        "UT"
+      ],
+      "tribe_id": "epa_100000188"
+    },
+    {
+      "alternate_names": [
+        "Paiute-Shoshone Indians of the Bishop Community, Bishop Colony, California",
+        "Paiute-Shoshone Indians of the Bishop Community of the Bishop Colony, California"
+      ],
+      "epa_region": "9",
+      "name": "Bishop Paiute Tribe",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000189"
+    },
+    {
+      "alternate_names": [
+        "Paiute-Shoshone Indians of the Fallon Reservation, Nevada"
+      ],
+      "epa_region": "9",
+      "name": "Paiute-Shoshone Tribe of the Fallon Reservation and Colony, Nevada",
+      "states": [
+        "NV"
+      ],
+      "tribe_id": "epa_100000190"
+    },
+    {
+      "alternate_names": [
+        "Paiute-Shoshone Indians of the Lone Pine Community, Lone Pine Reservation, California",
+        "Paiute-Shoshone Indians of the Lone Pine Community of the Lone Pine Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Lone Pine Paiute-Shoshone Tribe",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000191"
+    },
+    {
+      "alternate_names": [
+        "Pala Band of Luiseno Mission Indians, Pala Reservation, California",
+        "Pala Band of Luiseno Mission Indians of the Pala Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Pala Band of Mission Indians",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000192"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "Pascua Yaqui Tribe of Arizona",
+      "states": [
+        "AZ"
+      ],
+      "tribe_id": "epa_100000193"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "Paskenta Band of Nomlaki Indians of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000194"
+    },
+    {
+      "alternate_names": [
+        "Passamaquoddy Tribe of Maine"
+      ],
+      "epa_region": "1",
+      "name": "Passamaquoddy Tribe",
+      "states": [
+        "ME"
+      ],
+      "tribe_id": "epa_100000195"
+    },
+    {
+      "alternate_names": [
+        "Pauma Band of Luiseno Mission Indians, Pauma & Yuima Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Pauma Band of Luiseno Mission Indians of the Pauma & Yuima Reservation, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000196"
+    },
+    {
+      "alternate_names": [
+        "Pawnee Tribe of Oklahoma",
+        "Pawnee Indian Tribe of Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Pawnee Nation of Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000197"
+    },
+    {
+      "alternate_names": [
+        "Pechanga Band of Luiseno Mission Indians, Pechanga Reservation, California",
+        "Pechanga Band of Luiseno Mission Indians of the Pechanga Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Pechanga Band of Indians",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000198"
+    },
+    {
+      "alternate_names": [
+        "Penobscot Tribe of Maine"
+      ],
+      "epa_region": "1",
+      "name": "Penobscot Nation",
+      "states": [
+        "ME"
+      ],
+      "tribe_id": "epa_100000199"
+    },
+    {
+      "alternate_names": [
+        "Peoria Tribe of Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Peoria Tribe of Indians of Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000200"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "Picayune Rancheria of Chukchansi Indians of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000201"
+    },
+    {
+      "alternate_names": [
+        "Pinoleville Rancheria of Pomo Indians of California"
+      ],
+      "epa_region": "9",
+      "name": "Pinoleville Pomo Nation, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000202"
+    },
+    {
+      "alternate_names": [
+        "Pit River Tribe of California (includes Big Bend, Lookout, Montgomery Creek & Roaring Creek Rancherias & XL Ranch)",
+        "Pit River Tribe, California (includes Big Bend, Lookout, Montgomery Creek & Roaring Creek Rancherias & XL Ranch)"
+      ],
+      "epa_region": "9",
+      "name": "Pit River Tribe, California (includes XL Ranch, Big Bend, Likely, Lookout, Montgomery Creek, and Roaring Creek Rancherias)",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000203"
+    },
+    {
+      "alternate_names": [
+        "Poarch Band of Creek Indians of Alabama",
+        "Poarch Band of Creeks"
+      ],
+      "epa_region": "4",
+      "name": "Poarch Band of Creek Indians",
+      "states": [
+        "AL",
+        "FL"
+      ],
+      "tribe_id": "epa_100000204"
+    },
+    {
+      "alternate_names": [
+        "Pokagon Band of Potawatomi Indians of Michigan"
+      ],
+      "epa_region": "5",
+      "name": "Pokagon Band of Potawatomi Indians, Michigan and Indiana",
+      "states": [
+        "IN",
+        "MI"
+      ],
+      "tribe_id": "epa_100000205"
+    },
+    {
+      "alternate_names": [
+        "Ponca Tribe of Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Ponca Tribe of Indians of Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000206"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "7",
+      "name": "Ponca Tribe of Nebraska",
+      "states": [
+        "IA",
+        "NE"
+      ],
+      "tribe_id": "epa_100000207"
+    },
+    {
+      "alternate_names": [
+        "Port Gamble Indian Community, Port Gamble Reservation, Washington",
+        "Port Gamble Indian Community, Port Gamble Band of Clallam Indians, Port Gamble Reservation, Washington",
+        "Port Gamble Indian Community of the Port Gamble Reservation, Washington",
+        "Port Gamble Band of S'Klallam Indians"
+      ],
+      "epa_region": "10",
+      "name": "Port Gamble S'Klallam Tribe",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000208"
+    },
+    {
+      "alternate_names": [
+        "Potter Valley Rancheria of Pomo Indians of California"
+      ],
+      "epa_region": "9",
+      "name": "Potter Valley Tribe, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000209"
+    },
+    {
+      "alternate_names": [
+        "Prairie Band of Potawatomi Indians of Kansas",
+        "Prairie Band of Potawatomi Indians, Kansas",
+        "Prairie Band of Potawatomi Nation, Kansas"
+      ],
+      "epa_region": "7",
+      "name": "Prairie Band Potawatomi Nation",
+      "states": [
+        "KS"
+      ],
+      "tribe_id": "epa_100000210"
+    },
+    {
+      "alternate_names": [
+        "Prairie Island Sioux Indian Community, Prairie Island Reservation, Minnesota",
+        "Prairie Island Indian Community of Minnesota Mdewakanton Sioux Indians of the Prairie Island Reservation, Minnesota"
+      ],
+      "epa_region": "5",
+      "name": "Prairie Island Indian Community in the State of Minnesota",
+      "states": [
+        "MN"
+      ],
+      "tribe_id": "epa_100000211"
+    },
+    {
+      "alternate_names": [
+        "Acoma Pueblo of New Mexico"
+      ],
+      "epa_region": "6",
+      "name": "Pueblo of Acoma, New Mexico",
+      "states": [
+        "NM"
+      ],
+      "tribe_id": "epa_100000212"
+    },
+    {
+      "alternate_names": [
+        "Cochiti Pueblo of New Mexico"
+      ],
+      "epa_region": "6",
+      "name": "Pueblo of Cochiti, New Mexico",
+      "states": [
+        "NM"
+      ],
+      "tribe_id": "epa_100000213"
+    },
+    {
+      "alternate_names": [
+        "Jemez Pueblo of New Mexico"
+      ],
+      "epa_region": "6",
+      "name": "Pueblo of Jemez, New Mexico",
+      "states": [
+        "NM"
+      ],
+      "tribe_id": "epa_100000214"
+    },
+    {
+      "alternate_names": [
+        "Isleta Pueblo of New Mexico"
+      ],
+      "epa_region": "6",
+      "name": "Pueblo of Isleta, New Mexico",
+      "states": [
+        "NM"
+      ],
+      "tribe_id": "epa_100000215"
+    },
+    {
+      "alternate_names": [
+        "Laguna Pueblo of New Mexico"
+      ],
+      "epa_region": "6",
+      "name": "Pueblo of Laguna, New Mexico",
+      "states": [
+        "NM"
+      ],
+      "tribe_id": "epa_100000216"
+    },
+    {
+      "alternate_names": [
+        "Nambe Pueblo of New Mexico"
+      ],
+      "epa_region": "6",
+      "name": "Pueblo of Nambe, New Mexico",
+      "states": [
+        "NM"
+      ],
+      "tribe_id": "epa_100000217"
+    },
+    {
+      "alternate_names": [
+        "Picuris Pueblo of New Mexico"
+      ],
+      "epa_region": "6",
+      "name": "Pueblo of Picuris, New Mexico",
+      "states": [
+        "NM"
+      ],
+      "tribe_id": "epa_100000218"
+    },
+    {
+      "alternate_names": [
+        "Pojoaque Pueblo of New Mexico"
+      ],
+      "epa_region": "6",
+      "name": "Pueblo of Pojoaque, New Mexico",
+      "states": [
+        "NM"
+      ],
+      "tribe_id": "epa_100000219"
+    },
+    {
+      "alternate_names": [
+        "San Felipe Pueblo of New Mexico"
+      ],
+      "epa_region": "6",
+      "name": "Pueblo of San Felipe, New Mexico",
+      "states": [
+        "NM"
+      ],
+      "tribe_id": "epa_100000220"
+    },
+    {
+      "alternate_names": [
+        "San Ildefonso Pueblo of New Mexico"
+      ],
+      "epa_region": "6",
+      "name": "Pueblo of San Ildefonso, New Mexico",
+      "states": [
+        "NM"
+      ],
+      "tribe_id": "epa_100000221"
+    },
+    {
+      "alternate_names": [
+        "Sandia Pueblo of New Mexico"
+      ],
+      "epa_region": "6",
+      "name": "Pueblo of Sandia, New Mexico",
+      "states": [
+        "NM"
+      ],
+      "tribe_id": "epa_100000222"
+    },
+    {
+      "alternate_names": [
+        "Santa Ana Pueblo of New Mexico"
+      ],
+      "epa_region": "6",
+      "name": "Pueblo of Santa Ana, New Mexico",
+      "states": [
+        "NM"
+      ],
+      "tribe_id": "epa_100000223"
+    },
+    {
+      "alternate_names": [
+        "Santa Clara Pueblo of New Mexico"
+      ],
+      "epa_region": "6",
+      "name": "Pueblo of Santa Clara, New Mexico",
+      "states": [
+        "NM"
+      ],
+      "tribe_id": "epa_100000224"
+    },
+    {
+      "alternate_names": [
+        "Taos Pueblo of New Mexico"
+      ],
+      "epa_region": "6",
+      "name": "Pueblo of Taos, New Mexico",
+      "states": [
+        "NM"
+      ],
+      "tribe_id": "epa_100000225"
+    },
+    {
+      "alternate_names": [
+        "Tesuque Pueblo of New Mexico"
+      ],
+      "epa_region": "6",
+      "name": "Pueblo of Tesuque, New Mexico",
+      "states": [
+        "NM"
+      ],
+      "tribe_id": "epa_100000226"
+    },
+    {
+      "alternate_names": [
+        "Zia Pueblo of New Mexico"
+      ],
+      "epa_region": "6",
+      "name": "Pueblo of Zia, New Mexico",
+      "states": [
+        "NM"
+      ],
+      "tribe_id": "epa_100000227"
+    },
+    {
+      "alternate_names": [
+        "Puyallup Tribe, Puyallup Reservation, Washington",
+        "Puyallup Tribe of the Puyallup Reservation, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Puyallup Tribe of the Puyallup Reservation",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000228"
+    },
+    {
+      "alternate_names": [
+        "Pyramid Lake Paiute Tribe, Pyramid Lake Reservation, Nevada",
+        "Pyramid Lake Paiute Tribe of the Pyramid Lake Reservation, Washington"
+      ],
+      "epa_region": "9",
+      "name": "Pyramid Lake Paiute Tribe of the Pyramid Lake Reservation, Nevada",
+      "states": [
+        "NV"
+      ],
+      "tribe_id": "epa_100000229"
+    },
+    {
+      "alternate_names": [
+        "Quapaw Tribe of Oklahoma",
+        "Quapaw Tribe of Indians, Oklahoma",
+        "Quapaw Tribe of Indians",
+        "The Quapaw Tribe of Indians"
+      ],
+      "epa_region": "7",
+      "name": "Quapaw Nation",
+      "states": [
+        "KS",
+        "OK"
+      ],
+      "tribe_id": "epa_100000230"
+    },
+    {
+      "alternate_names": [
+        "Quartz Valley Rancheria of Karok, Shasta & Upper Klamath Indians of California"
+      ],
+      "epa_region": "9",
+      "name": "Quartz Valley Indian Community of the Quartz Valley Reservation of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000231"
+    },
+    {
+      "alternate_names": [
+        "Quechan Tribe of the Fort Yuma Indian Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Quechan Tribe of the Fort Yuma Indian Reservation, California & Arizona",
+      "states": [
+        "AZ",
+        "CA"
+      ],
+      "tribe_id": "epa_100000232"
+    },
+    {
+      "alternate_names": [
+        "Quileute Tribe, Quileute Reservation, Washington",
+        "Quileute Tribe of the Quileute Reservation, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Quileute Tribe of the Quileute Reservation",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000233"
+    },
+    {
+      "alternate_names": [
+        "Quinault Tribe, Quinault Reservation, Washington",
+        "Quinault Tribe of the Quinault Reservation, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Quinault Indian Nation",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000234"
+    },
+    {
+      "alternate_names": [
+        "Ramona Reservation, California",
+        "Ramona Band or Village of Cahuilla Mission Indians of California"
+      ],
+      "epa_region": "9",
+      "name": "Ramona Band of Cahuilla, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000235"
+    },
+    {
+      "alternate_names": [
+        "Red Cliff Band of Lake Superior Chippewa Indians, Red Cliff Reservation, Wisconsin",
+        "Red Cliff Band of Lake Superior Chippewa Indians of Wisconsin, Red Cliff Reservation, Wisconsin"
+      ],
+      "epa_region": "5",
+      "name": "Red Cliff Band of Lake Superior Chippewa Indians of Wisconsin",
+      "states": [
+        "WI"
+      ],
+      "tribe_id": "epa_100000236"
+    },
+    {
+      "alternate_names": [
+        "Red Lake Band of Chippewa Indians, Red Lake Reservation, Minnesota",
+        "Red Lake Band of Chippewa Indians of the Red Lake Reservation, Minnesota"
+      ],
+      "epa_region": "5",
+      "name": "Red Lake Band of Chippewa Indians, Minnesota",
+      "states": [
+        "MN"
+      ],
+      "tribe_id": "epa_100000237"
+    },
+    {
+      "alternate_names": [
+        "Redding Valley Rancheria of Pomo Indians of California",
+        "Redding Rancheria of Pomo Indians of California",
+        "Redding Rancheria of California"
+      ],
+      "epa_region": "9",
+      "name": "Redding Rancheria, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000238"
+    },
+    {
+      "alternate_names": [
+        "Redwood Valley Rancheria of Pomo Indians of California"
+      ],
+      "epa_region": "9",
+      "name": "Redwood Valley or Little River Band of Pomo Indians of the Redwood Valley Rancheria California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000239"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "Reno-Sparks Indian Colony, Nevada",
+      "states": [
+        "NV"
+      ],
+      "tribe_id": "epa_100000240"
+    },
+    {
+      "alternate_names": [
+        "Resighini Rancheria, Coast Indian Community of Yurok Indians, California",
+        "Coast Indian Community of Yurok Indians of the Resighini Rancheria, California",
+        "Resighini Rancheria, California"
+      ],
+      "epa_region": "9",
+      "name": "Pulikla Tribe of Yurok People",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000241"
+    },
+    {
+      "alternate_names": [
+        "Rincon Band of Luiseno Mission Indians of Rincon Reservation, California",
+        "Rincon Band of Luiseno Mission Indians, Rincon Reservation, California",
+        "Rincon Band of Luiseno Mission Indians of the Rincon Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Rincon Band of Luiseno Indians",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000242"
+    },
+    {
+      "alternate_names": [
+        "Robinson Rancheria of Pomo Indians, California",
+        "Robinson Rancheria of Pomo Indians of California",
+        "Robinson Rancheria Band of Pomo Indians, California"
+      ],
+      "epa_region": "9",
+      "name": "Robinson Rancheria",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000243"
+    },
+    {
+      "alternate_names": [
+        "Rosebud Sioux Tribe, Rosebud Indian Reservation, South Dakota"
+      ],
+      "epa_region": "8",
+      "name": "Rosebud Sioux Tribe of the Rosebud Indian Reservation, South Dakota",
+      "states": [
+        "SD"
+      ],
+      "tribe_id": "epa_100000244"
+    },
+    {
+      "alternate_names": [
+        "Covelo Indian Community of the Round Valley Reservation, California",
+        "Round Valley Indian Tribes of the Round Valley Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Round Valley Indian Tribes, Round Valley Reservation, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000245"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "7",
+      "name": "Sac & Fox Tribe of the Mississippi in Iowa",
+      "states": [
+        "IA"
+      ],
+      "tribe_id": "epa_100000246"
+    },
+    {
+      "alternate_names": [
+        "Sac & Fox Tribe of the Missouri In Kansas",
+        "Sac & Fox Tribe of Missouri of the Sac & Fox Reservation in Kansas & Nebraska",
+        "Sac & Fox Tribe of Missouri in Kansas and Nebraska"
+      ],
+      "epa_region": "7",
+      "name": "Sac & Fox Nation of Missouri in Kansas and Nebraska",
+      "states": [
+        "KS",
+        "NE"
+      ],
+      "tribe_id": "epa_100000247"
+    },
+    {
+      "alternate_names": [
+        "Sac & Fox Tribe of Oklahoma",
+        "Sac & Fox Tribe of Indians of Oklahoma",
+        "Sac & Fox Nation of Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Sac & Fox Nation, Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000248"
+    },
+    {
+      "alternate_names": [
+        "Saginaw Chippewa Tribe of the Isabella Reservation, Michigan",
+        "Saginaw Chippewa Indian Tribe of Michigan, Isabella Reservation, Michigan",
+        "Saginaw Chippewa Indian Tribe of Michigan, Isabella Reservation"
+      ],
+      "epa_region": "5",
+      "name": "Saginaw Chippewa Indian Tribe of Michigan",
+      "states": [
+        "MI"
+      ],
+      "tribe_id": "epa_100000249"
+    },
+    {
+      "alternate_names": [
+        "St. Croix Chippewa Indians of Wisconsin, St. Croix Reservation, Wisconsin",
+        "St. Croix Chippewa Indians of Wisconsin, St. Croix Reservation"
+      ],
+      "epa_region": "5",
+      "name": "St. Croix Chippewa Indians of Wisconsin",
+      "states": [
+        "WI"
+      ],
+      "tribe_id": "epa_100000250"
+    },
+    {
+      "alternate_names": [
+        "St. Regis Band of Mohawk Indians of New York",
+        "Saint Regis Mohawk Tribe, New York"
+      ],
+      "epa_region": "2",
+      "name": "Saint Regis Mohawk Tribe",
+      "states": [
+        "NY"
+      ],
+      "tribe_id": "epa_100000251"
+    },
+    {
+      "alternate_names": [
+        "Salt River Pima-Maricopa Indian Community, Salt River Reservation, Arizona"
+      ],
+      "epa_region": "9",
+      "name": "Salt River Pima-Maricopa Indian Community of the Salt River Reservation, Arizona",
+      "states": [
+        "AZ"
+      ],
+      "tribe_id": "epa_100000252"
+    },
+    {
+      "alternate_names": [
+        "Samish Indian Tribe",
+        "Samish Indian Tribe, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Samish Indian Nation",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000253"
+    },
+    {
+      "alternate_names": [
+        "San Carlos Apache Tribe, San Carlos Reservation, Arizona",
+        "San Carlos Apache Tribe of the San Carlos Reservation of Arizona"
+      ],
+      "epa_region": "9",
+      "name": "San Carlos Apache Tribe of the San Carlos Reservation, Arizona",
+      "states": [
+        "AZ"
+      ],
+      "tribe_id": "epa_100000254"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "San Juan Southern Paiute Tribe of Arizona",
+      "states": [
+        "AZ"
+      ],
+      "tribe_id": "epa_100000255"
+    },
+    {
+      "alternate_names": [
+        "San Manual Band of Serrano Mission Indians, San Manual Reservation, California",
+        "San Manual Band of Serrano Mission Indians of the San Manual Reservation, California",
+        "San Manuel Band of Mission Indians, California"
+      ],
+      "epa_region": "9",
+      "name": "Yuhaaviatam of San Manuel Nation",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000256"
+    },
+    {
+      "alternate_names": [
+        "San Pasqual Band of Diegueno Indians, San Pasqual Reservation, California",
+        "San Pasqual Band of Diegueno Mission Indians of the San Pasqual Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "San Pasqual Band of Diegueno Mission Indians of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000257"
+    },
+    {
+      "alternate_names": [
+        "Santa Rosa Indian Community, Santa Rosa Rancheria of California",
+        "Santa Rosa Indian Community of the Santa Rosa Rancheria of California"
+      ],
+      "epa_region": "9",
+      "name": "Santa Rosa Indian Community of the Santa Rosa Rancheria, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000258"
+    },
+    {
+      "alternate_names": [
+        "Santa Rosa Band of Cahuilla Mission Indians, Santa Rosa Reservation, California",
+        "Santa Rosa Band of Cahuilla Mission Indians of the Santa Rosa Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Santa Rosa Band of Cahuilla Indians, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000259"
+    },
+    {
+      "alternate_names": [
+        "Santa Ynez Band of Chumash Mission Indians, Santa Ynez Reservation, California",
+        "Santa Ynez Band of Chumash Mission Indians of the Santa Ysabel Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Santa Ynez Band of Chumash Mission Indians of the Santa Ynez Reservation, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000260"
+    },
+    {
+      "alternate_names": [
+        "Santee Sioux Tribe, Santee Reservation, Nebraska",
+        "Santee Sioux Tribe of the Santee Reservation of Nebraska"
+      ],
+      "epa_region": "7",
+      "name": "Santee Sioux Nation, Nebraska",
+      "states": [
+        "NE"
+      ],
+      "tribe_id": "epa_100000261"
+    },
+    {
+      "alternate_names": [
+        "Sauk-Suiattle Indian Tribe of Washington"
+      ],
+      "epa_region": "10",
+      "name": "Sauk-Suiattle Indian Tribe",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000262"
+    },
+    {
+      "alternate_names": [
+        "Sault Ste. Marie Chippewa Tribe of Michigan",
+        "Sault Ste. Marie Tribe of Chippewa Indians of Michigan"
+      ],
+      "epa_region": "5",
+      "name": "Sault Ste. Marie Tribe of Chippewa Indians, Michigan",
+      "states": [
+        "MI"
+      ],
+      "tribe_id": "epa_100000263"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "Scotts Valley Band of Pomo Indians of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000264"
+    },
+    {
+      "alternate_names": [
+        "Seminole Nation of Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "The Seminole Nation of Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000265"
+    },
+    {
+      "alternate_names": [
+        "Seminole Tribe of Florida, Dania, Big Cypress and Brighton Reservations, Florida",
+        "Seminole Tribe of Florida, Dania, Big Cypress & Brighton Reservations",
+        "Seminole Tribe of Florida, Dania, Big Cypress, Brighton, Hollywood & Tampa Reservations",
+        "Seminole Tribe of Florida (Dania, Big Cypress, Brighton, Hollywood & Tampa Reservations)"
+      ],
+      "epa_region": "4",
+      "name": "Seminole Tribe of Florida",
+      "states": [
+        "FL"
+      ],
+      "tribe_id": "epa_100000266"
+    },
+    {
+      "alternate_names": [
+        "Seneca Nation of New York"
+      ],
+      "epa_region": "2",
+      "name": "Seneca Nation of Indians",
+      "states": [
+        "NY"
+      ],
+      "tribe_id": "epa_100000267"
+    },
+    {
+      "alternate_names": [
+        "Seneca-Cayuga Tribe of Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Seneca-Cayuga Nation",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000268"
+    },
+    {
+      "alternate_names": [
+        "Shakopee Mdewakanton Sioux Community of Minnesota (Prior Lake)"
+      ],
+      "epa_region": "5",
+      "name": "Shakopee Mdewakanton Sioux Community of Minnesota",
+      "states": [
+        "MN"
+      ],
+      "tribe_id": "epa_100000269"
+    },
+    {
+      "alternate_names": [
+        "Shawnee Tribe, Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Shawnee Tribe",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000270"
+    },
+    {
+      "alternate_names": [
+        "Sherwood Valley Rancheria of Pomo Indians, California"
+      ],
+      "epa_region": "9",
+      "name": "Sherwood Valley Rancheria of Pomo Indians of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000271"
+    },
+    {
+      "alternate_names": [
+        "Shingle Springs Rancheria (Verona Tract) of Miwok Indians, California"
+      ],
+      "epa_region": "9",
+      "name": "Shingle Springs Band of Miwok Indians, Shingle Springs Rancheria (Verona Tract), California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000272"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "2",
+      "name": "Shinnecock Indian Nation",
+      "states": [
+        "NY"
+      ],
+      "tribe_id": "epa_100000273"
+    },
+    {
+      "alternate_names": [
+        "Shoalwater Bay Tribe, Shoalwater Bay Reservation, Washington",
+        "Shoalwater Bay Tribe of the Shoalwater Bay Indian Reservation, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Shoalwater Bay Indian Tribe of the Shoalwater Bay Indian Reservation",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000274"
+    },
+    {
+      "alternate_names": [
+        "Shoshone Tribe of the Wind River Reservation, Wyoming"
+      ],
+      "epa_region": "8",
+      "name": "Eastern Shoshone Tribe of the Wind River Reservation, Wyoming",
+      "states": [
+        "WY"
+      ],
+      "tribe_id": "epa_100000275"
+    },
+    {
+      "alternate_names": [
+        "Shoshone-Bannock Tribes of the Fort Hall Reservation, Idaho",
+        "Shoshone-Bannock Tribes of the Fort Hall Reservation of Idaho"
+      ],
+      "epa_region": "10",
+      "name": "Shoshone-Bannock Tribes of the Fort Hall Reservation",
+      "states": [
+        "ID"
+      ],
+      "tribe_id": "epa_100000276"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Shoshone-Paiute Tribes of the Duck Valley Reservation, Nevada",
+      "states": [
+        "ID",
+        "NV"
+      ],
+      "tribe_id": "epa_100000277"
+    },
+    {
+      "alternate_names": [
+        "Sisseton-Wahpeton Sioux Tribe, Lake Traverse Reservation, South Dakota",
+        "Sisseton-Wahpeton Sioux Tribe of the Lake Traverse Reservation, South Dakota"
+      ],
+      "epa_region": "8",
+      "name": "Sisseton-Wahpeton Oyate of the Lake Traverse Reservation, South Dakota",
+      "states": [
+        "ND",
+        "SD"
+      ],
+      "tribe_id": "epa_100000278"
+    },
+    {
+      "alternate_names": [
+        "Skokomish Tribe, Skokomish Reservation, Washington",
+        "Skokomish Indian Tribe of the Skokomish Reservation, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Skokomish Indian Tribe",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000279"
+    },
+    {
+      "alternate_names": [
+        "Skull Valley Band of Goshute Indians, Utah"
+      ],
+      "epa_region": "8",
+      "name": "Skull Valley Band of Goshute Indians of Utah",
+      "states": [
+        "UT"
+      ],
+      "tribe_id": "epa_100000280"
+    },
+    {
+      "alternate_names": [
+        "Smith River Rancheria of California",
+        "Smith River Rancheria, California"
+      ],
+      "epa_region": "9",
+      "name": "Tolowa Dee-ni' Nation",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000281"
+    },
+    {
+      "alternate_names": [
+        "Snoqualmie Tribe, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Snoqualmie Indian Tribe",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000282"
+    },
+    {
+      "alternate_names": [
+        "Soboba Band of Luiseno Mission Indians, Soboba Reservation, California",
+        "Soboba Band of Luiseno Mission Indians of the Soboba Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Soboba Band of Luiseno Indians, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000283"
+    },
+    {
+      "alternate_names": [
+        "Sokoagon Chippewa Community, Mole Lake Band, Wisconsin",
+        "Sokoagon Chippewa Community of the Mole Lake Band of Chippewa Indians, Wisconsin",
+        "Sokaogon Chippewa Community of the Mole Lake Band of Chippewa Indians, Wisconsin"
+      ],
+      "epa_region": "5",
+      "name": "Sokaogon Chippewa Community, Wisconsin",
+      "states": [
+        "WI"
+      ],
+      "tribe_id": "epa_100000284"
+    },
+    {
+      "alternate_names": [
+        "Southern Ute Tribe, Southern Ute Reservation, Colorado"
+      ],
+      "epa_region": "8",
+      "name": "Southern Ute Indian Tribe of the Southern Ute Reservation, Colorado",
+      "states": [
+        "CO"
+      ],
+      "tribe_id": "epa_100000285"
+    },
+    {
+      "alternate_names": [
+        "Devils Lake Sioux Tribe, Devils Lake Sioux Reservation, North Dakota",
+        "Devils Lake Sioux Tribe of the Devils Lake Sioux Reservation, North Dakota"
+      ],
+      "epa_region": "8",
+      "name": "Spirit Lake Tribe, North Dakota",
+      "states": [
+        "ND"
+      ],
+      "tribe_id": "epa_100000286"
+    },
+    {
+      "alternate_names": [
+        "Spokane Tribe of the Spokane Reservation, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Spokane Tribe of the Spokane Reservation",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000287"
+    },
+    {
+      "alternate_names": [
+        "Squaxin Island Tribe, Squaxin Island Reservation, Washington",
+        "Squaxin Island Tribe of the Squaxin Island Reservation, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Squaxin Island Tribe of the Squaxin Island Reservation",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000288"
+    },
+    {
+      "alternate_names": [
+        "Standing Rock Sioux Tribe, Standing Rock Reservation, North & South Dakota",
+        "Standing Rock Sioux Tribe of the Standing Rock Reservation, North & South Dakota"
+      ],
+      "epa_region": "8",
+      "name": "Standing Rock Sioux Tribe of North & South Dakota",
+      "states": [
+        "ND",
+        "SD"
+      ],
+      "tribe_id": "epa_100000289"
+    },
+    {
+      "alternate_names": [
+        "Stockbridge-Munsee Mohican Indian Community, Wisconsin",
+        "Stockbridge-Munsee Community of Mohican Indians of Wisconsin"
+      ],
+      "epa_region": "5",
+      "name": "Stockbridge Munsee Community, Wisconsin",
+      "states": [
+        "WI"
+      ],
+      "tribe_id": "epa_100000290"
+    },
+    {
+      "alternate_names": [
+        "Stillaguamish Tribe of Washington"
+      ],
+      "epa_region": "10",
+      "name": "Stillaguamish Tribe of Indians of Washington",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000291"
+    },
+    {
+      "alternate_names": [
+        "Summit Lake Paiute Tribe, Summit Lake Reservation, Nevada",
+        "Summit Lake Paiute Tribe of the Summit Lake Reservation, Nevada"
+      ],
+      "epa_region": "9",
+      "name": "Summit Lake Paiute Tribe of Nevada",
+      "states": [
+        "NV"
+      ],
+      "tribe_id": "epa_100000292"
+    },
+    {
+      "alternate_names": [
+        "Suquamish Tribe, Port Madison Reservation, Washington",
+        "Suquamish Indian Tribe of the Port Madison Reservation, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Suquamish Indian Tribe of the Port Madison Reservation",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000293"
+    },
+    {
+      "alternate_names": [
+        "Susanville Rancheria of Paiute, Maidu, Pit River & Washoe Indians of California",
+        "Susanville Indian Rancheria of Paiute, Maidu, Pit River & Washoe Indians of California"
+      ],
+      "epa_region": "9",
+      "name": "Susanville Indian Rancheria, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000294"
+    },
+    {
+      "alternate_names": [
+        "Swinomish Indian Tribal Community, Swinomish Reservation, Washington",
+        "Swinomish Indians of the Swinomish Reservation, Washington",
+        "Swinomish Indians of the Swinomish Reservation of Washington"
+      ],
+      "epa_region": "10",
+      "name": "Swinomish Indian Tribal Community",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000295"
+    },
+    {
+      "alternate_names": [
+        "Sycuan Band of Diegueno Mission Indians, Sycuan Reservation, California",
+        "Sycuan Band of Diegueno Mission Indians of the Sycuan Reservation, California",
+        "Sycuan Band of Diegueno Mission Indians of California"
+      ],
+      "epa_region": "9",
+      "name": "Sycuan Band of the Kumeyaay Nation",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000296"
+    },
+    {
+      "alternate_names": [
+        "Table Mountain Rancheria of Yokut Indians of California",
+        "Table Mountain Rancheria of California"
+      ],
+      "epa_region": "9",
+      "name": "Table Mountain Rancheria",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000297"
+    },
+    {
+      "alternate_names": [
+        "Tejon Indian Tribe of California"
+      ],
+      "epa_region": "9",
+      "name": "Tejon Indian Tribe",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000298"
+    },
+    {
+      "alternate_names": [
+        "Te Moak Bands of Western Shoshone Indians, Nevada (Battle Mountain, Elko & South Fork)",
+        "Te-Moak Bands of Western Shoshone Indians of the Battle Mountain, Elko & South Fork Colonies of Nevada",
+        "Te-Moak Tribe of Western Shoshone Indians of Nevada",
+        "Te-Moak Tribes of Western Shoshone Indians of Nevada",
+        "Te-Moak Tribes of Western Shoshone Indians of Nevada (Four constituent bands: Battle Mountain Band; Elko Band; South Fork Band and Wells Band)"
+      ],
+      "epa_region": "9",
+      "name": "Te-Moak Tribe of Western Shoshone Indians of Nevada (Four constituent bands: Battle Mountain Band; Elko Band; South Fork Band; and Wells Band)",
+      "states": [
+        "NV"
+      ],
+      "tribe_id": "epa_100000299"
+    },
+    {
+      "alternate_names": [
+        "Thlopthlocco Creek Tribal Town of Oklahoma",
+        "Thlopthlocco Tribal Town of the Creek Indian Nation of Oklahoma",
+        "Thlopthlocco Tribal Town of the Creek Nation of Oklahoma",
+        "Thlopthlocco Tribal Town, Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Thlopthlocco Tribal Town",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000300"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "8",
+      "name": "Three Affiliated Tribes of the Fort Berthold Reservation, North Dakota",
+      "states": [
+        "ND"
+      ],
+      "tribe_id": "epa_100000301"
+    },
+    {
+      "alternate_names": [
+        "Papago Tribe of Arizona",
+        "Papago Tribe of the Sells, Gila Bend and San Xavier Reservations, Arizona"
+      ],
+      "epa_region": "9",
+      "name": "Tohono O'odham Nation of Arizona",
+      "states": [
+        "AZ"
+      ],
+      "tribe_id": "epa_100000302"
+    },
+    {
+      "alternate_names": [
+        "Tonawanda Band of Seneca Indians of New York"
+      ],
+      "epa_region": "2",
+      "name": "Tonawanda Band of Seneca",
+      "states": [
+        "NY"
+      ],
+      "tribe_id": "epa_100000303"
+    },
+    {
+      "alternate_names": [
+        "Tonkawa Tribe of Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Tonkawa Tribe of Indians of Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000304"
+    },
+    {
+      "alternate_names": [
+        "Payson Tonto Apache Tribe of Arizona",
+        "Tonto Apache Indians of Arizona"
+      ],
+      "epa_region": "9",
+      "name": "Tonto Apache Tribe of Arizona",
+      "states": [
+        "AZ"
+      ],
+      "tribe_id": "epa_100000305"
+    },
+    {
+      "alternate_names": [
+        "Torres-Martinez Band of Cahuilla Mission Indians, Torres-Martinez Reservation, California",
+        "Torres-Martinez Band of Cahuilla Mission Indians of the Torres-Martinez Reservation, California",
+        "Torres-Martinez Band of Cahuilla Mission Indians of California"
+      ],
+      "epa_region": "9",
+      "name": "Torres Martinez Desert Cahuilla Indians, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000306"
+    },
+    {
+      "alternate_names": [
+        "Tule River Tribe, Tule River Reservation, California",
+        "Tule River Indian Tribe of the Tule River Indian Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Tule River Indian Tribe of the Tule River Reservation, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000307"
+    },
+    {
+      "alternate_names": [
+        "Tulalip Tribes of the Tulalip Reservation, Washington"
+      ],
+      "epa_region": "10",
+      "name": "Tulalip Tribes of Washington",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000308"
+    },
+    {
+      "alternate_names": [
+        "Tunica-Biloxi Indian Tribe of Louisiana"
+      ],
+      "epa_region": "6",
+      "name": "Tunica-Biloxi Indian Tribe",
+      "states": [
+        "LA"
+      ],
+      "tribe_id": "epa_100000309"
+    },
+    {
+      "alternate_names": [
+        "Tuolumne Band of Me-Wuk Indians, Tuolumne Rancheria, California"
+      ],
+      "epa_region": "9",
+      "name": "Tuolumne Band of Me-Wuk Indians of the Tuolumne Rancheria of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000310"
+    },
+    {
+      "alternate_names": [
+        "Turtle Mountain Band of Chippewa Indians, Turtle Mountain Reservation, North Dakota",
+        "Turtle Mountain Band of Chippewa Indians, Turtle Mountain Indian Reservation, North Dakota"
+      ],
+      "epa_region": "8",
+      "name": "Turtle Mountain Band of Chippewa Indians of North Dakota",
+      "states": [
+        "MT",
+        "ND",
+        "SD"
+      ],
+      "tribe_id": "epa_100000311"
+    },
+    {
+      "alternate_names": [
+        "Tuscarora Nation of New York"
+      ],
+      "epa_region": "2",
+      "name": "Tuscarora Nation",
+      "states": [
+        "NY"
+      ],
+      "tribe_id": "epa_100000312"
+    },
+    {
+      "alternate_names": [
+        "Twenty-Nine Palms Band of Luiseno Mission Indians, Twenty-Nine Palms Reservation, California",
+        "Twenty-Nine Palms Band of Luiseno Mission Indians of the Twenty-Nine Palms Reservation, California",
+        "Twenty-Nine Palms Band of Luiseno Mission Indians of California"
+      ],
+      "epa_region": "9",
+      "name": "Twenty-Nine Palms Band of Mission Indians of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000313"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "United Auburn Indian Community of the Auburn Rancheria of California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000314"
+    },
+    {
+      "alternate_names": [
+        "United Keetoowah Band of Cherokee Indians, Oklahoma",
+        "United Keetoowah Band of Cherokee Indians of Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "United Keetoowah Band of Cherokee Indians in Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000315"
+    },
+    {
+      "alternate_names": [
+        "Upper Sioux Indian Community, Upper Sioux Reservation, Minnesota",
+        "Upper Sioux Indian Community of the Upper Sioux Reservation, Minnesota"
+      ],
+      "epa_region": "5",
+      "name": "Upper Sioux Community, Minnesota",
+      "states": [
+        "MN",
+        "WI"
+      ],
+      "tribe_id": "epa_100000316"
+    },
+    {
+      "alternate_names": [
+        "Upper Skagit Tribe of Washington",
+        "Upper Skagit Indian Tribe of Washington"
+      ],
+      "epa_region": "10",
+      "name": "Upper Skagit Indian Tribe",
+      "states": [
+        "WA"
+      ],
+      "tribe_id": "epa_100000317"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "8",
+      "name": "Ute Indian Tribe of the Uintah & Ouray Reservation, Utah",
+      "states": [
+        "UT"
+      ],
+      "tribe_id": "epa_100000318"
+    },
+    {
+      "alternate_names": [
+        "Ute Mountain Tribe, Ute Mountain Reservation, Colorado, New Mexico & Utah",
+        "Ute Mountain Tribe of the Ute Mountain Reservation, Colorado, New Mexico & Utah"
+      ],
+      "epa_region": "8",
+      "name": "Ute Mountain Ute Tribe",
+      "states": [
+        "CO",
+        "NM"
+      ],
+      "tribe_id": "epa_100000319"
+    },
+    {
+      "alternate_names": [
+        "Utu Utu Gwaiti Paiute Tribe of the Benton Paiute Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Utu Utu Gwaitu Paiute Tribe of the Benton Paiute Reservation, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000320"
+    },
+    {
+      "alternate_names": [
+        "Walker River Paiute Tribe, Walker River Reservation, Nevada",
+        "Walker River Paiute Tribe of the Walker River Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Walker River Paiute Tribe of the Walker River Reservation, Nevada",
+      "states": [
+        "NV"
+      ],
+      "tribe_id": "epa_100000321"
+    },
+    {
+      "alternate_names": [
+        "Gay Head Wampanoag Indians of Massachusetts",
+        "Wampanoag Tribe of Gay Head (Aquinnah) of Massachusetts"
+      ],
+      "epa_region": "1",
+      "name": "Wampanoag Tribe of Gay Head (Aquinnah)",
+      "states": [
+        "MA"
+      ],
+      "tribe_id": "epa_100000322"
+    },
+    {
+      "alternate_names": [
+        "Washoe Tribe of Nevada & California (Carson Colony, Dresslerville & Washoe Ranches)"
+      ],
+      "epa_region": "9",
+      "name": "Washoe Tribe of Nevada & California (Carson Colony, Dresslerville Colony, Woodfords Community, Stewart Community, & Washoe Ranches)",
+      "states": [
+        "CA",
+        "NV"
+      ],
+      "tribe_id": "epa_100000323"
+    },
+    {
+      "alternate_names": [
+        "White Mountain Apache Tribe, Fort Apache Reservation, Arizona",
+        "White Mountain Apache Tribe of the Fort Apache Indian Reservation, Arizona"
+      ],
+      "epa_region": "9",
+      "name": "White Mountain Apache Tribe of the Fort Apache Reservation, Arizona",
+      "states": [
+        "AZ"
+      ],
+      "tribe_id": "epa_100000324"
+    },
+    {
+      "alternate_names": [
+        "Wichita Tribe of Oklahoma",
+        "Wichita Indian Tribe of Oklahoma",
+        "Wichita and Affiliated Tribes of Oklahoma",
+        "Wichita and Affiliated Tribes (Wichita, Keechi, Waco & Tawakonie) of Oklahoma"
+      ],
+      "epa_region": "6",
+      "name": "Wichita and Affiliated Tribes (Wichita, Keechi, Waco, & Tawakonie), Oklahoma",
+      "states": [
+        "OK"
+      ],
+      "tribe_id": "epa_100000325"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "Wilton Rancheria, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000326"
+    },
+    {
+      "alternate_names": [
+        "Winnebago Tribe of Nebraska, Winnebago Reservation, Nebraska",
+        "Winnebago Tribe of the Winnebago Reservation of Nebraska"
+      ],
+      "epa_region": "7",
+      "name": "Winnebago Tribe of Nebraska",
+      "states": [
+        "IA",
+        "NE"
+      ],
+      "tribe_id": "epa_100000327"
+    },
+    {
+      "alternate_names": [
+        "Winnemucca Indian Colony, Nevada"
+      ],
+      "epa_region": "9",
+      "name": "Winnemucca Indian Colony of Nevada",
+      "states": [
+        "NV"
+      ],
+      "tribe_id": "epa_100000328"
+    },
+    {
+      "alternate_names": [
+        "Table Bluff Rancheria of California",
+        "Table Bluff Rancheria of Wiyot Indians of California",
+        "Table Bluff Reservation--Wiyot Tribe, California"
+      ],
+      "epa_region": "9",
+      "name": "Wiyot Tribe, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000329"
+    },
+    {
+      "alternate_names": [
+        "Wyandotte Tribe of Oklahoma",
+        "Wyandotte Nation, Oklahoma"
+      ],
+      "epa_region": "7",
+      "name": "Wyandotte Nation",
+      "states": [
+        "KS",
+        "OK"
+      ],
+      "tribe_id": "epa_100000330"
+    },
+    {
+      "alternate_names": [
+        "Yankton Sioux Tribe, South Dakota"
+      ],
+      "epa_region": "8",
+      "name": "Yankton Sioux Tribe of South Dakota",
+      "states": [
+        "SD"
+      ],
+      "tribe_id": "epa_100000331"
+    },
+    {
+      "alternate_names": [
+        "Yavapai-Apache Indian Community, Camp Verde Reservation, Arizona",
+        "Yavapai-Apache Indian Community of the Camp Verde Reservation, Arizona",
+        "Yavapai Apache Nation of the Camp Verde Reservation, Arizona"
+      ],
+      "epa_region": "9",
+      "name": "Yavapai-Apache Nation of the Camp Verde Indian Reservation, Arizona",
+      "states": [
+        "AZ"
+      ],
+      "tribe_id": "epa_100000332"
+    },
+    {
+      "alternate_names": [
+        "Yavapai-Prescott Tribe, Yavapai Reservation, Arizona",
+        "Yavapai-Prescott Tribe of the Yavapai Reservation, Arizona"
+      ],
+      "epa_region": "9",
+      "name": "Yavapai-Prescott Indian Tribe",
+      "states": [
+        "AZ"
+      ],
+      "tribe_id": "epa_100000333"
+    },
+    {
+      "alternate_names": [
+        "Yerington Paiute Tribe of Nevada (Campbell Ranch)",
+        "Yerington Paiute Tribe of the Yerington Colony and Campbell Ranch",
+        "Yerington Paiute Tribe of the Yerington Colony and Campbell Ranch, Nevada"
+      ],
+      "epa_region": "9",
+      "name": "Yerington Paiute Tribe of the Yerington Colony & Campbell Ranch, Nevada",
+      "states": [
+        "NV"
+      ],
+      "tribe_id": "epa_100000334"
+    },
+    {
+      "alternate_names": [
+        "Rumsey Rancheria of Wintun Indians, California",
+        "Rumsey Indian Rancheria of Wintun Indians of California"
+      ],
+      "epa_region": "9",
+      "name": "Yocha Dehe Wintun Nation, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000335"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "9",
+      "name": "Yomba Shoshone Tribe of the Yomba Reservation, Nevada",
+      "states": [
+        "NV"
+      ],
+      "tribe_id": "epa_100000336"
+    },
+    {
+      "alternate_names": [
+        "Ysleta Del Sur Pueblo of Texas"
+      ],
+      "epa_region": "6",
+      "name": "Ysleta del Sur Pueblo",
+      "states": [
+        "TX"
+      ],
+      "tribe_id": "epa_100000337"
+    },
+    {
+      "alternate_names": [
+        "Yurok Tribe of the Hoopa Valley Reservation, California"
+      ],
+      "epa_region": "9",
+      "name": "Yurok Tribe of the Yurok Reservation, California",
+      "states": [
+        "CA"
+      ],
+      "tribe_id": "epa_100000338"
+    },
+    {
+      "alternate_names": [
+        "Zuni Pueblo of New Mexico"
+      ],
+      "epa_region": "9",
+      "name": "Zuni Tribe of the Zuni Reservation, New Mexico",
+      "states": [
+        "AZ",
+        "NM"
+      ],
+      "tribe_id": "epa_100000339"
+    },
+    {
+      "alternate_names": [
+        "Village of Afognak"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Afognak",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000340"
+    },
+    {
+      "alternate_names": [
+        "King Cove Village"
+      ],
+      "epa_region": "10",
+      "name": "Agdaagux Tribe of King Cove",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000341"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Akhiok",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000342"
+    },
+    {
+      "alternate_names": [
+        "Native Village of Akiachak"
+      ],
+      "epa_region": "10",
+      "name": "Akiachak Native Community",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000343"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Akiak Native Community",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000344"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Akutan",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000345"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Village of Alakanuk",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000346"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Alatna Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000347"
+    },
+    {
+      "alternate_names": [
+        "Village of Alegnagik"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Aleknagik",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000348"
+    },
+    {
+      "alternate_names": [
+        "St. Mary's Village (aka Algaaciq)"
+      ],
+      "epa_region": "10",
+      "name": "Algaaciq Native Village (St. Mary's)",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000349"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Allakaket Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000350"
+    },
+    {
+      "alternate_names": [
+        "Village of Ambler"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Ambler",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000351"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Village of Anaktuvuk Pass",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000352"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Yupiit of Andreafski",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000353"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Angoon Community Association",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000354"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Village of Aniak",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000355"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Anvik Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000356"
+    },
+    {
+      "alternate_names": [
+        "Arctic Village (See Native Village of Venetie Tribal Government)"
+      ],
+      "epa_region": "10",
+      "name": "Arctic Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000357"
+    },
+    {
+      "alternate_names": [
+        "Native Village of Mountain Village"
+      ],
+      "epa_region": "10",
+      "name": "Asa'carsarmiut Tribe",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000358"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Atka",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000359"
+    },
+    {
+      "alternate_names": [
+        "Village of Atmauthluak"
+      ],
+      "epa_region": "10",
+      "name": "Village of Atmautluak",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000360"
+    },
+    {
+      "alternate_names": [
+        "Atkasook Village",
+        "Atqasuk Village (Atkasook)"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Atqasuk",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000361"
+    },
+    {
+      "alternate_names": [
+        "Barrow Native Village (Point Barrow)",
+        "Native Village of Barrow"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Barrow Inupiat Traditional Government",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000362"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Beaver Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000363"
+    },
+    {
+      "alternate_names": [
+        "Native Village of Belkofsky"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Belkofski",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000364"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Village of Bill Moore's Slough",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000365"
+    },
+    {
+      "alternate_names": [
+        "Birch Creek Village"
+      ],
+      "epa_region": "10",
+      "name": "Birch Creek Tribe",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000366"
+    },
+    {
+      "alternate_names": [
+        "Brevig Mission Village"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Brevig Mission",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000367"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Buckland",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000368"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Cantwell",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000369"
+    },
+    {
+      "alternate_names": [
+        "Native Village of Chenega (aka Chanega)",
+        "Native Village of Chanega",
+        "Native Village of Chanega (aka Chenega)"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Chenega",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000370"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Chalkyitsik Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000371"
+    },
+    {
+      "alternate_names": [
+        "Native Village of Chistochina"
+      ],
+      "epa_region": "10",
+      "name": "Cheesh-Na Tribe",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000372"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Village of Chefornak",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000373"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Chevak Native Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000374"
+    },
+    {
+      "alternate_names": [
+        "Chickaloon Village"
+      ],
+      "epa_region": "10",
+      "name": "Chickaloon Native Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000375"
+    },
+    {
+      "alternate_names": [
+        "Native Village of Chignik"
+      ],
+      "epa_region": "10",
+      "name": "Chignik Bay Tribal Council",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000376"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Chignik Lagoon",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000377"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Chignik Lake Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000378"
+    },
+    {
+      "alternate_names": [
+        "Chilkat Indian Village of Klukwan",
+        "Chilkat Indian Village (Kluckwan)"
+      ],
+      "epa_region": "10",
+      "name": "Chilkat Indian Village (Klukwan)",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000379"
+    },
+    {
+      "alternate_names": [
+        "Chilkoot Indian Association of Haines"
+      ],
+      "epa_region": "10",
+      "name": "Chilkoot Indian Association (Haines)",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000380"
+    },
+    {
+      "alternate_names": [
+        "Village of Golovin"
+      ],
+      "epa_region": "10",
+      "name": "Chinik Eskimo Community (Golovin)",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000381"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Chitina",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000382"
+    },
+    {
+      "alternate_names": [
+        "Village of Chuathbaluk",
+        "Native Village of Chuatbaluk (Russian Mission, Kuskokwim)"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Chuathbaluk (Russian Mission, Kuskokwim)",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000383"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Chuloonawick Native Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000384"
+    },
+    {
+      "alternate_names": [
+        "Circle Village"
+      ],
+      "epa_region": "10",
+      "name": "Circle Native Community",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000385"
+    },
+    {
+      "alternate_names": [
+        "Village of Clark's Point",
+        "Village of Clarks's Point"
+      ],
+      "epa_region": "10",
+      "name": "Village of Clarks Point",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000386"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Council",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000387"
+    },
+    {
+      "alternate_names": [
+        "Craig Community Association"
+      ],
+      "epa_region": "10",
+      "name": "Craig Tribal Association",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000388"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Village of Crooked Creek",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000389"
+    },
+    {
+      "alternate_names": [
+        "Native Village of Dillingham"
+      ],
+      "epa_region": "10",
+      "name": "Curyung Tribal Council",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000390"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Deering",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000391"
+    },
+    {
+      "alternate_names": [
+        "Native Village of Diomede (aka Inalik)"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Diomede",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000392"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Village of Dot Lake",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000393"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Douglas Indian Association",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000394"
+    },
+    {
+      "alternate_names": [
+        "Village of Eagle"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Eagle",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000395"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Eek",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000396"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Egegik Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000397"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Eklutna Native Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000398"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Ekuk",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000399"
+    },
+    {
+      "alternate_names": [
+        "Ekwok Village"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Ekwok",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000400"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Elim",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000401"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Emmonak Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000402"
+    },
+    {
+      "alternate_names": [
+        "Evansville Village (aka Bettles Field)",
+        "Bettles Field/Evansville Village"
+      ],
+      "epa_region": "10",
+      "name": "Evansville Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000403"
+    },
+    {
+      "alternate_names": [
+        "Eyak Native Village"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Eyak (Cordova)",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000404"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of False Pass",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000405"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Fort Yukon",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000406"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Gakona",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000407"
+    },
+    {
+      "alternate_names": [
+        "Galena Village (a.k.a. Louden Village)"
+      ],
+      "epa_region": "10",
+      "name": "Louden Tribe",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000408"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Gambell",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000409"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Georgetown",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000410"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Goodnews Bay",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000411"
+    },
+    {
+      "alternate_names": [
+        "Organized Village of Grayling (aka Holikachuk)"
+      ],
+      "epa_region": "10",
+      "name": "Organized Village of Grayling",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000412"
+    },
+    {
+      "alternate_names": [
+        "Gulkana Village"
+      ],
+      "epa_region": "10",
+      "name": "Gulkana Village Council",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000413"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Hamilton",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000414"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Healy Lake Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000415"
+    },
+    {
+      "alternate_names": [
+        "Holy Cross Village"
+      ],
+      "epa_region": "10",
+      "name": "Holy Cross Tribe",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000416"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Hoonah Indian Association",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000417"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Hooper Bay",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000418"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Hughes Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000419"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Huslia Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000420"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Hydaburg Cooperative Association",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000421"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Igiugig Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000422"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Village of Iliamna",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000423"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Inupiat Community of the Arctic Slope",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000424"
+    },
+    {
+      "alternate_names": [
+        "Native Village of Russian Mission (Yukon)",
+        "Iqurmuit Traditional Council"
+      ],
+      "epa_region": "10",
+      "name": "Iqugmiut Traditional Council",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000425"
+    },
+    {
+      "alternate_names": [
+        "Ivanoff Bay Village",
+        "Ivanoff Bay Tribe"
+      ],
+      "epa_region": "10",
+      "name": "Ivanof Bay Tribe",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000426"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Kaguyak Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000427"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Organized Village of Kake",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000428"
+    },
+    {
+      "alternate_names": [
+        "Kaktovik Village (aka Barter Island)",
+        "Kaktovik Village of Barter Island (aka Barter Island)"
+      ],
+      "epa_region": "10",
+      "name": "Kaktovik Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000429"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Village of Kalskag",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000430"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Village of Kaltag",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000431"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Kanatak",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000432"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Karluk",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000433"
+    },
+    {
+      "alternate_names": [
+        "Native Village of Kasaan"
+      ],
+      "epa_region": "10",
+      "name": "Organized Village of Kasaan",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000434"
+    },
+    {
+      "alternate_names": [
+        "Native Village of Kasigluk"
+      ],
+      "epa_region": "10",
+      "name": "Kasigluk Traditional Elders Council",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000435"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Kenaitze Indian Tribe",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000436"
+    },
+    {
+      "alternate_names": [
+        "Ketchikan Indian Corporation"
+      ],
+      "epa_region": "10",
+      "name": "Ketchikan Indian Community",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000437"
+    },
+    {
+      "alternate_names": [
+        "Kiana Village"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Kiana",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000438"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "King Island Native Community",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000439"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "King Salmon Tribe",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000440"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Kipnuk",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000441"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Kivalina",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000442"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Klawock Cooperative Association",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000443"
+    },
+    {
+      "alternate_names": [
+        "Native Village of Kluti Kaah (aka Copper Center)",
+        "Copper Center Village"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Kluti Kaah",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000444"
+    },
+    {
+      "alternate_names": [
+        "Knik Village"
+      ],
+      "epa_region": "10",
+      "name": "Knik Tribe",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000445"
+    },
+    {
+      "alternate_names": [
+        "Kobuk Village"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Kobuk",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000446"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Kokhanok Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000447"
+    },
+    {
+      "alternate_names": [
+        "Kongiganak Native Village"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Kongiganak",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000448"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Village of Kotlik",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000449"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Kotzebue",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000450"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Koyuk",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000451"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Koyukuk Native Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000452"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Organized Village of Kwethluk",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000453"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Kwigillingok",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000454"
+    },
+    {
+      "alternate_names": [
+        "Native Village of Kwinhagak (aka Quinhagak)"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Kwinhagak",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000455"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Larsen Bay",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000456"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Levelock Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000457"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Lime Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000458"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Village of Lower Kalskag",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000459"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Manley Hot Springs Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000460"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Manokotak Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000461"
+    },
+    {
+      "alternate_names": [
+        "Native Village of Marshall (aka Fortuna Ledge)"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Marshall",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000462"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Mary's Igloo",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000463"
+    },
+    {
+      "alternate_names": [
+        "Native Village of McGrath"
+      ],
+      "epa_region": "10",
+      "name": "McGrath Native Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000464"
+    },
+    {
+      "alternate_names": [
+        "Native Village of Mekoryuk, Island of Nunivak"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Mekoryuk",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000465"
+    },
+    {
+      "alternate_names": [
+        "Mentasta Village (aka Mentasta Lake)",
+        "Mentasta Lake Village"
+      ],
+      "epa_region": "10",
+      "name": "Mentasta Traditional Council",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000466"
+    },
+    {
+      "alternate_names": [
+        "Metlakatla Indian Community, Annette Islands Reserve, Alaska",
+        "Metlakatia Indian Community, Annette Island Reserve, Alaksa"
+      ],
+      "epa_region": "10",
+      "name": "Metlakatla Indian Community, Annette Island Reserve",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000467"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Minto",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000468"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Naknek Native Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000469"
+    },
+    {
+      "alternate_names": [
+        "Native Village of Nanwalek (aka English Bay)"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Nanwalek",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000470"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Napaimute",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000471"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Napakiak",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000472"
+    },
+    {
+      "alternate_names": [
+        "Napaskiak Traditional Village"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Napaskiak",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000473"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Nelson Lagoon",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000474"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Nenana Native Association",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000475"
+    },
+    {
+      "alternate_names": [
+        "Koliganek Village"
+      ],
+      "epa_region": "10",
+      "name": "New Koliganek Village Council",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000476"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "New Stuyahok Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000477"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Newhalen Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000478"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Newtok Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000479"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Nightmute",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000480"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Nikolai Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000481"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Nikolski",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000482"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Ninilchik Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000483"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Noatak",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000484"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Nome Eskimo Community",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000485"
+    },
+    {
+      "alternate_names": [
+        "Nondalton Village"
+      ],
+      "epa_region": "10",
+      "name": "Nondalton Tribe",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000486"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Noorvik Native Community",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000487"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Northway Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000488"
+    },
+    {
+      "alternate_names": [
+        "Native Village of Nuiqsut (aka Nooiksut)"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Nuiqsut",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000489"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Nulato Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000490"
+    },
+    {
+      "alternate_names": [
+        "Native Village of Toksook Bay"
+      ],
+      "epa_region": "10",
+      "name": "Nunakauyarmiut Tribe",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000491"
+    },
+    {
+      "alternate_names": [
+        "Native Village of Sheldon's Point"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Nunam Iqua",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000492"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Nunapitchuk",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000493"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Village of Ohogamiut",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000494"
+    },
+    {
+      "alternate_names": [
+        "Village of Old Harbor",
+        "Native Village of Old Harbor"
+      ],
+      "epa_region": "10",
+      "name": "Alutiiq Tribe of Old Harbor",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000495"
+    },
+    {
+      "alternate_names": [
+        "Bethel Native Village",
+        "Bethel Native Village (aka Orutsaramuil)",
+        "Orutsararmuit Native Village (aka Bethel)"
+      ],
+      "epa_region": "10",
+      "name": "Orutsararmiut Traditional Native Council",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000496"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Oscarville Traditional Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000497"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Ouzinkie",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000498"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Paimiut",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000499"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Pauloff Harbor Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000500"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Pedro Bay Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000501"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Perryville",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000502"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Petersburg Indian Association",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000503"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Pilot Point",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000504"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Pilot Station Traditional Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000505"
+    },
+    {
+      "alternate_names": [
+        "Native Village of Pitka's Point"
+      ],
+      "epa_region": "10",
+      "name": "Pitka's Point Traditional Council",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000506"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Platinum Traditional Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000507"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Point Hope",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000508"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Point Lay",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000509"
+    },
+    {
+      "alternate_names": [
+        "Port Graham Village"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Port Graham",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000510"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Port Heiden",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000511"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Port Lions",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000512"
+    },
+    {
+      "alternate_names": [
+        "Portage Creek Village (aka Ohgsenakale)"
+      ],
+      "epa_region": "10",
+      "name": "Portage Creek Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000513"
+    },
+    {
+      "alternate_names": [
+        "Sand Point Village",
+        "Qagan Toyagungin Tribe of Sand Point Village",
+        "Qagan Tayagungin Tribe of Sand Point Village"
+      ],
+      "epa_region": "10",
+      "name": "Qagan Tayagungin Tribe of Sand Point",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000515"
+    },
+    {
+      "alternate_names": [
+        "Qawalingin Tribe of Unalaska"
+      ],
+      "epa_region": "10",
+      "name": "Qawalangin Tribe of Unalaska",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000516"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Rampart Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000517"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Village of Red Devil",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000518"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Ruby",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000519"
+    },
+    {
+      "alternate_names": [
+        "Saint George Island (See Pribilof Islands Aleut Communities of St. Paul & St. George Islands)",
+        "Saint George (See Pribilof Islands Aleut Communities of St. Paul & St. George Islands)",
+        "St. George (See Pribilof Islands Aleut Communities of St. Paul & St. George Islands)"
+      ],
+      "epa_region": "10",
+      "name": "St. George Island",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000520"
+    },
+    {
+      "alternate_names": [
+        "Native Village of St. Michael"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Saint Michael",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000521"
+    },
+    {
+      "alternate_names": [
+        "Saint Paul Island (See Pribilof Islands Aleut Communities of St. Paul & St. George Islands)",
+        "Saint Paul (See Pribilof Islands Aleut Communities of St. Paul & St. George Islands)",
+        "St .Paul (See Pribilof Islands Aleut Communities of St. Paul & St. George Islands)"
+      ],
+      "epa_region": "10",
+      "name": "Aleut Community of St. Paul Island",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000522"
+    },
+    {
+      "alternate_names": [
+        "Village of Salamatoff"
+      ],
+      "epa_region": "10",
+      "name": "Salamatof Tribe",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000523"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Savoonga",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000524"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Organized Village of Saxman",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000525"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Scammon Bay",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000526"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Selawik",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000527"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Seldovia Village Tribe",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000528"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Shageluk Native Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000529"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Shaktoolik",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000530"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Shishmaref",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000531"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Shungnak",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000532"
+    },
+    {
+      "alternate_names": [
+        "Sitka Community Association"
+      ],
+      "epa_region": "10",
+      "name": "Sitka Tribe of Alaska",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000533"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Skagway Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000534"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Village of Sleetmute",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000535"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Village of Solomon",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000536"
+    },
+    {
+      "alternate_names": [
+        "South Naknek Village"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of South Naknek",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000537"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Stebbins Community Association",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000538"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Stevens",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000539"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Village of Stony River",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000540"
+    },
+    {
+      "alternate_names": [
+        "Shoonaq' Tribe of Kodiak"
+      ],
+      "epa_region": "10",
+      "name": "Sun'aq Tribe of Kodiak",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000541"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Takotna Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000542"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Tanacross",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000543"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Tanana",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000544"
+    },
+    {
+      "alternate_names": [
+        "Lesnoi Village (aka Woody Island)"
+      ],
+      "epa_region": "10",
+      "name": "Tangirnaq Native Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000545"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Tatitlek",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000546"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Tazlina",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000547"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Telida Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000548"
+    },
+    {
+      "alternate_names": [
+        "Teller Native Village"
+      ],
+      "epa_region": "10",
+      "name": "Native Village of Teller",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000549"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Tetlin",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000550"
+    },
+    {
+      "alternate_names": [
+        "Tlingit & Haida Indians of Alaska"
+      ],
+      "epa_region": "10",
+      "name": "Central Council of the Tlingit & Haida Indian Tribes",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000551"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Traditional Village of Togiak",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000552"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Tuluksak Native Community",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000553"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Tuntutuliak",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000554"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Tununak",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000555"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Twin Hills Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000556"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Tyonek",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000557"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Ugashik Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000558"
+    },
+    {
+      "alternate_names": [
+        "Umkumiute Native Village"
+      ],
+      "epa_region": "10",
+      "name": "Umkumiut Native Village",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000559"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Unalakleet",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000560"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Unga",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000561"
+    },
+    {
+      "alternate_names": [
+        "Village of Venetie (See Native Village of Venetie Tribal Government)"
+      ],
+      "epa_region": "10",
+      "name": "Village of Venetie",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000562"
+    },
+    {
+      "alternate_names": [
+        "Wainwright Village"
+      ],
+      "epa_region": "10",
+      "name": "Village of Wainwright",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000564"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of Wales",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000565"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Native Village of White Mountain",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000566"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Wrangell Cooperative Association",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000567"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "10",
+      "name": "Yakutat Tlingit Tribe",
+      "states": [
+        "AK"
+      ],
+      "tribe_id": "epa_100000568"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "3",
+      "name": "Pamunkey Indian Tribe",
+      "states": [
+        "VA"
+      ],
+      "tribe_id": "epa_100000590"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "3",
+      "name": "Chickahominy Indian Tribe",
+      "states": [
+        "VA"
+      ],
+      "tribe_id": "epa_100000591"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "3",
+      "name": "Chickahominy Indian Tribe--Eastern Division",
+      "states": [
+        "VA"
+      ],
+      "tribe_id": "epa_100000592"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "3",
+      "name": "Monacan Indian Nation",
+      "states": [
+        "VA"
+      ],
+      "tribe_id": "epa_100000593"
+    },
+    {
+      "alternate_names": [
+        "Nansemond Indian Tribe"
+      ],
+      "epa_region": "3",
+      "name": "Nansemond Indian Nation",
+      "states": [
+        "VA"
+      ],
+      "tribe_id": "epa_100000594"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "3",
+      "name": "Rappahannock Tribe, Inc.",
+      "states": [
+        "VA"
+      ],
+      "tribe_id": "epa_100000595"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "3",
+      "name": "Upper Mattaponi Tribe",
+      "states": [
+        "VA"
+      ],
+      "tribe_id": "epa_100000596"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "8",
+      "name": "Little Shell Tribe of Chippewa Indians of Montana",
+      "states": [
+        "MT"
+      ],
+      "tribe_id": "epa_100000597"
+    },
+    {
+      "alternate_names": [],
+      "epa_region": "4",
+      "name": "Lumbee Tribe of North Carolina",
+      "states": [
+        "NC"
+      ],
+      "tribe_id": "epa_100000598"
+    }
+  ],
+  "schema_version": "catf-plan-discovery-roster.v1",
+  "source_registry_sha256": "5db8f52cf44d3a3853f8403cd6dc845a59088f07f42b40a3488575b5cbe7cece"
+}

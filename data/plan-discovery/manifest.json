@@ -1,0 +1,5768 @@
+{
+  "batch_count": 23,
+  "batch_size": 25,
+  "categories": [
+    "climate_adaptation_plan",
+    "climate_vulnerability_assessment",
+    "hazard_mitigation_or_management_plan"
+  ],
+  "nation_assignments": [
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000001"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000002"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000003"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000004"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000005"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000006"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000007"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000008"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000009"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000010"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000011"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000012"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000013"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000014"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000015"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000016"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000017"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000018"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000019"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000020"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000021"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000022"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000023"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000024"
+    },
+    {
+      "batch_id": "D01",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000025"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000026"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000027"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000028"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000029"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000030"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000031"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000032"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000033"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000034"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000035"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000036"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000037"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000038"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000039"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000040"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000041"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000042"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000043"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000044"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000045"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000046"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000047"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000048"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000049"
+    },
+    {
+      "batch_id": "D02",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000050"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000051"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000052"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000053"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000054"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000055"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000056"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000057"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000058"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000059"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000060"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000061"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000062"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000063"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000064"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000065"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000066"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000067"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000068"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000069"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000070"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000071"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000072"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000073"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000074"
+    },
+    {
+      "batch_id": "D03",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000075"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000076"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000077"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000078"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000079"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000080"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000081"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000082"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000083"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000084"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000085"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000086"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000087"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000088"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000089"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000090"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000091"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000092"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000093"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000094"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000095"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000096"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000097"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000098"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000099"
+    },
+    {
+      "batch_id": "D04",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000100"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000101"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000102"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000103"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000104"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000105"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000106"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000107"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000108"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000109"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000110"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000111"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000112"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000113"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000114"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000115"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000116"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000117"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000118"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000119"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000120"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000121"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000122"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000123"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000124"
+    },
+    {
+      "batch_id": "D05",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000125"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000126"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000127"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000128"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000129"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000130"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000131"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000132"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000133"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000134"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000135"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000136"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000137"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000138"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000139"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000140"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000141"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000142"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000143"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000144"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000145"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000146"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000147"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000148"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000149"
+    },
+    {
+      "batch_id": "D06",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000150"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000151"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000152"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000153"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000154"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000155"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000156"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000157"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000158"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000159"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000160"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000161"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000162"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000163"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000164"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000165"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000166"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000167"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000168"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000169"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000170"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000171"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000172"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000173"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000174"
+    },
+    {
+      "batch_id": "D07",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000175"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000176"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000177"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000178"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000179"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000180"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000181"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000182"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000183"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000184"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000185"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000186"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000187"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000188"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000189"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000190"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000191"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000192"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000193"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000194"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000195"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000196"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000197"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000198"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000199"
+    },
+    {
+      "batch_id": "D08",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000200"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000201"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000202"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000203"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000204"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000205"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000206"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000207"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000208"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000209"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000210"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000211"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000212"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000213"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000214"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000215"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000216"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000217"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000218"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000219"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000220"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000221"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000222"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000223"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000224"
+    },
+    {
+      "batch_id": "D09",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000225"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000226"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000227"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000228"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000229"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000230"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000231"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000232"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000233"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000234"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000235"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000236"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000237"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000238"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000239"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000240"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000241"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000242"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000243"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000244"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000245"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000246"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000247"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000248"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000249"
+    },
+    {
+      "batch_id": "D10",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000250"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000251"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000252"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000253"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000254"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000255"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000256"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000257"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000258"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000259"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000260"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000261"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000262"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000263"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000264"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000265"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000266"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000267"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000268"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000269"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000270"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000271"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000272"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000273"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000274"
+    },
+    {
+      "batch_id": "D11",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000275"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000276"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000277"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000278"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000279"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000280"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000281"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000282"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000283"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000284"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000285"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000286"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000287"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000288"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000289"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000290"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000291"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000292"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000293"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000294"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000295"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000296"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000297"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000298"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000299"
+    },
+    {
+      "batch_id": "D12",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000300"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000301"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000302"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000303"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000304"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000305"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000306"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000307"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000308"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000309"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000310"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000311"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000312"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000313"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000314"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000315"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000316"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000317"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000318"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000319"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000320"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000321"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000322"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000323"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000324"
+    },
+    {
+      "batch_id": "D13",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000325"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000326"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000327"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000328"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000329"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000330"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000331"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000332"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000333"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000334"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000335"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000336"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000337"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000338"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000339"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000340"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000341"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000342"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000343"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000344"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000345"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000346"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000347"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000348"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000349"
+    },
+    {
+      "batch_id": "D14",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000350"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000351"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000352"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000353"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000354"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000355"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000356"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000357"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000358"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000359"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000360"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000361"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000362"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000363"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000364"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000365"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000366"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000367"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000368"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000369"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000370"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000371"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000372"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000373"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000374"
+    },
+    {
+      "batch_id": "D15",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000375"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000376"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000377"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000378"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000379"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000380"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000381"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000382"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000383"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000384"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000385"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000386"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000387"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000388"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000389"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000390"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000391"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000392"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000393"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000394"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000395"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000396"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000397"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000398"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000399"
+    },
+    {
+      "batch_id": "D16",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000400"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000401"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000402"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000403"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000404"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000405"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000406"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000407"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000408"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000409"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000410"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000411"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000412"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000413"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000414"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000415"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000416"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000417"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000418"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000419"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000420"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000421"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000422"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000423"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000424"
+    },
+    {
+      "batch_id": "D17",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000425"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000426"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000427"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000428"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000429"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000430"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000431"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000432"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000433"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000434"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000435"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000436"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000437"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000438"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000439"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000440"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000441"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000442"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000443"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000444"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000445"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000446"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000447"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000448"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000449"
+    },
+    {
+      "batch_id": "D18",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000450"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000451"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000452"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000453"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000454"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000455"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000456"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000457"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000458"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000459"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000460"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000461"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000462"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000463"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000464"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000465"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000466"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000467"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000468"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000469"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000470"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000471"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000472"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000473"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000474"
+    },
+    {
+      "batch_id": "D19",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000475"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000476"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000477"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000478"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000479"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000480"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000481"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000482"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000483"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000484"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000485"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000486"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000487"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000488"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000489"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000490"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000491"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000492"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000493"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000494"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000495"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000496"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000497"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000498"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000499"
+    },
+    {
+      "batch_id": "D20",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000500"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000501"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000502"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000503"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000504"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000505"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000506"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000507"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000508"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000509"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000510"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000511"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000512"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000513"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000515"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000516"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000517"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000518"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000519"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000520"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000521"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000522"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000523"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000524"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000525"
+    },
+    {
+      "batch_id": "D21",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000526"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000527"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000528"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000529"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000530"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000531"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000532"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000533"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000534"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000535"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000536"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000537"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000538"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000539"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000540"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000541"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000542"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000543"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000544"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000545"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000546"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000547"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000548"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000549"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000550"
+    },
+    {
+      "batch_id": "D22",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000551"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000552"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000553"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000554"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000555"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000556"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000557"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000558"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000559"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000560"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000561"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000562"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000564"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000565"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000566"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000567"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000568"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000590"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000591"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000592"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000593"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000594"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000595"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000596"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000597"
+    },
+    {
+      "batch_id": "D23",
+      "category_status": {
+        "climate_adaptation_plan": "not_started",
+        "climate_vulnerability_assessment": "not_started",
+        "hazard_mitigation_or_management_plan": "not_started"
+      },
+      "status": "not_started",
+      "tribe_id": "epa_100000598"
+    }
+  ],
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning_effort": "high",
+  "roster_count": 575,
+  "schema_version": "catf-plan-discovery-manifest.v1",
+  "source_registry": "TCR active configured reference registry",
+  "source_registry_sha256": "5db8f52cf44d3a3853f8403cd6dc845a59088f07f42b40a3488575b5cbe7cece",
+  "status": "not_started"
+}

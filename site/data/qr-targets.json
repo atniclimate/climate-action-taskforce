@@ -1,0 +1,20 @@
+[
+  {
+    "file": "assets/qr/policy-sentinel.svg",
+    "target": "https://atniclimate.github.io/policy-sentinel/",
+    "decoded": "https://atniclimate.github.io/policy-sentinel/",
+    "sha256": "1f3860e6bf3e814cfc3c6f6685b4fdff329b30b97780a06f1b1d0e048f908ba3"
+  },
+  {
+    "file": "assets/qr/ddm.svg",
+    "target": "https://atniclimate.github.io/dynamic-drought-module/",
+    "decoded": "https://atniclimate.github.io/dynamic-drought-module/",
+    "sha256": "2e8ad020f11a1eda56286fa20b83f72e4b2fac038d8fac43e669aadf29337ce0"
+  },
+  {
+    "file": "assets/qr/tsdf.svg",
+    "target": "https://github.com/atniclimate/TieredSovereignDataFramework",
+    "decoded": "https://github.com/atniclimate/TieredSovereignDataFramework",
+    "sha256": "ab26ac7ca1b3bf86f2cd5c902c3402c95ed00735a2a0a012393dada09112d36f"
+  }
+]

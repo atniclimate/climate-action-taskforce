@@ -1,0 +1,25 @@
+# Local working evidence and runtime material
+/work/
+/.local/
+/.cache/
+/node_modules/
+/test-results/
+/playwright-report/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+
+# Original source material remains local; publish intentional copies in site/literature.
+/CATF_strategic plan.pptx
+/literature/*.pdf
+/literature/*.docx
+
+# Agent discovery contains local paths; retain locally, outside public Git history.
+/docs/discovery/
+
+# Local handoffs name local paths; keep them out of public history.
+/docs/OPUS-5-5-HANDOFF.md
+/docs/HANDOFF-ASTRA-SLIDE-REVIEW.md
+/docs/LAUNCH-PROMPT.md

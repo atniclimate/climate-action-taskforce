@@ -1,0 +1,2807 @@
+{
+  "schema_version": "catf-plan-discovery-results.v1",
+  "batch_id": "D03",
+  "source_registry_sha256": "5db8f52cf44d3a3853f8403cd6dc845a59088f07f42b40a3488575b5cbe7cece",
+  "searched_at": "2026-10-21T12:21:28Z",
+  "nation_searches": [
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested."
+      ],
+      "candidate_ids": [],
+      "tribe_id": "epa_100000051",
+      "source_domains": [],
+      "search_terms": [
+        "\"Colorado River Indian Tribes of the Colorado River Indian Reservation, Arizona and California\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Colorado River Indian Tribes of the Colorado River Indian Reservation, Arizona and California\" climate vulnerability assessment",
+        "\"Colorado River Indian Tribes of the Colorado River Indian Reservation, Arizona and California\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Colorado River Indian Tribes of the Colorado River Indian Reservation, Arizona and California\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Colorado River Indian Tribes of the Colorado River Indian Reservation, Arizona and California\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Colorado River Indian Tribes of the Colorado River Indian Reservation, Arizona and California\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Colorado River Indian Tribes of the Colorado River Indian Reservation, Arizona and California\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Colorado River Indian Tribes of the Colorado River Indian Reservation, Arizona and California\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Colorado River Indian Tribes of the Colorado River Indian Reservation, Arizona and California\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "no_matching_public_document_located",
+      "display_name": "Colorado River Indian Tribes of the Colorado River Indian Reservation, Arizona and California",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested."
+      ],
+      "candidate_ids": [],
+      "tribe_id": "epa_100000052",
+      "source_domains": [],
+      "search_terms": [
+        "\"Comanche Nation, Oklahoma\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Comanche Nation, Oklahoma\" climate vulnerability assessment",
+        "\"Comanche Nation, Oklahoma\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Comanche Nation, Oklahoma\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Comanche Nation, Oklahoma\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Comanche Nation, Oklahoma\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Comanche Nation, Oklahoma\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Comanche Nation, Oklahoma\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Comanche Nation, Oklahoma\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "no_matching_public_document_located",
+      "display_name": "Comanche Nation, Oklahoma",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested."
+      ],
+      "candidate_ids": [
+        "D03-C001",
+        "D03-C014"
+      ],
+      "tribe_id": "epa_100000053",
+      "source_domains": [
+        "cskt.org"
+      ],
+      "search_terms": [
+        "\"Confederated Salish and Kootenai Tribes of the Flathead Reservation\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Confederated Salish and Kootenai Tribes of the Flathead Reservation\" climate vulnerability assessment",
+        "\"Confederated Salish and Kootenai Tribes of the Flathead Reservation\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [
+            "D03-C001"
+          ],
+          "limitations": "Search results and landing pages were reviewed; full document not harvested. Dates and adoption stated only when the surfaced source explicitly supplied them.",
+          "outcome": "found",
+          "query": "\"Confederated Salish and Kootenai Tribes of the Flathead Reservation\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [
+                {
+                  "disposition": "Official 2025 plan PDF surfaced; PDF not opened. Landing and search text identify it as the Tribes climate strategy.",
+                  "url": "https://cskt.org/climate-change-strategic-plan/"
+                }
+              ],
+              "disposition": "candidate_located",
+              "query": "\"Confederated Salish and Kootenai Tribes of the Flathead Reservation\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Confederated Salish and Kootenai Tribes of the Flathead Reservation\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Salish and Kootenai Tribes of the Flathead Reservation\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [
+            "D03-C014"
+          ],
+          "limitations": "Search results and landing pages were reviewed; full document not harvested. Dates and adoption stated only when the surfaced source explicitly supplied them.",
+          "outcome": "found",
+          "query": "\"Confederated Salish and Kootenai Tribes of the Flathead Reservation\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [
+                {
+                  "disposition": "Official CSKT strategic-plan result states the Tribes authored the annex and regional HMP approval covers 2025–2029. Annex itself was not separately located or reviewed.",
+                  "url": "https://cskt.org/climate-change-strategic-plan/"
+                }
+              ],
+              "disposition": "candidate_located",
+              "query": "\"Confederated Salish and Kootenai Tribes of the Flathead Reservation\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "found",
+      "display_name": "Confederated Salish and Kootenai Tribes of the Flathead Reservation",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested."
+      ],
+      "candidate_ids": [
+        "D03-C002"
+      ],
+      "tribe_id": "epa_100000054",
+      "source_domains": [
+        "www.chehalistribe.org"
+      ],
+      "search_terms": [
+        "\"Confederated Tribes of the Chehalis Reservation\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Confederated Tribes of the Chehalis Reservation\" climate vulnerability assessment",
+        "\"Confederated Tribes of the Chehalis Reservation\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Confederated Tribes of the Chehalis Reservation\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Tribes of the Chehalis Reservation\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Confederated Tribes of the Chehalis Reservation\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Tribes of the Chehalis Reservation\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [
+            "D03-C002"
+          ],
+          "limitations": "Search results and landing pages were reviewed; full document not harvested. Dates and adoption stated only when the surfaced source explicitly supplied them.",
+          "outcome": "found",
+          "query": "\"Confederated Tribes of the Chehalis Reservation\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [
+                {
+                  "disposition": "Official public-safety page and FEMA-approved plan PDF surfaced; PDF not opened.",
+                  "url": "https://www.chehalistribe.org/public-safety/"
+                }
+              ],
+              "disposition": "candidate_located",
+              "query": "\"Confederated Tribes of the Chehalis Reservation\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "found",
+      "display_name": "Confederated Tribes of the Chehalis Reservation",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested.",
+        "Exact-alias seed catalog contributed additional public candidate metadata; see the local seed-catalog receipt."
+      ],
+      "candidate_ids": [
+        "D03-C017"
+      ],
+      "tribe_id": "epa_100000055",
+      "source_domains": [],
+      "search_terms": [
+        "\"Confederated Tribes of the Colville Reservation\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Confederated Tribes of the Colville Reservation\" climate vulnerability assessment",
+        "\"Confederated Tribes of the Colville Reservation\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Confederated Tribes of the Colville Reservation\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Tribes of the Colville Reservation\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Confederated Tribes of the Colville Reservation\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Tribes of the Colville Reservation\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [
+            "D03-C017"
+          ],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.Seed-catalog metadata was added after exact alias reconciliation; source was not reopened and candidate remains initial-search-only.",
+          "outcome": "found",
+          "query": "\"Confederated Tribes of the Colville Reservation\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Tribes of the Colville Reservation\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-9fc05777fd247274; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json; title: 2024 CCT Hazard Mitigation Plan; URL: https://www.colvilletribes.com/s/2024-CCT-Hazard-Mitigation-Plan_Resolution-2024-841.pdf; Official catalog metadata names Confederated Tribes of the Colville Reservation as issuer and an official Tribal landing page. Exact-alias seed lookup; catalog edition status unresolved."
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-9fc05777fd247274; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json and batch seed lookup; title: 2024 CCT Hazard Mitigation Plan; URL: https://www.colvilletribes.com/s/2024-CCT-Hazard-Mitigation-Plan_Resolution-2024-841.pdf"
+            }
+          ]
+        }
+      },
+      "outcome": "found",
+      "display_name": "Confederated Tribes of the Colville Reservation",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested."
+      ],
+      "candidate_ids": [
+        "D03-C003"
+      ],
+      "tribe_id": "epa_100000056",
+      "source_domains": [
+        "ctclusi.org"
+      ],
+      "search_terms": [
+        "\"Confederated Tribes of the Coos, Lower Umpqua and Siuslaw Indians\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Confederated Tribes of the Coos, Lower Umpqua and Siuslaw Indians\" climate vulnerability assessment",
+        "\"Confederated Tribes of the Coos, Lower Umpqua and Siuslaw Indians\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Confederated Tribes of the Coos, Lower Umpqua and Siuslaw Indians\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Tribes of the Coos, Lower Umpqua and Siuslaw Indians\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Confederated Tribes of the Coos, Lower Umpqua and Siuslaw Indians\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Tribes of the Coos, Lower Umpqua and Siuslaw Indians\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [
+            "D03-C003"
+          ],
+          "limitations": "Search results and landing pages were reviewed; full document not harvested. Dates and adoption stated only when the surfaced source explicitly supplied them.",
+          "outcome": "found",
+          "query": "\"Confederated Tribes of the Coos, Lower Umpqua and Siuslaw Indians\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [
+                {
+                  "disposition": "Official landing page and direct plan PDF surfaced; PDF not opened.",
+                  "url": "https://ctclusi.org/ctclusi-hazard-mitigation-plan/"
+                }
+              ],
+              "disposition": "candidate_located",
+              "query": "\"Confederated Tribes of the Coos, Lower Umpqua and Siuslaw Indians\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "found",
+      "display_name": "Confederated Tribes of the Coos, Lower Umpqua and Siuslaw Indians",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested."
+      ],
+      "candidate_ids": [],
+      "tribe_id": "epa_100000057",
+      "source_domains": [],
+      "search_terms": [
+        "\"Confederated Tribes of the Goshute Reservation, Nevada and Utah\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Confederated Tribes of the Goshute Reservation, Nevada and Utah\" climate vulnerability assessment",
+        "\"Confederated Tribes of the Goshute Reservation, Nevada and Utah\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Confederated Tribes of the Goshute Reservation, Nevada and Utah\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Tribes of the Goshute Reservation, Nevada and Utah\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Confederated Tribes of the Goshute Reservation, Nevada and Utah\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Tribes of the Goshute Reservation, Nevada and Utah\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Confederated Tribes of the Goshute Reservation, Nevada and Utah\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Tribes of the Goshute Reservation, Nevada and Utah\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "no_matching_public_document_located",
+      "display_name": "Confederated Tribes of the Goshute Reservation, Nevada and Utah",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested."
+      ],
+      "candidate_ids": [],
+      "tribe_id": "epa_100000058",
+      "source_domains": [],
+      "search_terms": [
+        "\"Confederated Tribes of the Grand Ronde Community of Oregon\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Confederated Tribes of the Grand Ronde Community of Oregon\" climate vulnerability assessment",
+        "\"Confederated Tribes of the Grand Ronde Community of Oregon\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Confederated Tribes of the Grand Ronde Community of Oregon\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Tribes of the Grand Ronde Community of Oregon\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Confederated Tribes of the Grand Ronde Community of Oregon\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Tribes of the Grand Ronde Community of Oregon\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Confederated Tribes of the Grand Ronde Community of Oregon\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Tribes of the Grand Ronde Community of Oregon\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "no_matching_public_document_located",
+      "display_name": "Confederated Tribes of the Grand Ronde Community of Oregon",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested.",
+        "Exact-alias seed catalog contributed additional public candidate metadata; see the local seed-catalog receipt."
+      ],
+      "candidate_ids": [
+        "D03-C004",
+        "D03-C018"
+      ],
+      "tribe_id": "epa_100000059",
+      "source_domains": [
+        "ctsi.nsn.us"
+      ],
+      "search_terms": [
+        "\"Confederated Tribes of Siletz Indians of Oregon\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Confederated Tribes of Siletz Indians of Oregon\" climate vulnerability assessment",
+        "\"Confederated Tribes of Siletz Indians of Oregon\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Confederated Tribes of Siletz Indians of Oregon\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Tribes of Siletz Indians of Oregon\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Confederated Tribes of Siletz Indians of Oregon\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Tribes of Siletz Indians of Oregon\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [
+            "D03-C004",
+            "D03-C018"
+          ],
+          "limitations": "Search results and landing pages were reviewed; full document not harvested. Dates and adoption stated only when the surfaced source explicitly supplied them.Seed-catalog metadata was added after exact alias reconciliation; source was not reopened and candidate remains initial-search-only.",
+          "outcome": "found",
+          "query": "\"Confederated Tribes of Siletz Indians of Oregon\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [
+                {
+                  "disposition": "Official planning page lists 2020 HMP and a 2025 draft; 2020 adopted plan PDF surfaced, but PDF not opened.",
+                  "url": "https://ctsi.nsn.us/planning/"
+                }
+              ],
+              "disposition": "candidate_located",
+              "query": "\"Confederated Tribes of Siletz Indians of Oregon\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-a5d7e0a4a0a7d9fd; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json; title: 2020 Multi-Hazard Mitigation Plan; URL: https://ctsi.nsn.us/wp-content/uploads/2021/03/2020MHMP-FEMA-Apprv.pdf; Official Tribal website hosts a plan issued by Confederated Tribes of Siletz Indians. Exact-alias seed lookup; catalog edition status unresolved."
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-a5d7e0a4a0a7d9fd; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json and batch seed lookup; title: 2020 Multi-Hazard Mitigation Plan; URL: https://ctsi.nsn.us/wp-content/uploads/2021/03/2020MHMP-FEMA-Apprv.pdf"
+            }
+          ]
+        }
+      },
+      "outcome": "found",
+      "display_name": "Confederated Tribes of Siletz Indians of Oregon",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested.",
+        "Exact-alias seed catalog contributed additional public candidate metadata; see the local seed-catalog receipt.",
+        "Exact-alias seed catalog contributed additional public candidate metadata; see the local seed-catalog receipt.",
+        "Exact-alias seed catalog contributed additional public candidate metadata; see the local seed-catalog receipt.",
+        "Exact-alias seed catalog contributed additional public candidate metadata; see the local seed-catalog receipt.",
+        "Exact-alias seed catalog contributed additional public candidate metadata; see the local seed-catalog receipt."
+      ],
+      "candidate_ids": [
+        "D03-C005",
+        "D03-C006",
+        "D03-C015",
+        "D03-C019",
+        "D03-C020",
+        "D03-C021",
+        "D03-C022",
+        "D03-C023"
+      ],
+      "tribe_id": "epa_100000060",
+      "source_domains": [
+        "ctuir.org",
+        "www.oregon.gov"
+      ],
+      "search_terms": [
+        "\"Confederated Tribes of the Umatilla Indian Reservation\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Confederated Tribes of the Umatilla Indian Reservation\" climate vulnerability assessment",
+        "\"Confederated Tribes of the Umatilla Indian Reservation\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [
+            "D03-C005",
+            "D03-C019"
+          ],
+          "limitations": "Search results and landing pages were reviewed; full document not harvested. Dates and adoption stated only when the surfaced source explicitly supplied them.Seed-catalog metadata was added after exact alias reconciliation; source was not reopened and candidate remains initial-search-only.",
+          "outcome": "found",
+          "query": "\"Confederated Tribes of the Umatilla Indian Reservation\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [
+                {
+                  "disposition": "Public guide result and CTUIR material identify CAP; 2022 adoption into department workplans is reported in a University of Oregon guide. Direct plan document not located in this pass.",
+                  "url": "https://ctuir.org/departments/natural-resources/climate-change/"
+                }
+              ],
+              "disposition": "candidate_located",
+              "query": "\"Confederated Tribes of the Umatilla Indian Reservation\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-48053c186f86040f; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json; title: CTUIR Climate Adaptation Plan FINAL 2022 Standard Resolution; URL: https://ctuir.org/media/oaqh3v2a/ctuir-cap-final-2022-standard.pdf; Catalog metadata identifies CTUIR Department of Natural Resources, First Foods Policy Program, and official CTUIR hosting. Exact-alias seed lookup; edition status unresolved."
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-48053c186f86040f; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json and batch seed lookup; title: CTUIR Climate Adaptation Plan FINAL 2022 Standard Resolution; URL: https://ctuir.org/media/oaqh3v2a/ctuir-cap-final-2022-standard.pdf"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [
+            "D03-C006"
+          ],
+          "limitations": "Search results and landing pages were reviewed; full document not harvested. Dates and adoption stated only when the surfaced source explicitly supplied them.",
+          "outcome": "found",
+          "query": "\"Confederated Tribes of the Umatilla Indian Reservation\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [
+                {
+                  "disposition": "Official direct PDF and public guide record surfaced; PDF not opened.",
+                  "url": "https://ctuir.org/departments/natural-resources/climate-change/"
+                }
+              ],
+              "disposition": "candidate_located",
+              "query": "\"Confederated Tribes of the Umatilla Indian Reservation\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [
+            "D03-C015",
+            "D03-C020",
+            "D03-C021",
+            "D03-C022",
+            "D03-C023"
+          ],
+          "limitations": "Search results and landing pages were reviewed; full document not harvested. Dates and adoption stated only when the surfaced source explicitly supplied them.Seed-catalog metadata was added after exact alias reconciliation; source was not reopened and candidate remains initial-search-only.Seed-catalog metadata was added after exact alias reconciliation; source was not reopened and candidate remains initial-search-only.Seed-catalog metadata was added after exact alias reconciliation; source was not reopened and candidate remains initial-search-only.Seed-catalog metadata was added after exact alias reconciliation; source was not reopened and candidate remains initial-search-only.",
+          "outcome": "found",
+          "query": "\"Confederated Tribes of the Umatilla Indian Reservation\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [
+                {
+                  "disposition": "Official Oregon OEM PDF surfaced; search result title identifies September 2021. PDF not opened.",
+                  "url": "https://www.oregon.gov/oem/Documents/2021-CTUIR-HMP-Update.pdf"
+                }
+              ],
+              "disposition": "candidate_located",
+              "query": "\"Confederated Tribes of the Umatilla Indian Reservation\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-49df27101306fb76; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json; title: Hazard Mitigation Plan - Part 1 (Adopted 2016); URL: https://ctuir.org/media/xydmr1pt/ctuir-hazard-mitigation-plan-part-a.pdf; Catalog metadata identifies Confederated Tribes of the Umatilla Indian Reservation and official CTUIR hosting. Separate Part 1 record; edition relation unresolved."
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-93b86606ae9a7bdf; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json; title: Hazard Mitigation Plan - Part 2 (Adopted 2016); URL: https://ctuir.org/media/fygjrwl0/ctuir-hazard-mitigation-plan-part-b.pdf; Catalog metadata identifies Confederated Tribes of the Umatilla Indian Reservation and official CTUIR hosting. Separate Part 2 record; edition relation unresolved."
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-9db90f3744407dd0; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json; title: 2021 CTUIR Hazard Mitigation Plan; URL: https://ctuir.org/media/rcvk5w55/ctuir-hazard-mitigation-planfinal.pdf; Catalog metadata identifies Confederated Tribes of the Umatilla Indian Reservation and official CTUIR hosting. Separate 2021 plan record; relationship to 2016 parts unresolved."
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-f6304e684f06f2f9; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json; title: Hazard Mitigation Plan - Part 3 (Adopted 2016); URL: https://ctuir.org/media/kjje1ie5/ctuir-hazard-mitigation-plan-part-c.pdf; Catalog metadata identifies Confederated Tribes of the Umatilla Indian Reservation and official CTUIR hosting. Separate Part 3 record; edition relation unresolved."
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-49df27101306fb76; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json and batch seed lookup; title: Hazard Mitigation Plan - Part 1 (Adopted 2016); URL: https://ctuir.org/media/xydmr1pt/ctuir-hazard-mitigation-plan-part-a.pdf"
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-93b86606ae9a7bdf; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json and batch seed lookup; title: Hazard Mitigation Plan - Part 2 (Adopted 2016); URL: https://ctuir.org/media/fygjrwl0/ctuir-hazard-mitigation-plan-part-b.pdf"
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-9db90f3744407dd0; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json and batch seed lookup; title: 2021 CTUIR Hazard Mitigation Plan; URL: https://ctuir.org/media/rcvk5w55/ctuir-hazard-mitigation-planfinal.pdf"
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-f6304e684f06f2f9; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json and batch seed lookup; title: Hazard Mitigation Plan - Part 3 (Adopted 2016); URL: https://ctuir.org/media/kjje1ie5/ctuir-hazard-mitigation-plan-part-c.pdf"
+            }
+          ]
+        }
+      },
+      "outcome": "found",
+      "display_name": "Confederated Tribes of the Umatilla Indian Reservation",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested."
+      ],
+      "candidate_ids": [],
+      "tribe_id": "epa_100000061",
+      "source_domains": [],
+      "search_terms": [
+        "\"Confederated Tribes of the Warm Springs Reservation of Oregon\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Confederated Tribes of the Warm Springs Reservation of Oregon\" climate vulnerability assessment",
+        "\"Confederated Tribes of the Warm Springs Reservation of Oregon\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Confederated Tribes of the Warm Springs Reservation of Oregon\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Tribes of the Warm Springs Reservation of Oregon\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Confederated Tribes of the Warm Springs Reservation of Oregon\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Tribes of the Warm Springs Reservation of Oregon\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Confederated Tribes of the Warm Springs Reservation of Oregon\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Tribes of the Warm Springs Reservation of Oregon\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "no_matching_public_document_located",
+      "display_name": "Confederated Tribes of the Warm Springs Reservation of Oregon",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested.",
+        "Exact-alias seed catalog contributed additional public candidate metadata; see the local seed-catalog receipt."
+      ],
+      "candidate_ids": [
+        "D03-C007",
+        "D03-C024"
+      ],
+      "tribe_id": "epa_100000062",
+      "source_domains": [
+        "yakamafish-nsn.gov"
+      ],
+      "search_terms": [
+        "\"Confederated Tribes and Bands of the Yakama Nation\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Confederated Tribes and Bands of the Yakama Nation\" climate vulnerability assessment",
+        "\"Confederated Tribes and Bands of the Yakama Nation\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [
+            "D03-C007",
+            "D03-C024"
+          ],
+          "limitations": "Search results and landing pages were reviewed; full document not harvested. Dates and adoption stated only when the surfaced source explicitly supplied them.Seed-catalog metadata was added after exact alias reconciliation; source was not reopened and candidate remains initial-search-only.",
+          "outcome": "found",
+          "query": "\"Confederated Tribes and Bands of the Yakama Nation\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [
+                {
+                  "disposition": "Official-hosted plan PDF surfaced; PDF not opened.",
+                  "url": "https://yakamafish-nsn.gov/climate-adaptation"
+                }
+              ],
+              "disposition": "candidate_located",
+              "query": "\"Confederated Tribes and Bands of the Yakama Nation\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-87762864c0bbd452; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json; title: Climate Action Plan for the Territories of the Yakama Nation; URL: https://yakamafish-nsn.gov/sites/default/files/YakamaNationCAP_Approved_Final_3_2021.pdf; Catalog metadata attributes the plan to Yakama Nation staff with Cascadia support and an official Yakama Nation Fisheries landing page. Separate program phase; catalog date evidence beyond title not promoted."
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-87762864c0bbd452; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json and batch seed lookup; title: Climate Action Plan for the Territories of the Yakama Nation; URL: https://yakamafish-nsn.gov/sites/default/files/YakamaNationCAP_Approved_Final_3_2021.pdf"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Confederated Tribes and Bands of the Yakama Nation\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Tribes and Bands of the Yakama Nation\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Confederated Tribes and Bands of the Yakama Nation\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Confederated Tribes and Bands of the Yakama Nation\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "found",
+      "display_name": "Confederated Tribes and Bands of the Yakama Nation",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested."
+      ],
+      "candidate_ids": [
+        "D03-C008",
+        "D03-C009"
+      ],
+      "tribe_id": "epa_100000063",
+      "source_domains": [
+        "www.coquilletribe.org"
+      ],
+      "search_terms": [
+        "\"Coquille Indian Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Coquille Indian Tribe\" climate vulnerability assessment",
+        "\"Coquille Indian Tribe\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [
+            "D03-C008"
+          ],
+          "limitations": "Search results and landing pages were reviewed; full document not harvested. Dates and adoption stated only when the surfaced source explicitly supplied them.",
+          "outcome": "found",
+          "query": "\"Coquille Indian Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [
+                {
+                  "disposition": "Official landing page says developed 2023–2025 and adopted by Tribal Council May 2025; direct PDF includes Climate Vulnerability Assessment Appendix C. PDF not opened.",
+                  "url": "https://www.coquilletribe.org/coquille-resilience-management-plan/"
+                }
+              ],
+              "disposition": "candidate_located",
+              "query": "\"Coquille Indian Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [
+            "D03-C009"
+          ],
+          "limitations": "Search results and landing pages were reviewed; full document not harvested. Dates and adoption stated only when the surfaced source explicitly supplied them.",
+          "outcome": "found",
+          "query": "\"Coquille Indian Tribe\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [
+                {
+                  "disposition": "Assessment is an appendix in the same 2025 plan as D03-C008, not a separate edition; PDF not opened.",
+                  "url": "https://www.coquilletribe.org/coquille-resilience-management-plan/"
+                }
+              ],
+              "disposition": "candidate_located",
+              "query": "\"Coquille Indian Tribe\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Coquille Indian Tribe\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Coquille Indian Tribe\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "found",
+      "display_name": "Coquille Indian Tribe",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested."
+      ],
+      "candidate_ids": [
+        "D03-C010"
+      ],
+      "tribe_id": "epa_100000064",
+      "source_domains": [
+        "www.countyofcolusaca.gov"
+      ],
+      "search_terms": [
+        "\"Kletsel Dehe Wintun Nation of the Cortina Rancheria\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Kletsel Dehe Wintun Nation of the Cortina Rancheria\" climate vulnerability assessment",
+        "\"Kletsel Dehe Wintun Nation of the Cortina Rancheria\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Kletsel Dehe Wintun Nation of the Cortina Rancheria\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Kletsel Dehe Wintun Nation of the Cortina Rancheria\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Kletsel Dehe Wintun Nation of the Cortina Rancheria\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Kletsel Dehe Wintun Nation of the Cortina Rancheria\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [
+            "D03-C010"
+          ],
+          "limitations": "Search results and landing pages were reviewed; full document not harvested. Dates and adoption stated only when the surfaced source explicitly supplied them.",
+          "outcome": "found",
+          "query": "\"Kletsel Dehe Wintun Nation of the Cortina Rancheria\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [
+                {
+                  "disposition": "Official county-hosted 2024 HMP PDF result identifies a Kletsel Dehe annex. PDF not opened; Nation adoption and final approval details unverified.",
+                  "url": "https://www.countyofcolusaca.gov/DocumentCenter/View/18599"
+                }
+              ],
+              "disposition": "candidate_located",
+              "query": "\"Kletsel Dehe Wintun Nation of the Cortina Rancheria\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "found",
+      "display_name": "Kletsel Dehe Wintun Nation of the Cortina Rancheria",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested."
+      ],
+      "candidate_ids": [
+        "D03-C011"
+      ],
+      "tribe_id": "epa_100000065",
+      "source_domains": [
+        "highways.fhwa.dot.gov"
+      ],
+      "search_terms": [
+        "\"Coushatta Tribe of Louisiana\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Coushatta Tribe of Louisiana\" climate vulnerability assessment",
+        "\"Coushatta Tribe of Louisiana\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Coushatta Tribe of Louisiana\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Coushatta Tribe of Louisiana\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [
+            "D03-C011"
+          ],
+          "limitations": "Search results and landing pages were reviewed; full document not harvested. Dates and adoption stated only when the surfaced source explicitly supplied them.",
+          "outcome": "found",
+          "query": "\"Coushatta Tribe of Louisiana\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [
+                {
+                  "disposition": "Federal summary report surfaced; exact Coushatta assessment coverage is reported in search result, but a Tribe-specific standalone assessment was not located. PDF not opened.",
+                  "url": "https://highways.fhwa.dot.gov/federal-lands/planning/studies/fhwa-building-tribal-transp-resilience-summary-report-final.pdf"
+                }
+              ],
+              "disposition": "candidate_located",
+              "query": "\"Coushatta Tribe of Louisiana\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Coushatta Tribe of Louisiana\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Coushatta Tribe of Louisiana\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "found",
+      "display_name": "Coushatta Tribe of Louisiana",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested."
+      ],
+      "candidate_ids": [],
+      "tribe_id": "epa_100000066",
+      "source_domains": [],
+      "search_terms": [
+        "\"Cow Creek Band of Umpqua Tribe of Indians\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Cow Creek Band of Umpqua Tribe of Indians\" climate vulnerability assessment",
+        "\"Cow Creek Band of Umpqua Tribe of Indians\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Cow Creek Band of Umpqua Tribe of Indians\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Cow Creek Band of Umpqua Tribe of Indians\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Cow Creek Band of Umpqua Tribe of Indians\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Cow Creek Band of Umpqua Tribe of Indians\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Cow Creek Band of Umpqua Tribe of Indians\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Cow Creek Band of Umpqua Tribe of Indians\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "no_matching_public_document_located",
+      "display_name": "Cow Creek Band of Umpqua Tribe of Indians",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested."
+      ],
+      "candidate_ids": [],
+      "tribe_id": "epa_100000067",
+      "source_domains": [],
+      "search_terms": [
+        "\"Cowlitz Indian Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Cowlitz Indian Tribe\" climate vulnerability assessment",
+        "\"Cowlitz Indian Tribe\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Cowlitz Indian Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Cowlitz Indian Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Cowlitz Indian Tribe\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Cowlitz Indian Tribe\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Cowlitz Indian Tribe\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Cowlitz Indian Tribe\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "no_matching_public_document_located",
+      "display_name": "Cowlitz Indian Tribe",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested."
+      ],
+      "candidate_ids": [],
+      "tribe_id": "epa_100000068",
+      "source_domains": [],
+      "search_terms": [
+        "\"Coyote Valley Band of Pomo Indians of California\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Coyote Valley Band of Pomo Indians of California\" climate vulnerability assessment",
+        "\"Coyote Valley Band of Pomo Indians of California\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Coyote Valley Band of Pomo Indians of California\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Coyote Valley Band of Pomo Indians of California\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Coyote Valley Band of Pomo Indians of California\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Coyote Valley Band of Pomo Indians of California\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Coyote Valley Band of Pomo Indians of California\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Coyote Valley Band of Pomo Indians of California\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "no_matching_public_document_located",
+      "display_name": "Coyote Valley Band of Pomo Indians of California",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested.",
+        "Exact-alias seed catalog contributed additional public candidate metadata; see the local seed-catalog receipt.",
+        "Exact-alias seed catalog contributed additional public candidate metadata; see the local seed-catalog receipt."
+      ],
+      "candidate_ids": [
+        "D03-C025",
+        "D03-C026"
+      ],
+      "tribe_id": "epa_100000069",
+      "source_domains": [],
+      "search_terms": [
+        "\"Crow Tribe of Montana\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Crow Tribe of Montana\" climate vulnerability assessment",
+        "\"Crow Tribe of Montana\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Crow Tribe of Montana\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Crow Tribe of Montana\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Crow Tribe of Montana\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Crow Tribe of Montana\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [
+            "D03-C025",
+            "D03-C026"
+          ],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.Seed-catalog metadata was added after exact alias reconciliation; source was not reopened and candidate remains initial-search-only.Seed-catalog metadata was added after exact alias reconciliation; source was not reopened and candidate remains initial-search-only.",
+          "outcome": "found",
+          "query": "\"Crow Tribe of Montana\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Crow Tribe of Montana\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-a4490bced66c4358; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json; title: Eastern Montana Regional Hazard Mitigation Plan 2024-2029 (includes Crow Tribe Annex B); URL: https://des.mt.gov/Mitigation/MT-Eastern-Region_Revised_HMP_02.03.25.pdf; State regional plan includes a Crow Tribe annex; catalog metadata identifies Crow Tribe as participating jurisdiction and local adopter, not issuer. Exact-alias seed lookup."
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-d30c007f98718bcf; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json; title: Eastern Montana Regional Hazard Mitigation Plan 2024-2029 Appendices (Crow Tribe Adoption Records section); URL: https://des.mt.gov/Mitigation/Eastern-Montana-Regional-HMP-Appendices-02-03-2025-FINAL.pdf; Official state-hosted companion appendices contain a Crow Tribe adoption-records section. Companion to regional plan; not the issuing authority; relation unresolved."
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-a4490bced66c4358; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json and batch seed lookup; title: Eastern Montana Regional Hazard Mitigation Plan 2024-2029 (includes Crow Tribe Annex B); URL: https://des.mt.gov/Mitigation/MT-Eastern-Region_Revised_HMP_02.03.25.pdf"
+            },
+            {
+              "disposition": "candidate_located",
+              "route": "seed_catalog_exact_alias_lookup",
+              "checked_utc": "2026-10-21",
+              "query": null,
+              "results": "catalog candidate candidate-d30c007f98718bcf; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json and batch seed lookup; title: Eastern Montana Regional Hazard Mitigation Plan 2024-2029 Appendices (Crow Tribe Adoption Records section); URL: https://des.mt.gov/Mitigation/Eastern-Montana-Regional-HMP-Appendices-02-03-2025-FINAL.pdf"
+            }
+          ]
+        }
+      },
+      "outcome": "found",
+      "display_name": "Crow Tribe of Montana",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested."
+      ],
+      "candidate_ids": [],
+      "tribe_id": "epa_100000070",
+      "source_domains": [],
+      "search_terms": [
+        "\"Crow Creek Sioux Tribe of the Crow Creek Reservation, South Dakota\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Crow Creek Sioux Tribe of the Crow Creek Reservation, South Dakota\" climate vulnerability assessment",
+        "\"Crow Creek Sioux Tribe of the Crow Creek Reservation, South Dakota\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Crow Creek Sioux Tribe of the Crow Creek Reservation, South Dakota\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Crow Creek Sioux Tribe of the Crow Creek Reservation, South Dakota\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Crow Creek Sioux Tribe of the Crow Creek Reservation, South Dakota\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Crow Creek Sioux Tribe of the Crow Creek Reservation, South Dakota\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Crow Creek Sioux Tribe of the Crow Creek Reservation, South Dakota\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Crow Creek Sioux Tribe of the Crow Creek Reservation, South Dakota\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "no_matching_public_document_located",
+      "display_name": "Crow Creek Sioux Tribe of the Crow Creek Reservation, South Dakota",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested."
+      ],
+      "candidate_ids": [],
+      "tribe_id": "epa_100000071",
+      "source_domains": [],
+      "search_terms": [
+        "\"Timbisha Shoshone Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Timbisha Shoshone Tribe\" climate vulnerability assessment",
+        "\"Timbisha Shoshone Tribe\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Timbisha Shoshone Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Timbisha Shoshone Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Timbisha Shoshone Tribe\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Timbisha Shoshone Tribe\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Timbisha Shoshone Tribe\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Timbisha Shoshone Tribe\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "no_matching_public_document_located",
+      "display_name": "Timbisha Shoshone Tribe",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested."
+      ],
+      "candidate_ids": [],
+      "tribe_id": "epa_100000072",
+      "source_domains": [],
+      "search_terms": [
+        "\"Delaware Nation, Oklahoma\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Delaware Nation, Oklahoma\" climate vulnerability assessment",
+        "\"Delaware Nation, Oklahoma\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Delaware Nation, Oklahoma\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Delaware Nation, Oklahoma\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Delaware Nation, Oklahoma\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Delaware Nation, Oklahoma\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Delaware Nation, Oklahoma\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Delaware Nation, Oklahoma\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "no_matching_public_document_located",
+      "display_name": "Delaware Nation, Oklahoma",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested."
+      ],
+      "candidate_ids": [
+        "D03-C012",
+        "D03-C016"
+      ],
+      "tribe_id": "epa_100000073",
+      "source_domains": [
+        "delawaretribe.org"
+      ],
+      "search_terms": [
+        "\"Delaware Tribe of Indians\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Delaware Tribe of Indians\" climate vulnerability assessment",
+        "\"Delaware Tribe of Indians\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [
+            "D03-C012"
+          ],
+          "limitations": "Search results and landing pages were reviewed; full document not harvested. Dates and adoption stated only when the surfaced source explicitly supplied them.",
+          "outcome": "found",
+          "query": "\"Delaware Tribe of Indians\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [
+                {
+                  "disposition": "Official-hosted draft includes adaptation plan and vulnerability assessment. Search result cites draft date October 24, 2024; document cover and status not independently reviewed. Filename date not used as publication year.",
+                  "url": "https://delawaretribe.org/climate-adaptation/"
+                }
+              ],
+              "disposition": "candidate_located",
+              "query": "\"Delaware Tribe of Indians\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [
+            "D03-C016"
+          ],
+          "limitations": "Search results and landing pages were reviewed; full document not harvested. Dates and adoption stated only when the surfaced source explicitly supplied them.",
+          "outcome": "found",
+          "query": "\"Delaware Tribe of Indians\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [
+                {
+                  "disposition": "Same combined draft source as D03-C012, indexed for its vulnerability-assessment component; draft date is not a verified publication date.",
+                  "url": "https://delawaretribe.org/climate-adaptation/"
+                }
+              ],
+              "disposition": "candidate_located",
+              "query": "\"Delaware Tribe of Indians\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Delaware Tribe of Indians\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Delaware Tribe of Indians\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "found",
+      "display_name": "Delaware Tribe of Indians",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested."
+      ],
+      "candidate_ids": [],
+      "tribe_id": "epa_100000074",
+      "source_domains": [],
+      "search_terms": [
+        "\"Dry Creek Rancheria Band of Pomo Indians, California\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Dry Creek Rancheria Band of Pomo Indians, California\" climate vulnerability assessment",
+        "\"Dry Creek Rancheria Band of Pomo Indians, California\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Dry Creek Rancheria Band of Pomo Indians, California\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Dry Creek Rancheria Band of Pomo Indians, California\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Dry Creek Rancheria Band of Pomo Indians, California\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Dry Creek Rancheria Band of Pomo Indians, California\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Dry Creek Rancheria Band of Pomo Indians, California\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Dry Creek Rancheria Band of Pomo Indians, California\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "no_matching_public_document_located",
+      "display_name": "Dry Creek Rancheria Band of Pomo Indians, California",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    },
+    {
+      "batch_id": "D03",
+      "limitations": [
+        "Three separate Nation-specific class queries were completed. Existing assessor seed corpus was also checked. Search-result and landing-page evidence only; no full document harvested."
+      ],
+      "candidate_ids": [
+        "D03-C013"
+      ],
+      "tribe_id": "epa_100000075",
+      "source_domains": [
+        "www.oem.nv.gov"
+      ],
+      "search_terms": [
+        "\"Duckwater Shoshone Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+        "\"Duckwater Shoshone Tribe\" climate vulnerability assessment",
+        "\"Duckwater Shoshone Tribe\" hazard mitigation plan OR emergency management plan"
+      ],
+      "categories": {
+        "climate_adaptation_plan": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Duckwater Shoshone Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Duckwater Shoshone Tribe\" climate adaptation plan OR climate action plan OR PCAP",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "climate_vulnerability_assessment": {
+          "candidate_ids": [],
+          "limitations": "One targeted class query completed and reviewed; no matching public document located at this search depth. This is not evidence that none exists.",
+          "outcome": "no_matching_public_document_located",
+          "query": "\"Duckwater Shoshone Tribe\" climate vulnerability assessment",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [],
+              "disposition": "no_class_qualified_result_located",
+              "query": "\"Duckwater Shoshone Tribe\" climate vulnerability assessment",
+              "route": "targeted_web_search"
+            }
+          ]
+        },
+        "hazard_mitigation_or_management_plan": {
+          "candidate_ids": [
+            "D03-C013"
+          ],
+          "limitations": "Search results and landing pages were reviewed; full document not harvested. Dates and adoption stated only when the surfaced source explicitly supplied them.",
+          "outcome": "found",
+          "query": "\"Duckwater Shoshone Tribe\" hazard mitigation plan OR emergency management plan",
+          "receipt": [
+            {
+              "checked_utc": "2026-10-21T12:21:28Z",
+              "results": [
+                {
+                  "disposition": "Official Nevada plan search result states Tribe adopted inclusion by resolution 2024-D-23. Plan is a county/joint plan, not represented as a stand-alone Tribal HMP; PDF not opened.",
+                  "url": "https://www.oem.nv.gov/siteassets/content/emergency-management/hazard-mitigation/nye-county-multi-jurisdictional-natural-hazard-mitigation-plan-march-2024.pdf"
+                }
+              ],
+              "disposition": "candidate_located",
+              "query": "\"Duckwater Shoshone Tribe\" hazard mitigation plan OR emergency management plan",
+              "route": "targeted_web_search"
+            }
+          ]
+        }
+      },
+      "outcome": "found",
+      "display_name": "Duckwater Shoshone Tribe",
+      "search_budget_used": 3,
+      "searched_at": "2026-10-21T12:21:28Z"
+    }
+  ],
+  "candidates": [
+    {
+      "title": "Confederated Salish and Kootenai Tribes Climate Change Strategic Plan",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:21:28Z",
+      "date_evidence": [
+        "Official result text: September 2025"
+      ],
+      "document_class": "climate_adaptation_plan",
+      "update_year": null,
+      "id": "D03-C001",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://cskt.org/climate-change-strategic-plan/",
+      "tribe_ids": [
+        "epa_100000053"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Confederated Salish and Kootenai Tribes",
+      "source_confidence": "high",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Official 2025 plan PDF surfaced; PDF not opened. Landing and search text identify it as the Tribes climate strategy.",
+      "relationship_evidence": "Tribal plan; official CSKT plan and landing page name the Tribes.",
+      "mime_type": null,
+      "document_url": "https://cskt.org/wp-content/uploads/2026/02/CCSP_2025.pdf",
+      "publication_year": 2025,
+      "date_basis": "Official plan/search result identifies September 2025.",
+      "host_relationship": "Confederated Salish and Kootenai Tribes",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "title": "Confederated Tribes of the Chehalis Reservation Hazard Mitigation Plan",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:21:28Z",
+      "date_evidence": [
+        "Official PDF filename/title states FEMA Approved 07302025"
+      ],
+      "document_class": "hazard_mitigation_or_management_plan",
+      "update_year": null,
+      "id": "D03-C002",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://www.chehalistribe.org/public-safety/",
+      "tribe_ids": [
+        "epa_100000054"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Confederated Tribes of the Chehalis Reservation",
+      "source_confidence": "high",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Official public-safety page and FEMA-approved plan PDF surfaced; PDF not opened.",
+      "relationship_evidence": "Tribal plan; official plan identifies the Tribe as subject and is FEMA-approved.",
+      "mime_type": null,
+      "document_url": "https://www.chehalistribe.org/wp-content/uploads/2025/08/Chehalis_Tribe_HMP_FEMA_Approved_07302025.pdf",
+      "publication_year": 2025,
+      "date_basis": "Official PDF title/result identifies FEMA approval 2025-07-30.",
+      "host_relationship": "Confederated Tribes of the Chehalis Reservation",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "title": "Confederated Tribes of Coos, Lower Umpqua and Siuslaw Indians 2022 Hazard Mitigation Plan",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:21:28Z",
+      "date_evidence": [
+        "Official landing and PDF title identify 2022"
+      ],
+      "document_class": "hazard_mitigation_or_management_plan",
+      "update_year": null,
+      "id": "D03-C003",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://ctclusi.org/ctclusi-hazard-mitigation-plan/",
+      "tribe_ids": [
+        "epa_100000056"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Confederated Tribes of Coos, Lower Umpqua and Siuslaw Indians",
+      "source_confidence": "high",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Official landing page and direct plan PDF surfaced; PDF not opened.",
+      "relationship_evidence": "Tribal plan; official Tribal landing page and plan title name the Tribes.",
+      "mime_type": null,
+      "document_url": "https://ctclusi.org/wp-content/uploads/2022/07/CTCLUSI-2022-HMP-for-web.pdf",
+      "publication_year": 2022,
+      "date_basis": "Official plan title and page identify 2022.",
+      "host_relationship": "Confederated Tribes of Coos, Lower Umpqua and Siuslaw Indians",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "title": "Confederated Tribes of Siletz Indians Multi-Hazard Mitigation Plan",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:21:28Z",
+      "date_evidence": [
+        "Official OEM PDF title: 2020 Multi-Hazard Mitigation Plan"
+      ],
+      "document_class": "hazard_mitigation_or_management_plan",
+      "update_year": null,
+      "id": "D03-C004",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://ctsi.nsn.us/planning/",
+      "tribe_ids": [
+        "epa_100000059"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Confederated Tribes of Siletz Indians",
+      "source_confidence": "high",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Official planning page lists 2020 HMP and a 2025 draft; 2020 adopted plan PDF surfaced, but PDF not opened.",
+      "relationship_evidence": "Tribal plan; official Tribal planning page links the plan and Oregon OEM hosts it.",
+      "mime_type": null,
+      "document_url": "https://www.oregon.gov/oem/Documents/2020-CTSI-Multi-Hazard-Mitigation-Plan.pdf",
+      "publication_year": 2020,
+      "date_basis": "Official OEM plan title says 2020; Tribal page lists 2025 draft separately.",
+      "host_relationship": "Confederated Tribes of Siletz Indians; Oregon OEM",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "title": "Confederated Tribes of the Umatilla Indian Reservation Climate Adaptation Plan",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:21:28Z",
+      "date_evidence": [
+        "University of Oregon guide reports Resolution 22-103 passed 2022-12-19 and adopted CAP into department workplans"
+      ],
+      "document_class": "climate_adaptation_plan",
+      "update_year": null,
+      "id": "D03-C005",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://ctuir.org/departments/natural-resources/climate-change/",
+      "tribe_ids": [
+        "epa_100000060"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Confederated Tribes of the Umatilla Indian Reservation",
+      "source_confidence": "medium",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition. Only the landing-page URL was captured; confirm the linked source before acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Public guide result and CTUIR material identify CAP; 2022 adoption into department workplans is reported in a University of Oregon guide. Direct plan document not located in this pass.",
+      "relationship_evidence": "Tribal climate adaptation plan; public catalog and tribal planning references identify CTUIR.Only the public landing page was captured in the search result; this URL does not imply direct access to a full document.",
+      "mime_type": null,
+      "document_url": "https://ctuir.org/departments/natural-resources/climate-change/",
+      "publication_year": null,
+      "date_basis": "2022 is the cited adoption date, not verified publication year.",
+      "host_relationship": "Confederated Tribes of the Umatilla Indian Reservation; University of Oregon",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "title": "CTUIR Climate Change Vulnerability Assessment Technical Report",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:21:28Z",
+      "date_evidence": [
+        "University of Oregon guide record: Year Published 2015"
+      ],
+      "document_class": "climate_vulnerability_assessment",
+      "update_year": null,
+      "id": "D03-C006",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://ctuir.org/departments/natural-resources/climate-change/",
+      "tribe_ids": [
+        "epa_100000060"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Confederated Tribes of the Umatilla Indian Reservation",
+      "source_confidence": "high",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Official direct PDF and public guide record surfaced; PDF not opened.",
+      "relationship_evidence": "Tribal vulnerability assessment; official document title names CTUIR.",
+      "mime_type": null,
+      "document_url": "https://ctuir.org/media/xe0ldtf5/ctuirclimatechangevulnerabilityassessmenttechnicalreportfinal.pdf",
+      "publication_year": 2015,
+      "date_basis": "Public guide lists Year Published 2015.",
+      "host_relationship": "Confederated Tribes of the Umatilla Indian Reservation",
+      "category": "climate_vulnerability_assessment"
+    },
+    {
+      "title": "Yakama Nation Climate Adaptation Plan, Version 1",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:21:28Z",
+      "date_evidence": [
+        "Official PDF title states 2016-04-25"
+      ],
+      "document_class": "climate_adaptation_plan",
+      "update_year": null,
+      "id": "D03-C007",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://yakamafish-nsn.gov/climate-adaptation",
+      "tribe_ids": [
+        "epa_100000062"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Confederated Tribes and Bands of the Yakama Nation",
+      "source_confidence": "high",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Official-hosted plan PDF surfaced; PDF not opened.",
+      "relationship_evidence": "Tribal plan; official Yakama Fish and Wildlife page and plan title name the Nation.",
+      "mime_type": null,
+      "document_url": "https://yakamafish-nsn.gov/sites/default/files/Final%20Climate%20Adaptation%20Plan%20version%201%202016%2004%2025.pdf",
+      "publication_year": 2016,
+      "date_basis": "Official PDF title states version 1 and 2016-04-25.",
+      "host_relationship": "Confederated Tribes and Bands of the Yakama Nation",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "title": "Coquille Resilience Management Plan",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:21:28Z",
+      "date_evidence": [
+        "Official landing page: published 2025-06-04",
+        "Official landing page: adopted by Tribal Council May 2025"
+      ],
+      "document_class": "climate_adaptation_plan",
+      "update_year": null,
+      "id": "D03-C008",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://www.coquilletribe.org/coquille-resilience-management-plan/",
+      "tribe_ids": [
+        "epa_100000063"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Coquille Indian Tribe",
+      "source_confidence": "high",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Official landing page says developed 2023–2025 and adopted by Tribal Council May 2025; direct PDF includes Climate Vulnerability Assessment Appendix C. PDF not opened.",
+      "relationship_evidence": "Tribal climate resilience/adaptation plan; official landing page states it was developed for and adopted by the Tribe.",
+      "mime_type": null,
+      "document_url": "https://www.coquilletribe.org/wp-content/uploads/2025/06/Coquille-Resilience-Management-Plan-2025.pdf",
+      "publication_year": 2025,
+      "date_basis": "Official landing page says published 2025-06-04 and adopted May 2025.",
+      "host_relationship": "Coquille Indian Tribe",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "title": "Climate Vulnerability Assessment, Appendix C, in Coquille Resilience Management Plan",
+      "dedup_relation": "same document as D03-C008; appendix",
+      "source_access_date": "2026-10-21T12:21:28Z",
+      "date_evidence": [
+        "Official landing page: published 2025-06-04"
+      ],
+      "document_class": "climate_vulnerability_assessment",
+      "update_year": null,
+      "id": "D03-C009",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://www.coquilletribe.org/coquille-resilience-management-plan/",
+      "tribe_ids": [
+        "epa_100000063"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Coquille Indian Tribe",
+      "source_confidence": "medium",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Assessment is an appendix in the same 2025 plan as D03-C008, not a separate edition; PDF not opened.",
+      "relationship_evidence": "Tribal climate vulnerability assessment; official landing identifies a Climate Vulnerability Assessment appendix in the Tribe plan.",
+      "mime_type": null,
+      "document_url": "https://www.coquilletribe.org/wp-content/uploads/2025/06/Coquille-Resilience-Management-Plan-2025.pdf",
+      "publication_year": 2025,
+      "date_basis": "Official plan landing page publication date.",
+      "host_relationship": "Coquille Indian Tribe",
+      "category": "climate_vulnerability_assessment"
+    },
+    {
+      "title": "Colusa County Local Hazard Mitigation Plan Update, Kletsel Dehe Wintun Nation Annex E",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:21:28Z",
+      "date_evidence": [
+        "Official county plan title: 2024 Local Hazard Mitigation Plan Update"
+      ],
+      "document_class": "hazard_mitigation_or_management_plan",
+      "update_year": null,
+      "id": "D03-C010",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://www.countyofcolusaca.gov/DocumentCenter/View/18599",
+      "tribe_ids": [
+        "epa_100000064"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Colusa County and participating jurisdictions",
+      "source_confidence": "medium",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Official county-hosted 2024 HMP PDF result identifies a Kletsel Dehe annex. PDF not opened; Nation adoption and final approval details unverified.",
+      "relationship_evidence": "Multi-jurisdictional plan with Nation-specific Annex E; county plan annex identifies Kletsel Dehe Wintun Nation.",
+      "mime_type": null,
+      "document_url": "https://www.countyofcolusaca.gov/DocumentCenter/View/18599",
+      "publication_year": 2024,
+      "date_basis": "Official county plan title identifies the 2024 update.",
+      "host_relationship": "Colusa County",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "title": "Tribal Transportation Network Climate Vulnerability Assessment",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:21:28Z",
+      "date_evidence": [],
+      "document_class": "climate_vulnerability_assessment",
+      "update_year": null,
+      "id": "D03-C011",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://highways.fhwa.dot.gov/federal-lands/planning/studies/fhwa-building-tribal-transp-resilience-summary-report-final.pdf",
+      "tribe_ids": [
+        "epa_100000065"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Federal Highway Administration",
+      "source_confidence": "low",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Federal summary report surfaced; exact Coushatta assessment coverage is reported in search result, but a Tribe-specific standalone assessment was not located. PDF not opened.",
+      "relationship_evidence": "Transportation-asset-specific assessment; public federal report result names Coushatta Tribe of Louisiana as participating/covered Tribe.",
+      "mime_type": null,
+      "document_url": "https://highways.fhwa.dot.gov/federal-lands/planning/studies/fhwa-building-tribal-transp-resilience-summary-report-final.pdf",
+      "publication_year": null,
+      "date_basis": null,
+      "host_relationship": "Federal Highway Administration",
+      "category": "climate_vulnerability_assessment"
+    },
+    {
+      "title": "Delaware Tribe of Indians Climate Adaptation Plan and Vulnerability Assessment (draft)",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:21:28Z",
+      "date_evidence": [
+        "Official search result states draft dated October 24, 2024"
+      ],
+      "document_class": "climate_adaptation_plan",
+      "update_year": null,
+      "id": "D03-C012",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://delawaretribe.org/climate-adaptation/",
+      "tribe_ids": [
+        "epa_100000073"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Delaware Tribe of Indians",
+      "source_confidence": "high",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Official-hosted draft includes adaptation plan and vulnerability assessment. Search result cites draft date October 24, 2024; document cover and status not independently reviewed. Filename date not used as publication year.",
+      "relationship_evidence": "Tribal draft plan; official-hosted PDF title identifies the Delaware Tribe of Indians.",
+      "mime_type": null,
+      "document_url": "https://delawaretribe.org/wp-content/uploads/2026/03/Climate-Adaptation-Plan-and-Vulnerability-Assessment-01-2026.pdf",
+      "publication_year": null,
+      "date_basis": "Draft date shown in official search result; publication year not established.",
+      "host_relationship": "Delaware Tribe of Indians",
+      "category": "climate_adaptation_plan"
+    },
+    {
+      "title": "Nye County Multi-Jurisdictional Natural Hazard Mitigation Plan, Duckwater Shoshone Tribe participation",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:21:28Z",
+      "date_evidence": [
+        "Official plan title: March 2024",
+        "Official result cites Duckwater resolution 2024-D-23"
+      ],
+      "document_class": "hazard_mitigation_or_management_plan",
+      "update_year": null,
+      "id": "D03-C013",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://www.oem.nv.gov/siteassets/content/emergency-management/hazard-mitigation/nye-county-multi-jurisdictional-natural-hazard-mitigation-plan-march-2024.pdf",
+      "tribe_ids": [
+        "epa_100000075"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Nye County and participating jurisdictions",
+      "source_confidence": "high",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Official Nevada plan search result states Tribe adopted inclusion by resolution 2024-D-23. Plan is a county/joint plan, not represented as a stand-alone Tribal HMP; PDF not opened.",
+      "relationship_evidence": "Multi-jurisdictional county plan with explicit Duckwater Shoshone Tribe participation and tribal adoption resolution.",
+      "mime_type": null,
+      "document_url": "https://www.oem.nv.gov/siteassets/content/emergency-management/hazard-mitigation/nye-county-multi-jurisdictional-natural-hazard-mitigation-plan-march-2024.pdf",
+      "publication_year": 2024,
+      "date_basis": "Official plan title identifies March 2024; result separately identifies 2024 tribal resolution.",
+      "host_relationship": "Nevada Division of Emergency Management",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "title": "Western Montana Regional Hazard Mitigation Plan, CSKT Annex D",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:21:28Z",
+      "date_evidence": [
+        "Official result states approval in 2025 and 2025–2029 plan period"
+      ],
+      "document_class": "hazard_mitigation_or_management_plan",
+      "update_year": 2025,
+      "id": "D03-C014",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://cskt.org/climate-change-strategic-plan/",
+      "tribe_ids": [
+        "epa_100000053"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Confederated Salish and Kootenai Tribes and regional partners",
+      "source_confidence": "medium",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Official CSKT strategic-plan result states the Tribes authored the annex and regional HMP approval covers 2025–2029. Annex itself was not separately located or reviewed.",
+      "relationship_evidence": "Tribal annex in a regional hazard mitigation plan; official CSKT climate plan identifies Annex D and FEMA approval.Official search-result page reports this CSKT annex, but the annex itself was not separately located or reviewed; the page is retained as the source URL.",
+      "mime_type": null,
+      "document_url": "https://cskt.org/climate-change-strategic-plan/",
+      "publication_year": null,
+      "date_basis": "Official result describes FEMA approval in 2025 and plan period 2025–2029.",
+      "host_relationship": "Confederated Salish and Kootenai Tribes",
+      "category": "hazard_mitigation_or_management_plan",
+      "access_instructions": "Landing-page evidence only. The regional annex itself was not separately located or reviewed; do not treat this as a direct annex file."
+    },
+    {
+      "title": "Confederated Tribes of the Umatilla Indian Reservation Hazard Mitigation Plan Update",
+      "dedup_relation": null,
+      "source_access_date": "2026-10-21T12:21:28Z",
+      "date_evidence": [
+        "Official OEM result: September 2021"
+      ],
+      "document_class": "hazard_mitigation_or_management_plan",
+      "update_year": null,
+      "id": "D03-C015",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://www.oregon.gov/oem/Documents/2021-CTUIR-HMP-Update.pdf",
+      "tribe_ids": [
+        "epa_100000060"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Confederated Tribes of the Umatilla Indian Reservation",
+      "source_confidence": "high",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Official Oregon OEM PDF surfaced; search result title identifies September 2021. PDF not opened.",
+      "relationship_evidence": "Tribal plan; official state emergency-management title identifies CTUIR.",
+      "mime_type": null,
+      "document_url": "https://www.oregon.gov/oem/Documents/2021-CTUIR-HMP-Update.pdf",
+      "publication_year": 2021,
+      "date_basis": "Official PDF title/result identifies September 2021.",
+      "host_relationship": "Oregon Office of Emergency Management",
+      "category": "hazard_mitigation_or_management_plan"
+    },
+    {
+      "title": "Delaware Tribe of Indians Climate Adaptation Plan and Vulnerability Assessment (draft)",
+      "dedup_relation": "same combined draft document as D03-C012",
+      "source_access_date": "2026-10-21T12:21:28Z",
+      "date_evidence": [
+        "Official search result states draft dated October 24, 2024"
+      ],
+      "document_class": "climate_vulnerability_assessment",
+      "update_year": null,
+      "id": "D03-C016",
+      "plan_period": null,
+      "canonical_landing_page_url": "https://delawaretribe.org/climate-adaptation/",
+      "tribe_ids": [
+        "epa_100000073"
+      ],
+      "redistribution_terms": "unknown_not_reviewed",
+      "access_outcome": "public_search_result_observed",
+      "issuing_body": "Delaware Tribe of Indians",
+      "source_confidence": "high",
+      "access_instructions": "Use the public landing page; review document scope, adoption, access and redistribution terms before any full-document acquisition.",
+      "review_state": "initial_search_result_only",
+      "adoption_date": null,
+      "discovery_note": "Same combined draft source as D03-C012, indexed for its vulnerability-assessment component; draft date is not a verified publication date.",
+      "relationship_evidence": "Tribal draft climate vulnerability assessment; official-hosted PDF title identifies the Delaware Tribe of Indians.",
+      "mime_type": null,
+      "document_url": "https://delawaretribe.org/wp-content/uploads/2026/03/Climate-Adaptation-Plan-and-Vulnerability-Assessment-01-2026.pdf",
+      "publication_year": null,
+      "date_basis": "Draft date shown in official search result; publication year not established.",
+      "host_relationship": "Delaware Tribe of Indians",
+      "category": "climate_vulnerability_assessment"
+    },
+    {
+      "id": "D03-C017",
+      "tribe_ids": [
+        "epa_100000055"
+      ],
+      "title": "2024 CCT Hazard Mitigation Plan",
+      "issuing_body": "Confederated Tribes of the Colville Reservation (per official Tribal landing page)",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "category": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://www.colvilletribes.com/executive-director",
+      "document_url": "https://www.colvilletribes.com/s/2024-CCT-Hazard-Mitigation-Plan_Resolution-2024-841.pdf",
+      "relationship_evidence": [
+        "Confederated Tribes of the Colville Reservation (per official Tribal landing page)",
+        "Official Tribal site links PDF and redirects to Squarespace static host",
+        "Official catalog metadata names Confederated Tribes of the Colville Reservation as issuer and an official Tribal landing page. Exact-alias seed lookup; catalog edition status unresolved.",
+        "catalog candidate candidate-9fc05777fd247274; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json",
+        "catalog candidate candidate-9fc05777fd247274; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json and batch seed lookup"
+      ],
+      "host_relationship": "Official Tribal site links PDF and redirects to Squarespace static host",
+      "publication_year": 2024,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": "explicit catalog title text only; not independently reviewed in this search sweep",
+      "date_evidence": "Catalog title text: 2024 CCT Hazard Mitigation Plan",
+      "source_access_date": "2026-10-21",
+      "access_outcome": "seed_catalog_metadata_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": "catalog family family-1d89ffc931c1347b; edition/mirror relation unresolved",
+      "source_confidence": "medium",
+      "access_instructions": "Seed-catalog metadata only. Review the linked public source for dates, scope, issuer/adoption, edition, access and redistribution terms before acquisition."
+    },
+    {
+      "id": "D03-C018",
+      "tribe_ids": [
+        "epa_100000059"
+      ],
+      "title": "2020 Multi-Hazard Mitigation Plan",
+      "issuing_body": "Confederated Tribes of Siletz Indians",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "category": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://ctsi.nsn.us/planning/",
+      "document_url": "https://ctsi.nsn.us/wp-content/uploads/2021/03/2020MHMP-FEMA-Apprv.pdf",
+      "relationship_evidence": [
+        "Confederated Tribes of Siletz Indians",
+        "Tribal government website hosts document",
+        "Official Tribal website hosts a plan issued by Confederated Tribes of Siletz Indians. Exact-alias seed lookup; catalog edition status unresolved.",
+        "catalog candidate candidate-a5d7e0a4a0a7d9fd; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json",
+        "catalog candidate candidate-a5d7e0a4a0a7d9fd; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json and batch seed lookup"
+      ],
+      "host_relationship": "Tribal government website hosts document",
+      "publication_year": 2020,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": "explicit catalog title text only; not independently reviewed in this search sweep",
+      "date_evidence": "Catalog title text: 2020 Multi-Hazard Mitigation Plan",
+      "source_access_date": "2026-10-21",
+      "access_outcome": "seed_catalog_metadata_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": "catalog family family-65bd0ca9a0970677; edition/mirror relation unresolved",
+      "source_confidence": "medium",
+      "access_instructions": "Seed-catalog metadata only. Review the linked public source for dates, scope, issuer/adoption, edition, access and redistribution terms before acquisition."
+    },
+    {
+      "id": "D03-C019",
+      "tribe_ids": [
+        "epa_100000060"
+      ],
+      "title": "CTUIR Climate Adaptation Plan FINAL 2022 Standard Resolution",
+      "issuing_body": "CTUIR Department of Natural Resources, First Foods Policy Program",
+      "document_class": "climate_adaptation_plan",
+      "category": "climate_adaptation_plan",
+      "canonical_landing_page_url": "https://ctuir.org/departments/natural-resources/first-foods-policy/climate-adaptation/ctuir-climate-adaptation-plan-final/",
+      "document_url": "https://ctuir.org/media/oaqh3v2a/ctuir-cap-final-2022-standard.pdf",
+      "relationship_evidence": [
+        "CTUIR Department of Natural Resources, First Foods Policy Program",
+        "Hosted on official CTUIR website",
+        "Catalog metadata identifies CTUIR Department of Natural Resources, First Foods Policy Program, and official CTUIR hosting. Exact-alias seed lookup; edition status unresolved.",
+        "catalog candidate candidate-48053c186f86040f; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json",
+        "catalog candidate candidate-48053c186f86040f; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json and batch seed lookup"
+      ],
+      "host_relationship": "Hosted on official CTUIR website",
+      "publication_year": 2022,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": "explicit catalog title text only; not independently reviewed in this search sweep",
+      "date_evidence": "Catalog title text: CTUIR Climate Adaptation Plan FINAL 2022 Standard Resolution",
+      "source_access_date": "2026-10-21",
+      "access_outcome": "seed_catalog_metadata_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": "catalog family family-c3348ae0949fed0c; edition/mirror relation unresolved",
+      "source_confidence": "medium",
+      "access_instructions": "Seed-catalog metadata only. Review the linked public source for dates, scope, issuer/adoption, edition, access and redistribution terms before acquisition."
+    },
+    {
+      "id": "D03-C020",
+      "tribe_ids": [
+        "epa_100000060"
+      ],
+      "title": "Hazard Mitigation Plan - Part 1 (Adopted 2016)",
+      "issuing_body": "Confederated Tribes of the Umatilla Indian Reservation",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "category": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://ctuir.org/departments/tribal-planning-office/long-range-planning/adopted-plans-codes/",
+      "document_url": "https://ctuir.org/media/xydmr1pt/ctuir-hazard-mitigation-plan-part-a.pdf",
+      "relationship_evidence": [
+        "Confederated Tribes of the Umatilla Indian Reservation",
+        "Hosted on official CTUIR website",
+        "Catalog metadata identifies Confederated Tribes of the Umatilla Indian Reservation and official CTUIR hosting. Separate Part 1 record; edition relation unresolved.",
+        "catalog candidate candidate-49df27101306fb76; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json",
+        "catalog candidate candidate-49df27101306fb76; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json and batch seed lookup"
+      ],
+      "host_relationship": "Hosted on official CTUIR website",
+      "publication_year": 2016,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": "explicit catalog title text only; not independently reviewed in this search sweep",
+      "date_evidence": "Catalog title text: Hazard Mitigation Plan - Part 1 (Adopted 2016)",
+      "source_access_date": "2026-10-21",
+      "access_outcome": "seed_catalog_metadata_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": "catalog family family-b8ac6314586f34ad; edition/mirror relation unresolved",
+      "source_confidence": "medium",
+      "access_instructions": "Seed-catalog metadata only. Review the linked public source for dates, scope, issuer/adoption, edition, access and redistribution terms before acquisition."
+    },
+    {
+      "id": "D03-C021",
+      "tribe_ids": [
+        "epa_100000060"
+      ],
+      "title": "Hazard Mitigation Plan - Part 2 (Adopted 2016)",
+      "issuing_body": "Confederated Tribes of the Umatilla Indian Reservation",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "category": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://ctuir.org/departments/tribal-planning-office/long-range-planning/adopted-plans-codes/",
+      "document_url": "https://ctuir.org/media/fygjrwl0/ctuir-hazard-mitigation-plan-part-b.pdf",
+      "relationship_evidence": [
+        "Confederated Tribes of the Umatilla Indian Reservation",
+        "Hosted on official CTUIR website",
+        "Catalog metadata identifies Confederated Tribes of the Umatilla Indian Reservation and official CTUIR hosting. Separate Part 2 record; edition relation unresolved.",
+        "catalog candidate candidate-93b86606ae9a7bdf; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json",
+        "catalog candidate candidate-93b86606ae9a7bdf; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json and batch seed lookup"
+      ],
+      "host_relationship": "Hosted on official CTUIR website",
+      "publication_year": 2016,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": "explicit catalog title text only; not independently reviewed in this search sweep",
+      "date_evidence": "Catalog title text: Hazard Mitigation Plan - Part 2 (Adopted 2016)",
+      "source_access_date": "2026-10-21",
+      "access_outcome": "seed_catalog_metadata_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": "catalog family family-e2ec795605db4623; edition/mirror relation unresolved",
+      "source_confidence": "medium",
+      "access_instructions": "Seed-catalog metadata only. Review the linked public source for dates, scope, issuer/adoption, edition, access and redistribution terms before acquisition."
+    },
+    {
+      "id": "D03-C022",
+      "tribe_ids": [
+        "epa_100000060"
+      ],
+      "title": "2021 CTUIR Hazard Mitigation Plan",
+      "issuing_body": "Confederated Tribes of the Umatilla Indian Reservation",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "category": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://ctuir.org/departments/tribal-planning-office/long-range-planning/adopted-plans-codes/",
+      "document_url": "https://ctuir.org/media/rcvk5w55/ctuir-hazard-mitigation-planfinal.pdf",
+      "relationship_evidence": [
+        "Confederated Tribes of the Umatilla Indian Reservation",
+        "Hosted on official CTUIR website",
+        "Catalog metadata identifies Confederated Tribes of the Umatilla Indian Reservation and official CTUIR hosting. Separate 2021 plan record; relationship to 2016 parts unresolved.",
+        "catalog candidate candidate-9db90f3744407dd0; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json",
+        "catalog candidate candidate-9db90f3744407dd0; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json and batch seed lookup"
+      ],
+      "host_relationship": "Hosted on official CTUIR website",
+      "publication_year": 2021,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": "explicit catalog title text only; not independently reviewed in this search sweep",
+      "date_evidence": "Catalog title text: 2021 CTUIR Hazard Mitigation Plan",
+      "source_access_date": "2026-10-21",
+      "access_outcome": "seed_catalog_metadata_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": "catalog family family-7a539350c8e637b3; edition/mirror relation unresolved",
+      "source_confidence": "medium",
+      "access_instructions": "Seed-catalog metadata only. Review the linked public source for dates, scope, issuer/adoption, edition, access and redistribution terms before acquisition."
+    },
+    {
+      "id": "D03-C023",
+      "tribe_ids": [
+        "epa_100000060"
+      ],
+      "title": "Hazard Mitigation Plan - Part 3 (Adopted 2016)",
+      "issuing_body": "Confederated Tribes of the Umatilla Indian Reservation",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "category": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://ctuir.org/departments/tribal-planning-office/long-range-planning/adopted-plans-codes/",
+      "document_url": "https://ctuir.org/media/kjje1ie5/ctuir-hazard-mitigation-plan-part-c.pdf",
+      "relationship_evidence": [
+        "Confederated Tribes of the Umatilla Indian Reservation",
+        "Hosted on official CTUIR website",
+        "Catalog metadata identifies Confederated Tribes of the Umatilla Indian Reservation and official CTUIR hosting. Separate Part 3 record; edition relation unresolved.",
+        "catalog candidate candidate-f6304e684f06f2f9; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json",
+        "catalog candidate candidate-f6304e684f06f2f9; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json and batch seed lookup"
+      ],
+      "host_relationship": "Hosted on official CTUIR website",
+      "publication_year": 2016,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": "explicit catalog title text only; not independently reviewed in this search sweep",
+      "date_evidence": "Catalog title text: Hazard Mitigation Plan - Part 3 (Adopted 2016)",
+      "source_access_date": "2026-10-21",
+      "access_outcome": "seed_catalog_metadata_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": "catalog family family-5b66be38db468d3a; edition/mirror relation unresolved",
+      "source_confidence": "medium",
+      "access_instructions": "Seed-catalog metadata only. Review the linked public source for dates, scope, issuer/adoption, edition, access and redistribution terms before acquisition."
+    },
+    {
+      "id": "D03-C024",
+      "tribe_ids": [
+        "epa_100000062"
+      ],
+      "title": "Climate Action Plan for the Territories of the Yakama Nation",
+      "issuing_body": "Yakama Nation staff with Cascadia Consulting Group support",
+      "document_class": "climate_adaptation_plan",
+      "category": "climate_adaptation_plan",
+      "canonical_landing_page_url": "https://yakamafish-nsn.gov/protect/climate-adaptation-plan",
+      "document_url": "https://yakamafish-nsn.gov/sites/default/files/YakamaNationCAP_Approved_Final_3_2021.pdf",
+      "relationship_evidence": [
+        "Yakama Nation staff with Cascadia Consulting Group support",
+        "Official Yakama Nation Fisheries page directly links official-hosted PDF.",
+        "Catalog metadata attributes the plan to Yakama Nation staff with Cascadia support and an official Yakama Nation Fisheries landing page. Separate program phase; catalog date evidence beyond title not promoted.",
+        "catalog candidate candidate-87762864c0bbd452; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json",
+        "catalog candidate candidate-87762864c0bbd452; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json and batch seed lookup"
+      ],
+      "host_relationship": "Official Yakama Nation Fisheries page directly links official-hosted PDF.",
+      "publication_year": null,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": null,
+      "date_basis": null,
+      "date_evidence": null,
+      "source_access_date": "2026-10-21",
+      "access_outcome": "seed_catalog_metadata_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": "catalog family family-ca81e5b9345ba488; edition/mirror relation unresolved",
+      "source_confidence": "medium",
+      "access_instructions": "Seed-catalog metadata only. Review the linked public source for dates, scope, issuer/adoption, edition, access and redistribution terms before acquisition."
+    },
+    {
+      "id": "D03-C025",
+      "tribe_ids": [
+        "epa_100000069"
+      ],
+      "title": "Eastern Montana Regional Hazard Mitigation Plan 2024-2029 (includes Crow Tribe Annex B)",
+      "issuing_body": "Montana Disaster and Emergency Services (MT DES); Crow Tribe is a participating jurisdiction and local adopter, not the issuer of the regional compilation",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "category": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://des.mt.gov/Mitigation/Mitigation-Planning",
+      "document_url": "https://des.mt.gov/Mitigation/MT-Eastern-Region_Revised_HMP_02.03.25.pdf",
+      "relationship_evidence": [
+        "Montana Disaster and Emergency Services (MT DES); Crow Tribe is a participating jurisdiction and local adopter, not the issuer of the regional compilation",
+        "State emergency-management agency publishes the regional plan and companion appendices on its official site; official tracker separately records Crow local adoption and FEMA approval letter dates",
+        "State regional plan includes a Crow Tribe annex; catalog metadata identifies Crow Tribe as participating jurisdiction and local adopter, not issuer. Exact-alias seed lookup.",
+        "catalog candidate candidate-a4490bced66c4358; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json",
+        "catalog candidate candidate-a4490bced66c4358; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json and batch seed lookup"
+      ],
+      "host_relationship": "State emergency-management agency publishes the regional plan and companion appendices on its official site; official tracker separately records Crow local adoption and FEMA approval letter dates",
+      "publication_year": 2024,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": "2024-2029",
+      "date_basis": "explicit catalog title text only; not independently reviewed in this search sweep",
+      "date_evidence": "Catalog title text: Eastern Montana Regional Hazard Mitigation Plan 2024-2029 (includes Crow Tribe Annex B)",
+      "source_access_date": "2026-10-21",
+      "access_outcome": "seed_catalog_metadata_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": "catalog family family-e1338b4d596ed913; edition/mirror relation unresolved",
+      "source_confidence": "medium",
+      "access_instructions": "Seed-catalog metadata only. Review the linked public source for dates, scope, issuer/adoption, edition, access and redistribution terms before acquisition."
+    },
+    {
+      "id": "D03-C026",
+      "tribe_ids": [
+        "epa_100000069"
+      ],
+      "title": "Eastern Montana Regional Hazard Mitigation Plan 2024-2029 Appendices (Crow Tribe Adoption Records section)",
+      "issuing_body": "Montana Disaster and Emergency Services (MT DES); Crow Tribe is a participating jurisdiction and local adopter, not the issuer of the regional compilation",
+      "document_class": "hazard_mitigation_or_management_plan",
+      "category": "hazard_mitigation_or_management_plan",
+      "canonical_landing_page_url": "https://des.mt.gov/Mitigation/Mitigation-Planning",
+      "document_url": "https://des.mt.gov/Mitigation/Eastern-Montana-Regional-HMP-Appendices-02-03-2025-FINAL.pdf",
+      "relationship_evidence": [
+        "Montana Disaster and Emergency Services (MT DES); Crow Tribe is a participating jurisdiction and local adopter, not the issuer of the regional compilation",
+        "State emergency-management agency publishes the regional plan and companion appendices on its official site; official tracker separately records Crow local adoption and FEMA approval letter dates",
+        "Official state-hosted companion appendices contain a Crow Tribe adoption-records section. Companion to regional plan; not the issuing authority; relation unresolved.",
+        "catalog candidate candidate-d30c007f98718bcf; exact normalized canonical/alias match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json",
+        "catalog candidate candidate-d30c007f98718bcf; saved catalog tribe match; catalog SHA-256 5b817656b8ceb9a1ad3252db44726e3d44d0202bba8a5e60c9f47518991eb28e; receipt work/discovery/D03/seed-catalog-check.json and batch seed lookup"
+      ],
+      "host_relationship": "State emergency-management agency publishes the regional plan and companion appendices on its official site; official tracker separately records Crow local adoption and FEMA approval letter dates",
+      "publication_year": 2024,
+      "adoption_date": null,
+      "update_year": null,
+      "plan_period": "2024-2029",
+      "date_basis": "explicit catalog title text only; not independently reviewed in this search sweep",
+      "date_evidence": "Catalog title text: Eastern Montana Regional Hazard Mitigation Plan 2024-2029 Appendices (Crow Tribe Adoption Records section)",
+      "source_access_date": "2026-10-21",
+      "access_outcome": "seed_catalog_metadata_observed",
+      "mime_type": null,
+      "redistribution_terms": "unknown_not_reviewed",
+      "review_state": "initial_search_result_only",
+      "dedup_relation": "catalog family family-e1338b4d596ed913; edition/mirror relation unresolved",
+      "source_confidence": "medium",
+      "access_instructions": "Seed-catalog metadata only. Review the linked public source for dates, scope, issuer/adoption, edition, access and redistribution terms before acquisition."
+    }
+  ]
+}

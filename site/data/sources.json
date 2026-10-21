@@ -1,0 +1,232 @@
+{
+  "schema_version": "catf-sources.v1",
+  "generated_at": "2026-10-21T20:15:45.688479+00:00",
+  "snapshot_date": "2026-10-21",
+  "claims": [
+    {
+      "chapter": "welcome / strategy / sequence",
+      "claim": "Document, Inform, Support, Advocate and the six-stage strategic sequence",
+      "source": "Owner-supplied CATF strategic plan, slides 1–3",
+      "access": "Original PPTX retained unchanged; slide 3 rendered and visually inspected. Gold does not prove completion; stages 3–6 gray and not implemented.",
+      "rights": "Owner-provided narrative foundation; no new blanket license asserted."
+    },
+    {
+      "chapter": "welcome",
+      "claim": "Legacy account",
+      "source": "Owner-supplied Looking Back: the legacy of the NCAI Climate Action Task Force",
+      "url": "literature/catf-legacy.pdf",
+      "qualification": "A supplied retrospective account, not independent verification of every impact claim."
+    },
+    {
+      "chapter": "risks / costs / funding",
+      "claim": "Frozen supported hazard indices, county EAL, overlapping scanner context, deduplicated award-level obligations",
+      "source_tool": "TCR policy scanner",
+      "package_version": "0.8.9",
+      "source_commit": "e5336da2f79c0e386aadb2aab7f25f041441ca15",
+      "profile_formula": [
+        "3.2.0"
+      ],
+      "data_as_of": "2026-10-13T00:56:16.071943+00:00",
+      "input_manifest_sha256": "81216a2384e226ce5e06276d423fb87d6ad8fbba9e04c36a2913c1f9e5c4da6d",
+      "data_files": [
+        "data/risk.json",
+        "data/funding.json"
+      ],
+      "qualification": "All-geography county costs are not Tribal losses; overlapping context is non-additive. Historical obligations are not available balances or current eligibility."
+    },
+    {
+      "chapter": "plans / follow-up",
+      "claim": "Bounded public-source discovery over 575 Nations and three document classes",
+      "source": "Per-candidate public links and per-class query receipts",
+      "data_file": "data/plans.json",
+      "qualification": "Public discovery does not establish absent planning. Candidate URLs and reviewed editions are different counts; unresolved dates remain unknown."
+    },
+    {
+      "chapter": "knowledge / plans",
+      "claim": "575-Nation roster reconciliation",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-01-30/html/2026-01899.htm",
+      "accessed_at": "2026-10-21",
+      "qualification": "Pinned roster retained. All baseline formal names or retained aliases found in the January 2026 official notice, including Lumbee; name matching is not a new legal recognition determination."
+    },
+    {
+      "chapter": "scenarios",
+      "claim": "SSP2-4.5: 2.7°C [2.1–3.5]; SSP3-7.0: 3.6°C [2.8–4.6]",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM_final.pdf",
+      "location": "Table SPM.1, printed SPM-14",
+      "accessed_at": "2026-10-21",
+      "definition": "Global surface temperature change, 2081–2100 relative to1850–1900; best estimate and very likely range.",
+      "qualification": "Two selected illustrative pathways, not forecasts, probabilities, local projections or all plausible futures."
+    },
+    {
+      "chapter": "recent-change",
+      "claim": "Annual global temperature anomalies for 2020–2024",
+      "url": "https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv",
+      "accessed_at": "2026-10-21T12:05:14.561199+00:00",
+      "definition": "GISTEMP v4 global land-ocean J-D annual anomalies, °C relative to 1951–1980.",
+      "data_file": "data/context.json",
+      "qualification": "A fixed five-year window aligned with NOAA archive end; newer NASA observations exist. This is global annual temperature, not a local heat-extreme series."
+    },
+    {
+      "chapter": "recent-change",
+      "claim": "Portland Airport 116°F and Seattle–Tacoma Airport 108°F on 28 June 2021",
+      "url": "https://www.drought.gov/drought-status-updates/drought-status-update-pacific-northwest-2021-07-08",
+      "source_date": "2021-07-08",
+      "accessed_at": "2026-10-21",
+      "qualification": "Station-specific heat-wave observations, not Nation-wide conditions or a trend estimate."
+    },
+    {
+      "chapter": "recent-change",
+      "claim": "Phoenix maximum temperature at least 110°F for 31 consecutive days, 30 June–30 July 2023",
+      "url": "https://www.weather.gov/psr/ExtremeTemps",
+      "accessed_at": "2026-10-21",
+      "qualification": "National Weather Service station record; not a regional average or a claim about all recent years."
+    },
+    {
+      "chapter": "recent-change",
+      "claim": "27 U.S. billion-dollar disasters in2024, $182.7B in CPI-adjusted2024 dollars; at least18 events each year2020–2024",
+      "url": "https://www.ncei.noaa.gov/news/national-climate-202413",
+      "source_date": "2025-01",
+      "accessed_at": "2026-10-21",
+      "qualification": "All-U.S. losses, not Tribal costs. Revisions, exposure and vulnerability affect losses; cost alone does not attribute climate-change causation."
+    },
+    {
+      "chapter": "policy-demo",
+      "claim": "Header NCAI opens access modal; references lead to searches, citation notes and export flow",
+      "url": "https://atniclimate.github.io/policy-sentinel/",
+      "source_version": "0.9.0",
+      "deployed_version_observed": "0.9.0",
+      "accessed_at": "2026-10-21",
+      "verification": "Live public header and NCAI access modal observed. No vault unlock or export performed. Remaining flow verified in inspected source.",
+      "qualification": "Walkthrough is synthetic. NCAI2026 is the owner-supplied participant code, not a credential for other services. No vault text is reproduced."
+    },
+    {
+      "chapter": "ddm",
+      "claim": "Drought, wildfire, extreme heat and ENSO briefing lanes",
+      "url": "https://atniclimate.github.io/dynamic-drought-module/",
+      "source_version": "0.7.8",
+      "source_commit": "13a266d1258c7503aec5cc42eff242aa20fa2671",
+      "qualification": "Owner-supplied screenshot dated2026-10-21 is an interface example, not current conditions. Runtime source products have partial/unavailable states. No live weather forecast is asserted."
+    },
+    {
+      "chapter": "sovereignty",
+      "claim": "TSDF v1.0 release authorized by ATNI Resolution2026-034; individual Tribes not obligated to adopt",
+      "url": "https://atnitribes.org/wp-content/uploads/2026/09/20260917_26-34_TIERED%20SOVEREIGN%20DATA%20FRAMEWORK.pdf",
+      "accessed_at": "2026-10-21",
+      "qualification": "The provided illustrated standard is v0.9.8, not relabeled v1.0. No formal NCAI endorsement or IEEE certification asserted."
+    },
+    {
+      "chapter": "sovereignty",
+      "claim": "Four named sovereignty domains, tiered access and AI/ML authorization",
+      "source": "TSDF illustrated v0.9.8, revised2026-09-15",
+      "url": "literature/tsdf-v0.9.8.pdf",
+      "canonical_source": "https://github.com/atniclimate/TieredSovereignDataFramework",
+      "rights": "CC BY-NC-SA4.0",
+      "qualification": "Indigenous Data Sovereignty is an explicit governing theme, not a fifth numbered domain. Framework license does not license all tools."
+    },
+    {
+      "chapter": "development",
+      "claim": "Current local status and licensing of six development tools",
+      "source": "Inspected source READMEs, package manifests and licenses as of2026-10-21",
+      "qualification": "Research, local demonstrations and intended hosting remain distinguished. Plan-assessor/scanner are all rights reserved; others retain their exact cited terms. No source software is redistributed."
+    },
+    {
+      "chapter": "sovereignty",
+      "claim": "Tier, domain and sharing-window language and the concentric tier diagram",
+      "source": "TSDF public framework site",
+      "url": "https://atniclimate.github.io/TieredSovereignDataFramework/",
+      "accessed_at": "2026-10-21",
+      "qualification": "Wording condensed from the public site; the tier diagram is redrawn locally from its published geometry. The site states its tier data come from TSDF-Standard v0.9.8. No IEEE certification or NCAI endorsement is implied.",
+      "rights": "ATNI TSDF materials, CC BY-NC-SA 4.0 per the canonical repository."
+    },
+    {
+      "chapter": "funding",
+      "claim": "Selected current funding / technical-assistance leads are separate from historical obligations",
+      "source": "opportunities.json",
+      "accessed_at": "2026-10-21",
+      "qualification": "EPA amended FY2026 notice and DOE ongoing assistance verified; BIA current open round remains unverified. No individual Nation eligibility decision."
+    },
+    {
+      "chapter": "risks",
+      "claim": "Interactive mean supported hazard exposure index",
+      "data_file": "data/risk.json",
+      "definition": "Arithmetic mean of supported Nation values within the selected geography, on the source 0–1 index scale. The five displayed hazards are selected by frequency in the supported top-five rankings.",
+      "qualification": "Coverage and unavailable counts are shown separately. Hazard-specific indices are screening measures, not comparable monetary losses, probabilities or sovereign priorities. The frequency view and frozen reports retain their original definitions."
+    }
+  ],
+  "data_sources": [
+    {
+      "id": "fema-nri",
+      "title": "FEMA National Risk Index, December 2025 v1.20",
+      "url": "https://www.fema.gov/flood-maps/products-tools/national-risk-index",
+      "method_url": "https://www.fema.gov/sites/default/files/documents/fema_national-risk-index_technical-documentation.pdf",
+      "rights": "U.S. federal public data; retain FEMA attribution."
+    },
+    {
+      "id": "ncei-bdd",
+      "title": "NOAA NCEI Billion-Dollar Weather and Climate Disasters, cached 1980–2024 series",
+      "url": "https://www.ncei.noaa.gov/access/billions/",
+      "rights": "NOAA/NCEI public data; retain attribution."
+    },
+    {
+      "id": "usaspending",
+      "title": "USAspending award data, historical scanner cache",
+      "url": "https://www.usaspending.gov/search",
+      "rights": "U.S. federal public award data; retain attribution."
+    },
+    {
+      "id": "bia-roster",
+      "title": "BIA federally recognized Tribal entities, January 30, 2026",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-01-30/html/2026-01899.htm",
+      "rights": "U.S. federal public notice; EPA stable identifiers retained."
+    },
+    {
+      "id": "scanner-cpri",
+      "title": "TCR scanner CPRI profiles, frozen formula 3.2.0",
+      "url": "https://www.fema.gov/flood-maps/products-tools/national-risk-index",
+      "note": "Derived scanner exposure indices using FEMA NRI and other public hazard inputs; this link describes the primary source, not the scanner formula.",
+      "rights": "Public-source derived summary; TCR scanner methodology and source citations retained."
+    }
+  ],
+  "design": {
+    "source": "Supplied NCAI deck, owner palette reference and ATNI design system",
+    "fonts": [
+      "League Spartan",
+      "Noto Sans",
+      "Noto Sans Mono"
+    ],
+    "rights": "Google Fonts with licensed local fallbacks and SIL Open Font License notices. Owner-supplied NCAI logo and authentic gray ATNI Climate on-dark artwork retained; no recreated marks.",
+    "catf_palette": "Source layouts and gradient structure recolored at owner direction with dark green #155F65, light green #D0E8DA, orange #E5885D and sky blue #78BAD0 variants. This is a presentation palette, not a claim of official NCAI brand colors. ATNI chapters use the design system dark palette. Slides 1–3 retain source wording and emphasis, with the owner-directed resolution correction to 2026-034.",
+    "photographs": [
+      {
+        "asset": "assets/images/scene-forest.jpg",
+        "sha256": "fefd5f3ec7db03a7185736f6da57fe00adf3dfad0e0cfba9928380b6ad816f7c",
+        "source": "Owner-supplied photograph; original retained unchanged.",
+        "use": "Illustrative chapter background, not evidence of a dated event or current conditions.",
+        "rights": "No new blanket license asserted."
+      },
+      {
+        "asset": "assets/images/scene-fire.jpg",
+        "sha256": "3bb8c63295700addffb20ebecb6a16dad966f12f753f289e382da8f5d7cdfc8e",
+        "source": "Owner-supplied photograph; original retained unchanged.",
+        "use": "Illustrative chapter background, not evidence of a dated event or current conditions.",
+        "rights": "No new blanket license asserted."
+      },
+      {
+        "asset": "assets/images/scene-flood.jpg",
+        "sha256": "b1e9e477ee16ee748a664d7272235502da4ee0c871ef9b7a67edfad60f879e35",
+        "source": "Owner-supplied photograph; original retained unchanged.",
+        "use": "Illustrative chapter background, not evidence of a dated event or current conditions.",
+        "rights": "No new blanket license asserted."
+      },
+      {
+        "asset": "assets/images/scene-hurricane.jpg",
+        "sha256": "b45d5cbb358b5d7b028d2fb34c0e44df61b2ae4416d77d8c99d1382910c0dbb1",
+        "source": "Owner-supplied photograph; original retained unchanged.",
+        "use": "Illustrative chapter background, not evidence of a dated event or current conditions.",
+        "rights": "No new blanket license asserted."
+      }
+    ]
+  },
+  "privacy": "Static local JSON, no analytics/accounts/backend/shared submissions. Notes remain in the participant browser unless downloaded. No sealed records, TEK or private Nation-supplied material.",
+  "release_boundary": "Only the deliberate site directory is prepared for publication. Source inventories, local paths, caches and working receipts remain outside it."
+}

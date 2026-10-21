@@ -1,0 +1,81 @@
+/* Presenter slide layouts and chapter styles for chapters/assessment.js. Loaded after styles.css. */
+
+/* Risks: metric definitions (both modes) and the short scope strip (presenter only; participant reads the definitions). */
+.risk-reading{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.25rem 2rem;margin:0}
+.risk-reading>div{border-top:2px solid var(--rule);padding-top:.75rem}
+.risk-reading dt{font-weight:700;margin-bottom:.25rem}
+.risk-reading dd{margin:0;font-size:var(--type-note);line-height:1.5}
+.risk-strip{font-size:var(--type-note);line-height:1.5;color:var(--muted);border-left:3px solid var(--accent);padding-left:var(--space-s);max-width:none}
+body:not([data-mode="presenter"]) #risks [data-block="strip"]{display:none}
+
+/* Compact one-line chart rows: label | bar | value | coverage. */
+body[data-mode="presenter"] :is(#risks,#costs) .risk-metric-chart{--label:10rem;--value:4.5rem;--note:22rem;margin:.25rem 0 .5rem;padding:.5rem 0}
+body[data-mode="presenter"] :is(#risks,#costs) .risk-row{grid-template-columns:var(--label) minmax(4rem,1fr) var(--value) var(--note);gap:0 1rem;padding:.45rem 0}
+body[data-mode="presenter"] :is(#risks,#costs) .risk-note{grid-column:auto;line-height:1.3}
+body[data-mode="presenter"] :is(#risks,#costs) .risk-axis{margin:0 calc(var(--value) + var(--note) + 2rem) .25rem calc(var(--label) + 1rem)}
+body[data-mode="presenter"] :is(#risks,#costs,#funding) .chart-axis-label{margin-bottom:.25rem}
+body[data-mode="presenter"] :is(#risks,#costs,#funding) .data-figure{margin:0}
+body[data-mode="presenter"] :is(#risks,#costs,#funding) .data-figure>figcaption{margin:0;max-width:none}
+
+/* Risks explorer: controls in a side column, result beside them. */
+body[data-mode="presenter"] #risks [data-risk-view]{display:grid;grid-template-columns:minmax(14rem,20rem) minmax(0,1fr);gap:2rem;align-items:start}
+body[data-mode="presenter"] #risks [data-risk-view] .toolbar{flex-direction:column;flex-wrap:nowrap;align-items:stretch;gap:.75rem;margin:0}
+body[data-mode="presenter"] #risks [data-risk-view] .field{flex:none;max-width:none}
+body[data-mode="presenter"] #risks [data-risk-view] .toolbar .caption{margin:0}
+body[data-mode="presenter"] #risks [data-risk-result] h2{font-size:1.375rem;margin:0 0 .25rem}
+body[data-mode="presenter"] #risks .risk-view-note{margin:0;font-size:var(--type-note)}
+body[data-mode="presenter"] #risks [data-risk-result] .table-scroll{margin:.25rem 0 .5rem}
+body[data-mode="presenter"] #risks [data-risk-result] .caption,body[data-mode="presenter"] #risks .risk-missing{margin:.5rem 0 0}
+/* Optional percentile/assessment-share pair with its definition, the per-Nation index reading note and the
+   uncertainty disclosure stay in participant detail; the scope strip keeps "not a probability" on screen. */
+body[data-mode="presenter"] #risks :is(.risk-summary,.risk-index-note,.risk-uncertainty){display:none}
+/* Compact index tables: coverage on the hazard's line, one-line header. */
+body[data-mode="presenter"] #risks .hazard-index-table caption{margin-bottom:.25rem;max-width:none}
+body[data-mode="presenter"] #risks .hazard-index-table :is(th,td){padding:.35rem 1rem .35rem 0;line-height:1.45}
+body[data-mode="presenter"] #risks .hazard-index-table th:first-child{width:auto}
+body[data-mode="presenter"] #risks .hazard-index-table .numeric{width:15rem;white-space:nowrap}
+body[data-mode="presenter"] #risks .hazard-index-table :is(.hazard-coverage,.unit-label){display:inline;margin:0 0 0 .5rem}
+body[data-mode="presenter"] #risks .hazard-index-table thead br{display:none}
+
+/* Stat labels sit on one line where they fit (no orphaned "575" or "15"). */
+:is(#costs,#funding) .stat span{max-width:none}
+
+/* Costs */
+body[data-mode="presenter"] #costs .risk-metric-chart{--value:5.75rem;--note:19rem}
+.cost-geo .field{max-width:26rem}
+#costs .cost-total .stat-band{margin:0 0 1rem}
+#costs .cost-total figcaption.notice{margin:0;max-width:none}
+body[data-mode="presenter"] #costs .cost-total+.caption{margin:.75rem 0 0}
+body[data-mode="presenter"] #costs .cost-components h2{font-size:1.375rem;margin:0}
+body[data-mode="presenter"] #costs .cost-total .stat{padding-top:1rem;padding-bottom:1rem}
+
+/* Funding: nine regions as five + four on one common scale. */
+.region-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 3rem}
+.region-columns .risk-metric-chart{margin:0}
+#funding .region-columns .risk-row{grid-template-columns:minmax(8rem,10rem) minmax(4rem,1fr) 5rem}
+#funding .region-columns .risk-note{grid-column:2 / -1}
+#funding .region-columns .risk-axis{margin:0 calc(5rem + 1rem) .25rem calc(10rem + 1rem)}
+body[data-mode="presenter"] #funding .funding-regions h2{font-size:1.375rem;margin:0}
+body[data-mode="presenter"] #funding .region-columns .risk-row{padding:.35rem 0;gap:0 1rem}
+body[data-mode="presenter"] #funding [data-funding-totals] .stat-band{margin:0 0 .75rem}
+body[data-mode="presenter"] #funding [data-funding-totals] .notice{margin:1rem 0 0}
+
+/* Funding leads: compact cards; full conditions stay in each card's disclosure. */
+.lead-scope{margin-bottom:var(--space-s);max-width:none}
+.lead-cards{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));gap:1.25rem 2rem}
+.lead-card{border-top:3px solid var(--accent);padding-top:.75rem;min-width:0}
+.lead-card h3{font-size:1.375rem;line-height:1.25;margin-bottom:.5rem}
+.lead-card>p{margin:0 0 .4rem;font-size:var(--type-note);line-height:1.45}
+.lead-card details{margin-top:.5rem}
+.opportunity-list .notice{margin-top:var(--space-m)}
+body[data-mode="presenter"] #funding .opportunity-list h2{font-size:1.375rem;margin:0 0 .25rem}
+body[data-mode="presenter"] #funding .lead-scope{margin:0 0 .75rem;font-size:var(--type-note)}
+body[data-mode="presenter"] #funding .opportunity-list .notice{margin:1rem 0 0}
+body[data-mode="presenter"] #funding .lead-card details{padding:0;margin-top:.25rem}
+body[data-mode="presenter"] #funding .lead-card summary{min-height:44px;font-size:1.125rem}
+
+@media(max-width:900px){
+  .risk-reading{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .region-columns{grid-template-columns:1fr}
+}
+@media(max-width:600px){.risk-reading{grid-template-columns:1fr}}

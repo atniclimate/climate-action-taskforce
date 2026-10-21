@@ -1,0 +1,110 @@
+{
+  "schema_version": "catf-context.v1",
+  "generated_at": "2026-10-21T12:05:14.561199+00:00",
+  "accessed_at": "2026-10-21T12:05:14.561199+00:00",
+  "data_as_of": "2024-12-31",
+  "source_tool": "NASA GISTEMP v4 / NOAA NCEI / IPCC AR6",
+  "package_version": null,
+  "source_commit": null,
+  "source_dirty": false,
+  "method_version": "catf-context-1",
+  "input_manifest_sha256": "527381672d9aa4e5a4df13892763b2e094f91d7bac6a62768006a92582e2da42",
+  "coverage": {
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "temperature_geography": "global",
+    "cost_geography": "United States"
+  },
+  "temperature": [
+    {
+      "year": 2020,
+      "anomaly_c": 1.01
+    },
+    {
+      "year": 2021,
+      "anomaly_c": 0.85
+    },
+    {
+      "year": 2022,
+      "anomaly_c": 0.89
+    },
+    {
+      "year": 2023,
+      "anomaly_c": 1.17
+    },
+    {
+      "year": 2024,
+      "anomaly_c": 1.28
+    }
+  ],
+  "temperature_method": {
+    "variable": "annual mean global surface temperature anomaly",
+    "unit": "degree Celsius",
+    "baseline": "1951-1980",
+    "column": "J-D",
+    "source_url": "https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv",
+    "input_sha256": "4c64eda288bce32b8d76926278f346ecea1e53506df8ee72a3d5accb0657c416"
+  },
+  "scenarios": {
+    "source_url": "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM_final.pdf",
+    "input_sha256": "11bdea78a8589072d10dba518839f8d5c3d42c90fbeab859bd23cc915266f7b9",
+    "locator": "Table SPM.1",
+    "variable": "global surface temperature change",
+    "baseline": "1850-1900",
+    "window": "2081-2100",
+    "unit": "degree Celsius",
+    "uncertainty": "very likely range",
+    "values": [
+      {
+        "scenario": "SSP2-4.5",
+        "best": 2.7,
+        "low": 2.1,
+        "high": 3.5
+      },
+      {
+        "scenario": "SSP3-7.0",
+        "best": 3.6,
+        "low": 2.8,
+        "high": 4.6
+      }
+    ]
+  },
+  "cost_context": {
+    "amount": 182700000000,
+    "currency": "USD",
+    "price_year": 2024,
+    "period_start": "2024-01-01",
+    "period_end": "2024-12-31",
+    "event_count": 27,
+    "geography": "United States",
+    "scope": "Billion-dollar weather and climate disaster events; all-U.S. context, not Tribal estimates",
+    "source_url": "https://www.ncei.noaa.gov/news/national-climate-202413",
+    "source_publication": "2025-01-10",
+    "method": "NOAA January 2025 assessment; CPI-adjusted 2024 dollars; later revisions possible"
+  },
+  "limitations": [
+    "The selected five-year window ends in 2024 to align with the NOAA archive, although GISTEMP contains later observations.",
+    "Global temperature is not a local hazard projection.",
+    "All-U.S. disaster costs are not Tribal losses or a climate-attribution measure.",
+    "Selected SSP pathways are conditional futures, not probability bounds."
+  ],
+  "sources": [
+    {
+      "title": "NASA GISTEMP v4",
+      "url": "https://data.giss.nasa.gov/gistemp/"
+    },
+    {
+      "title": "NOAA U.S. climate assessment 2024",
+      "url": "https://www.ncei.noaa.gov/news/national-climate-202413"
+    },
+    {
+      "title": "IPCC AR6 Working Group I, Table SPM.1",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM_final.pdf"
+    }
+  ]
+}

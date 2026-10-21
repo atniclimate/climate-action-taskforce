@@ -1,0 +1,70 @@
+/* Presenter slide layouts and chapter styles for chapters/narrative.js. Loaded after styles.css. */
+
+/* Source slide 3: the NCAI mark shares the status row instead of taking its own row. */
+body[data-mode="presenter"] .chapter[data-source-slide="3"] .chapter-content{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end;column-gap:var(--space-l)}
+body[data-mode="presenter"] .chapter[data-source-slide="3"] .source-sequence{grid-column:1 / -1}
+body[data-mode="presenter"] .chapter[data-source-slide="3"] .source-status{justify-self:start;align-self:center}
+body[data-mode="presenter"] .chapter[data-source-slide="3"] .source-corner-logo{width:4.5rem;height:4.5rem;margin:0}
+
+/* Shared compact strips for the narrative chapters. */
+body[data-mode="presenter"] :is(#knowledge,#scenarios,#recent-change,#priorities) .notice{padding:.75rem 1rem}
+
+/* Knowledge: three evidence streams as columns; links share one baseline. */
+body[data-mode="presenter"] #knowledge .chapter-content>*+*{margin-top:var(--space-l)}
+body[data-mode="presenter"] #knowledge .evidence-streams{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-l)}
+body[data-mode="presenter"] #knowledge .evidence-item{grid-template-columns:auto minmax(0,1fr);grid-template-rows:auto 1fr auto;gap:.5rem .75rem;padding:var(--space-s) 0 0;border-top:2px solid var(--accent)}
+body[data-mode="presenter"] #knowledge .evidence-item .ordinal{grid-row:1;grid-column:1;padding:0;font-size:var(--type-lead);line-height:1.25}
+body[data-mode="presenter"] #knowledge .evidence-item h2{grid-row:1;grid-column:2;font-size:var(--type-lead);line-height:1.25;max-width:none}
+body[data-mode="presenter"] #knowledge .evidence-item :is(p,a){grid-column:1 / -1}
+body[data-mode="presenter"] #knowledge .evidence-item>a{margin:0}
+
+/* Scenarios: step explanation and controls beside the flow or table. */
+body[data-mode="presenter"] #scenarios .scenario-stage{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:var(--space-xl);align-items:start;padding:0;border:0}
+body[data-mode="presenter"] #scenarios .scenario-text .eyebrow{margin-bottom:.5rem}
+body[data-mode="presenter"] #scenarios .scenario-text h2{font-size:var(--type-section);margin-bottom:.5rem}
+body[data-mode="presenter"] #scenarios .scenario-text>p{margin-bottom:0}
+body[data-mode="presenter"] #scenarios .action-row{margin:var(--space-m) 0 0;gap:.75rem}
+body[data-mode="presenter"] #scenarios [data-scenario-chart]>*{margin-top:0}
+body[data-mode="presenter"] #scenarios .narrative-figure{margin:0}
+body[data-mode="presenter"] #scenarios .concept-flow{flex-direction:column;align-items:stretch;gap:.25rem;margin:0;padding:0;border:0}
+body[data-mode="presenter"] #scenarios .concept-flow>span:not([aria-hidden]){padding:.6rem 1rem;border-left:4px solid var(--accent);background:var(--interactive-tint)}
+body[data-mode="presenter"] #scenarios .concept-flow>span[aria-hidden]{transform:rotate(90deg);align-self:flex-start;margin-left:1rem;line-height:1}
+body[data-mode="presenter"] #scenarios .concept-flow+figcaption{margin-top:var(--space-s)}
+body[data-mode="presenter"] #scenarios .table-scroll{margin:0}
+body[data-mode="presenter"] #scenarios caption{text-align:left;margin-bottom:.5rem}
+body[data-mode="presenter"] #scenarios :is(th,td){padding:.6rem 1rem .6rem 0}
+body[data-mode="presenter"] #scenarios #scenario-table-reading{margin:var(--space-s) 0 0}
+body[data-mode="presenter"] #scenarios .chapter-content>.caption{max-width:none}
+
+/* Recent change: one measure per slide, reading text beside the evidence.
+   The photo band ends with the heading here, so evidence never sits on the darker image. */
+body[data-mode="presenter"] #recent-change{--scene-height:10rem}
+body[data-mode="presenter"] #recent-change .context-comparison{display:block}
+body[data-mode="presenter"] #recent-change .narrative-figure{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.5fr);column-gap:var(--space-xl);align-items:start;margin:0}
+body[data-mode="presenter"] #recent-change .narrative-figure>*{grid-column:1;margin:0 0 .5rem}
+body[data-mode="presenter"] #recent-change .narrative-figure>.chart-scale{grid-column:2;grid-row:1;margin:0}
+body[data-mode="presenter"] #recent-change .narrative-figure>.bar-chart{grid-column:2;grid-row:2 / span 5;margin:.5rem 0 0}
+body[data-mode="presenter"] #recent-change .narrative-figure>figcaption{margin-top:var(--space-s)}
+body[data-mode="presenter"] #recent-change .bar-chart>li{margin-bottom:.6rem}
+body[data-mode="presenter"] #recent-change .bar-chart>li:last-child{margin-bottom:0}
+body[data-mode="presenter"] #recent-change .context-metric{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);grid-template-rows:auto auto 1fr;column-gap:var(--space-xl);align-items:start;padding:0;border:0}
+body[data-mode="presenter"] #recent-change .context-metric>:not(.context-metric-text){grid-column:1;margin-bottom:.5rem}
+body[data-mode="presenter"] #recent-change .context-metric-text{grid-column:2;grid-row:1 / span 3}
+body[data-mode="presenter"] #recent-change .context-metric-text>*{margin-bottom:var(--space-s)}
+body[data-mode="presenter"] #recent-change .context-metric-text>:last-child{margin-bottom:0}
+body[data-mode="presenter"] #recent-change .big-number{margin:0}
+
+/* Priorities: compact criteria beside a three-row note editor; the boundary notice joins the notes column. */
+body[data-mode="presenter"] #priorities .chapter-content{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1.25rem var(--space-xl);align-items:start}
+body[data-mode="presenter"] #priorities .chapter-content>.lead{grid-column:1 / -1}
+body[data-mode="presenter"] #priorities .split-layout{display:contents}
+body[data-mode="presenter"] #priorities .split-layout>:first-child{grid-column:1;grid-row:2 / span 2}
+body[data-mode="presenter"] #priorities .split-layout>:last-child{grid-column:2;grid-row:2}
+body[data-mode="presenter"] #priorities .chapter-content>.notice{grid-column:2;grid-row:3;margin:0}
+body[data-mode="presenter"] #priorities .priority-criteria{padding:.25rem 1.25rem .5rem;margin:0}
+body[data-mode="presenter"] #priorities .priority-criteria label{min-height:44px;padding:0;margin:0;align-items:center}
+body[data-mode="presenter"] #priorities .split-layout .caption{margin:.75rem 0 0}
+body[data-mode="presenter"] #priorities [data-criteria-summary]{margin:.25rem 0 0;font-size:var(--type-note)}
+body[data-mode="presenter"] #priorities textarea{height:calc(3lh + 1.5rem);margin-top:.5rem}
+body[data-mode="presenter"] #priorities .action-row{margin:.75rem 0 .5rem;gap:.75rem}
+body[data-mode="presenter"] #priorities [data-note-status]{margin:0;font-size:var(--type-note)}

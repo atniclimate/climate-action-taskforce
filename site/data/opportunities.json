@@ -1,0 +1,62 @@
+{
+  "schema_version": "catf-opportunities.v1",
+  "checked_at": "2026-10-21",
+  "scope": "Selected national leads; not an exhaustive funding inventory. Regional award charts do not determine eligibility for these programs.",
+  "limitations": "Status is frozen on the check date. Follow the current official notice for amendments, eligibility, cost share and application instructions. Program envelopes are not funds held by Tribes and are not added to historical obligations.",
+  "programs": [
+    {
+      "id": "epa-ow-owow-26-01",
+      "title": "EPA Tribal nonpoint-source management competition",
+      "status": "Open on check date",
+      "type": "Competitive grant / cooperative agreement",
+      "deadline": "2026-11-09T23:59:00-05:00",
+      "deadline_label": "9 November 2026, 11:59 p.m. Eastern",
+      "envelope_usd": 3500000,
+      "individual_limit_usd": 175000,
+      "amount_label": "Approximately $3.5 million program envelope; up to $175,000 per award. Neither is a recorded Tribal obligation.",
+      "eligibility": "Federally recognized Tribes or qualifying intertribal consortia; required EPA-approved nonpoint-source assessment, management program and TAS status must have been met by 10 October 2025. Confirm the official eligible list and all notice conditions.",
+      "geography": "National competition. Separate base-grant work-plan deadlines vary by EPA Region.",
+      "purpose": "Implement approved nonpoint-source management programs and watershed projects.",
+      "source_url": "https://www.epa.gov/system/files/documents/2026-08/epa-ow-owow-26-01.pdf",
+      "landing_url": "https://www.epa.gov/nps/current-tribal-section-319-grant-information",
+      "source_version": "Amendment 2, 7 October 2026; sections 1 and 2",
+      "eligibility_decision": "Not evaluated for any individual Nation"
+    },
+    {
+      "id": "doe-tribal-energy-ta",
+      "title": "DOE technical assistance for Tribal energy projects",
+      "status": "Ongoing requests listed",
+      "type": "Technical assistance, not a cash award",
+      "deadline": null,
+      "deadline_label": "Ongoing; scope and available budget determine acceptance",
+      "envelope_usd": null,
+      "individual_limit_usd": null,
+      "amount_label": "No-cost technical assistance; no cash envelope asserted.",
+      "eligibility": "Federally recognized Tribes, Alaska Native regional/village corporations and specified Tribal entities. The requester needs authority to act for the entity; consult the source for lane-specific conditions.",
+      "geography": "National program; assistance is scoped to the requesting entity and project.",
+      "purpose": "Energy planning, efficiency and resource assessment, and project planning. The office does not prepare grant applications.",
+      "source_url": "https://www.energy.gov/indianenergy/technical-assistance-tribal-energy-projects",
+      "landing_url": "https://www.energy.gov/indianenergy/current-funding-and-technical-assistance-opportunities",
+      "source_version": "Official program and current-opportunity pages accessed 21 October 2026",
+      "eligibility_decision": "Not evaluated for any individual Nation"
+    },
+    {
+      "id": "bia-tcr-annual",
+      "title": "BIA Tribal Community Resilience annual awards",
+      "status": "Current open round unverified",
+      "type": "Program lead",
+      "deadline": null,
+      "deadline_label": "No current deadline established by the inspected page",
+      "envelope_usd": null,
+      "individual_limit_usd": null,
+      "amount_label": "Current funding envelope unavailable.",
+      "eligibility": "Program page describes federally recognized Tribes and Tribal organizations; a current solicitation is needed for exact conditions.",
+      "geography": "National program context; no regional allocation asserted.",
+      "purpose": "Community resilience capacity. The inspected page links previous awards and FY2024 guidance.",
+      "source_url": "https://www.bia.gov/service/tcr-annual-awards-program",
+      "landing_url": "https://www.bia.gov/service/tcr-annual-awards-program",
+      "source_version": "Official program page accessed 21 October 2026",
+      "eligibility_decision": "Not evaluated for any individual Nation"
+    }
+  ]
+}
