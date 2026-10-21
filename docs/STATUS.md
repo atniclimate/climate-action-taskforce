@@ -1,5 +1,21 @@
 # Current status
 
+## Published (2026-10-21)
+
+The owner authorized the commit, push and Pages deployment in session.
+- Repository: https://github.com/atniclimate/climate-action-taskforce (`main`, first commit `5d5891f`).
+- Live site: https://atniclimate.github.io/climate-action-taskforce/
+- `.github/workflows/pages.yml` publishes only the contents of `site/` on pushes that
+  change `site/**`. Pages source is "GitHub Actions". Run 39675325900 succeeded.
+- Live checks: the site, its data and reports return 200. `AGENTS.md`, `docs/`, `work/`,
+  `data/` and `.github/` return 404 (not served).
+- Kept out of Git by `.gitignore`: `work/`, `docs/discovery/`, private source PDFs, the
+  original PowerPoint, and three local handoffs that name local paths.
+- Not verified on the live origin: a browser walkthrough, QR scans from a phone.
+- Open data question (unchanged): `plans.json` evidence strings that cite internal `work/` references.
+
+Fresh-session instructions: `docs/HANDOFF-ASTRA-SLIDE-REVIEW.md` (local only).
+
 ## Presenter no-scroll deck (2026-10-21, owner edits round 2)
 
 **Supersedes the slide-structure parts of the pass below.**
