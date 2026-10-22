@@ -639,7 +639,8 @@ td.numeric,th.numeric,.chart-value,.risk-value,.bar-chart strong{font-variant-nu
   .source-output{font-size:1rem}
   .presentation-controls{padding-block:.5rem}
   #chapter-position{font-size:.8125rem}
-  #chapter-current{font-size:1rem;line-height:1.3;white-space:normal;overflow:visible;text-overflow:clip;max-width:58vw}
+  .position{flex:1 1 0;min-width:0}
+  #chapter-current{font-size:1rem;line-height:1.3;white-space:normal;overflow:visible;text-overflow:clip;max-width:none;overflow-wrap:anywhere}
 }
 @media(max-width:430px){
   .source-sequence{grid-template-columns:1fr}

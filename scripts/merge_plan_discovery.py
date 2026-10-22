@@ -5,6 +5,7 @@ from collections import Counter
 from datetime import date, datetime, timezone
 from hashlib import sha256
 import json
+import re
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
@@ -59,6 +60,8 @@ def public_evidence(value):
     """Keep search excerpts in the working record, not participant downloads."""
     if isinstance(value, list):
         return [public_evidence(item) for item in value]
+    if isinstance(value, str) and re.search(r'(?i)(?:\bwork[\\/]|docs[\\/]discovery|\b[CIH]:[\\/]|catalog.{0,20}(?:hash|sha256))', value):
+        return 'Discovery evidence associates this candidate with the listed Nation; confirm the relationship, scope and dates against the linked public source.'
     if not isinstance(value, str) or not any(marker in value for marker in ('\ue200', '[wordlim:', 'search excerpt:')):
         return value
     if ' is named in the search excerpt:' in value:
@@ -201,4 +204,9 @@ def merge(require_complete=False):
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--require-complete',action='store_true')
-    merge(parser.parse_args().require_complete)
+    parser.add_argument('--public-only',action='store_true',help='Reproject the preserved sidecar without rerunning discovery or changing its receipts')
+    args=parser.parse_args()
+    if args.public_only:
+        save(ROOT/'site/data/plans.json',participant_projection(load(ROOT/'data/plan-discovery/metadata-sidecar.json')))
+    else:
+        merge(args.require_complete)

@@ -8,6 +8,7 @@
 .plan-pager button:hover:not(:disabled),.plan-link-button:hover{border-color:var(--ink)}
 /* Two aligned columns: source pager over the source summary, Nation pager over the selected relationship. */
 .plan-card{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:.75rem var(--space-l);align-items:start}
+.plan-card>*{min-width:0}
 .plan-card>.plan-pager{margin:0;padding-bottom:.75rem;border-bottom:1px solid var(--rule);align-self:stretch}
 :is(.plan-card,.followup-panel) h3{font-size:var(--type-lead);line-height:1.35;margin:0 0 .25rem;overflow-wrap:anywhere}
 :is(.plan-card,.followup-panel) p{margin:0 0 .35rem;overflow-wrap:anywhere}
@@ -41,15 +42,27 @@
 .followup-name{font-size:var(--type-lead);line-height:1.35;margin:0 0 var(--space-s);max-width:none;text-wrap:pretty;overflow-wrap:anywhere}
 .followup-reminder{margin:var(--space-s) 0 0;max-width:none}
 .followup-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.3fr);gap:var(--space-l);align-items:start}
+.followup-grid>*{min-width:0}
 .followup-nation p{margin:0 0 .5rem}
 .followup-nation .caption{margin-bottom:.75rem}
 .followup-table{width:100%;margin:0}
 .followup-table caption{text-align:left;margin-bottom:.5rem}
 .followup-table :is(th,td){padding:.8rem 1rem .8rem 0;vertical-align:middle}
 @media(max-width:800px){.plan-card,.followup-grid{grid-template-columns:1fr}}
+@media(max-width:800px){
+  #plans .recency-grid .bar-chart>li{grid-template-columns:minmax(0,1fr) auto}
+  .plan-pager-buttons{flex-wrap:wrap}
+  .plan-link-button{max-width:100%}
+  .followup-count{flex-wrap:wrap}
+  .plan-facts>div{grid-template-columns:minmax(0,1fr);gap:0}
+  .plan-facts dd{margin-bottom:.5rem}
+  .followup-table{table-layout:fixed}
+  .followup-table :is(th,td){overflow-wrap:anywhere;padding-right:.5rem}
+}
 
 /* Presenter: tighter vertical rhythm so each slide fits without scrolling. */
 body[data-mode="presenter"] #plans .toolbar{margin:0}
+body[data-mode="presenter"] #plans [data-block="inspect"]{margin-top:.5rem}
 body[data-mode="presenter"] #follow-up .toolbar{margin:0 0 var(--space-m);flex-wrap:nowrap}
 body[data-mode="presenter"] #follow-up .toolbar>.field{flex-direction:row;align-items:center;gap:.75rem}
 body[data-mode="presenter"] #follow-up .toolbar>.field:nth-child(2){flex-grow:1.6;max-width:none}

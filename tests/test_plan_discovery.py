@@ -6,6 +6,10 @@ spec=importlib.util.spec_from_file_location('merge',Path(__file__).parents[1]/'s
 m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
 
 class DiscoveryTests(unittest.TestCase):
+    def test_internal_receipts_stay_local(self):
+        for text in ['Evidence in work/discovery/batch.json', 'See docs/discovery/receipt.md', 'Catalog SHA256 abc123', r'I:\private\record.json']:
+            self.assertNotEqual(m.public_evidence(text), text)
+        self.assertEqual(m.public_evidence('Nation A adopted this public plan in 2020.'), 'Nation A adopted this public plan in 2020.')
     def test_public_projection_keeps_raw_evidence_local(self):
         raw='Nation A is named in the search excerpt: Plan title \ue200cite\ue202example\ue201 [wordlim: 200] This is a placeholder section.'
         candidate={'discovery_note':raw,'relationship_evidence':raw,'host_relationship':None,'date_evidence':None,'relationships':[{'evidence':raw,'host_relationship':None}]}

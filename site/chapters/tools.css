@@ -23,6 +23,10 @@ body[data-mode="presenter"] #tools .resource-row>a{grid-column:2;justify-self:st
 .policy-demo-caption{border-top:0}
 #policy-demo .policy-demo-caption{padding:0;margin-top:var(--space-s)}
 .policy-access{margin-top:var(--space-xl)}
+@media(max-width:800px){
+  #policy-demo .demo-body,#policy-demo .policy-pane{padding:.25rem}
+  #policy-demo :is(.demo-modal,.demo-paper){padding:.25rem;max-width:100%}
+}
 body[data-mode="presenter"] #policy-demo .demo{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);grid-template-rows:auto 1fr;column-gap:var(--space-l);align-items:start;padding:var(--space-s) 1rem}
 body[data-mode="presenter"] #policy-demo .demo-body{display:contents}
 body[data-mode="presenter"] #policy-demo .demo-toolbar{grid-column:1;grid-row:1;padding:0 0 .75rem;border:0;background:none}
@@ -64,6 +68,57 @@ body[data-mode="presenter"] #policy-demo .policy-footer{padding:.5rem 1rem;font-
 body[data-mode="presenter"] #policy-demo .policy-access{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:var(--space-xl);align-items:start}
 body[data-mode="presenter"] #policy-demo .policy-access h2{font-size:var(--type-section)}
 
+/* Keep the selected output dominant in both modes. */
+#policy-demo .policy-columns{display:block}
+#policy-demo .policy-pane{display:none;border:0}
+#policy-demo .demo-screen[data-focus-pane="sources"] [data-pane="sources"],
+#policy-demo .demo-screen[data-focus-pane="results"] [data-pane="results"],
+#policy-demo .demo-screen[data-focus-pane="issues"] [data-pane="issues"],
+#policy-demo .demo-screen[data-focus-pane="report"] [data-pane="report"]{display:block}
+#policy-demo .policy-pane-selector{display:block;margin:.5rem 0;padding:0}
+#policy-demo .policy-pane-selector select{width:100%}
+#policy-demo .policy-saved-note{white-space:pre-wrap;overflow-wrap:anywhere}
+#policy-demo [data-policy-reset-status]:empty{display:none}
+body:not([data-mode="presenter"]) #policy-demo .demo-body{display:flex;flex-direction:column;gap:1rem}
+body:not([data-mode="presenter"]) #policy-demo .demo-screen{margin-top:0}
+body[data-mode="presenter"] #policy-demo .demo-toolbar{grid-column:2}
+body[data-mode="presenter"] #policy-demo .policy-step-side{grid-column:2}
+body[data-mode="presenter"] #policy-demo .demo-screen{grid-column:1}
+body[data-mode="presenter"] #policy-demo .demo{grid-template-columns:minmax(0,1.35fr) minmax(0,1fr)}
+body[data-mode="presenter"] #policy-demo .demo-paper{padding:0;border:0;background:none}
+/* The notice title and synthetic label identify the output without repeated app chrome. */
+body[data-mode="presenter"] #policy-demo .policy-pane[data-pane="report"]>.policy-pane-heading,
+body[data-mode="presenter"] #policy-demo .policy-footer{display:none}
+body[data-mode="presenter"] #policy-demo .policy-pane blockquote{margin:.5rem 0;font-size:var(--type-note);line-height:1.45}
+body[data-mode="presenter"] #policy-demo .policy-pane h3{font-size:var(--type-lead)}
+
+.ddm-workflow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.5rem;list-style:none;padding:0;margin:1rem 0}
+.ddm-workflow li{border-top:2px solid var(--accent);padding-top:.75rem;min-width:0}
+.ddm-workflow p{font-size:var(--type-note);line-height:1.5;margin:.5rem 0}
+.ddm-briefing h2{font-size:var(--type-section)}
+body[data-mode="presenter"] #ddm .ddm-overview{display:block}
+body[data-mode="presenter"] #ddm .ddm-still{display:none}
+body[data-mode="presenter"] #ddm .ddm-briefing .eyebrow{margin-bottom:.25rem}
+body[data-mode="presenter"] #ddm .ddm-briefing h2{font-size:var(--type-lead);margin-bottom:.5rem}
+.development-roadmap{list-style:none;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem}
+.development-roadmap li{border-top:2px solid var(--accent);padding-top:.75rem;min-width:0}
+.development-roadmap h2{font-size:var(--type-lead);margin-bottom:.5rem}
+.development-roadmap p{font-size:var(--type-note);line-height:1.45;margin:0 0 .5rem}
+.connection-flow{display:flex;align-items:center;gap:.75rem;font-size:var(--type-note)}
+.connection-flow>span:not([aria-hidden]){flex:1;border-top:1px solid var(--rule);padding:.5rem 0}
+.development-connections{margin:1rem 0}
+.closing-actions ol{list-style:none;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem;margin:1.5rem 0 0}
+.closing-actions li{border-top:2px solid var(--accent);padding-top:1rem}
+.closing-actions a{display:block;font-weight:700;margin-bottom:.5rem}
+.closing-actions span{font-size:var(--type-note)}
+body[data-mode="presenter"] #resources .closing-actions h2{font-size:var(--type-section)}
+@media(max-width:800px){
+  .ddm-workflow,.development-roadmap,.closing-actions ol{grid-template-columns:minmax(0,1fr)}
+  .connection-flow{flex-direction:column;align-items:stretch}
+  .connection-flow>span[aria-hidden]{transform:rotate(90deg);align-self:start}
+  #tools .resource-row>a{white-space:normal;overflow-wrap:anywhere;max-width:100%;justify-self:start}
+}
+
 /* DDM: the dated still beside its caption and reading guide; lane limits as four columns. */
 body[data-mode="presenter"] #ddm .ddm-overview{grid-template-columns:auto minmax(0,1fr);grid-template-rows:auto 1fr;gap:var(--space-s) var(--space-l);margin-bottom:0}
 body[data-mode="presenter"] #ddm .ddm-overview .wide-figure{grid-column:1 / -1;grid-row:1 / -1;display:grid;grid-template-columns:subgrid;grid-template-rows:subgrid;margin:0}
@@ -87,6 +142,10 @@ body[data-mode="presenter"] #ddm .ddm-limits{display:grid;grid-template-columns:
 
 /* TSDF slide 1: ring diagram beside the four tiers, protective default and attribution. */
 body[data-mode="presenter"] #sovereignty .tsdf-overview{grid-template-columns:18rem minmax(0,1fr);gap:var(--space-l);margin-bottom:0}
+body[data-mode="presenter"] #sovereignty .tsdf-overview{margin-top:0}
+body[data-mode="presenter"] #sovereignty .chapter-content>.lead{margin-bottom:.5rem;max-width:none}
+body[data-mode="presenter"] #sovereignty [data-block="action"]{margin-top:.5rem}
+body[data-mode="presenter"] #tools .resource-row p{margin-bottom:.5rem}
 /* Larger ring labels; the name stays clear of the code within each band. */
 #sovereignty .tsdf-ring-code{font-size:20px}
 #sovereignty .tsdf-ring-name{font-size:15px}

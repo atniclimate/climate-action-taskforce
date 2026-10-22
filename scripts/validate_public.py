@@ -55,11 +55,32 @@ def main():
     assert plans['coverage']['nations_attempted_all_classes']==575, 'Unfinished sweep cannot pass final artifact check'
     assert plans['coverage']['batches_completed']==23
     assert sum(plans['coverage']['category_outcomes'].values())==1725
+    assert not re.search(r'(?i)(?<![/\w])work[\\/]|docs[\\/]discovery|catalog.{0,20}(?:hash|sha256)',json.dumps(plans)), 'Internal plan evidence reference in public projection'
+    catalog=json.loads((SITE/'data/explorer/catalog.json').read_text(encoding='utf-8'))
+    nations=[p for p in catalog['places'] if p['kind']=='nation']
+    assert len(nations)==575 and {p['tribe_id'] for p in nations}=={n['tribe_id'] for n in risk['nations']}
+    assert sum(p['mapping_status']=='unmapped' for p in nations)==28
+    assert sum(p.get('proxy',False) for p in nations)==34
+    for key,asset in catalog['files'].items():
+        assert re.fullmatch(r'(data|assets)/explorer/[a-zA-Z0-9_./-]+',asset['path']) and '..' not in asset['path'].split('/'),key
+        path=(SITE/asset['path']).resolve()
+        assert path.is_relative_to(SITE.resolve()) and path.is_file(),key
+        assert path.stat().st_size==asset['bytes'] and sha256(path.read_bytes()).hexdigest()==asset['sha256'],key
+    for place in catalog['places']:
+        assert all(a in catalog['areas'] for a in place['area_ids']),place['id']
+    for area in catalog['areas'].values():
+        assert area['file_id'] in catalog['files'] and area.get('geometry_file') in catalog['files'],area['id']
+    for cohort in catalog['cohorts']:
+        assert len(cohort['county_fips'])==len(set(cohort['county_fips']))
+        assert cohort['costs']['county_count']+len(cohort['costs']['unmatched_county_fips'])==cohort['costs']['expected_counties']
+    incremental=[p for p in files if '/explorer/' in p.as_posix() or '/leaflet-1.9.4/' in p.as_posix() or p.parent.name in {'components','state'} or p.name in {'explorer.js','catalog.js'}]
+    assert sum(p.stat().st_size for p in incremental)<16*1024*1024,'Incremental explorer payload exceeds16MiB'
     with (SITE/'literature/nation-searches.csv').open(encoding='utf-8-sig',newline='') as f:assert len(list(csv.DictReader(f)))==1725
     with (SITE/'literature/nation-hazards.csv').open(encoding='utf-8-sig',newline='') as f:
         rows=list(csv.DictReader(f));assert len(rows)==sum(len(n['hazards']) for n in risk['nations'])
         assert any(r['value']=='' and r['status']=='unavailable' for r in rows),'Missing values must survive CSV projection'
     report_names=['catf-assessment.html','catf-assessment.pdf','plan-discovery.html','plan-discovery.pdf','nation-hazards.csv','regional-costs.csv','plan-candidates.csv','nation-searches.csv']
+    report_names += ['place-pathways.html','place-pathways.pdf','climate-window-values.csv','geography-coverage.csv','cohort-costs.csv']
     for name in report_names:
         assert (ROOT/'literature'/name).read_bytes()==(SITE/'literature'/name).read_bytes(),name
     for filename in ['catf-assessment.pdf','plan-discovery.pdf']:
@@ -68,7 +89,7 @@ def main():
             assert '575' in body and 'not' in body and 'Tribal' in body,filename
             assert len(body)>10000,filename
     assert not errors,'\n'.join(errors)
-    report={'passed':True,'public_files':len(files),'public_bytes':sum(p.stat().st_size for p in files),'nation_ids':575,'class_outcomes':1725,'report_copies':len(report_names),'checks':['file allowlist','no local paths or credential patterns','HTML local links confined to site','PDF text/glyph scan','risk/plan ID join','complete bounded sweep','CSV missingness and row counts','report byte-identical copies'],'artifact_files':[{'path':p.relative_to(SITE).as_posix(),'sha256':sha256(p.read_bytes()).hexdigest()} for p in sorted(files)]}
+    report={'passed':True,'public_files':len(files),'public_bytes':sum(p.stat().st_size for p in files),'nation_ids':575,'class_outcomes':1725,'report_copies':len(report_names),'explorer_places':len(catalog['places']),'explorer_incremental_bytes':sum(p.stat().st_size for p in incremental),'checks':['file allowlist','no local paths or credential patterns','HTML local links confined to site','PDF text/glyph scan','risk/plan ID join','complete bounded sweep','CSV missingness and row counts','report byte-identical copies','explorer asset paths, hashes and sizes','575 climate mapping outcomes','unique county cohort joins','16 MiB incremental explorer budget'],'artifact_files':[{'path':p.relative_to(SITE).as_posix(),'sha256':sha256(p.read_bytes()).hexdigest()} for p in sorted(files)]}
     target=ROOT/'work/review/public-validation.json';target.parent.mkdir(exist_ok=True);target.write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
     print(json.dumps({k:v for k,v in report.items() if k!='artifact_files'}))
 

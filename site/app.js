@@ -1,5 +1,7 @@
 import { chapters } from './chapters/index.js';
 import { positionFromHash, hashFor, buildDeck, stepIndex, modeFromSearch, keyboardStep } from './navigation.js';
+import { createExplorerRuntime } from './explorer.js';
+import { settledDatasets } from './chapters/shared.js';
 
 const $ = selector => document.querySelector(selector);
 const escape = value => String(value).replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character]);
@@ -37,6 +39,7 @@ main.innerHTML = chapters.map((chapter, position) => `<section class="chapter${p
 </section>`).join('');
 
 const sections = [...main.querySelectorAll('.chapter')];
+const explorer = createExplorerRuntime(main, query => history.pushState(null, '', hashFor(chapters, index, slide, query)));
 sections.forEach((section, position) => {
   const eyebrow = section.querySelector('.eyebrow');
   eyebrow.dataset.default = eyebrow.textContent;
@@ -86,9 +89,12 @@ function updateMode() {
   sections.forEach((section, position) => { section.hidden = mode === 'presenter' && position !== index; });
   applySlide();
   updatePosition();
+  requestAnimationFrame(() => explorer.refresh());
 }
 
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
+let navigationEpoch = 0;
+for (const type of ['wheel', 'touchstart', 'pointerdown', 'keydown']) document.addEventListener(type, () => { ++navigationEpoch; }, { passive: true });
 
 // Restart the staggered entrance each time a presenter chapter is shown.
 function playEntrance(section, direction) {
@@ -102,18 +108,25 @@ function playEntrance(section, direction) {
 }
 
 function goTo(nextChapter, nextSlide = 0, { historyEntry = true, focus = true } = {}) {
+  const epoch = ++navigationEpoch;
   const changed = nextChapter !== index || nextSlide !== slide;
   const direction = nextChapter < index || (nextChapter === index && nextSlide < slide) ? 'back' : 'forward';
   // Any slide change pauses the outgoing walkthrough, even inside one chapter.
   if (changed) onLeave.get(index)?.();
   index = nextChapter;
   slide = nextSlide;
-  if (historyEntry) history.pushState(null, '', hashFor(chapters, index, slide));
+  if (historyEntry) history.pushState(null, '', hashFor(chapters, index, slide, explorer.query()));
   const show = () => {
     updateMode();
     if (focus) sections[index].querySelector('h1').focus({ preventScroll: true });
     const target = mode === 'participant' && slide > 0 ? sections[index].querySelector(`[data-block="${chapters[index].slides[slide].blocks[0]}"]`) : null;
     (target || sections[index]).scrollIntoView({ behavior: 'instant', block: 'start' });
+    // A direct participant link must survive content above it finishing its load.
+    if (mode === 'participant') Promise.allSettled([settledDatasets(), document.fonts.ready]).then(() => {
+      if (epoch !== navigationEpoch || mode !== 'participant') return;
+      (target || sections[nextChapter]).scrollIntoView({ behavior: 'instant', block: 'start' });
+      explorer.refresh();
+    });
   };
   // Rapid key presses skip the pending crossfade; its callback still runs, so the rejection is expected.
   if (changed && mode === 'presenter' && document.startViewTransition && !reduceMotion.matches) document.startViewTransition(show).ready.catch(() => {});
@@ -136,10 +149,11 @@ document.addEventListener('click', event => {
   const link = event.target.closest('a[href^="#"]');
   if (!link || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
   const hash = link.getAttribute('href');
-  if (!chapters.some(chapter => hash === `#${chapter.id}` || hash.startsWith(`#${chapter.id}/`))) return;
+  if (!chapters.some(chapter => hash === `#${chapter.id}` || hash.startsWith(`#${chapter.id}/`) || hash.startsWith(`#${chapter.id}?`))) return;
   event.preventDefault();
   if (menu.open) menu.close();
   const target = positionFromHash(hash, chapters);
+  if (hash.includes('?')) explorer.restore(hash);
   goTo(target.chapter, target.slide);
 });
 $('#previous').addEventListener('click', () => step(-1));
@@ -151,7 +165,7 @@ $('#mode-toggle').addEventListener('click', () => {
   if (mode === 'presenter') slide = 0;
   const url = new URL(location.href);
   if (mode === 'presenter') url.searchParams.set('mode', mode); else url.searchParams.delete('mode');
-  url.hash = hashFor(chapters, index, slide);
+  url.hash = hashFor(chapters, index, slide, explorer.query());
   history.replaceState(null, '', url);
   updateMode();
   sections[index].scrollIntoView({ behavior: 'instant', block: 'start' });
@@ -166,6 +180,7 @@ document.addEventListener('keydown', event => {
   goTo(deck[nextIndex].chapter, deck[nextIndex].slide);
 });
 function goToHash() {
+  explorer.restore(location.hash);
   const target = positionFromHash(location.hash, chapters);
   goTo(target.chapter, target.slide, { historyEntry: false });
 }
@@ -174,6 +189,7 @@ window.addEventListener('popstate', () => {
   mode = modeFromSearch(location.search);
   goToHash();
 });
+window.addEventListener('pagehide', event => { if (!event.persisted) explorer.destroy(); });
 
 function chapterAtViewportPosition(sections, viewportHeight) {
   const marker = viewportHeight * .25;

@@ -7,7 +7,7 @@ const path = require('node:path');
   const sharedUrl = `data:text/javascript;base64,${Buffer.from(shared).toString('base64')}`;
   const chapter = fs.readFileSync(path.join(__dirname, '../site/chapters/assessment.js'), 'utf8')
     .replace("from './shared.js'", `from '${sharedUrl}'`);
-  const {meanHazardScores,hazardIndexTable,risks,costs,funding} = await import(`data:text/javascript;base64,${Buffer.from(chapter).toString('base64')}`);
+  const {meanHazardScores,hazardIndexTable,hazardCoverage,risks,costs,funding} = await import(`data:text/javascript;base64,${Buffer.from(chapter).toString('base64')}`);
   const row = {region_id:'r',nation_count:3,top_hazards:[
     {hazard_id:'a',hazard_name:'A'}, {hazard_id:'b',hazard_name:'B'}]};
   const nation = (region_id, a, b) => ({region_id,hazards:[
@@ -30,6 +30,13 @@ const path = require('node:path');
   assert.equal(indexRows[0].label,'Z hazard','table display does not reorder its input');
 
   const frozen = JSON.parse(fs.readFileSync(path.join(__dirname, '../site/data/risk.json'), 'utf8'));
+  assert.equal(hazardCoverage(frozen),'356 Nations have five-item displayed lists; 219 have four-item lists. These are list lengths, not all supported hazard counts: 348 Nations have six supported scores.');
+  assert.match(chapter,/coverage saturation, not equal exposure/);
+  assert.ok(risks.render().indexOf('data-block="explore"')<risks.render().indexOf('data-block="reading"'),'results precede glossary');
+  assert.match(risks.render(),/<section data-block="place" data-explorer-component="place">/);
+  assert.ok(risks.slides.some(s=>s.id==='place'&&s.blocks.includes('place')));
+  assert.match(costs.render(),/<section data-block="cohorts" data-explorer-component="cohort">/);
+  assert.ok(costs.slides.some(s=>s.id==='cohorts'&&s.blocks.includes('cohorts')));
   const southwest = frozen.regions.find(r=>r.region_id==='southwest');
   assert.ok(southwest.top_hazards.every(h=>h.value===southwest.nation_count));
   const means = meanHazardScores(frozen,southwest);
@@ -44,7 +51,7 @@ const path = require('node:path');
     for (const slide of chapter.slides) for (const block of slide.blocks)
       assert.ok(html.includes(`data-block="${block}"`),`${chapter.id}/${slide.id} block "${block}" exists in render()`);
   }
-  assert.ok(costs.slides.every(s=>s.blocks.includes('geo')),'one cost geography select drives both cost slides');
+  assert.ok(costs.slides.filter(s=>s.id!=='cohorts').every(s=>s.blocks.includes('geo')),'one cost geography select drives county cost slides');
   assert.equal((costs.render().match(/data-cost-region/g)||[]).length,1,'cost geography is a single shared control');
   assert.deepEqual(funding.slides.map(s=>s.id),['records','regions','leads']);
   const planning=fs.readFileSync(path.join(__dirname,'../site/chapters/planning.js'),'utf8')

@@ -1,6 +1,6 @@
 {
   "schema_version": "catf-sources.v1",
-  "generated_at": "2026-10-21T20:15:45.688479+00:00",
+  "generated_at": "2026-10-22T09:17:33.822576+00:00",
   "snapshot_date": "2026-10-21",
   "claims": [
     {
@@ -151,6 +151,107 @@
       "data_file": "data/risk.json",
       "definition": "Arithmetic mean of supported Nation values within the selected geography, on the source 0–1 index scale. The five displayed hazards are selected by frequency in the supported top-five rankings.",
       "qualification": "Coverage and unavailable counts are shown separately. Hazard-specific indices are screening measures, not comparable monetary losses, probabilities or sovereign priorities. The frequency view and frozen reports retain their original definitions."
+    },
+    {
+      "chapter": "place / pathways / costs",
+      "claim": "Public climate source-area associations, physical pathway changes, ecological/basin memberships and unique-county context",
+      "release": "catf-place-2026-10-22-v1",
+      "data_file": "data/explorer/catalog.json",
+      "coverage": {
+        "nations": 575,
+        "accounted_nations": 575,
+        "distinct_modeled_areas": 526,
+        "ecological_units": 182,
+        "hawaii_climate_divisions": 12,
+        "hawaii_roster_nations": 0,
+        "mapping_status": {
+          "associated": 513,
+          "proxy": 34,
+          "unmapped": 28
+        },
+        "modeled_source_areas": 633,
+        "multi_area_nations": 1,
+        "shared_nations": 43,
+        "source_areas": 883,
+        "wbd_expected": 245,
+        "wbd_failures": [],
+        "wbd_units": 245
+      },
+      "sources": [
+        {
+          "geometry_sha256": "9214dff1a5412d0f4b7351bd4c9b8de99ae3543fb3a601c44c75ee4c1cf956e1",
+          "id": "native-resilience",
+          "license": "CC0-1.0",
+          "license_evidence": "Provider portal declares processed data CC0; this is a data license, not a repository-code license claim.",
+          "license_url": "https://data.native-resilience.com/projections/",
+          "url": "https://github.com/native-resilience/projections/tree/b8b55ca0e172a4694e4212108309621d8873615d"
+        },
+        {
+          "id": "epa-cec",
+          "license": "Metadata declares no access or use constraints",
+          "sha256": "413f6024448918eafe9bf5ff8de58a141a90cbad256be9b7d81c45e6801a71a8",
+          "url": "https://www.epa.gov/eco-research/ecoregions-north-america",
+          "version": "2010 revision"
+        },
+        {
+          "id": "usgs-wbd",
+          "license": "U.S. federal public data",
+          "url": "https://api.water.usgs.gov/fabric/pygeoapi/collections/wbd04_20250107?f=json",
+          "version": "2025-01-07 snapshot"
+        },
+        {
+          "attribution": "Repackaged from U.S. Census Bureau 2025 TIGER/Line® data. Statistical boundaries do not determine jurisdiction, ownership or legal land descriptions.",
+          "id": "census",
+          "license": "U.S. Census Bureau TIGER/Line; repackaged derivative, Census attribution retained; boundaries are not legal land descriptions",
+          "sha256": "9c6e9d9076abce2670d1de255de3710c35ecca00a7005d88e012dec52d95f763",
+          "url": "https://www2.census.gov/geo/tiger/TIGER2025/COUNTY/tl_2025_us_county.zip",
+          "version": "2025"
+        },
+        {
+          "attribution": "Made with Natural Earth",
+          "id": "natural-earth",
+          "land_sha256": "0b8e670cf80dce9cbebe2a193bc44ba5602758c22e1fa603980553646d7ff162",
+          "license": "Public domain",
+          "relief_sha256": "ae930744c0cf3d10e73c292726b74c81a40490a75829f8299dec9069e5d0e934",
+          "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+          "version": "Natural Earth I 1:50m v3.2.0"
+        },
+        {
+          "id": "native-nex",
+          "label": "Native Resilience / NASA NEX-GDDP-CMIP6",
+          "url": "https://data.native-resilience.com/projections/",
+          "release": "NEX-GDDP-CMIP6 v2.0 (2025), Native annual metric version 1",
+          "upstream_commit": "b8b55ca0e172a4694e4212108309621d8873615d",
+          "license": "CC0-1.0"
+        },
+        {
+          "id": "usgs-nccv-loca2",
+          "label": "USGS NCCV / LOCA2",
+          "url": "https://apps.usgs.gov/nccv/loca2/nccv2_documentation_v2.pdf",
+          "summary_revision": "October 2023",
+          "license": "CC0-1.0"
+        }
+      ],
+      "input_hashes": {
+        "geography": "6d800cebecb31c77e0192ca29234aec123e6338cfdf95c8bf024fcc9ebd42881",
+        "climate": "f5f924e4ab0ce1b6188a3f929bf6a4e405fa0520b9dee73d39a057fadab3647a",
+        "county_costs": "f6640493f6225f2bee7484c698878807299a0081a1aa163f11695f048e94ab50"
+      },
+      "qualification": "Associated and borrowed proxy areas remain separate. Public geometries do not comprehensively describe Nation territory or authority. County totals are all-asset annual model expectations, not Tribal losses, projected future losses or funding need."
+    },
+    {
+      "chapter": "pathways",
+      "claim": "Native Resilience NEX paired model window changes and separate USGS NCCV LOCA2 annual summaries",
+      "data_file": "literature/climate-window-values.csv",
+      "qualification": "Native: per-model 1995–2014 baseline, 8 common models, medians and 10th–90th model spread. LOCA2: provider annual medians and model spread, 1981–2010 baseline, 24 SSP245 and 23 SSP370 models; different membership means scenario contrast is not a controlled common-member effect. No quantile averaging or marginal-quantile subtraction. Source, revision, license and exact file hash accompany every area shard."
+    },
+    {
+      "chapter": "place",
+      "claim": "Local interactive map renderer",
+      "source": "Leaflet 1.9.4",
+      "url": "https://leafletjs.com/",
+      "license": "BSD-2-Clause",
+      "license_file": "assets/vendor/leaflet-1.9.4/LICENSE.txt"
     }
   ],
   "data_sources": [

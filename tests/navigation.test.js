@@ -17,6 +17,8 @@ const fs = require('node:fs');
   assert.equal(hashFor(split, 1, 0), '#funding');
   assert.equal(hashFor(split, 1, 2), '#funding/leads');
   assert.equal(hashFor(split, 2, 0), '#tools');
+  assert.deepEqual(positionFromHash('#funding/regions?s=1&place=nation%3Aone', split), { chapter: 1, slide: 1 });
+  assert.equal(hashFor(split, 1, 1, 's=1&place=nation%3Aone'), '#funding/regions?s=1&place=nation%3Aone');
   assert.equal(indexFromHash('#risk', chapters), 1);
   assert.equal(indexFromHash('#%72isk', chapters), 1);
   assert.equal(indexFromHash('#unknown', chapters), 0);

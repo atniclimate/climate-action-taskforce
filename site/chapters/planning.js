@@ -24,7 +24,7 @@ const reviewLine=c=>`${c.review_state==='initial_search_result_only'?'Search res
 // One concise source summary (title, classes, date basis, review) and one selected Nation relationship.
 const classLine=c=>c.document_classes.map(k=>esc(classLabels[k])).join('; ');
 const titleLink=c=>{const title=clip(c.title,100);return `<h3>${source(sourceUrl(c),title.text)}${title.cut?` <span class="plan-shortened">(title shortened; ${number(c.title.length)} characters recorded)</span>`:''}</h3>`;};
-const fullButton='<button type="button" class="plan-link-button" data-full-open>Full recorded title and evidence</button>';
+const fullButton='<button type="button" class="plan-link-button" data-full-open>Read the full source record</button>';
 const sourceSummary=c=>`${titleLink(c)}<dl class="plan-facts"><div><dt>Class</dt><dd>${classLine(c)}</dd></div><div><dt>Date</dt><dd>${dateLine(c)}</dd></div><div><dt>Review</dt><dd>${reviewLine(c)}</dd></div></dl>${fullButton}`;
 function nationRelation(c,id,lead=''){
   const rels=evidenceFor(c,id),evidence=rels.flatMap(r=>[].concat(r.evidence??[]));
@@ -47,13 +47,13 @@ const pagerButtons=(name,index,total,label)=>`<span class="plan-pager-buttons"><
 const refocus=(root,selector)=>{const button=root.querySelector(selector);(button&&!button.disabled?button:root.querySelector('button:not(:disabled)'))?.focus();};
 function candidateRows(rows,names){return rows.map(c=>`<tr><td>${source(sourceUrl(c),c.title)}<br><small>${esc(c.issuing_body||'Issuer unconfirmed')}</small></td><td>${c.tribe_ids.map(id=>esc(names.get(id))).join('; ')}<br><small>${esc(c.host_relationship||'Relationship requires source review')}</small></td><td>${c.document_classes.map(k=>esc(classLabels[k])).join('; ')}</td><td>${esc(c.date_year??'Unknown')}<br><small>${esc(c.date_measure?.replaceAll('_',' ')||'No verified date')}</small></td><td>${esc(c.review_state?.replaceAll('_',' '))}<br><small>${esc(c.source_confidence||'Unreviewed')} confidence</small></td></tr>`).join('');}
 export const plans={
-  id:'plans',sourceSlide:5,title:'Public planning coverage',theme:'catf',
+  id:'plans',sourceSlide:5,title:'Verify public planning evidence',theme:'catf',
   slides:[
-    {id:'coverage',title:'What the search covered',blocks:['intro','coverage','limits']},
+    {id:'inspect',title:'Verify a public candidate',blocks:['intro','filters','inspect']},
+    {id:'coverage',title:'What the search covered',blocks:['coverage','limits']},
     {id:'age',title:'Age of located sources',blocks:['filters','ages']},
-    {id:'inspect',title:'Inspect a public candidate',blocks:['filters','inspect']},
   ],
-  render:()=>`<p class="lead" data-block="intro">Search climate adaptation/action plans, vulnerability assessments, and hazard plans separately across the pinned national roster.</p><div data-block="coverage"><div data-plan-coverage><p>Loading the metadata sweep…</p></div></div><p class="notice" data-block="limits">Public discovery does not establish that a Tribe lacks a plan. A search-result candidate is not a reviewed plan edition, and a regional plan is not automatically a Tribe-authored plan.</p><div data-block="filters"><div class="toolbar plan-toolbar" data-plan-filters></div></div><div data-block="ages"><div data-plan-ages aria-live="polite"></div></div><div data-block="inspect"><div data-plan-inspect aria-live="polite"></div></div><section class="plan-full-record" tabindex="-1" data-plan-full></section><div data-plan-table></div><div data-plan-methods></div><p><a href="literature/plan-discovery.html">Read the discovery report</a> · <a href="literature/plan-candidates.csv" download>Download candidate metadata (CSV)</a> · <a href="literature/nation-searches.csv" download>Download every Nation/class outcome (CSV)</a></p>`,
+  render:()=>`<p class="lead" data-block="intro">Find a public candidate, open its source, then verify the issuing body, adoption, date and current use with the Nation. A located URL is a research lead, not an approved plan.</p><div data-block="filters"><div class="toolbar plan-toolbar" data-plan-filters></div></div><div data-block="inspect"><div data-plan-inspect aria-live="polite"></div></div><section class="plan-full-record" tabindex="-1" data-plan-full></section><div data-block="coverage"><div data-plan-coverage><p>Loading the metadata sweep…</p></div></div><p class="notice" data-block="limits">Public discovery does not establish that a Tribe lacks a plan. A search-result candidate is not a reviewed plan edition, and a regional plan is not automatically a Tribe-authored plan.</p><div data-block="ages"><div data-plan-ages aria-live="polite"></div></div><div data-plan-table></div><div data-plan-methods></div><p><a href="literature/plan-discovery.html">Read the discovery report</a> · <a href="literature/plan-candidates.csv" download>Download candidate metadata (CSV)</a> · <a href="literature/nation-searches.csv" download>Download every Nation/class outcome (CSV)</a></p>`,
   mount(section){const $=selector=>section.querySelector(selector),target=$('[data-plan-coverage]');dataset('plans').then(data=>{
     const coverage=data.coverage,names=new Map(data.nations.map(n=>[n.tribe_id,n.display_name]));
     target.innerHTML=`<figure class="data-figure plan-coverage"><div class="stat-band"><div class="stat"><strong>${number(coverage.nations_attempted_all_classes)} / ${number(coverage.baseline_nations)}</strong><span>Nations with all three class searches attempted</span></div><div class="stat"><strong>${number(coverage.unique_source_urls)}</strong><span>Unique candidate source URLs located</span></div><div class="stat"><strong>${number(coverage.reviewed_unique_editions)}</strong><span>Reviewed plan editions</span></div><div class="stat"><strong>${number(coverage.nations_with_candidate)}</strong><span>Nations with at least one candidate</span></div></div><figcaption class="caption">Snapshot ${esc(data.data_as_of)}. Each Nation on the ${number(coverage.baseline_nations)}-Nation roster was searched separately in three document classes; ${number(coverage.nations_completed_all_classes)} Nations have all three searches completed without a blocked class. A located URL is not a reviewed plan, and this bounded search is not an exhaustive record of Tribal planning.</figcaption></figure>`;
@@ -90,7 +90,7 @@ export const plans={
   }).catch(error=>failure(target,error));},
 };
 export const followup={
-  id:'follow-up',sourceSlide:5,title:'Planning follow-up',theme:'catf',
+  id:'follow-up',sourceSlide:5,title:'Planning outreach queue',theme:'catf',
   slides:[
     {id:'flag',title:'A flag for evidence follow-up',blocks:['intro','rule','meaning']},
     {id:'confirm',title:'Confirm with the Nation',blocks:['explorer']},

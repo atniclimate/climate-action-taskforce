@@ -23,6 +23,8 @@ body[data-mode="presenter"] #risks [data-risk-view] .toolbar{flex-direction:colu
 body[data-mode="presenter"] #risks [data-risk-view] .field{flex:none;max-width:none}
 body[data-mode="presenter"] #risks [data-risk-view] .toolbar .caption{margin:0}
 body[data-mode="presenter"] #risks [data-risk-result] h2{font-size:1.375rem;margin:0 0 .25rem}
+body[data-mode="presenter"] #risks .chapter-content>.lead{margin-bottom:.5rem}
+body[data-mode="presenter"] #risks .risk-strip{margin-top:.5rem;margin-bottom:0}
 body[data-mode="presenter"] #risks .risk-view-note{margin:0;font-size:var(--type-note)}
 body[data-mode="presenter"] #risks [data-risk-result] .table-scroll{margin:.25rem 0 .5rem}
 body[data-mode="presenter"] #risks [data-risk-result] .caption,body[data-mode="presenter"] #risks .risk-missing{margin:.5rem 0 0}
@@ -50,11 +52,19 @@ body[data-mode="presenter"] #costs .cost-components h2{font-size:1.375rem;margin
 body[data-mode="presenter"] #costs .cost-total .stat{padding-top:1rem;padding-bottom:1rem}
 
 /* Funding: nine regions as five + four on one common scale. */
-.region-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 3rem}
-.region-columns .risk-metric-chart{margin:0}
+.region-columns{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,30rem),1fr));gap:0 3rem}
+.region-columns .risk-metric-chart{margin:0;container-type:inline-size}
 #funding .region-columns .risk-row{grid-template-columns:minmax(8rem,10rem) minmax(4rem,1fr) 5rem}
 #funding .region-columns .risk-note{grid-column:2 / -1}
 #funding .region-columns .risk-axis{margin:0 calc(5rem + 1rem) .25rem calc(10rem + 1rem)}
+@container(max-width:28rem){
+  #funding .region-columns .risk-row{grid-template-columns:minmax(0,1fr);gap:.5rem}
+  #funding .region-columns :is(.risk-label,.risk-value,.risk-note){grid-column:1;grid-row:auto;text-align:left}
+  #funding .region-columns .risk-track{grid-column:1;grid-row:2}
+  #funding .region-columns .risk-value{grid-row:3;white-space:normal}
+  #funding .region-columns .risk-axis{margin:0 0 .25rem;gap:1rem}
+  #funding .region-columns .risk-axis>span:nth-child(2):not(:last-child){display:none}
+}
 body[data-mode="presenter"] #funding .funding-regions h2{font-size:1.375rem;margin:0}
 body[data-mode="presenter"] #funding .region-columns .risk-row{padding:.35rem 0;gap:0 1rem}
 body[data-mode="presenter"] #funding [data-funding-totals] .stat-band{margin:0 0 .75rem}
@@ -62,7 +72,7 @@ body[data-mode="presenter"] #funding [data-funding-totals] .notice{margin:1rem 0
 
 /* Funding leads: compact cards; full conditions stay in each card's disclosure. */
 .lead-scope{margin-bottom:var(--space-s);max-width:none}
-.lead-cards{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));gap:1.25rem 2rem}
+.lead-cards{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,16rem),1fr));gap:1.25rem 2rem}
 .lead-card{border-top:3px solid var(--accent);padding-top:.75rem;min-width:0}
 .lead-card h3{font-size:1.375rem;line-height:1.25;margin-bottom:.5rem}
 .lead-card>p{margin:0 0 .4rem;font-size:var(--type-note);line-height:1.45}

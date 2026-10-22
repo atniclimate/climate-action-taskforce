@@ -2,6 +2,7 @@ export const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&
 export const number = value => value == null ? 'Unavailable' : new Intl.NumberFormat('en-US', {maximumFractionDigits: 1}).format(value);
 export const money = value => value == null ? 'Unavailable' : new Intl.NumberFormat('en-US', {style:'currency', currency:'USD', notation:'compact', maximumFractionDigits: 2}).format(value);
 const pending = new Map();
+export const settledDatasets = () => Promise.allSettled([...pending.values()]);
 export function dataset(name) {
   if (!pending.has(name)) pending.set(name, fetch(new URL(`../data/${name}.json`, import.meta.url)).then(response => {
     if (!response.ok) throw new Error(`The ${name} snapshot is unavailable (${response.status}).`);

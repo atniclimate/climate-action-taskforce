@@ -68,3 +68,33 @@ body[data-mode="presenter"] #priorities [data-criteria-summary]{margin:.25rem 0 
 body[data-mode="presenter"] #priorities textarea{height:calc(3lh + 1.5rem);margin-top:.5rem}
 body[data-mode="presenter"] #priorities .action-row{margin:.75rem 0 .5rem;gap:.75rem}
 body[data-mode="presenter"] #priorities [data-note-status]{margin:0;font-size:var(--type-note)}
+
+/* A review record grows with the walkthrough; global endpoints stay in their own scope. */
+.decision-record{margin:0}
+.decision-record>div{border-top:1px solid var(--rule);padding:.5rem 0}
+.decision-record dt{font-weight:700;font-size:var(--type-note)}
+.decision-record dd{margin:0;font-size:var(--type-note);line-height:1.45}
+.endpoint-figure{margin:0}
+.endpoint-axis{display:flex;justify-content:space-between;margin:0 0 .5rem;font-size:var(--type-note)}
+.endpoint-row{margin:.75rem 0;font-size:var(--type-note)}
+.endpoint-row>span{display:block}
+.endpoint-track{position:relative;height:1.75rem;background:var(--interactive-tint);margin:.25rem 0}
+.endpoint-range{position:absolute;top:calc(50% - 2px);height:4px;background:var(--accent)}
+.endpoint-best{position:absolute;top:.2rem;bottom:.2rem;width:4px;background:var(--ink)}
+.endpoint-figure .table-scroll{margin:1rem 0 0}
+body[data-mode="presenter"] #scenarios .scenario-stage{min-height:0;margin:0}
+body[data-mode="presenter"] #scenarios .decision-review .eyebrow{margin-bottom:.5rem}
+body[data-mode="presenter"] #scenarios .endpoint-figure{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:.25rem 2rem}
+body[data-mode="presenter"] #scenarios .endpoint-figure>h2{font-size:var(--type-lead);margin:0;grid-column:1 / -1}
+body[data-mode="presenter"] #scenarios .endpoint-figure>p{grid-column:1 / -1;margin:0 0 .5rem}
+body[data-mode="presenter"] #scenarios .endpoint-axis{grid-column:1;grid-row:3;margin:0}
+body[data-mode="presenter"] #scenarios .endpoint-row{grid-column:1;margin:.5rem 0}
+body[data-mode="presenter"] #scenarios .endpoint-row:nth-of-type(2){grid-row:4}
+body[data-mode="presenter"] #scenarios .endpoint-row:nth-of-type(3){grid-row:5}
+body[data-mode="presenter"] #scenarios .endpoint-figure .table-scroll{grid-column:2;grid-row:3 / span 3}
+body[data-mode="presenter"] #scenarios .endpoint-figure figcaption{grid-column:1 / -1;margin:0}
+body[data-mode="presenter"] #priorities .discussion-example{margin:0 0 .5rem}
+body[data-mode="presenter"] #scenarios [data-block="boundary"]{margin-top:.5rem;margin-bottom:.5rem}
+body[data-mode="presenter"] #scenarios [data-block="sources"]{margin-top:.5rem}
+body[data-mode="presenter"] #priorities .chapter-content{row-gap:.75rem}
+body[data-mode="presenter"] #priorities .chapter-content>.lead{margin-bottom:0}
