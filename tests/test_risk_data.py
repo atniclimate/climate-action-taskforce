@@ -20,12 +20,47 @@ class RiskTransformTests(unittest.TestCase):
         self.assertEqual(rows['wildfire']['status'], 'modeled')
         self.assertIsNone(rows['drought']['value'])
         self.assertIsNone(rows['extreme_heat']['value'])
-        self.assertEqual([r['hazard_id'] for r in risk.top_five(rows.values())], ['flooding', 'wildfire'])
+        self.assertEqual(len(rows), 9)
 
-    def test_tie_order_and_nonfinite_values(self):
+    def test_nonfinite_values_and_placeholder_are_not_supported(self):
         profile = {'assessment': {'assessed': ['wildfire', 'flooding', 'drought']},
                    'primary_cpri': {'hazard_scores': {'wildfire': .5, 'flooding': .5, 'drought': math.nan}}}
-        self.assertEqual([r['hazard_id'] for r in risk.top_five(risk.hazard_rows('n', profile))], ['flooding', 'wildfire'])
+        self.assertIsNone(next(r for r in risk.hazard_rows('n', profile) if r['hazard_id']=='drought')['value'])
+        profile['primary_cpri']['hazard_scores']['drought'] = .16
+        profile['eal_absent'] = [{'hazard': 'drought', 'engine_score': {'interpretation': 'legacy_placeholder_floor'}}]
+        row = next(r for r in risk.hazard_rows('n', profile) if r['hazard_id']=='drought')
+        self.assertEqual((row['status'], row['value'], row['raw_value']), ('placeholder', None, .16))
+
+    def test_typed_module_absence(self):
+        profile = {'modules_failed':['wildfire'], 'modules_stubbed':['drought'], 'modules_skipped':['permafrost'],
+                   'assessment': {'not_assessed':[{'name':'extreme_heat','status':'data_pending'}]}}
+        rows = {h['hazard_id']:h for h in risk.hazard_rows('n',profile)}
+        for hazard,status in [('wildfire','failed'),('drought','stub'),('permafrost','not_applicable'),('extreme_heat','data_pending')]:
+            self.assertEqual(rows[hazard]['status'],status)
+            self.assertIsNone(rows[hazard]['value'])
+
+    def test_temporal_support_gates_raw_fallback_and_accepts_evaluated_no_change(self):
+        record = {'profile':{'temporal':{'grid':{'2080':{'ssp370':{'cpri_physical':.2}},'2030':{'ssp245':{'cpri_physical':.2}}}}},
+                  'temporal_support':[{'horizon':'2080','scenario':'ssp370','status':'forward_supported'},
+                                      {'horizon':'2030','scenario':'ssp245','status':'cell_support_unverified'}]}
+        future, fallback = risk.temporal_rows(record)
+        self.assertEqual(future['physical_score'],.2)
+        self.assertIsNone(fallback['physical_score'])
+        self.assertEqual(fallback['raw_physical_score'],.2)
+
+    def test_empty_missing_zero_partial_and_invalid_county_totals(self):
+        aggregate=lambda _,cs:(None,None,None,sum(c.vulnerability_profile['nri']['eal_total'] for c in cs))
+        missing=dict(EAL_VALT='', **{h+'_EALT':'' for h in risk.HAZARDS})
+        for rows in [[],[missing]]:
+            total=risk.aggregate_counties(rows,aggregate)
+            self.assertIsNone(total['climate_county_eal'])
+            self.assertEqual(total['climate_county_eal_coverage']['status'],'unavailable')
+        zero=dict(missing, IFLD_EALT='0')
+        total=risk.aggregate_counties([zero],aggregate)
+        self.assertEqual(total['climate_county_eal'],0)
+        self.assertEqual(total['climate_county_eal_coverage']['status'],'partial')
+        with self.assertRaises(ValueError): risk.aggregate_counties([dict(missing,IFLD_EALT='nan')],aggregate)
+        with self.assertRaises(ValueError): risk.aggregate_counties([dict(missing,EAL_VALT='-1')],aggregate)
 
     def test_county_missingness_and_existing_sum_interface(self):
         rows = [dict(EAL_VALT='10.25', **{h + '_EALT': '2' for h in risk.HAZARDS}),
@@ -90,21 +125,49 @@ class FrozenArtifactTests(unittest.TestCase):
         self.assertEqual(sum(r['county_count'] for r in data['regions']), data['national']['county_count'])
         self.assertEqual(len(data['reconciliation']['removed_legacy_ids']), 18)
         self.assertEqual(len(data['reconciliation']['added_current_ids']), 1)
-        self.assertEqual(data['input_manifest_sha256'], risk.digest(ROOT / 'work/risk/input-manifest.json'))
+        self.assertEqual(data['input_manifest_sha256'], risk.digest(ROOT / 'work/risk/accepted-input-manifest.json'))
 
     def test_no_padding_unknowns_or_untraceable_rows(self):
         sources = {s['id'] for s in self.risk['sources']}
         for nation in self.risk['nations']:
-            self.assertEqual(nation['top_hazards'], risk.top_five(nation['hazards']))
-            self.assertLessEqual(len(nation['top_hazards']), 5)
+            self.assertNotIn('top_hazards', nation)
+            self.assertEqual(len(nation['hazards']), 9)
             self.assertEqual(nation['high_risk'], nation['percentile_rank'] >= 80 and nation['coverage_status'] == 'evaluated')
             self.assertEqual(nation['assessment_uncertainty']['basis'], 'cpri_physical')
             self.assertLessEqual(nation['assessment_uncertainty']['score_range_low'], nation['assessment_uncertainty']['score_range_high'])
             for hazard in nation['hazards']:
                 self.assertIn(hazard['source_ref'], sources)
-                if hazard['status'] == 'unavailable':
+                if hazard['status'] != 'modeled':
                     self.assertIsNone(hazard['value'])
-        self.assertGreater(self.risk['coverage']['nations_with_fewer_than_five'], 0)
+        self.assertEqual(self.risk['coverage']['placeholder_hazard_rows'],37)
+        for aggregate in [self.risk['national'],*self.risk['regions']]:
+            self.assertNotIn('top_hazards', aggregate)
+            for hazard in aggregate['hazard_statuses']:
+                self.assertEqual(sum(hazard['status_counts'].values()),aggregate['nation_count'])
+
+    def test_frozen_priority_and_adjacent_data_unchanged(self):
+        previous=risk.load(ROOT/'work/risk/previous-risk.json')
+        for key in ('frozen_manifest_sha256','frozen_at_head'):
+            self.assertNotIn(key,self.risk)
+            self.assertEqual(self.risk['previous_snapshot'][key],previous[key])
+        self.assertEqual([(n['tribe_id'],n['percentile_rank'],n['high_risk']) for n in previous['nations']],
+                         [(n['tribe_id'],n['percentile_rank'],n['high_risk']) for n in self.risk['nations']])
+        self.assertEqual(risk.digest(ROOT/'site/data/funding.json'),'527f856037f7a081e5eaa58287a609e91b848f0dd99db1901eb397bf5cc5bdd2')
+        self.assertEqual(risk.digest(ROOT/'site/data/plans.json'),'1426c98ddfa84064aac46016c481220cdc9f6c3412e803035c90365ad3ba6f0f')
+        for old,new in zip([previous['national'],*previous['regions']], [self.risk['national'],*self.risk['regions']]):
+            self.assertEqual(old['county_hazards'],new['county_hazards'])
+            self.assertEqual(old['county_eal'],new['county_eal'])
+            if new['climate_county_eal'] is not None:
+                self.assertEqual(old['climate_county_eal'],new['climate_county_eal'])
+
+    def test_temporal_and_water_semantics(self):
+        for nation in self.risk['nations']:
+            for cell in nation['temporal']:
+                if cell['status'] not in ['baseline_assessed','forward_supported']:
+                    self.assertIsNone(cell['physical_score'])
+                    self.assertIsNone(cell['monte_carlo'])
+        water=next(r for r in self.risk['ecoregions']['regions'] if r['region_id']=='0.0.0')
+        self.assertEqual(water['source_category'],'water')
 
     def test_award_regions_and_annual_events_reconcile(self):
         data = self.funding

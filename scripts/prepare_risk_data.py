@@ -20,9 +20,17 @@ from types import SimpleNamespace
 ROOT = Path(__file__).resolve().parents[1]
 ROSTER_HASH = '5db8f52cf44d3a3853f8403cd6dc845a59088f07f42b40a3488575b5cbe7cece'
 PROFILE_HAZARDS = {
-    'wildfire': 'Wildfire', 'flooding': 'Flooding', 'drought': 'Drought',
+    'wildfire': 'Wildfire', 'flooding': 'Flooding (coastal and inland)', 'drought': 'Drought',
     'severe_weather': 'Severe weather', 'extreme_heat': 'Extreme heat', 'landslide': 'Landslide',
     'sea_level_rise': 'Sea-level rise', 'coastal_erosion': 'Coastal erosion', 'permafrost': 'Permafrost thaw',
+}
+HAZARD_BASIS = {
+    'wildfire': 'Wildfire NRI risk percentile / 100; source-specific override may apply.',
+    'flooding': 'Maximum of coastal and inland NRI risk percentiles / 100; not inland flood alone.',
+    'drought': 'Drought exposure blend: 0.6 raw + 0.2 water + 0.2 agriculture; current defaults yield 0.6 raw + 0.16.',
+    'extreme_heat': 'Heat exposure blend; current defaults yield 0.7 raw + 0.09.',
+    'severe_weather': 'Mean of selected positive severe-weather hazard scores; different inclusion from other indexes.',
+    'landslide': 'Nonlinear landslide screening transform; not comparable to percentile/blended indexes.',
 }
 HAZARDS = {
     'AVLN': 'Avalanche', 'CFLD': 'Coastal flooding', 'CWAV': 'Cold wave',
@@ -78,16 +86,36 @@ def hazard_rows(tribe_id, profile):
     rows = []
     assessed = set(profile.get('assessment', {}).get('assessed', []))
     values = profile.get('primary_cpri', {}).get('hazard_scores', {})
+    absence = {r['hazard']: r for r in profile.get('eal_absent', [])}
+    not_assessed = {r['name']: r['status'] for r in profile.get('assessment', {}).get('not_assessed', [])}
     for code, name in PROFILE_HAZARDS.items():
         value = values.get(code)
+        evidence = absence.get(code, {})
+        interpretation = evidence.get('engine_score', {}).get('interpretation')
         supported = code in assessed and numeric(value) and 0 <= value <= 1
+        status = 'modeled' if supported else not_assessed.get(code, 'unavailable')
+        if code in profile.get('modules_skipped', []):
+            status = 'not_applicable'
+        if code in profile.get('modules_stubbed', []):
+            status = 'stub'
+        if code in profile.get('modules_failed', []):
+            status = 'failed'
+        if interpretation == 'legacy_placeholder_floor':
+            status = 'placeholder'
+        supported = supported and status == 'modeled'
         rows.append({
             'tribe_id': tribe_id, 'hazard_id': code, 'hazard_name': name,
             'metric': 'cpri_hazard_exposure_score', 'value': value if supported else None,
-            'unit': 'index (0–1)', 'status': 'modeled' if supported else 'unavailable', 'source_ref': 'scanner-cpri',
+            'raw_value': value if numeric(value) else None,
+            'unit': 'index (0–1)', 'status': status, 'source_ref': 'scanner-cpri',
             'coverage': 'assessed' if supported else 'not_assessed',
-            'uncertainty': None,
-            'missing_reason': None if supported else 'Not assessed with a supported score in this profile; not zero.',
+            'source_basis': evidence.get('engine_score', {}).get('basis', HAZARD_BASIS.get(code, 'No supported quantitative method in this snapshot.')),
+            'comparison_context': {'formula_version': '3.2.0', 'channel': 'exposure_score', 'horizon': 'baseline',
+                                   'scenario': 'ssp245', 'boundary_source': profile.get('boundary_source'),
+                                   'comparability': 'No cross-hazard severity comparison; within-hazard comparison requires matching source support.'},
+            'source_interpretation': interpretation,
+            'uncertainty': evidence or None,
+            'missing_reason': None if supported else evidence.get('disclosure_text', f'Source status: {status}; not a supported physical zero.'),
         })
     return rows
 
@@ -118,6 +146,8 @@ def frequency_rows(nations):
 
 
 def aggregate_counties(rows, aggregate_vulnerability):
+    if any(r['EAL_VALT'].strip() and (not math.isfinite(float(r['EAL_VALT'])) or float(r['EAL_VALT']) < 0) for r in rows):
+        raise ValueError('Invalid county EAL')
     contexts = [SimpleNamespace(vulnerability_profile={'nri': {'eal_total': float(r['EAL_VALT'])}})
                 for r in rows if r['EAL_VALT'].strip()]
     # Reuse the scanner's existing EAL summation with one context per unique county.
@@ -134,8 +164,12 @@ def aggregate_counties(rows, aggregate_vulnerability):
                         'value': money(values) if values else None, 'unit': 'USD/year',
                         'status': 'modeled' if values else 'unavailable', 'source_ref': 'fema-nri',
                         'contributing_counties': len(values), 'denominator': len(rows)})
+    available = [h['value'] for h in hazards if h['value'] is not None]
+    cell_count = sum(h['contributing_counties'] for h in hazards)
     return {'county_count': len(rows), 'county_eal': total if contexts else None,
-            'climate_county_eal': money(float(r[h + '_EALT']) for r in rows for h in HAZARDS if r[h + '_EALT'].strip()),
+            'climate_county_eal': money(float(r[h + '_EALT']) for r in rows for h in HAZARDS if r[h + '_EALT'].strip()) if available else None,
+            'climate_county_eal_coverage': {'supported_cells': cell_count, 'possible_cells': len(rows) * len(HAZARDS),
+                                            'status': 'unavailable' if not available else 'complete' if cell_count == len(rows) * len(HAZARDS) else 'partial'},
             'county_eal_coverage': len(contexts), 'county_top_hazards': top_five(hazards),
             'county_hazards': hazards}
 
@@ -333,8 +367,8 @@ def build(source, data_root):
 
     county_path = reference / 'nri/NRI_Table_Counties.csv'
     inputs.append(county_path)
-    with county_path.open(encoding='utf-8-sig', newline='') as handle:
-        counties = list(csv.DictReader(handle))
+    from scanner_bundle import accept_county_snapshot
+    counties, _county_snapshot = accept_county_snapshot(county_path)
     county_versions = sorted({r['NRI_VER'] for r in counties})
     if len({r['STCOFIPS'] for r in counties}) != len(counties):
         raise ValueError('Duplicate county records would double count costs')
@@ -478,9 +512,154 @@ def build(source, data_root):
                       'funding': funding['national'], 'input_manifest_sha256': metadata['input_manifest_sha256']}))
 
 
+def status_summary(nations):
+    return [{'hazard_id': code, 'hazard_name': name, 'denominator': len(nations),
+             'contributing_nations': sum(h['status'] == 'modeled' for n in nations for h in n['hazards'] if h['hazard_id'] == code),
+             'status_counts': dict(Counter(h['status'] for n in nations for h in n['hazards'] if h['hazard_id'] == code))}
+            for code, name in PROFILE_HAZARDS.items()]
+
+
+MC_NOTE = ('10,000 deterministic-seed Latin hypercube samples of triangular hazard inputs: mode=score, '
+           'limits=max(0,0.7*score), min(1,1.3*score). Hazard sensitivity only; CEM/IIG are not sampled '
+           'despite the raw layers_sampled label. No cross-hazard correlation model. Not event probabilities, '
+           'climate-model spread, or complete uncertainty for the final index.')
+
+
+def temporal_rows(record):
+    grid = record['profile'].get('temporal', {}).get('grid', {})
+    rows = []
+    for support in record['temporal_support']:
+        cell = grid.get(support['horizon'], {}).get(support['scenario'], {})
+        raw = cell.get('cpri_physical')
+        supported = support['status'] in ('baseline_assessed', 'forward_supported')
+        rows.append(dict(support, physical_score=raw if supported and numeric(raw) else None,
+                         raw_physical_score=raw if numeric(raw) else None,
+                         source_basis='baseline_assessment' if support['horizon'] == 'baseline' else 'forward_change_factors_2080_ssp370',
+                         reason=('At least one evaluated forward factor; not every hazard is projected.' if support['status'] == 'forward_supported'
+                                 else 'Baseline assessment.' if supported else 'Retained cell-level support is insufficient; raw values may be baseline fallbacks.'),
+                         monte_carlo=cell.get('monte_carlo') if supported else None,
+                         raw_monte_carlo_present=bool(cell.get('monte_carlo'))))
+    return rows
+
+
+def integrate_bundle(bundle, data_root):
+    from scanner_bundle import accept_county_snapshot, verify_bundle
+    accepted = verify_bundle(bundle, data_root)
+    previous_path = ROOT / 'work/risk/previous-risk.json'
+    previous_hash = '1c534f25a71615b51393d5c015816a2f5cbaa4a9da4b3f1cb87a4b64d046c475'
+    if not previous_path.exists():
+        original = ROOT / 'site/data/risk.json'
+        if digest(original) != previous_hash:
+            raise ValueError('Previous public snapshot identity differs; explicit reconciliation needed')
+        previous_path.write_bytes(original.read_bytes())
+    if digest(previous_path) != previous_hash:
+        raise ValueError('Previous accepted snapshot backup changed')
+    previous = load(previous_path)
+    result = load(previous_path)
+    counties, county_snapshot = accept_county_snapshot(data_root / 'reference/data/nri/NRI_Table_Counties.csv')
+    nations_by_id = {n['tribe_id']: n for n in result['nations']}
+    for record in accepted['nations']:
+        identity = record['tribe_id']
+        profile = accepted['profiles'][identity]
+        nation = nations_by_id[identity]
+        primary = profile['primary_cpri']
+        # Frozen priority stays fixed; a numerically different rerun needs a separate decision.
+        if nation['percentile_rank'] != primary['percentile_rank']:
+            raise ValueError('Frozen planning percentile changed')
+        nation.pop('top_hazards', None)
+        nation['hazards'] = hazard_rows(identity, profile)
+        nation['source_profile_sha256'] = record['source']['sha256']
+        nation['source_provenance'] = {k: profile['provenance'].get(k) for k in ('origin', 'license', 'coverage_status', 'confidence')}
+        nation['source_provenance']['confidence_meaning'] = 'Source coverage/proxy label, not calibrated confidence.'
+        nation['computed_at'] = profile['computed_at']
+        nation['temporal'] = temporal_rows(record)
+        nation['module_statuses'] = {k: profile.get(k, []) for k in ('modules_failed', 'modules_stubbed', 'modules_skipped')}
+        nation['forward_change_factors'] = profile.get('forward_change_factors', {})
+        nation['assessment_uncertainty'].update({
+            'missing_data_bounds_meaning': 'Source physical-score coverage bounds under unassessed-hazard extremes; not a probability interval.',
+            'monte_carlo_meaning': MC_NOTE,
+            'frozen_composite_includes_placeholder': any(h['status'] == 'placeholder' for h in nation['hazards']),
+        })
+        for hazard in nation['hazards']:
+            hazard['source_profile_sha256'] = record['source']['sha256']
+    aggregate = lambda _, contexts: (None, None, None, sum(c.vulnerability_profile['nri']['eal_total'] for c in contexts))
+    for summary in [result['national'], *result['regions']]:
+        key = summary['region_id']
+        ns = result['nations'] if key == 'national' else [n for n in result['nations'] if n['region_id'] == key]
+        cs = counties if key == 'national' else [c for c in counties if c['STATEABBRV'] in summary['states']]
+        summary.pop('top_hazards', None)
+        summary['hazard_statuses'] = status_summary(ns)
+        summary.update(aggregate_counties(cs, aggregate))
+        for cost in summary['costs']:
+            if cost['source_ref'] == 'fema-nri':
+                cost['source_sha256'] = county_snapshot['sha256']
+                cost['source_version'] = county_snapshot['version']
+                if 'climate_sensitive' in cost['metric']:
+                    cost['amount'] = summary['climate_county_eal']
+                    cost['coverage'] = summary['climate_county_eal_coverage']
+    result['previous_snapshot'] = {k: previous[k] for k in ('source_commit', 'source_dirty', 'input_manifest_sha256', 'frozen_manifest_sha256', 'frozen_at_head', 'data_as_of', 'method_version', 'source_snapshots')}
+    result['previous_snapshot']['public_risk_sha256'] = previous_hash
+    for historical_key in ('frozen_manifest_sha256', 'frozen_at_head'):
+        result.pop(historical_key, None)
+    handoff = accepted['handoff']
+    result.update(schema_version='2.0.0', method_version='catf-risk-2.0',
+                  generated_at=datetime.now(timezone.utc).isoformat(),
+                  data_as_of=max(n['computed_at'] for n in result['nations']),
+                  source_commit=handoff['calculation_revision'], source_dirty=None,
+                  calculation_revision=handoff['calculation_revision'], export_revision=handoff['export_revision'])
+    result['profile_generated_at_range'] = [min(n['computed_at'] for n in result['nations']), result['data_as_of']]
+    result['accepted_bundle'] = {'schema_version': accepted['manifest']['schema_version'], 'accepted_at': handoff['verified_at'],
+                               'hashes': accepted['files'], 'calculation_revision': handoff['calculation_revision'],
+                               'export_revision': handoff['export_revision'], 'manifest_source_head': accepted['manifest']['source_head'],
+                               'formula_and_exporter_hashes': [{'component': r['path'].split('/')[-1], 'sha256': r['sha256']} for r in accepted['manifest']['formula_and_exporter_hashes']],
+                               'comparison': {'numerically_changed_nations': 0, 'changed_numeric_fields': 0, 'added_ids': 0, 'removed_ids': 0}}
+    result['source_snapshots']['nri_counties'] = county_snapshot
+    result['source_snapshots']['cpri_dashboard'] = {'sha256': accepted['files']['canonical_dashboard'], 'profile_count': 575}
+    result['source_dirty_reason'] = 'Accepted calculation receipt records the revision but not historical dirty state; exact formula/exporter hashes are retained separately.'
+    result['coverage'].pop('nations_with_five_hazards', None)
+    result['coverage'].pop('nations_with_fewer_than_five', None)
+    result['coverage']['placeholder_hazard_rows'] = sum(h['status'] == 'placeholder' for n in result['nations'] for h in n['hazards'])
+    result['coverage']['temporal_status_counts'] = dict(Counter(t['status'] for n in result['nations'] for t in n['temporal']))
+    result['methods'].pop('nation_ranking', None)
+    result['methods'].pop('aggregate_ranking', None)
+    result['methods'].update(hazard_status='All nine hazard states; unlike hazard indexes are not severity-comparable. Counts describe coverage only.',
+                             monte_carlo=MC_NOTE, temporal_support='Only baseline_assessed and forward_supported cells contribute. Future support applies only to 2080/SSP3-7.0 with at least one evaluated factor; 1.0 is valid no-change support.',
+                             frozen_priority='Composite percentiles/high_risk and dependent planning queue remain frozen, including source placeholder effects; no incidental reranking.',
+                             composite='Final percentile-normalized CPRI is ordinal screening position, not probability, money or ratio scale.')
+    result['limitations'] += ['Explicit drought placeholder floors are excluded from supported hazard values/counts but remain in the unchanged source composites.',
+                              'Hawaii has no Nation entry in the canonical cohort; county context does not establish a Nation risk or climate projection.',
+                              'Alaska county-equivalent contexts do not measure community, access, subsistence, ice, erosion or permafrost consequences completely. Missing hazard support is not low risk.']
+    for key, filename in [('ecoregions', 'ecoregions.json'), ('advocacy_regions', 'advocacy_regions.json')]:
+        source = load(bundle / filename)
+        public = {'scheme': source['scheme'], 'interpretation': source['interpretation'], 'regions': []}
+        for region in source['regions']:
+            # Regional raw hazard medians include placeholders; publish corrected coverage only.
+            row = {k: v for k, v in region.items() if k not in ('hazards',)}
+            row['hazard_statuses'] = status_summary([nations_by_id[i] for i in row['member_nation_ids']])
+            row['source_category'] = 'water' if row['region_id'] == '0.0.0' and key == 'ecoregions' else 'ecoregion' if key == 'ecoregions' else 'scanner_advocacy_region'
+            public['regions'].append(row)
+        result[key] = public
+    private_manifest = {'bundle': str(bundle), 'accepted_files': accepted['files'],
+                        'profiles': {n['tribe_id']: n['source']['sha256'] for n in accepted['nations']},
+                        'previous_public_sha256': previous_hash, 'county_snapshot': county_snapshot,
+                        'adapter_sha256': digest(Path(__file__)), 'verifier_sha256': digest(ROOT / 'scripts/scanner_bundle.py')}
+    save(ROOT / 'work/risk/accepted-input-manifest.json', private_manifest)
+    result['input_manifest_sha256'] = digest(ROOT / 'work/risk/accepted-input-manifest.json')
+    serialized = json.dumps(result)
+    if re.search(r'(?<![A-Za-z])[A-Za-z]:[\\/]', serialized) or any('"' + key + '"' in serialized for key in ('tek_audit', 'processing_history', 'source_path')):
+        raise ValueError('Private field/path in public projection')
+    save(ROOT / 'site/data/risk.json', result)
+    print(json.dumps({'nations': len(result['nations']), 'placeholder_rows': result['coverage']['placeholder_hazard_rows'],
+                      'temporal_status_counts': result['coverage']['temporal_status_counts'], 'input_manifest_sha256': result['input_manifest_sha256']}))
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source', type=Path, default=Path('I:/tcr-policy-scanner'))
     parser.add_argument('--data-root', type=Path, default=Path('I:/data/tcr-policy-scanner'))
+    parser.add_argument('--accepted-bundle', type=Path, help='Deliberate accepted-schema risk-only import; funding/plans unchanged.')
     args = parser.parse_args()
-    build(args.source, args.data_root)
+    if args.accepted_bundle:
+        integrate_bundle(args.accepted_bundle, args.data_root)
+    else:
+        build(args.source, args.data_root)

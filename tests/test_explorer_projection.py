@@ -26,6 +26,25 @@ class ExplorerProjectionTests(unittest.TestCase):
         with self.assertRaises(AssertionError):
             bounds([170, 50, -170, 72])
 
+    def test_unknown_and_blank_counties_are_not_zero_loss(self):
+        unknown = county_context(['99999'], {})
+        self.assertIsNone(unknown['climate_county_eal'])
+        self.assertEqual(unknown['unmatched_county_fips'], ['99999'])
+        blank = {'EAL_VALT': '', **{h + '_EALT': '' for h in HAZARDS}}
+        result = county_context(['00001'], {'00001': blank})
+        self.assertIsNone(result['climate_county_eal'])
+        self.assertEqual(result['climate_county_eal_coverage']['status'], 'unavailable')
+        blank['WFIR_EALT'] = '0'
+        supported = county_context(['00001'], {'00001': blank})
+        self.assertEqual(supported['climate_county_eal'], 0)
+        self.assertEqual(supported['climate_county_eal_coverage']['status'], 'partial')
+
+    def test_source_identity_is_carried_to_cohort_output(self):
+        identity = {'version': ['December 2025'], 'sha256': 'accepted'}
+        result = county_context([], {}, identity)
+        self.assertEqual(result['source_sha256'], 'accepted')
+        self.assertEqual(result['source_version'], 'FEMA NRI December 2025 v1.20')
+
 
 if __name__ == '__main__':
     unittest.main()

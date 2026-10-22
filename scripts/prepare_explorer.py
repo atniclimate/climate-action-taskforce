@@ -1,5 +1,4 @@
 """Join accepted climate/geography derivatives into the deliberate static artifact."""
-import csv
 from hashlib import sha256
 import json
 from pathlib import Path
@@ -7,6 +6,7 @@ import shutil
 from urllib.request import urlopen
 
 from prepare_risk_data import aggregate_counties
+from prepare_scanner_climate import prepare_scanner_climate
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'site'
@@ -32,7 +32,7 @@ def bounds(value):
     return [[south, west], [north, east]]
 
 
-def county_context(fips, counties):
+def county_context(fips, counties, source_identity=None):
     selected = sorted(set(fips))
     rows = [counties[key] for key in selected if key in counties]
     # Reuse the accepted county aggregation without initializing the scanner.
@@ -40,7 +40,9 @@ def county_context(fips, counties):
     total.update(expected_counties=len(selected), unmatched_county_fips=[key for key in selected if key not in counties],
                  period='Annualized model expectation', unit='USD/year', price_year=None,
                  scope='Whole counties intersecting the story footprint; all county assets, not Tribal losses or funding need.',
-                 source_version='FEMA NRI December 2025 v1.20')
+                 source_version='FEMA NRI ' + ', '.join((source_identity or {'version': ['December 2025']})['version']) + ' v1.20')
+    if source_identity:
+        total['source_sha256'] = source_identity['sha256']
     return total
 
 
@@ -70,6 +72,15 @@ def bundle_explorer_styles():
 
 
 def main():
+    from scanner_bundle import accept_county_snapshot, verify_bundle
+    bundle = Path('I:/data/tcr-policy-scanner/output/integrations/climate-action-taskforce')
+    verified = verify_bundle(bundle, Path('I:/data/tcr-policy-scanner'))
+    county_path = Path('I:/data/tcr-policy-scanner/reference/data/nri/NRI_Table_Counties.csv')
+    rows, county_identity = accept_county_snapshot(county_path)
+    risk = load(SITE / 'data/risk.json')
+    assert risk['source_snapshots']['nri_counties'] == county_identity, 'Risk/explorer county snapshot mismatch'
+    for filename in ('geography.json', 'nation-area-crosswalk.json'):
+        assert sha256((GEO / filename).read_bytes()).hexdigest() == verified['climate_manifest']['inputs']['geography/' + filename], 'Accepted climate geography input mismatch'
     geography = load(GEO / 'geography.json')
     climate = load(ROOT / 'work/climate/public-manifest.json')
     crosswalk = geography['nations']
@@ -77,6 +88,10 @@ def main():
     files = dict(climate['files'])
     areas = dict(climate['areas'])
     geoareas = {area['area_id']: area for area in geography['areas']}
+    scanner_climate = prepare_scanner_climate(bundle, verified, geography, SITE)
+    files.update(scanner_climate.pop('files'))
+    for area_id, file_id in scanner_climate.pop('area_files').items():
+        areas[area_id]['scanner_climate_file'] = file_id
     copied = {}
 
     def copy_asset(relative):
@@ -144,9 +159,6 @@ def main():
         areas[aid].update(view='conus', bounds=box, point=[sum(p[0] for p in box) / 2, sum(p[1] for p in box) / 2], geometry_file=copy_asset(region['geometry_asset']), memberships={},
                           geometry_role=region.get('role', 'Independent county context; not Nation land or the authored story climate mean'))
         places.append({'id': 'region:' + aid, 'kind': 'region', 'name': region['name'], 'area_ids': [aid], 'mapping_status': 'regional_context'})
-    county_path = Path('I:/data/tcr-policy-scanner/reference/data/nri/NRI_Table_Counties.csv')
-    with county_path.open(encoding='utf-8-sig', newline='') as source:
-        rows = list(csv.DictReader(source))
     counties = {row['STCOFIPS'].zfill(5): row for row in rows}
     assert len(counties) == len(rows)
     cohorts = []
@@ -158,7 +170,7 @@ def main():
         cohorts.append({**{k: raw[k] for k in ['id', 'label', 'source_unit_ids', 'rule', 'county_fips', 'area_ids', 'tribe_ids']},
                         'view': 'conus', 'scope': raw['county_relation'], 'bounds': bounds(raw['bounds']),
                         'geometry_file': copy_asset(raw['geometry_asset']), 'default_place': selected['id'], 'default_area': selected['area_ids'][0],
-                        'costs': county_context(raw['county_fips'], counties)})
+                        'costs': county_context(raw['county_fips'], counties, county_identity)})
     release = 'catf-place-2026-10-22-v1'
     catalog = {'schema_version': 'catf-explorer.v1', 'release_id': release,
                'default_selection': {'release': release, 'place': cohorts[0]['default_place'], 'area': cohorts[0]['default_area'], 'family': 'native-nex', 'metric': 'temp_mean', 'baseline': '1995-2014', 'period': '2040-2059', 'lens': 'basin', 'story': cohorts[0]['id']},
@@ -168,12 +180,15 @@ def main():
                'periods': [{'id': p, 'label': p.replace('-', '–')} for p in ['2020-2039', '2040-2059', '2070-2089']],
                'lenses': [{'id': 'ecology', 'label': 'EPA/CEC Level III ecology'}, {'id': 'basin', 'label': 'USGS HUC4 watersheds'}],
                'places': places, 'areas': areas, 'cohorts': cohorts, 'views': views, 'files': files,
+               'scanner_climate': scanner_climate,
                'coverage': {'nations': 575, **geography['coverage']}, 'sources': geography['source_refs'] + climate['sources'], 'limitations': geography['limitations'],
                'input_hashes': {name: sha256(path.read_bytes()).hexdigest() for name, path in [('geography', GEO / 'geography.json'), ('climate', ROOT / 'work/climate/public-manifest.json'), ('county_costs', county_path)]}}
     save(SITE / 'data/explorer/catalog.json', catalog)
     vendor_leaflet()
     bundle_explorer_styles()
-    payload = sum((SITE / f['path']).stat().st_size for f in files.values())
+    payload = sum(path.stat().st_size for path in SITE.rglob('*') if path.is_file()
+                  and ('/explorer/' in path.as_posix() or '/leaflet-1.9.4/' in path.as_posix()
+                       or path.parent.name in {'components', 'state'} or path.name in {'explorer.js', 'catalog.js'}))
     assert payload < 16 * 1024 * 1024, payload
     print(json.dumps({'places': len(places), 'climate_areas': len(areas), 'cohorts': len(cohorts), 'files': len(files), 'bytes': payload}))
 

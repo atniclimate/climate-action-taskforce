@@ -1,0 +1,358 @@
+{
+  "schema_version": "catf-plan-update-v1",
+  "source_tool": "plan-assessor",
+  "generated_at": "2026-10-22T12:47:58.697586+00:00",
+  "data_as_of": "2026-10-22T12:20:10.158087+00:00",
+  "status": "incomplete_provisional_inventory_plus_three_reviewed_relationships",
+  "inventory": {
+    "byte_distinct_files": 234,
+    "files_placed_under_multiple_profiles": 20,
+    "format_validation_counts": {
+      "unvalidated_application/json": 1,
+      "unvalidated_application/pdf": 1,
+      "validated_application/pdf": 232
+    },
+    "increase": 3,
+    "lead_records": 404,
+    "operational_profiles_with_local_documents": 254,
+    "operational_roster_size": 577,
+    "previous_profiles_with_local_documents": 251,
+    "requested_government_denominator": 575,
+    "unique_profile_object_pairs": 306,
+    "verified_national_numerator": null,
+    "years_observed": {
+      "2003": 1,
+      "2008": 1,
+      "2010": 3,
+      "2011": 3,
+      "2012": 4,
+      "2013": 6,
+      "2014": 4,
+      "2015": 5,
+      "2016": 10,
+      "2017": 8,
+      "2018": 12,
+      "2019": 23,
+      "2020": 12,
+      "2021": 5,
+      "2022": 14,
+      "2023": 12,
+      "2024": 85,
+      "2025": 17,
+      "2026": 1,
+      "unknown": 8
+    }
+  },
+  "identity": {
+    "operational_roster_size": 577,
+    "catf_roster_size": 575,
+    "crosswalk_status": "unresolved",
+    "national_prevalence": null,
+    "explanation": "Source profiles remain unjoined to the CATF roster. The 577 operational identities have not been reconciled to 575 governments; profiles without documents remain unknown."
+  },
+  "plan_types": [
+    {
+      "id": "climate_action",
+      "label": "Climate action",
+      "byte_distinct_files": 56,
+      "operational_profiles_with_label": 78
+    },
+    {
+      "id": "climate_adaptation",
+      "label": "Climate adaptation",
+      "byte_distinct_files": 40,
+      "operational_profiles_with_label": 58
+    },
+    {
+      "id": "hazard_mitigation",
+      "label": "Hazard mitigation",
+      "byte_distinct_files": 84,
+      "operational_profiles_with_label": 82
+    },
+    {
+      "id": "vulnerability_assessment",
+      "label": "Vulnerability assessment",
+      "byte_distinct_files": 24,
+      "operational_profiles_with_label": 24
+    },
+    {
+      "id": "ghg_reduction",
+      "label": "GHG reduction",
+      "byte_distinct_files": 17,
+      "operational_profiles_with_label": 33
+    },
+    {
+      "id": "pollution_reduction",
+      "label": "Pollution reduction",
+      "byte_distinct_files": 18,
+      "operational_profiles_with_label": 23
+    }
+  ],
+  "reviewed_subset": {
+    "action_adaptation_profiles": 2,
+    "adoption_unknown_relationships": 3,
+    "broad_eligible_profiles": 3,
+    "broader_plan_relationships": 3,
+    "candidate_ids": [
+      "national-ambler-nwab-pcap-2024",
+      "national-naknek-bbna-ccap-2025",
+      "national-yocha-yolo-hmp-2012"
+    ],
+    "climate_specific_profiles": 2,
+    "current_edition_unknown_relationships": 3,
+    "federal_program_supported_relationships": 2,
+    "federal_support_unknown_relationships": 1,
+    "internal_tribal_resources_unknown_relationships": 3,
+    "relationships": 3,
+    "single_tribe_plan_relationships": 0
+  },
+  "relationships": [
+    {
+      "id": "national-naknek-bbna-ccap-2025",
+      "source_profile_name": "Naknek Native Village",
+      "catf_tribe_id": null,
+      "identity_status": "unreconciled",
+      "plan_title": "Bristol Bay Region COMPREHENSIVE CLIMATE ACTION PLAN",
+      "relationship_type": "explicit_named_participant",
+      "relationship_summary": "Acknowledgements participant-community/Tribe list explicitly pairs Naknek with Naknek Native Village; South Naknek appears separately. Naknek standalone authorship and adoption are not inferred.",
+      "eligibility": {
+        "broad": "accepted",
+        "climate_specific": "accepted",
+        "action_adaptation": "accepted"
+      },
+      "federal_support": {
+        "status": "documented_program_support",
+        "program": "Climate Pollution Reduction Grants",
+        "agency": "US Environmental Protection Agency",
+        "recipient": "Bristol Bay Native Association",
+        "subawardee": null,
+        "award_id": null,
+        "amount": null,
+        "explanation": "EPA Climate Pollution Reduction Grants support; Bristol Bay Native Association is the recipient. This does not establish a direct Tribal award, award amount or unspent balance."
+      },
+      "internal_tribal_resources_status": "unknown",
+      "dates": {
+        "publication_year": 2025,
+        "publication_date": null,
+        "cover_date": null,
+        "completion_date": "2025-09",
+        "adoption_status": "unknown",
+        "current_edition_status": "unknown",
+        "date_basis": "Body states completed September 2025 (physical PDF page 5); this controls over the filename date. Publication day, adoption and current edition are unknown."
+      },
+      "scope_limits": [
+        "Named participant in a broader regional plan; standalone Tribal authorship or adoption is not established."
+      ],
+      "document_identity": {
+        "document_id": "bbna-bristol-bay-region-ccap",
+        "edition_id": "bbna-ccap-2025-held-0a4e72738fd295e4",
+        "component_id": null,
+        "parent_document_id": null,
+        "component_pdf_pages": null,
+        "count_rule": "One held plan edition and byte object; new Naknek relationship only. Embedded inventory is not a second document."
+      },
+      "citations": [
+        {
+          "url": "https://bbna.com/wp-content/uploads/2025/12/FINAL-BBNA-Regional-CCAP_08.29.25.pdf",
+          "title": "Bristol Bay Region COMPREHENSIVE CLIMATE ACTION PLAN",
+          "physical_pdf_pages": [
+            2,
+            5,
+            39
+          ],
+          "object_sha256": "0a4e72738fd295e4b030e5ee221264e023daacfbd23fb70fd6f034f08af2f1de"
+        }
+      ]
+    },
+    {
+      "id": "national-ambler-nwab-pcap-2024",
+      "source_profile_name": "Native Village of Ambler",
+      "catf_tribe_id": null,
+      "identity_status": "unreconciled",
+      "plan_title": "Priority Climate Action Plan Northwest Arctic Borough, Alaska",
+      "relationship_type": "explicit_represented_tribal_community_scope",
+      "relationship_summary": "Northwest Arctic Borough explicitly represents eleven Tribal communities under the TCC planning-grant award; Ambler is named. This establishes represented scope, not independently verified Ambler attendance, direct planning participation, authorization or adoption.",
+      "eligibility": {
+        "broad": "accepted",
+        "climate_specific": "accepted",
+        "action_adaptation": "accepted"
+      },
+      "federal_support": {
+        "status": "documented_program_support",
+        "program": "Climate Pollution Reduction Grants",
+        "agency": "US Environmental Protection Agency",
+        "recipient": "Tanana Chiefs Conference",
+        "subawardee": "Northwest Arctic Borough",
+        "award_id": null,
+        "amount": null,
+        "explanation": "EPA Climate Pollution Reduction Grants support; Tanana Chiefs Conference is the recipient. Northwest Arctic Borough is the subawardee. This does not establish a direct Tribal award, award amount or unspent balance."
+      },
+      "internal_tribal_resources_status": "unknown",
+      "dates": {
+        "publication_year": 2024,
+        "publication_date": null,
+        "cover_date": "2024-03-01",
+        "completion_date": null,
+        "adoption_status": "unknown",
+        "current_edition_status": "unknown",
+        "date_basis": "Component cover is dated March 1, 2024 (physical PDF page 1075). Final, adopted and current status are unknown."
+      },
+      "scope_limits": [
+        "Represented community scope does not establish attendance, direct participation, authorization or adoption.",
+        "NWAB component occupies physical PDF pages 1075–1130 within the TCC bundle. Count the component once; do not add the parent container or embedded inventory as separate plans."
+      ],
+      "document_identity": {
+        "document_id": "nwab-priority-climate-action-plan",
+        "edition_id": "nwab-pcap-2024-03-01",
+        "component_id": "nwab-pcap-component-in-tcc-a1abf0bb6a21e740",
+        "parent_document_id": "tcc-pcap-bundle-a1abf0bb6a21e740",
+        "component_pdf_pages": {
+          "first": 1075,
+          "last": 1130
+        },
+        "count_rule": "Ambler links to NWAB embedded plan component, not an independent TCC-authored Ambler plan. One held byte object; do not separately count embedded inventory or inflate parent plus component."
+      },
+      "citations": [
+        {
+          "url": "https://www.epa.gov/system/files/documents/2024-03/tcc-pcap.pdf",
+          "title": "Priority Climate Action Plan Northwest Arctic Borough, Alaska",
+          "physical_pdf_pages": [
+            1075,
+            1082,
+            1089,
+            1092,
+            1102,
+            1130
+          ],
+          "object_sha256": "a1abf0bb6a21e740652b184a42d34a3028998ca3c7af4b13bf63ea11712a0a6d"
+        }
+      ]
+    },
+    {
+      "id": "national-yocha-yolo-hmp-2012",
+      "source_profile_name": "Yocha Dehe Wintun Nation, California",
+      "catf_tribe_id": null,
+      "identity_status": "unreconciled",
+      "plan_title": "Yolo County Operational Area Multi-Jurisdictional Hazard Mitigation Plan",
+      "relationship_type": "explicit_planning_participant",
+      "relationship_summary": "Named jurisdiction and planning representatives; specified hazard actions include the Nation.",
+      "eligibility": {
+        "broad": "accepted",
+        "climate_specific": "withheld_unresolved",
+        "action_adaptation": "excluded_for_this_record"
+      },
+      "federal_support": {
+        "status": "unknown",
+        "program": null,
+        "agency": null,
+        "recipient": null,
+        "subawardee": null,
+        "award_id": null,
+        "amount": null,
+        "explanation": "Federal support is unknown, not zero. Public hosting alone is not funding evidence."
+      },
+      "internal_tribal_resources_status": "unknown",
+      "dates": {
+        "publication_year": 2012,
+        "publication_date": null,
+        "cover_date": null,
+        "completion_date": null,
+        "adoption_status": "unknown",
+        "current_edition_status": "unknown",
+        "date_basis": "Plan is labeled December 2012 Final. Formal adoption and current edition are unknown; the URL's 2018 directory is not the publication date."
+      },
+      "scope_limits": [
+        "County GHG inventory explicitly excludes the Tribe (physical PDF page 109); Tribal climate-specific coverage remains withheld and unresolved.",
+        "One broader hazard mitigation plan edition; no separate Tribal annex admitted."
+      ],
+      "document_identity": {
+        "document_id": "yolo-operational-area-mjhmp",
+        "edition_id": "yolo-mjhmp-2012-12",
+        "component_id": null,
+        "parent_document_id": null,
+        "component_pdf_pages": null,
+        "count_rule": "One shared HMP edition; no separate Tribal annex admitted."
+      },
+      "citations": [
+        {
+          "url": "https://public.destinyhosted.com/yolocdocs/2018/YCH/20180411_1961/7318_10%20-%202012%20YC%20MazMitBasePlan.pdf",
+          "title": "Yolo County Operational Area Multi-Jurisdictional Hazard Mitigation Plan",
+          "physical_pdf_pages": [
+            7,
+            12,
+            13,
+            109,
+            119,
+            121
+          ],
+          "object_sha256": "b1741b176148969d1d4cb1f28dbab323ad94dacaf8e015eca66a5df1fc26450a"
+        }
+      ]
+    }
+  ],
+  "unavailable_metrics": [
+    "verified_federal_funding_count",
+    "funding_amounts",
+    "verified_single_tribe_vs_broader_plan_counts",
+    "verified_climate_specific_profile_count"
+  ],
+  "format_unvalidated": [
+    {
+      "label": "Solomon PCAP",
+      "reason": "Encrypted PDF",
+      "count": 1
+    },
+    {
+      "label": "Climate Vulnerability Assessment",
+      "reason": "Unsupported or corrupt under the validator; recorded MIME type application/json",
+      "count": 1
+    }
+  ],
+  "search_status": "incomplete",
+  "limitations": [
+    "Type labels are overlapping provisional scout metadata, not reviewed plan prevalence.",
+    "A byte object may contain several plans; file totals are not semantic plan totals.",
+    "Multiple-profile byte placement does not itself verify shared planning participation.",
+    "Three reviewed relationships are a bounded subset, not a representative sample.",
+    "EPA CPRG support is not a direct Tribal award, award amount or unspent balance.",
+    "Do not use 254/575 or infer absence for profiles without stored documents.",
+    "Verification and national searches are continuing. The first ten profiles were assigned, not completed; initial direct-web shards are partial and add no admissions.",
+    "Uncaptured metadata, malformed original search records and access gaps remain unresolved. These are not absence evidence.",
+    "Funding, partner, edition and whole-inventory relationship checks remain unfinished. Internal Tribal resources are unknown for all three reviewed relationships.",
+    "Two inherited files remain format-unvalidated; inventory presence does not establish a readable or reviewed plan."
+  ],
+  "provenance": {
+    "metrics_sha256": "efa13418340f740a62f6f95f11487e65244492fffc26c0a482e6f6d3266feb1b",
+    "source_manifest_sha256": "cad2597208ab9671e329035dcef4213f5ca35b72a2d38a9f75e9c400260510a9",
+    "input_hashes": [
+      {
+        "source": "source_manifest",
+        "sha256": "cad2597208ab9671e329035dcef4213f5ca35b72a2d38a9f75e9c400260510a9"
+      },
+      {
+        "source": "definition_review",
+        "sha256": "0b9851466805134a29bc4daf3d4b5b9359cad821fe82d652a83054df4a8ab08b"
+      },
+      {
+        "source": "acquisition_summary",
+        "sha256": "1dd08143f6a328fd9b98cb8cb54b1fe48420cb80bd5a3a53107f5483e01cffcc"
+      },
+      {
+        "source": "acquisition_manifest",
+        "sha256": "804a750e5de165bb266ce829792fbc2f45919555ab4744020b214db2a85c572a"
+      },
+      {
+        "source": "acquisition_coverage",
+        "sha256": "8e528b21744fce7488706e86105be8eb9883c3f5872fabb9e2c8ae3f376a9233"
+      },
+      {
+        "source": "evaluation_card",
+        "sha256": "e34498de3f76980d3ac611ab2f462fe3179505f5a85e091aaac0aa1ecef47c3a"
+      },
+      {
+        "source": "roster_crosswalk",
+        "sha256": "fb0917afee230bd84e4db0d4a1240bcc1a25b573c369823d3757bb25c2950f5a"
+      }
+    ]
+  }
+}

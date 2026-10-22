@@ -31,6 +31,25 @@ def nation_names(candidate,names):
     return '; '.join(selected[:4])+(f'; and {len(selected)-4} more (full list in CSV / JSON)' if len(selected)>4 else '')
 def section(title,paragraphs=(),table=None,widths=None):return {'title':title,'paragraphs':list(paragraphs),'table':table,'widths':widths}
 
+def hazard_cell(hazard):
+    label=f"{h(hazard['hazard_name'])}: {h(hazard['status'].replace('_',' '))}"
+    if hazard['value'] is not None:label+=f" ({hazard['value']:.3f})"
+    elif hazard.get('raw_value') is not None:label+=f" (excluded raw {hazard['raw_value']:.3f})"
+    return label
+
+HAZARD_FIELDS=['tribe_id','Nation','region','hazard_id','hazard','metric','value','raw_value','unit','status','coverage','missing_reason','uncertainty','physical_percentile','assessment_coverage','source_ref','source_profile_sha256','source_basis','source_interpretation']
+
+def hazard_rows(risk):
+    return [[n['tribe_id'],n['display_name'],n['region_id'],x['hazard_id'],x['hazard_name'],x['metric'],x['value'],x.get('raw_value'),x['unit'],x['status'],x.get('coverage'),x.get('missing_reason'),x.get('uncertainty'),n['percentile_rank'],n['coverage_status'],x['source_ref'],x.get('source_profile_sha256'),x.get('source_basis'),x.get('source_interpretation')] for n in risk['nations'] for x in n['hazards']]
+
+def climate_coverage(costs):
+    coverage=costs['climate_county_eal_coverage']
+    return f"{coverage['supported_cells']} / {coverage['possible_cells']} hazard cells ({coverage['status']})"
+
+def physical_summary(value):
+    if value['median'] is None:return 'Unavailable'
+    return f"{value['median']:.3f} [{value['p25']:.3f}, {value['p75']:.3f}]; {value['min']:.3f}-{value['max']:.3f}"
+
 def write_csv(name,fields,rows):
     with (OUT/name).open('w',newline='',encoding='utf-8-sig') as stream:
         writer=csv.writer(stream);writer.writerow(fields)
@@ -64,7 +83,7 @@ def pdf_report(name,title,subtitle,sections):
             rows=[[Paragraph(h(v) if row_index==0 else v,styles['headcell' if row_index==0 else 'cell']) for v in row] for row_index,row in enumerate(s['table'])]
             table=LongTable(rows,colWidths=s['widths'],repeatRows=1,hAlign='LEFT')
             table.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),colors.HexColor('#155f65')),('ROWBACKGROUNDS',(0,1),(-1,-1),[colors.HexColor('#edf5ef'),colors.white]),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),7),('RIGHTPADDING',(0,0),(-1,-1),7),('TOPPADDING',(0,0),(-1,-1),7),('BOTTOMPADDING',(0,0),(-1,-1),7),('LINEBELOW',(0,0),(-1,0),.5,colors.HexColor('#155f65'))]))
-            flow.extend([KeepTogether([table]) if s.get('keep_table') else table,Spacer(1,10)])
+            flow.append(KeepTogether([table]) if s.get('keep_table') else table)
     def footer(canvas,doc):
         canvas.saveState();canvas.setFont('Noto',8);canvas.setFillColor(colors.HexColor('#49515b'))
         canvas.drawString(36,22,'CATF · 22 October 2026 · Working evidence / public discovery is not plan absence')
@@ -74,20 +93,21 @@ def pdf_report(name,title,subtitle,sections):
 
 def assessment_sections(risk,funding):
     regions=[dict(risk['national'],name='National baseline'),*risk['regions']]
-    counts={count:sum(len(n['top_hazards'])==count for n in risk['nations']) for count in sorted({len(n['top_hazards']) for n in risk['nations']},reverse=True)}
-    coverage='; '.join(f'{number} display {count} items in the ranked list' for count,number in counts.items())
+    comparison=risk['accepted_bundle']['comparison']
     result=[section('Read this first',[
         'This is a development-stage screening snapshot, not a certified risk assessment, an impact valuation, a funding need or a sovereign priority. Tribal Nations retain authority over decisions and information.',
-        f"Displayed-list coverage: <b>{len(risk['nations'])} Nations</b>; {coverage}. These are list lengths, not counts of all supported hazard scores; a Nation can have more than five supported scores. Missing hazards are unavailable, not zero. Hazard scores are modeled exposure indices (0–1), not probabilities or dollars.",
+        f"The complete hazard-status table accounts for <b>{len(risk['nations'])} Nations</b>. Coverage counts describe supported inputs, not severity. Hazard indexes have different constructions; their shared 0-1 display range does not make them comparable severity measures. Missing, unavailable and explicit placeholders are not zero; supported physical zeros are retained.",
         f"Scanner package {h(risk['package_version'])}; formula {h(', '.join(risk['formula_versions']))}; frozen profiles through {h(risk['data_as_of'])}. Source commit: {h(risk['source_commit'])}. Input manifest SHA-256: {h(risk['input_manifest_sha256'])}.",
         h(risk['methods']['regions'])]),
-      section('National and regional supported hazard frequency',[h(risk['methods']['aggregate_ranking']),'Each row gives the number of Nations whose supported top five includes the hazard, followed by the number assessed for that hazard and the full regional denominator. Multiple hazards can occur for each Nation.'],
-        [['Geography','Nations','Supported hazard frequency: count; assessed / denominator']]+[[h(r['name']),h(r['nation_count']),'<br/>'.join(f"{h(x['hazard_name'])}: {x['value']}; {x['contributing_nations']} / {x['denominator']}" for x in r['top_hazards'])] for r in regions],[150,55,515]),
+      section('National and regional hazard coverage',[
+        'All hazard modules are shown in source order, without a cross-hazard severity ranking or an average of incompatible indexes. Each entry gives supported Nations / cohort denominator, then every retained status count. These presentation groups assign each Nation once; the ecological cohorts below can overlap.'],
+        [['Geography','Nations','Supported inputs / denominator; retained status counts']]+[[h(r['name']),h(r['nation_count']),'<br/>'.join(f"{h(x['hazard_name'])}: {x['contributing_nations']} / {x['denominator']}; "+h('; '.join(f'{k.replace("_"," ")}: {v}' for k,v in x['status_counts'].items())) for x in r['hazard_statuses'])] for r in regions],[150,55,515]),
       section('National and regional county cost context',[
         'These dollar figures cover all residents, buildings and agriculture in included counties. <b>They are not Tribal losses.</b> Expected Annual Loss is an annualized model expectation, not next-year loss, historical damage, projected cost or a funding request.',
-        'The 15 climate-sensitive hazard subtotal excludes earthquake, tsunami and volcano. Avalanche and landslide have multiple causes. Summing available hazard cells does not attribute all loss to climate change. Each county is counted once; missing source fields are not zero.',
+        'The 15 climate-sensitive hazard subtotal excludes earthquake, tsunami and volcano. Avalanche and landslide have multiple causes. Summing available hazard cells does not attribute all loss to climate change. Each county is counted once; missing source fields are not zero. Partial coverage is a subtotal of available cells; an empty or all-missing subtotal is unavailable.',
+        'Flooding screening combines coastal and inland inputs; the independently retained county IFLD dollar measure is inland flood only. Hazard consequence scopes differ, including agriculture-only drought EAL. Sparse monetized assets do not establish low community, subsistence or essential-service consequences.',
         'Source: FEMA NRI December 2025 v1.20. Cached input does not retain a common price year; observation periods vary by hazard. All-hazard totals and climate-sensitive subtotals use different scopes.'],
-        [['Geography','Counties','Climate-sensitive EAL / year','All-hazard EAL / year']]+[[h(r['name']),h(r['county_count']),money(r['climate_county_eal']),money(r['county_eal'])] for r in regions],[180,70,235,235]),
+        [['Geography','Source counties','Climate-sensitive EAL / year; hazard-cell coverage','All-hazard EAL / year; county coverage']]+[[h(r['name']),h(r['county_count']),money(r['climate_county_eal'])+'; '+h(climate_coverage(r)),money(r['county_eal'])+f"; {r['county_eal_coverage']} / {r['county_count']}"] for r in regions],[180,70,235,235]),
       section('Existing scanner place-context aggregate',[
         h(risk['methods']['scanner_context_eal']),
         '<b>Non-additive context only.</b> Shared county/tract inputs can overlap across places. Do not sum the regions or interpret these figures as aggregate Tribal damage. The county totals above supply a non-overlapping all-geography comparison.'],
@@ -100,19 +120,79 @@ def assessment_sections(risk,funding):
         *[h(x) for x in funding['limitations']],
         'Source: '+link('https://www.usaspending.gov/search','USAspending public award records')+'. Archived leads are in funding.json; the separately checked funding leads below do not alter these historical obligations.'],
         [['Region','Awards','Recipient Nations','Award-level obligations']]+[[h(next((r['name'] for r in risk['regions'] if r['region_id']==x['region_id']),x['region_id'])),h(x['award_count']),h(x['recipient_nation_count']),money(x['amount'])] for x in funding['regions']],[240,80,140,260]),
-      section('Per-Nation supported top-five table',[
-        h(risk['methods']['nation_ranking']),
-        'Scores below are modeled exposure indices, ordered within each Nation. A displayed zero is a supplied value; an absent hazard is not zero. Coastal erosion, sea-level rise and permafrost remain unassessed. Percentiles describe the composite physical score, not the listed hazard score; differing coverage limits comparison.',
-        'The 115 Nations with evaluated physical percentile ≥80 meet the research-follow-up threshold. This is a cohort-relative screen, not a probability, eligibility decision or sovereign priority. Full hazard statuses and uncertainty fields are in nation-hazards.csv and risk.json.'],
-        [['Nation','Region','Supported hazards: exposure score (0–1)','Physical percentile']]+[[h(n['display_name']),h(n['region_id']),'; '.join(f"{h(x['hazard_name'])} {x['value']:.3f}" for x in n['top_hazards']),f"{n['percentile_rank']:.1f}" if n['percentile_rank'] is not None else 'Unavailable'] for n in risk['nations']],[205,65,370,80]),
+      section('Per-Nation complete hazard-status table',[
+        'Every hazard module retains its source status. Parenthesized values are supported hazard-specific screening indexes; an explicitly excluded raw placeholder is shown as such. Compare a hazard only within a consistent method, channel, period, pathway and supported population. Coastal erosion, sea-level rise and permafrost remain unavailable in this screening snapshot.',
+        'Physical percentiles are ordinal screening positions in the frozen comparison group, not probabilities or ratio-scale measurements. The existing follow-up threshold at or above 80 and planning queue are preserved. Frozen composites still include source drought placeholders; this local presentation correction does not recalibrate them. Full reasons, provenance, uncertainty and raw values remain in nation-hazards.csv and risk.json.'],
+        [['Nation','Region','Hazard status; supported index (0-1)','Frozen physical percentile']]+[[h(n['display_name']),h(n['region_id']),'<br/>'.join(hazard_cell(x) for x in n['hazards']),f"{n['percentile_rank']:.1f}" if n['percentile_rank'] is not None else 'Unavailable'] for n in risk['nations']],[205,65,370,80]),
       section('Sources and limitations'),]
-    result[-1]['paragraphs']=[*[h(x) for x in risk['limitations']],*[link(s['url'],s['title'])+(' — '+h(s['note']) if s.get('note') else '') for s in risk['sources']],f"Pinned roster SHA-256: {h(risk['roster_sha256'])}. Frozen profile manifest: {h(risk['frozen_manifest_sha256'])}. Exact local input lineage is retained in the project work record; only public fields are published."]
+    result[-1]['paragraphs']=[*[h(x) for x in risk['limitations']],*[link(s['url'],s['title'])+(' — '+h(s['note']) if s.get('note') else '') for s in risk['sources']],f"Pinned roster SHA-256: {h(risk['roster_sha256'])}. Previous snapshot profile manifest: {h(risk['previous_snapshot']['frozen_manifest_sha256'])}. Exact local input lineage is retained in the project work record; only public fields are published."]
     result[2]['new_page']=True;result[6]['new_page']=True
+    result.insert(2,section('Sampling, missingness and future support',[
+        f"The accepted {len(risk['nations'])}-Nation rerun comparison records {comparison['numerically_changed_nations']} changed Nations, {comparison['changed_numeric_fields']} changed numeric fields, {comparison['added_ids']} added IDs and {comparison['removed_ids']} removed IDs. Calculation revision: {h(risk['calculation_revision'])}; accepted export revision: {h(risk['export_revision'])}; formula {h(', '.join(risk['formula_versions']))}. The accepted result is numerical reproduction, not a new formula or scientific calibration. Handoff receipt SHA-256: {h(risk['accepted_bundle']['hashes']['handoff-manifest.json'])}.",
+        'Baseline Monte Carlo uses 10,000 Latin hypercube samples, deterministic Nation-ID seeds and triangular hazard inputs bounded by max(0, 0.7 × score) and min(1, 1.3 × score), with the mode at the score. The p5-p95 band describes sensitivity to these sampling assumptions. Clipping can make the band asymmetric. No cross-hazard correlation model is supplied; production does not vary CEM or IIG. The band is not event probability, climate model spread or complete final-index uncertainty.',
+        'Missing-hazard assessment bounds remain separate from Monte Carlo sensitivity. Coverage labels describe active-result coverage. CEM/IIG retain fixed screening assumptions; a threshold-triggered disrupted-node input is not an observed outage or a validated outage forecast.',
+        'Future raw numbers can be baseline fallbacks. Only baseline_assessed and forward_supported cells are displayed as supported physical scores in the public temporal data. Current forward support is restricted to 2080 / SSP3-7.0 with at least one disclosed finite evaluated change factor, including 1.0. Other future cells remain unverified or unavailable with reasons and raw values. This does not establish every hazard was projected. Scanner horizons are separate from the Native 20-year climate windows.',
+        'Regional risk summaries are descriptive medians, p25-p75, minima and maxima across contributing whole-Nation physical scores. They are not regional probability or sensitivity bands. Do not average ordinal percentile ranks or individual Monte Carlo endpoints, sum normalized scores as losses, or add overlapping ecological cohorts.']))
+    regional_rows=[['Taxonomy / cohort','Baseline contributors / missing','Physical score median [p25, p75]; min-max']]
+    for key,label in [('advocacy_regions','Scanner advocacy'),('ecoregions','EPA/CEC Level III 2010')]:
+        for region in risk[key]['regions']:
+            value=region['physical_score']
+            regional_rows.append([h(f"{label}: {region['region_name']} ({region['region_id']})"),h(f"{value['n']} / {value['n_missing']}"),h(physical_summary(value))])
+    result.insert(3,section('Associated whole-Nation baseline risk summaries',[
+        'These are descriptive physical-score summaries of unique associated whole Nations under the accepted source composition. They do not clip risk to the intersecting land, estimate all risk within an ecoregion, average ordinal percentiles or provide calibrated cross-hazard severity. Baseline drought placeholders remain part of the frozen source composites; hazard-state corrections do not recompute them.',
+        'The scanner advocacy taxonomy is separate from the presentation county/state groups. EPA/CEC Level III 2010 includes 96 terrestrial ecoregions and Water (0.0.0); Water is a separate source category. Membership cohorts overlap, so their counts and summary scores must not be added. Empty cohorts retain unavailable summaries. Future support and descriptive summaries are retained in risk.json.'],regional_rows,[310,130,280]))
+    result[3]['new_page']=True
     opportunities=load('opportunities')
     result.insert(6,section('Selected funding and technical-assistance leads',[
         'Checked '+h(opportunities['checked_at'])+'. '+h(opportunities['scope']),h(opportunities['limitations'])],
         [['Program / source','Status / deadline','Funding / eligibility']]+[[link(p['source_url'],p['title'])+'<br/>'+h(p['source_version']),h(p['status'])+'<br/>'+h(p['deadline_label']),h(p['amount_label'])+'<br/>'+h(p['eligibility'])+'<br/>'+h(p['geography'])] for p in opportunities['programs']],[210,180,330]))
     return result
+
+PLAN_RELATIONSHIP_FIELDS=['id','source_profile_name','catf_tribe_id','identity_status','plan_title','relationship_type','relationship_summary','broad','climate_specific','action_adaptation','federal_support_status','program','recipient','subawardee','award_id','award_amount','internal_tribal_resources_status','publication_year','publication_date','cover_date','completion_date','date_basis','adoption_status','current_edition_status','document_identity','scope_limits','citations','data_as_of','metrics_sha256']
+
+def plan_relationship_rows(update):
+    rows=[]
+    for relationship in update['relationships']:
+        funding=relationship['federal_support'];dates=relationship['dates']
+        record={**relationship,**relationship['eligibility'],**dates,
+                **{key:funding.get(key) for key in ('program','recipient','subawardee','award_id')},
+                'federal_support_status':funding['status'],'award_amount':funding['amount'],
+                'data_as_of':update['data_as_of'],'metrics_sha256':update['provenance']['metrics_sha256']}
+        rows.append([record.get(key) for key in PLAN_RELATIONSHIP_FIELDS])
+    return rows
+
+def plan_update_sections(update):
+    inventory=update['inventory'];reviewed=update['reviewed_subset'];identity=update['identity']
+    formats='; '.join(f'{key.replace("_"," ")}: {value}' for key,value in inventory['format_validation_counts'].items())
+    sections=[section('Operational document collection: 22 October 2026',[
+        f"<b>Our working collection links planning documents to {inventory['operational_profiles_with_local_documents']} Tribal profiles. Verification and national searches are continuing.</b> Data as of {h(update['data_as_of'])}. This is an incomplete operational inventory, separate from the earlier CATF public-search snapshot retained later in this report.",
+        f"The collection increased from {inventory['previous_profiles_with_local_documents']} to {inventory['operational_profiles_with_local_documents']} profiles after adding three reviewed relationships. It holds {inventory['byte_distinct_files']} byte-distinct files, {inventory['unique_profile_object_pairs']} distinct profile/file pairs and {inventory['lead_records']} lead records. These are storage and receipt measures, not verified counts of climate plans or current editions.",
+        f"{inventory['files_placed_under_multiple_profiles']} file hashes have placements under multiple profiles. This storage metric does not establish shared planning participation. A PDF bundle may contain multiple substantive plans; do not count its parent container and components twice. An embedded GHG inventory is not automatically a separate plan.",
+        f"The operational roster preserves {identity['operational_roster_size']} identities; the dated CATF cohort has {identity['catf_roster_size']} governments. Their ID crosswalk is {h(identity['crosswalk_status'])}. No per-Nation joins or national prevalence fraction are supported. Unmatched identities and profiles without documents remain unknown; they do not establish absence of planning.",
+        f"Two inherited files remain format-unvalidated: the Solomon PCAP is encrypted, and a file labeled Climate Vulnerability Assessment is unsupported/corrupt under the validator. Format validation counts: {h(formats)}. Format validation alone does not verify substantive plan eligibility."]),
+      section('Six observed receipt labels: overlapping provisional counts',[
+        'Retain all six observed labels. Both columns overlap and must not be summed. File hashes are neither semantic plan counts nor edition-family counts. These provisional receipt labels do not establish reviewed national planning prevalence.'],
+        [['Observed receipt label','Distinct file hashes','Profiles with this receipt label']]+[[h(item['label']),h(item['byte_distinct_files']),h(item['operational_profiles_with_label'])] for item in update['plan_types']],[300,180,240]),
+      section('Three reviewed relationships: a bounded subset',[
+        f"Only this subset has {reviewed['broad_eligible_profiles']} broad eligible relationships, {reviewed['climate_specific_profiles']} climate-specific and {reviewed['action_adaptation_profiles']} action/adaptation relationships. All {reviewed['broader_plan_relationships']} are included in broader plans; {reviewed['single_tribe_plan_relationships']} are standalone single-Tribe plans. The additions are not a representative sample of the operational inventory.",
+        f"{reviewed['federal_program_supported_relationships']} relationships have documented federal program support and {reviewed['federal_support_unknown_relationships']} has unknown federal support. Adoption, current edition and internal Tribal resources remain unknown for all three. Unknown support is not zero support. Agency hosting alone is not funding proof; program support does not establish a direct Tribal award, an award amount or an unspent balance.",
+        'Whole-inventory funding, climate-specific eligibility and single-Tribe/shared-plan totals remain unavailable. A funding opportunity, award and completed plan are distinct. The source review is not independent human validation.'],),]
+    sections[1]['new_page']=True
+    for relationship in update['relationships']:
+        funding=relationship['federal_support'];dates=relationship['dates'];eligibility=relationship['eligibility']
+        source_lines=[link(citation['url'],citation['title'])+'; physical PDF pages '+h(', '.join(str(page) for page in citation['physical_pdf_pages']))+'; object SHA-256 '+h(citation['object_sha256'])+'.' for citation in relationship['citations']]
+        sections.append(section(relationship['source_profile_name']+': reviewed broader-plan relationship',[
+            '<b>'+h(relationship['plan_title'])+'</b>. '+h(relationship['relationship_summary']),
+            'Eligibility: '+h('; '.join(f'{key.replace("_"," ")}: {value.replace("_"," ")}' for key,value in eligibility.items()))+'. Identity is '+h(relationship['identity_status'])+'; no CATF canonical Nation ID has been assigned.',
+            'Federal support: '+h(funding['status'].replace('_',' '))+'. '+h(funding['explanation'])+' Program: '+h(funding['program'])+'; recipient: '+h(funding['recipient'])+'; subawardee: '+h(funding['subawardee'])+'. Award ID: '+h(funding['award_id'])+'; award amount: '+h(funding['amount'])+'.',
+            'Dates: publication year '+h(dates['publication_year'])+'; publication date '+h(dates['publication_date'])+'; cover date '+h(dates['cover_date'])+'; completion date '+h(dates['completion_date'])+'. '+h(dates['date_basis'])+' Adoption: '+h(dates['adoption_status'])+'; current edition: '+h(dates['current_edition_status'])+'.',
+            h(relationship['document_identity']['count_rule'])+' Internal Tribal resources: '+h(relationship['internal_tribal_resources_status'])+'.',
+            *[h(limit) for limit in relationship['scope_limits']],*source_lines]))
+    sections.append(section('Operational inventory provenance and downloads',[
+        *[h(limit) for limit in update['limitations']],
+        'Frozen metrics SHA-256: '+h(update['provenance']['metrics_sha256'])+'. Source-manifest SHA-256: '+h(update['provenance']['source_manifest_sha256'])+'.',
+        link('../data/plan-update.json','Dated operational inventory and reviewed relationships (JSON)')+'; '+link('plan-update-relationships.csv','three reviewed relationships with citations (CSV)')+'. Blank award fields in the CSV mean unknown, not zero. These records do not replace or join the earlier candidate/search files.']))
+    return sections
 
 def planning_sections(plans):
     cov=plans['coverage']; names={n['tribe_id']:n['display_name'] for n in plans['nations']}
@@ -120,41 +200,46 @@ def planning_sections(plans):
     for cls,label in LABELS.items():
         selected=[c for c in plans['candidates'] if cls in c['document_classes']]
         rows.append([h(label),h(len(selected)),*[h(sum(c['age_bin']==b for c in selected)) for b in ['0–5 years','6–10 years','Over 10 years','Unknown']]])
-    sections=[section('What was searched',[
+    sections=[section('Earlier bounded public search: dated snapshot',[
+        'The following search outcomes, candidate URLs and recency bins preserve the earlier CATF metadata sweep. They are a separate dated snapshot from the operational document inventory above. The later inventory does not update these outcomes or the frozen risk-based follow-up queue.',
         '<b>Public discovery does not establish that a Tribe lacks a plan.</b> These records describe a bounded public search, not a national census of planning held by Tribes. No full document harvest, private records or Traditional Ecological Knowledge were collected.',
         f"Baseline: 575 Nations, 23 assignments, three distinct document classes each. As of {h(plans['data_as_of'])}, {cov['nations_attempted_all_classes']} Nations have all three search attempts recorded; {cov['nations_completed_all_classes']} have all three completed without a blocked class. Completed batches: {cov['batches_completed']} / 23.",
         f"{cov['raw_candidate_records']} raw candidate records consolidate to {cov['unique_source_urls']} exact source URLs; {cov['nations_with_candidate']} Nations have at least one candidate. <b>{cov['reviewed_unique_editions']} reviewed unique editions</b> are distinguished from search-result candidates. {cov['unknown_date_sources']} candidate URLs have unknown date age.",
         'Category outcomes: '+h('; '.join(f'{k.replace("_"," ")}: {v}' for k,v in cov['category_outcomes'].items()))+'.']),
-      section('Plan type by evidenced recency',[h(plans['methods']['dates']),h(plans['methods']['dedup']),'Counts are candidate URLs, not confirmed editions. A source can occur in more than one class; do not add class totals into an edition count.'],rows,[260,92,92,92,92,92]),
-      section('Methods, roster and interpretation',[h(x) for x in plans['methods'].values()]+[h(x) for x in plans['limitations']]+[f"Roster SHA-256: {h(plans['roster_sha256'])}. Batch manifest SHA-256: {h(plans['input_manifest_sha256'])}. Individual source URLs appear below and in plan-candidates.csv. Full query receipts remain in the working record."]),
-      section('Nation-by-class search outcomes',[
+      section('Earlier candidate URLs by evidenced recency',[h(plans['methods']['dates']),h(plans['methods']['dedup']),'Counts are candidate URLs, not confirmed editions. A source can occur in more than one class; do not add class totals into an edition count.'],rows,[260,92,92,92,92,92]),
+      section('Earlier search methods, roster and interpretation',[h(x) for x in plans['methods'].values()]+[h(x) for x in plans['limitations']]+[f"Roster SHA-256: {h(plans['roster_sha256'])}. Batch manifest SHA-256: {h(plans['input_manifest_sha256'])}. Individual source URLs appear below and in plan-candidates.csv. Full query receipts remain in the working record."]),
+      section('Earlier Nation-by-class search outcomes',[
         'No public match located means none qualified within the recorded budget. Blocked, partial and unsearched classes remain unresolved. A candidate in one class does not complete another class.',
         f"{cov['followup_nations']} Nations meet the defined risk-and-public-search follow-up rule for at least one class. A blank flag is not a finding of low risk or adequate planning. Codes in the final column: CAP = adaptation/action; CVA = vulnerability; HMP = hazard plan."],
         [['Nation','Adaptation / action','Vulnerability','Hazard plan','Follow-up class']]+[[h(n['display_name']),*[h(STATUS[n['categories'][c]['outcome']]) for c in LABELS],h(', '.join({'climate_adaptation_plan':'CAP','climate_vulnerability_assessment':'CVA','hazard_mitigation_or_management_plan':'HMP'}[c] for c in n['followup_classes']) or '—')] for n in plans['nations']],[240,130,130,130,90]),
-      section('Located public source index',[
+      section('Earlier located public source index',[
         'The linked title opens the canonical landing page or document. Relationships can be Nation-authored, regional participation or other explicitly supported coverage. Mere mentions were not sufficient. Dates without explicit evidence remain unknown. Rights are not transferred by discovery; consult source terms before reuse.',
-        'Public document metadata, access conditions and supported Nation relationships are retained in plan-candidates.csv and plans.json. Full query receipts and raw internal review details remain in the local working record. The metadata sidecar is not claimed to be a validated native plan-assessor import.'],
+        'Public document metadata, access conditions and supported Nation relationships are retained in '+link('plan-candidates.csv','the earlier candidate CSV')+', '+link('nation-searches.csv','the earlier search-outcome CSV')+' and '+link('../data/plans.json','plans.json')+'. These frozen files are unchanged by the operational inventory update. Full query receipts and raw internal review details remain in the local working record. The metadata sidecar is not claimed to be a validated native plan-assessor import.'],
         [['Source title / access link','Nation relationship','Class','Date / review']]+[[link(c['canonical_landing_page_url'] or c['document_url'],c['title']),h(nation_names(c,names))+'<br/>'+h(c.get('host_relationship') or 'See relationship evidence in CSV / JSON'),h('; '.join(LABELS[k] for k in c['document_classes'])),h(year(c))+'<br/>'+h(c['review_state'].replace('_',' '))] for c in plans['candidates']],[225,265,115,115])]
     sections[3]['new_page']=True;sections[4]['new_page']=True
-    return sections
+    sections[0]['new_page']=True
+    return plan_update_sections(load('plan-update'))+sections
+
+def public_file(catalog,file_id):
+    """Resolve only intentional public shards and verify their catalog bytes."""
+    record=catalog['files'][file_id]
+    path=(ROOT/'site'/record['path']).resolve()
+    if not path.is_relative_to((ROOT/'site').resolve()):raise ValueError('climate shard outside public artifact')
+    body=path.read_bytes()
+    if len(body)!=record['bytes'] or sha256(body).hexdigest()!=record['sha256']:raise ValueError('climate shard differs from catalog')
+    return json.loads(body)
 
 def public_areas(catalog):
-    """Resolve only the catalog's intentional public shards and verify their bytes."""
     result={}
     for area_id,area in catalog['areas'].items():
-        record=catalog['files'][area['file_id']]
-        path=(ROOT/'site'/record['path']).resolve()
-        if not path.is_relative_to((ROOT/'site').resolve()):raise ValueError('climate shard outside public artifact')
-        body=path.read_bytes()
-        if len(body)!=record['bytes'] or sha256(body).hexdigest()!=record['sha256']:raise ValueError('climate shard differs from catalog')
-        value=json.loads(body)
+        value=public_file(catalog,area['file_id'])
         if value['id']!=area_id:raise ValueError('climate shard ID mismatch')
         result[area_id]=value
     return result
 
 CLIMATE_FIELDS=['area_id','source_area','family','baseline','metric','unit','period','scenario','lower_p10','median','upper_p90','models','status','statistic','spread','source_url','source_sha256']
 GEO_FIELDS=['tribe_id','Nation','mapping_status','source_area_ids','source_area_count','proxy','shared_source','mapping_confidence','missing_reason','mapping_caution']
-COST_FIELDS=['cohort_id','cohort','metric','hazard_id','hazard','amount','unit','available_counties','expected_counties','source_counties','unmatched_county_fips','scope','period','price_year','source_version']
+COST_FIELDS=['cohort_id','cohort','metric','hazard_id','hazard','amount','unit','available_counties','expected_counties','source_counties','unmatched_county_fips','scope','period','price_year','source_version','source_sha256','climate_supported_cells','climate_possible_cells','climate_coverage_status']
 
 def climate_rows(areas):
     rows=[]
@@ -173,10 +258,12 @@ def cohort_cost_rows(catalog):
     rows=[]
     for cohort in catalog['cohorts']:
         c=cohort['costs']
+        coverage=c['climate_county_eal_coverage']
+        lineage=[c.get('source_sha256'),coverage['supported_cells'],coverage['possible_cells'],coverage['status']]
         for metric,amount in [('climate_sensitive_county_eal',c['climate_county_eal']),('all_hazard_county_eal',c['county_eal'])]:
-            rows.append([cohort['id'],cohort['label'],metric,None,None,amount,c['unit'],c['county_eal_coverage'] if metric=='all_hazard_county_eal' else None,c['expected_counties'],c['county_count'],c['unmatched_county_fips'],c['scope'],c['period'],c['price_year'],c['source_version']])
+            rows.append([cohort['id'],cohort['label'],metric,None,None,amount,c['unit'],c['county_eal_coverage'] if metric=='all_hazard_county_eal' else None,c['expected_counties'],c['county_count'],c['unmatched_county_fips'],c['scope'],c['period'],c['price_year'],c['source_version'],*lineage])
         for hazard in c['county_hazards']:
-            rows.append([cohort['id'],cohort['label'],'hazard_county_eal',hazard['hazard_id'],hazard['hazard_name'],hazard['value'],c['unit'],hazard['contributing_counties'],c['expected_counties'],c['county_count'],c['unmatched_county_fips'],c['scope'],c['period'],c['price_year'],c['source_version']])
+            rows.append([cohort['id'],cohort['label'],'hazard_county_eal',hazard['hazard_id'],hazard['hazard_name'],hazard['value'],c['unit'],hazard['contributing_counties'],c['expected_counties'],c['county_count'],c['unmatched_county_fips'],c['scope'],c['period'],c['price_year'],c['source_version'],*lineage])
     return rows
 
 def band(value,places=2):
@@ -196,6 +283,17 @@ def pathway_sections(catalog,areas):
         'Native Resilience uses annual NASA NEX-GDDP-CMIP6 member values at approximately 25 km source resolution. Each model is compared with its own 1995-2014 baseline before equal-model ensemble summaries are calculated. Values below are 20-year mean changes; brackets show the 10th-90th percentile of model changes, not confidence intervals or scenario probabilities.',
         'SSP2-4.5 and SSP3-7.0 are conditional pathways. Differences need not be monotonic at an individual place or time window. Temperature is degrees Celsius; precipitation is change in mean annual total, millimetres per year. Source annual tables do not retain realization IDs, calendar names or valid daily cell coverage.',
         'The three story footprints provide regional context. Each example below uses one explicitly named climate source area selected by the explorer; it is not a climate average over the story footprint.']),]
+    accepted=load('explorer/scanner-climate')
+    counts=accepted['counts']
+    sections.append(section('Accepted source-area and regional climate export',[
+        f"The accepted integration accounts for {counts['nations']} Nations: {counts['supported_nations']} have supported climate source areas, {counts['unsupported_nations']} are unavailable and {counts['proxy_context_nations']} supported mappings are explicit proxy contexts. The {counts['source_areas']} distinct source areas are a different denominator from Nation counts. Navajo retains five separate agency areas with exact source-geometry joins; no whole-Nation climate average is inferred.",
+        f"EPA/CEC Level III 2010 has {counts['ecoregions_excluding_water']} terrestrial ecoregions plus the separate Water category 0.0.0. Of these {counts['ecoregions']} source categories, {counts['supported_ecoregions']} have supported cohorts. The {counts['advocacy_regions']} scanner advocacy groups use a separate taxonomy. These are associated-source-area summaries, not spatially complete climate averages over the entire region.",
+        'Models have equal weights; quantiles use the linear type 7 method. '+h(accepted['spread_meaning']),
+        'For each identical model, metric, SSP and period, take an equal-weight mean across unique associated source-area IDs, then summarize across models. Shared areas count once; do not average area quantiles or weight them once per Nation. Preserve empty-region nulls. Native baseline and period levels are separate from paired same-model changes; do not subtract marginal ensemble quantiles.',
+        'Annual temperature and precipitation means do not establish heat extremes, drought duration, floods, wildfire, compound events or financial losses. Do not multiply county EAL by a climate delta or SSP factor. Model spread is conditional on a pathway and does not express event or pathway probability.',
+        link('../data/explorer/scanner-climate.csv','Download the accepted climate long table')+'; '+link('../data/explorer/scanner-climate.json','source identities, Nation support and regional index')+'. The long table retains baseline level, period level and paired change with p10, median, p90, min/max, model and contributor counts. Area model rows and regional projection summaries remain available through the index. Accepted climate manifest SHA-256: '+h(accepted['accepted_source']['climate_manifest_sha256'])+'.'],
+        [['Scanner advocacy region','Supported Nations / cohort','Unique source areas','Status']]+[[h(r['region_name']),h(f"{r['counts']['climate_supported_nations']} / {r['counts']['nations']}"),h(r['counts']['distinct_source_areas']),h(r['status'])] for r in accepted['advocacy_regions']],[250,180,150,140]))
+    sections[-1]['new_page']=True
     places={p['id']:p for p in catalog['places']}
     for cohort in catalog['cohorts']:
         area=areas[cohort['default_area']]
@@ -222,7 +320,7 @@ def pathway_sections(catalog,areas):
     sections.append(section('County cost context for the three story footprints',[
         'Whole-county Expected Annual Loss covers all county assets and residents. It is an annualized model expectation, not Tribal loss, projected climate-change damage or funding need. Each county is counted once within a footprint; footprints can overlap and their totals must not be added. Missing fields remain unavailable.',
         'FEMA National Risk Index December 2025 v1.20. The climate-sensitive subtotal uses the supported 15-hazard scope; it excludes earthquake, tsunami and volcano. A common price year is not supplied by the cached input. The companion CSV retains each hazard, county coverage and unmatched county IDs.'],
-        [['Story footprint','Matched / expected counties','Climate-sensitive EAL / year','All-hazard EAL / year']]+[[h(c['label']),h(f"{c['costs']['county_count']} / {c['costs']['expected_counties']}"),money(c['costs']['climate_county_eal']),money(c['costs']['county_eal'])] for c in catalog['cohorts']],[190,110,210,210]))
+        [['Story footprint','Matched / expected counties','Climate-sensitive EAL / year; hazard-cell coverage','All-hazard EAL / year; county coverage']]+[[h(c['label']),h(f"{c['costs']['county_count']} / {c['costs']['expected_counties']}"),money(c['costs']['climate_county_eal'])+'; '+h(climate_coverage(c['costs'])),money(c['costs']['county_eal'])+f"; {c['costs']['county_eal_coverage']} / {c['costs']['expected_counties']}"] for c in catalog['cohorts']],[190,110,210,210]))
     sections[-1].update(new_page=True,keep_table=True)
     sections.append(section('Downloads, source versions and interpretation',[
         link('climate-window-values.csv','Climate window values')+' contains every supported public Native source-area window, metric and pathway with model counts and source hashes. '+link('geography-coverage.csv','Geography coverage')+' accounts for all 575 Nation IDs. '+link('cohort-costs.csv','Cohort costs')+' retains whole-county cost scope and missingness.',
@@ -247,51 +345,62 @@ def preserve_reports(names):
 
 def main(selected='all'):
     OUT.mkdir(exist_ok=True);PUBLIC.mkdir(exist_ok=True)
-    names=['catf-assessment.html','catf-assessment.pdf','plan-discovery.html','plan-discovery.pdf','nation-hazards.csv','regional-costs.csv','plan-candidates.csv','nation-searches.csv','place-pathways.html','place-pathways.pdf','climate-window-values.csv','geography-coverage.csv','cohort-costs.csv']
+    names=['catf-assessment.html','catf-assessment.pdf','plan-discovery.html','plan-discovery.pdf','nation-hazards.csv','regional-costs.csv','plan-candidates.csv','nation-searches.csv','place-pathways.html','place-pathways.pdf','climate-window-values.csv','geography-coverage.csv','cohort-costs.csv','plan-update-relationships.csv']
+    if selected=='corrected':names=[name for name in names if not name.startswith(('plan-discovery.','plan-candidates.','nation-searches.','plan-update-'))]
     preserve_reports(names)
     shutil.copy2(PUBLIC/'report.css',OUT/'report.css')
     for name,file in [('Noto','NotoSans-Regular.ttf'),('NotoBold','NotoSans-Bold.ttf'),('Spartan','LeagueSpartan-Medium.ttf')]:pdfmetrics.registerFont(TTFont(name,str(ROOT/'site/assets/fonts'/file)))
     pdfmetrics.registerFontFamily('Noto',normal='Noto',bold='NotoBold',italic='Noto',boldItalic='NotoBold')
     risk,funding,plans=load('risk'),load('funding'),load('plans')
     catalog=load('explorer/catalog');areas=public_areas(catalog)
-    if selected!='all':
+    if selected not in ('all','corrected'):
         options={'catf-assessment':('Climate risk, cost and funding assessment','Frozen public-source screening · 575-Nation baseline · 22 October 2026',lambda:assessment_sections(risk,funding)),
-                 'plan-discovery':('Nationwide public-plan discovery','Three separate planning questions · bounded metadata sweep · 22 October 2026',lambda:planning_sections(plans)),
+                 'plan-discovery':('Nationwide public-plan discovery','Dated operational inventory and separate earlier public-search snapshot · 22 October 2026',lambda:planning_sections(plans)),
                  'place-pathways':('Place, pathways and regional cost context','Public climate source areas · two pathways · explicit geography and model coverage · 22 October 2026',lambda:pathway_sections(catalog,areas))}
         title,subtitle,make=options[selected]
         sections=make()
         html_report(selected,title,subtitle,sections);pdf_report(selected,title,subtitle,sections)
         manifest_path=ROOT/'work/reports/manifest.json'
         receipts=json.loads(manifest_path.read_text(encoding='utf-8'))
-        for extension in ('html','pdf'):
-            filename=selected+'.'+extension
+        updated_files=[selected+'.'+extension for extension in ('html','pdf')]
+        if selected=='plan-discovery':
+            write_csv('plan-update-relationships.csv',PLAN_RELATIONSHIP_FIELDS,plan_relationship_rows(load('plan-update')))
+            updated_files.append('plan-update-relationships.csv')
+        for filename in updated_files:
             shutil.copy2(OUT/filename,PUBLIC/filename)
             body=(PUBLIC/filename).read_bytes()
             record={'file':filename,'sha256':sha256(body).hexdigest(),'bytes':len(body)}
-            receipts=[record if r['file']==filename else r for r in receipts]
+            receipts=[r for r in receipts if r['file']!=filename]+[record]
         manifest_path.write_text(json.dumps(receipts,indent=2)+'\n',encoding='utf-8')
-        print(json.dumps({'report':selected,'files':2}))
+        print(json.dumps({'report':selected,'files':len(updated_files)}))
         return
     write_csv('climate-window-values.csv',CLIMATE_FIELDS,climate_rows(areas))
     write_csv('geography-coverage.csv',GEO_FIELDS,geography_rows(catalog))
     write_csv('cohort-costs.csv',COST_FIELDS,cohort_cost_rows(catalog))
-    risk_rows=[]
-    for n in risk['nations']:
-        ranks={x['hazard_id']:i+1 for i,x in enumerate(n['top_hazards'])}
-        for x in n['hazards']:risk_rows.append([n['tribe_id'],n['display_name'],n['region_id'],x['hazard_id'],x['hazard_name'],ranks.get(x['hazard_id']),x['metric'],x['value'],x['unit'],x['status'],x.get('missing_reason'),n['percentile_rank'],n['coverage_status'],x['source_ref']])
-    write_csv('nation-hazards.csv',['tribe_id','Nation','region','hazard_id','hazard','top_five_rank','metric','value','unit','status','missing_reason','physical_percentile','assessment_coverage','source_ref'],risk_rows)
-    cost_fields=['geography','metric','amount','currency','price_year','period_start','period_end','scope','method','source_ref']
+    risk_rows=hazard_rows(risk)
+    write_csv('nation-hazards.csv',HAZARD_FIELDS,risk_rows)
+    cost_fields=['geography','metric','amount','currency','price_year','period_start','period_end','scope','method','source_ref','source_version','source_sha256','all_hazard_supported_counties','county_denominator','climate_supported_cells','climate_possible_cells','climate_coverage_status','price_year_reason','period_reason']
     cost_rows=[]
     for r in [risk['national'],*risk['regions']]:
-        for c in r['costs']:cost_rows.append([c.get(k) for k in cost_fields])
-        cost_rows.append([r.get('name','National'),'scanner_overlapping_place_context_eal',r['scanner_context_eal'],'USD',None,None,None,'Non-additive overlapping context; not Tribal losses',risk['methods']['scanner_context_eal'],'scanner-cpri'])
+        for c in r['costs']:
+            coverage=r['climate_county_eal_coverage']
+            county=c['source_ref']=='fema-nri'
+            row={**c,**({'source_sha256':risk['source_snapshots']['nri_counties']['sha256'],'all_hazard_supported_counties':r['county_eal_coverage'],'county_denominator':r['county_count'],'climate_supported_cells':coverage['supported_cells'],'climate_possible_cells':coverage['possible_cells'],'climate_coverage_status':coverage['status']} if county else {})}
+            cost_rows.append([row.get(k) for k in cost_fields])
+        row={'geography':r.get('name','National'),'metric':'scanner_overlapping_place_context_eal','amount':r['scanner_context_eal'],'currency':'USD','scope':'Non-additive overlapping context; not Tribal losses','method':risk['methods']['scanner_context_eal'],'source_ref':'scanner-cpri'}
+        cost_rows.append([row.get(k) for k in cost_fields])
     write_csv('regional-costs.csv',cost_fields,cost_rows)
     fields=['id','tribe_ids','title','document_classes','issuing_body','canonical_landing_page_url','document_url','relationship_evidence','relationships','host_relationship','publication_year','adoption_date','update_year','plan_period','date_basis','date_evidence','date_year','age_bin','source_access_date','review_state','access_outcome','source_confidence','redistribution_terms','source_candidate_ids']
-    write_csv('plan-candidates.csv',fields,[[c.get(k) for k in fields] for c in plans['candidates']])
-    write_csv('nation-searches.csv',['tribe_id','Nation','region','batch','document_class','outcome','candidate_ids','searched_at','all_classes_complete','followup_flag','limitations'],[[n['tribe_id'],n['display_name'],n['region_id'],n['batch_id'],cls,c['outcome'],c['candidate_ids'],n['searched_at'],n['search_complete'],cls in n['followup_classes'],c['limitations']] for n in plans['nations'] for cls,c in n['categories'].items()])
-    for name,title,subtitle,sections in [('catf-assessment','Climate risk, cost and funding assessment','Frozen public-source screening · 575-Nation baseline · 22 October 2026',assessment_sections(risk,funding)),('plan-discovery','Nationwide public-plan discovery','Three separate planning questions · bounded metadata sweep · 22 October 2026',planning_sections(plans)),('place-pathways','Place, pathways and regional cost context','Public climate source areas · two pathways · explicit geography and model coverage · 22 October 2026',pathway_sections(catalog,areas))]:
-        html_report(name,title,subtitle,sections);pdf_report(name,title,subtitle,sections)
-    receipts=[]
+    if selected=='all':
+        write_csv('plan-update-relationships.csv',PLAN_RELATIONSHIP_FIELDS,plan_relationship_rows(load('plan-update')))
+        write_csv('plan-candidates.csv',fields,[[c.get(k) for k in fields] for c in plans['candidates']])
+        write_csv('nation-searches.csv',['tribe_id','Nation','region','batch','document_class','outcome','candidate_ids','searched_at','all_classes_complete','followup_flag','limitations'],[[n['tribe_id'],n['display_name'],n['region_id'],n['batch_id'],cls,c['outcome'],c['candidate_ids'],n['searched_at'],n['search_complete'],cls in n['followup_classes'],c['limitations']] for n in plans['nations'] for cls,c in n['categories'].items()])
+    for name,title,subtitle,make in [('catf-assessment','Climate risk, cost and funding assessment','Frozen public-source screening · 575-Nation baseline · 22 October 2026',lambda:assessment_sections(risk,funding)),('plan-discovery','Nationwide public-plan discovery','Dated operational inventory and separate earlier public-search snapshot · 22 October 2026',lambda:planning_sections(plans)),('place-pathways','Place, pathways and regional cost context','Public climate source areas · two pathways · explicit geography and model coverage · 22 October 2026',lambda:pathway_sections(catalog,areas))]:
+        if name+'.html' in names:
+            sections=make();html_report(name,title,subtitle,sections);pdf_report(name,title,subtitle,sections)
+    manifest_path=ROOT/'work/reports/manifest.json'
+    receipts=json.loads(manifest_path.read_text(encoding='utf-8')) if manifest_path.exists() else []
+    receipts=[r for r in receipts if r['file'] not in names]
     for name in names:
         shutil.copy2(OUT/name,PUBLIC/name)
         digest=sha256((OUT/name).read_bytes()).hexdigest();assert digest==sha256((PUBLIC/name).read_bytes()).hexdigest()
@@ -302,5 +411,5 @@ def main(selected='all'):
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--report',choices=['all','catf-assessment','plan-discovery','place-pathways'],default='all')
+    parser.add_argument('--report',choices=['all','corrected','catf-assessment','plan-discovery','place-pathways'],default='all')
     main(parser.parse_args().report)

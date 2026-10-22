@@ -1,19 +1,23 @@
 import { esc, number } from '../chapters/shared.js';
 
 const pathways = [['ssp245', 'SSP2-4.5'], ['ssp370', 'SSP3-7.0']];
-export function windowRows(area, metric, period, placeName) {
+export function windowRows(area, metric, period, placeName, accepted = null) {
   const selected = area.metrics[metric];
   return pathways.map(([id, label]) => {
     const value = selected?.windows?.[period]?.[id];
+    const projection = accepted?.projections.find(row => row.metric_id === metric && row.scenario === id && row.period.join('-') === period);
     return { place: placeName, area: area.name, pathway: label, pathway_id: id, metric: selected?.label || metric,
       unit: selected?.unit || '', baseline: area.baseline_id, period, source: area.source?.url || '',
       status: value?.status || (Number.isFinite(value?.median) ? 'available' : 'unavailable'),
-      median: value?.median ?? null, lower: value?.lower ?? null, upper: value?.upper ?? null, models: value?.models ?? null };
+      median: value?.median ?? null, lower: value?.lower ?? null, upper: value?.upper ?? null, models: value?.models ?? null,
+      baseline_median: projection?.baseline_level.p50 ?? null, period_median: projection?.period_level.p50 ?? null,
+      change_min: projection?.change.min ?? null, change_max: projection?.change.max ?? null,
+      spread_meaning: 'p10–p90 across included models; not probability', source_commit: area.source?.upstream_commit || '' };
   });
 }
 
 export function rowsCSV(rows) {
-  const keys = ['place', 'area', 'mapping_status', 'mapping_caution', 'pathway', 'metric', 'unit', 'baseline', 'period', 'year', 'status', 'median', 'lower', 'upper', 'models', 'source'];
+  const keys = ['place', 'area', 'mapping_status', 'mapping_caution', 'pathway', 'metric', 'unit', 'baseline', 'period', 'year', 'status', 'median', 'lower', 'upper', 'models', 'source', 'source_commit', 'baseline_median', 'period_median', 'change_min', 'change_max', 'spread_meaning'];
   const cell = value => `"${(typeof value === 'string' && /^\s*[=+@\-\t\r]/.test(value) ? `'${value}` : String(value ?? '')).replaceAll('"', '""')}"`;
   return [keys.join(','), ...rows.map(row => keys.map(key => cell(row[key])).join(','))].join('\r\n');
 }
@@ -87,12 +91,17 @@ export function mountPathwayChart(element, { catalog, store, loadAsset }) {
     result.innerHTML = `<h2>${esc(primary.name)}</h2><p role="status">Loading ${esc(catalog.metrics.find(metric => metric.id === selection.metric)?.label)} for this selection…</p>`;
     try {
       const areas = await Promise.all(descriptors.map(area => loadAsset(catalog, area.file_id, { signal: controller.signal })));
+      const accepted = await Promise.all(descriptors.map(area => area.scanner_climate_file ? loadAsset(catalog, area.scanner_climate_file, { signal: controller.signal }) : null));
       if (current !== revision) return;
       const annual = selection.family === 'usgs-nccv-loca2';
-      rows = areas.flatMap((area, i) => (annual ? annualRows : windowRows)(area, selection.metric, selection.period, selections[i][0].name).map(row => ({ ...row, mapping_status: selections[i][0].mapping_status, mapping_caution: selections[i][0].mapping_caution || '' })));
+      rows = areas.flatMap((area, i) => (annual ? annualRows : windowRows)(area, selection.metric, selection.period, selections[i][0].name, accepted[i]).map(row => ({ ...row, mapping_status: selections[i][0].mapping_status, mapping_caution: selections[i][0].mapping_caution || '' })));
       const metric = areas[0].metrics[selection.metric];
       const scope = `${areas.map(area => area.name).join(' / ')} · ${catalog.families.find(item => item.id === selection.family)?.label} · ${selection.period} minus ${selection.baseline}`;
       result.innerHTML = `<h2>${esc(primary.name)}${comparison ? ` / ${esc(comparison.name)}` : ''}</h2><p class="pathway-scope">${esc(scope)}</p><figure><figcaption>${esc(metric?.definition || 'This metric is unavailable for the source area.')}</figcaption>${annual ? annualPlot(rows) : rangePlot(rows)}<p class="caption">${annual ? 'Annual lines are provider medians; shading shows' : 'Points are medians; bars show'} ${esc(areas[0].spread)}. ${rows.map(row => `${row.pathway}: ${row.models ?? 'unknown'} models`).filter((text, i, all) => all.indexOf(text) === i).join(' · ')}. Model spread is not a probability interval.</p></figure><div class="action-row"><button data-export>Download these values</button><a href="#priorities">Record a planning question →</a><a href="#risks/place">Change place →</a></div><details class="pathway-details"><summary>Values, sources and coverage</summary><div class="table-scroll" tabindex="0"><table><caption>${esc(scope)}</caption><thead><tr><th>Place / pathway ${annual ? '/ year' : ''}</th><th>Median</th><th>10th–90th</th><th>Models</th></tr></thead><tbody>${rows.map(row => `<tr><th scope="row">${esc(row.place)} · ${row.pathway}${row.year ? ` · ${row.year}` : ''}</th><td>${number(row.median)} ${esc(row.unit)}</td><td>${number(row.lower)} – ${number(row.upper)}</td><td>${row.models ?? 'Unavailable'}</td></tr>`).join('')}</tbody></table></div>${areas.map(area => `<p>${esc(area.name)}: ${esc(area.status || 'accepted')} · ${esc(area.geometry_role || 'climate source area')}. <a href="${esc(area.source.url)}" target="_blank" rel="noopener noreferrer">${esc(area.source.label)}</a></p><ul>${area.limitations.map(text => `<li>${esc(text)}</li>`).join('')}</ul>`).join('')}</details>`;
+      if (!annual && accepted.some(Boolean)) {
+        const detail = result.querySelector('.pathway-details');
+        detail.insertAdjacentHTML('beforeend', `<div class="table-scroll" tabindex="0"><table><caption>Accepted paired-model levels and full model span · same units as the change chart</caption><thead><tr><th scope="col">Place / pathway</th><th scope="col">Baseline median</th><th scope="col">Period median</th><th scope="col">Change min–max</th></tr></thead><tbody>${rows.map(row=>`<tr><th scope="row">${esc(row.place)} · ${row.pathway}</th><td>${number(row.baseline_median)}</td><td>${number(row.period_median)}</td><td>${number(row.change_min)}–${number(row.change_max)}</td></tr>`).join('')}</tbody></table></div><p>Change is calculated within each model before summarizing. Subtracting the two marginal medians does not reproduce the median paired change. Min–max spans only the eight included models.</p>`);
+      }
       const proxies = selections.filter(([place]) => place.proxy).map(([place]) => place.name);
       if (proxies.length) result.querySelector('.pathway-scope').insertAdjacentHTML('afterend', `<p class="notice pathway-proxy"><strong>Borrowed climate-area proxy:</strong> ${proxies.map(esc).join(' / ')}. These values do not resolve the Nation’s own geography.</p>`);
     } catch (error) { if (current !== revision || error.name === 'AbortError') return; result.innerHTML = `<h2>${esc(primary.name)}</h2><p class="notice">${esc(error.message)}</p><button data-retry>Try this selection again</button>`; }

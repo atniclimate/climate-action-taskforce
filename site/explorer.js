@@ -18,9 +18,9 @@ export function createExplorerRuntime(root, onSelection) {
     slot.active = true; const revision = ++slot.revision;
     try {
       const api = await context();
-      const module = slot.element.dataset.explorerComponent === 'place' ? await import('./components/place-explorer.js') : slot.element.dataset.explorerComponent === 'cohort' ? await import('./components/cohort-context.js') : await import('./components/pathway-chart.js');
+      const module = slot.element.dataset.explorerComponent === 'place' ? await import('./components/place-explorer.js') : slot.element.dataset.explorerComponent === 'cohort' ? await import('./components/cohort-context.js') : slot.element.dataset.explorerComponent === 'scanner-regions' ? await import('./components/scanner-regions.js') : await import('./components/pathway-chart.js');
       if (!slot.active || revision !== slot.revision) return;
-      const mount = module.mountPlaceExplorer || module.mountCohortContext || module.mountPathwayChart;
+      const mount = module.mountPlaceExplorer || module.mountCohortContext || module.mountScannerRegions || module.mountPathwayChart;
       slot.cleanup = mount(slot.element, api);
     } catch (error) {
       if (!slot.active || revision !== slot.revision) return;

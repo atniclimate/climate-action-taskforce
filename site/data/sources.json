@@ -18,8 +18,8 @@
       "qualification": "A supplied retrospective account, not independent verification of every impact claim."
     },
     {
-      "chapter": "risks / costs / funding",
-      "claim": "Frozen supported hazard indices, county EAL, overlapping scanner context, deduplicated award-level obligations",
+      "chapter": "costs / funding",
+      "claim": "Retained county EAL, overlapping scanner context and deduplicated award-level obligations",
       "source_tool": "TCR policy scanner",
       "package_version": "0.8.9",
       "source_commit": "e5336da2f79c0e386aadb2aab7f25f041441ca15",
@@ -29,10 +29,9 @@
       "data_as_of": "2026-10-13T00:56:16.071943+00:00",
       "input_manifest_sha256": "81216a2384e226ce5e06276d423fb87d6ad8fbba9e04c36a2913c1f9e5c4da6d",
       "data_files": [
-        "data/risk.json",
         "data/funding.json"
       ],
-      "qualification": "All-geography county costs are not Tribal losses; overlapping context is non-additive. Historical obligations are not available balances or current eligibility."
+      "qualification": "All-geography county costs are not Tribal losses; overlapping context is non-additive. Historical obligations are not available balances or current eligibility. County source hash is independently accepted and shared with the updated risk/explorer outputs."
     },
     {
       "chapter": "plans / follow-up",
@@ -147,10 +146,15 @@
     },
     {
       "chapter": "risks",
-      "claim": "Interactive mean supported hazard exposure index",
+      "claim": "Accepted risk rerun, full hazard status coverage and supported screening horizons",
       "data_file": "data/risk.json",
-      "definition": "Arithmetic mean of supported Nation values within the selected geography, on the source 0–1 index scale. The five displayed hazards are selected by frequency in the supported top-five rankings.",
-      "qualification": "Coverage and unavailable counts are shown separately. Hazard-specific indices are screening measures, not comparable monetary losses, probabilities or sovereign priorities. The frequency view and frozen reports retain their original definitions."
+      "definition": "All nine hazard states are retained. Placeholder values are excluded from supported hazard counts. Cross-hazard top-five rankings and incompatible index averages are retired.",
+      "qualification": "The rerun reproduced all 575 Nations: zero changed numerical fields, zero added or removed IDs. Unverified future cells are unavailable for supported statistics. Frozen composites and the separate plan follow-up snapshot retain their source assumptions.",
+      "source_commit": "17295c2a15a68828712dc8044aca0572d88d5994",
+      "export_commit": "d324f83f34a854d93cf848a1648189bcceae4018",
+      "formula_version": "3.2.0",
+      "accepted_at": "2026-10-22T12:35:13.771274+00:00",
+      "handoff_manifest_sha256": "74e200fb7fabaaeebbfb11f3f756ccfbc9f6f4cfa500add29a44841e19e2b382c"
     },
     {
       "chapter": "place / pathways / costs",
@@ -252,6 +256,37 @@
       "url": "https://leafletjs.com/",
       "license": "BSD-2-Clause",
       "license_file": "assets/vendor/leaflet-1.9.4/LICENSE.txt"
+    },
+    {
+      "chapter": "risks / regions / pathways",
+      "claim": "Accepted Native climate source-area and regional paired model summaries",
+      "data_file": "data/explorer/scanner-climate.json",
+      "data_download": "data/explorer/scanner-climate.csv",
+      "climate_manifest_sha256": "4fa4cfdbc4270fe27430a52830a0f8f23baf1d10d2d5fed9aa1196ab54d488bb4",
+      "coverage": {
+        "canonical_nations": 575,
+        "supported_nations": 547,
+        "unavailable_nations": 28,
+        "proxy_mappings": 34,
+        "source_areas": 526,
+        "epa_ecoregions": 96,
+        "water_categories": 1,
+        "advocacy_regions": 7
+      },
+      "definition": "Eight models; same-model 1995–2014 baseline subtraction for 2020–2039, 2040–2059 and 2070–2089 under SSP2-4.5 and SSP3-7.0. Regional means use each unique associated source area once within each model, followed by type 7 quantiles.",
+      "qualification": "Not a spatially complete ecoregion average. Water is a separate category. Navajo retains five agency areas; proxies, shared support and missingness remain explicit. Model spread is not probability or complete uncertainty. Native annual means do not quantify hazard events or economic losses.",
+      "url": "https://data.native-resilience.com/projections/",
+      "rights": "CC0-1.0; Native Resilience / NASA NEX-GDDP-CMIP6 v2.0 (2025), annual metric version 1."
+    },
+    {
+      "chapter": "plans",
+      "claim": "Dated operational planning collection and three reviewed source-profile relationships",
+      "source_tool": "Plan-assessor",
+      "data_file": "data/plan-update.json",
+      "source_snapshot_sha256": "efa13418340f740a62f6f95f11487e65244492fffc26c0a482e6f6d3266feb1b",
+      "input_manifest_sha256": "cad2597208ab9671e329035dcef4213f5ca35b72a2d38a9f75e9c400260510a9",
+      "data_as_of": "2026-10-22T12:20:10.158087+00:00",
+      "qualification": "254 operational profiles with documents, 234 byte-distinct files and six overlapping provisional type labels. The 577 source identities are not reconciled to the CATF 575-Nation roster. Three reviewed relationships are a bounded subset, not representative prevalence. Primary source links, page locators and unknown funding/adoption/current-use fields accompany each story. Earlier bounded searches and frozen follow-up flags remain separate."
     }
   ],
   "data_sources": [

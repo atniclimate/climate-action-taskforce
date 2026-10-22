@@ -46,6 +46,11 @@ def main():
                 if '\ufffd' in text:errors.append('Replacement glyph in PDF: '+relative)
     data={name:json.loads((SITE/'data'/f'{name}.json').read_text(encoding='utf-8')) for name in ['risk','funding','plans','context','sources','qr-targets']}
     risk,plans=data['risk'],data['plans']
+    update=json.loads((SITE/'data/plan-update.json').read_text(encoding='utf-8'))
+    assert update['inventory']['verified_national_numerator'] is None
+    assert len(update['plan_types'])==6 and len(update['relationships'])==3
+    assert all(r['catf_tribe_id'] is None and r['identity_status']=='unreconciled' for r in update['relationships'])
+    assert update['identity']['national_prevalence'] is None
     opportunities=json.loads((SITE/'data/opportunities.json').read_text(encoding='utf-8'))
     assert opportunities['checked_at']=='2026-10-21'
     assert opportunities['programs'][0]['envelope_usd']==3500000
@@ -78,9 +83,11 @@ def main():
     with (SITE/'literature/nation-searches.csv').open(encoding='utf-8-sig',newline='') as f:assert len(list(csv.DictReader(f)))==1725
     with (SITE/'literature/nation-hazards.csv').open(encoding='utf-8-sig',newline='') as f:
         rows=list(csv.DictReader(f));assert len(rows)==sum(len(n['hazards']) for n in risk['nations'])
-        assert any(r['value']=='' and r['status']=='unavailable' for r in rows),'Missing values must survive CSV projection'
+        assert any(r['value']=='' and r['status']=='placeholder' for r in rows),'Placeholders must survive CSV projection without supported values'
+        assert all(r['value']=='' for r in rows if r['status']!='modeled'),'Unsupported values must remain blank'
+        assert {r['status'] for r in rows}=={h['status'] for n in risk['nations'] for h in n['hazards']},'Source statuses must survive CSV projection'
     report_names=['catf-assessment.html','catf-assessment.pdf','plan-discovery.html','plan-discovery.pdf','nation-hazards.csv','regional-costs.csv','plan-candidates.csv','nation-searches.csv']
-    report_names += ['place-pathways.html','place-pathways.pdf','climate-window-values.csv','geography-coverage.csv','cohort-costs.csv']
+    report_names += ['place-pathways.html','place-pathways.pdf','climate-window-values.csv','geography-coverage.csv','cohort-costs.csv','plan-update-relationships.csv']
     for name in report_names:
         assert (ROOT/'literature'/name).read_bytes()==(SITE/'literature'/name).read_bytes(),name
     for filename in ['catf-assessment.pdf','plan-discovery.pdf']:

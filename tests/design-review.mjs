@@ -178,12 +178,10 @@ try {
       }
       await visit('participant', 'risks');
       for (const region of ['national', 'southwest', 'alaska']) {
-        for (const metric of ['frequency', 'mean']) {
-          checks.push(await evaluate(`(() => {const region=document.querySelector('[data-region]');region.value='${region}';region.dispatchEvent(new Event('change'));const metric=document.querySelector('[data-risk-metric]');metric.value='${metric}';metric.dispatchEvent(new Event('change'));document.querySelector('[data-risk-result]').scrollIntoView({block:'start'});return {width:innerWidth,kind:'risk view',region:'${region}',metric:'${metric}',pageOverflow:document.documentElement.scrollWidth>innerWidth+1,rows:document.querySelectorAll('#risks .risk-row,#risks tbody tr').length};})()`));
-          await screenshot(`${width}-risks-${region}-${metric}`);
-        }
+        checks.push(await evaluate(`(() => {const region=document.querySelector('[data-region]');region.value='${region}';region.dispatchEvent(new Event('change'));document.querySelector('[data-risk-result]').scrollIntoView({block:'start'});return {width:innerWidth,kind:'risk coverage view',region:'${region}',pageOverflow:document.documentElement.scrollWidth>innerWidth+1,rows:document.querySelectorAll('#risks tbody tr').length};})()`));
+        await screenshot(`${width}-risks-${region}-coverage`);
       }
-      checks.push(await evaluate(`(async () => {const data=await fetch('data/risk.json').then(r=>r.json());const n=data.nations.find(n=>n.top_hazards.length===4);const select=document.querySelector('[data-nation]');select.value=n.tribe_id;select.dispatchEvent(new Event('change'));document.querySelector('[data-risk-result]').scrollIntoView({block:'start'});return {width:innerWidth,kind:'Nation missing hazards',name:n.display_name,unavailable:document.querySelector('.risk-missing').innerText,rows:document.querySelectorAll('#risks tbody tr').length,pageOverflow:document.documentElement.scrollWidth>innerWidth+1};})()`));
+      checks.push(await evaluate(`(async () => {const data=await fetch('data/risk.json').then(r=>r.json());const n=data.nations.find(n=>n.hazards.some(h=>h.status==='placeholder'));const select=document.querySelector('[data-nation]');select.value=n.tribe_id;select.dispatchEvent(new Event('change'));document.querySelector('[data-risk-result]').scrollIntoView({block:'start'});return {width:innerWidth,kind:'Nation missing hazards',name:n.display_name,unavailable:document.querySelector('.risk-missing').innerText,rows:document.querySelectorAll('#risks tbody tr').length,pageOverflow:document.documentElement.scrollWidth>innerWidth+1};})()`));
       await screenshot(`${width}-risks-nation-missing`);
       for (const id of ['welcome','strategy','costs','funding','plans','recent-change','ddm','development']) {
         await visit('presenter', id);
