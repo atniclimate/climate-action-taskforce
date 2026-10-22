@@ -808,4 +808,32 @@ body[data-mode="presenter"]:has(.chapter[data-theme="atni"]:not([hidden])) #chap
 @keyframes draw-line{from{transform:scaleX(0)}to{transform:none}}
 @keyframes scene-settle{from{opacity:0;transform:scale(1.06)}to{opacity:1;transform:none}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+/* Selected-place pathways: adopt the evidence folio within the existing chapter. */
+#scenarios .pathway-folio{display:grid;grid-template-columns:minmax(14rem,1fr) minmax(0,2fr);grid-template-areas:"heading paper" "support paper";grid-template-rows:auto 1fr;gap:var(--space-s) var(--space-xl);align-items:start;scroll-margin-top:1rem}
+#scenarios .pathway-folio-heading{grid-area:heading}
+#scenarios .pathway-folio-heading h2{font-size:clamp(2.25rem,4.2vw,4.2rem);line-height:1.06;letter-spacing:-.015em}
+#scenarios .pathway-folio-paper{grid-area:paper;min-width:0;padding:var(--space-m);background:var(--surface);border-top:4px solid var(--accent)}
+#scenarios .pathway-folio-label{display:flex;flex-wrap:wrap;justify-content:space-between;gap:var(--space-xs) var(--space-s);max-width:none;font-size:var(--type-note);border-bottom:1px solid var(--rule);padding-bottom:var(--space-s)}
+#scenarios .pathway-folio-key{max-width:none;border-left:3px solid var(--accent);padding-left:var(--space-s)}
+#scenarios .pathway-folio-support{grid-area:support;min-width:0}
+#scenarios .pathway-folio-support p{max-width:34ch}
+#scenarios .pathway-folio .pathway-controls label:has([data-metric]){flex:1.7 1 15rem}
+body[data-mode="presenter"] #scenarios .pathway-folio .pathway-details{display:block}
+body[data-mode="presenter"] #scenarios .pathway-folio-heading h2{font-size:2.5rem}
+body[data-mode="presenter"] #scenarios .pathway-folio-paper{padding:.75rem}
+body[data-mode="presenter"] #scenarios .pathway-folio-label{font-size:.875rem;line-height:1.35;margin:0 0 .5rem;padding-bottom:.5rem}
+body[data-mode="presenter"] #scenarios .pathway-folio-key{font-size:.875rem;line-height:1.35;margin:0 0 .625rem;padding-left:.625rem}
+body[data-mode="presenter"] #scenarios .pathway-folio .pathway-controls label{font-size:.875rem}
+body[data-mode="presenter"] #scenarios .pathway-folio .pathway-controls select{font-size:.875rem;padding:.5rem;min-height:44px}
+body[data-mode="presenter"] #scenarios .pathway-folio .pathway-explorer h2{font-size:1.5rem;margin-bottom:.25rem}
+body[data-mode="presenter"] #scenarios .pathway-folio .pathway-scope,
+body[data-mode="presenter"] #scenarios .pathway-folio .pathway-explorer figcaption{font-size:.875rem;line-height:1.35;margin:.25rem 0}
+@media(max-width:800px){
+  #scenarios .pathway-folio{grid-template-columns:minmax(0,1fr);grid-template-areas:"heading" "paper" "support";gap:var(--space-m)}
+  #scenarios .pathway-folio-heading .eyebrow{margin-bottom:var(--space-xs)}
+  #scenarios .pathway-folio-heading h2{font-size:var(--type-section);margin-bottom:0}
+  #scenarios .pathway-folio-heading br{display:none}
+  #scenarios .pathway-folio-paper{padding:var(--space-s)}
+  #scenarios .pathway-folio-support p{max-width:none}
+}
 @media print{.reveal{opacity:1!important;transform:none!important}.site-header,.presentation-controls,.reading-progress,.chapter-onward,dialog,.skip-link{display:none!important}#presentation{padding:0}.chapter,.chapter[hidden]{display:block!important;background:#fff!important;color:#000;min-height:0;padding:28px 0;break-before:page}.chapter:first-child{break-before:auto}h1,.chapter-opening h1{font-size:40px}.chapter-heading{margin-bottom:24px}.chapter-content{font-size:12px!important}.callout{break-inside:avoid}.table-wrap{overflow:visible}a{text-decoration:underline}.source-note{font-size:10px!important}}
